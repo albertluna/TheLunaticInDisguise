@@ -19,38 +19,13 @@ public class seguimentcamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (seguir.GetComponent<MovimentSimple>().Mov)
         {
             transform.position = new Vector3(seguir.transform.position.x + posicioRelativa.x, transform.position.y, transform.position.z);
         }
     }
 
-    public void beginAnimacio()
-    {
-        cinematiques.Play("cinematicaInicial");
-        
-    }
-    public void endAnimation()
-    {
-        cinematiques.Stop("cinematicaInicial");
-
-        //seguir.GetComponent<MovimentSimple>().Mov = true;
-    }
-
-    public void moureRobinAPosicio2()
-    {
-        seguir.GetComponent<Animation>().Play("cineInicialRobin");
-        //seguir.GetComponent<Animation>().PlayQueued("cine2Robin");
-
-    }
-
-    public void iniciarFugidaEmmascarat()
-    {
-        Animation emmascarat = GameObject.Find("Emmascarat").GetComponent<Animation>();
-        emmascarat.Play("fugidaEmmascarat2");
-
-    }
+    
 }
 
 

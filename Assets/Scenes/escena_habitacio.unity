@@ -1581,7 +1581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -396.5, y: -31}
+  scrollPos: {x: -109, y: 4}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1594,8 +1594,7 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1675270179}
-  selectedCommands:
-  - {fileID: 1675270211}
+  selectedCommands: []
   variables:
   - {fileID: 1675270194}
   description: 
@@ -1622,8 +1621,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 454
-    y: 108
+    x: 360
+    y: 111
     width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1636,6 +1635,8 @@ MonoBehaviour:
   - {fileID: 1675270180}
   - {fileID: 1675270211}
   - {fileID: 1675270196}
+  - {fileID: 1675270192}
+  - {fileID: 1675270206}
   suppressAllAutoSelections: 0
 --- !u!114 &1675270180
 MonoBehaviour:
@@ -1732,8 +1733,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 453
-    y: 186
+    x: 360
+    y: 191
     width: 71
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1747,6 +1748,8 @@ MonoBehaviour:
   - {fileID: 1675270181}
   - {fileID: 1675270212}
   - {fileID: 1675270195}
+  - {fileID: 1675270209}
+  - {fileID: 1675270205}
   suppressAllAutoSelections: 0
 --- !u!114 &1675270184
 MonoBehaviour:
@@ -1962,13 +1965,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1675270176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1675270193}
-  suppressBlockAutoSelect: 0
-  keyPressType: 0
-  keyCode: 100
+  itemId: 33
+  indentLevel: 0
+  targetObject: {fileID: 2055262162}
+  methodName: dialegIntroduccio2
+  delay: 1
 --- !u!114 &1675270193
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1983,8 +1987,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 324
-    y: 149
+    x: 211
+    y: 159
     width: 103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1992,7 +1996,7 @@ MonoBehaviour:
   itemId: 0
   blockName: iniciConv
   description: 
-  eventHandler: {fileID: 1675270192}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1675270191}
   - {fileID: 1675270189}
@@ -2323,17 +2327,25 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1675270197
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675270176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c40c0ae4911d84ae280d27a5f5a54381, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bc: {fileID: 1938357860}
+  itemId: 38
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1675270200}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!111 &1675270198
 Animation:
   m_ObjectHideFlags: 0
@@ -2366,8 +2378,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 358.5
-    y: 255
+    x: 548.5
+    y: 167
     width: 115
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2378,8 +2390,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1675270203}
-  - {fileID: 1675270205}
-  - {fileID: 1675270206}
+  - {fileID: 1675270204}
+  - {fileID: 1675270197}
   suppressAllAutoSelections: 0
 --- !u!114 &1675270200
 MonoBehaviour:
@@ -2395,8 +2407,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 475.5
-    y: 252
+    x: 719.5
+    y: 170
     width: 113
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2407,7 +2419,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1675270201}
-  - {fileID: 1675270204}
   - {fileID: 1675270202}
   suppressAllAutoSelections: 0
 --- !u!114 &1675270201
@@ -2446,15 +2457,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1675270176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d52ce2dfbc0b4dc4aa04334fc76695e, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 35
   indentLevel: 0
-  flowchart: {fileID: 0}
-  blockName:
-    stringRef: {fileID: 0}
-    stringVal: 
+  targetObject: {fileID: 2055262162}
+  methodName: dialegIntroduccio4
+  delay: 5
 --- !u!114 &1675270203
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2491,15 +2501,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1675270176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 28
+  itemId: 34
   indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 5
-  durationOLD: 0
+  targetObject: {fileID: 2055262162}
+  methodName: dialegIntroduccio3
+  delay: 5
 --- !u!114 &1675270205
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2509,15 +2518,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1675270176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 27
+  itemId: 37
   indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 5
-  durationOLD: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1675270199}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &1675270206
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2527,15 +2539,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 1675270176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d52ce2dfbc0b4dc4aa04334fc76695e, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 26
+  itemId: 36
   indentLevel: 0
-  flowchart: {fileID: 0}
-  blockName:
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1675270199}
+  startLabel:
     stringRef: {fileID: 0}
     stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1675270209
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675270176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  indentLevel: 0
+  targetObject: {fileID: 2055262162}
+  methodName: dialegIntroduccio2
+  delay: 1
 --- !u!114 &1675270211
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3155,6 +3187,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990751861}
   m_CullTransparentMesh: 0
+--- !u!1 &2055262162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2055262164}
+  - component: {fileID: 2055262163}
+  m_Layer: 0
+  m_Name: GestorCinematiques
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2055262163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055262162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975cd860306574680ad1831cc986d576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Robin: {fileID: 1675270176}
+  canviEscena: {fileID: 1938357860}
+--- !u!4 &2055262164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055262162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3596133158385345996
 PrefabInstance:
   m_ObjectHideFlags: 0

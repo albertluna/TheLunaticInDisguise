@@ -5,38 +5,38 @@ using UnityEngine;
 
 public class habitacioInici : MonoBehaviour
 {
-    private Flowchart fc;
+    private Flowchart Robin;
     private Animation anim;
-    public GameObject bc;
+    public GameObject canviEscena;
     private bool hasToPlay;
-    // Start is called before the first frame update
     void Start()
     {
-        fc = GetComponent<Flowchart>();
-        anim = GetComponent<Animation>();
-        bc.GetComponent<BoxCollider2D>().isTrigger = false;
+        GameObject character = GameObject.Find("Robin");
+        Robin = character.GetComponent<Flowchart>();
+        anim = character.GetComponent<Animation>();
+        canviEscena.GetComponent<BoxCollider2D>().isTrigger = false;
         hasToPlay = true;
-        GetComponent<MovimentSimple>().Mov = false;
+        character.GetComponent<MovimentSimple>().Mov = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        bool play = (bool)fc.GetBooleanVariable("finish");
+        bool play = (bool)Robin.GetBooleanVariable("finish");
         if (play && hasToPlay)
         {
             Debug.Log("PLAY NOW");
             anim.Play("Dormir0");
             hasToPlay = false;
-            fc.ExecuteBlock("Explicacio0");
+            Robin.ExecuteBlock("Explicacio0");
 
         }
     }
     public void canTrigger()
     {
-        bc.GetComponent<BoxCollider2D>().isTrigger = true;
+        canviEscena.GetComponent<BoxCollider2D>().isTrigger = true;
         anim.PlayQueued("Dormir 1");
-        fc.ExecuteBlock("Explicacio1");
+        Robin.ExecuteBlock("Explicacio1");
 
 
     }
