@@ -24,8 +24,6 @@ public class seguimentcamera : MonoBehaviour
             transform.position = new Vector3(seguir.transform.position.x + posicioRelativa.x, transform.position.y, transform.position.z);
         }
     }
-
-    
 }
 
 

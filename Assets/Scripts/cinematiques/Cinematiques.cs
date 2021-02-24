@@ -10,6 +10,7 @@ public class Cinematiques : MonoBehaviour
     public GameObject Robin;
     private Animation animCamera;
     private Animation animRobin;
+    private AnimationEvent moureRobin;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,18 +39,9 @@ public class Cinematiques : MonoBehaviour
     void animacioInicial1()
     {
         animCamera.Play("cinematicaInicial");
-        Debug.Log("AIXOS SI NO?");
     }
 
-    public void endAnimation()
-    {
-        Debug.Log("ES FORTISSIM");
-        animCamera.Stop("cinematicaInicial");
-
-        //seguir.GetComponent<MovimentSimple>().Mov = true;
-    }
-
-    public void moureRobinAPosicio2()
+    void moureRobinAPosicio2()
     {
         Debug.Log("QUE FORT");
         animRobin.Play("cineInicialRobin");
@@ -57,11 +49,12 @@ public class Cinematiques : MonoBehaviour
 
     }
 
-    public void iniciarFugidaEmmascarat()
+    void iniciarFugidaEmmascarat()
     {
         Debug.Log("BUENAS");
-        Animation emmascarat = GameObject.Find("Emmascarat").GetComponent<Animation>();
-        emmascarat.Play("fugidaEmmascarat2");
+        Animation emmascarada = GameObject.Find("Emmascarada").GetComponent<Animation>();
+        emmascarada.Play("fugidaEmmascarat2");
 
     }
+    
 }
