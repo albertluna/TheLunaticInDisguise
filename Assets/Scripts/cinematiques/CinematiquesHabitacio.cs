@@ -10,6 +10,7 @@ public class CinematiquesHabitacio : MonoBehaviour
     private Animation anim;
     public GameObject canviEscena;
     private static bool primerDialeg;
+    private static bool 
     void Start()
     {
         fc = Robin.GetComponent<Flowchart>();
