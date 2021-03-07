@@ -7,8 +7,10 @@ public static class ScenesManager {
 
     public enum Scene
     {
-        escena_carrer,
+        Fase_1,
         escena_habitacio,
+        Fase_2,
+        Fase_3
     }
 
     public static void Load(Scene scene)

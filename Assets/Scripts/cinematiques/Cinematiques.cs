@@ -5,26 +5,25 @@ using Fungus;
 
 public class Cinematiques : MonoBehaviour
 {
-    private Flowchart Helena;
+    private Flowchart fc;
     private static bool primerDialeg;
+    public static bool primerDialeg3;
     public GameObject Robin;
+    public GameObject Narrativa;
     private Animation animCamera;
     private Animation animRobin;
     private AnimationEvent moureRobin;
+
     // Start is called before the first frame update
     void Start()
     {
-        Helena = GameObject.Find("Helena").GetComponent<Flowchart>();
+        //Helena = GameObject.Find("Helena").GetComponent<Flowchart>();
+        fc = Narrativa.GetComponent<Flowchart>();
         Robin.GetComponent<MovimentSimple>().Mov = true;
         animCamera = GameObject.Find("Main Camera").GetComponent<Animation>();
         animRobin = Robin.GetComponent<Animation>();
         if (!primerDialeg) DialegIntroduccio();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (primerDialeg3) iniciFase3Carrer();
     }
 
     void DialegIntroduccio()
@@ -33,7 +32,7 @@ public class Cinematiques : MonoBehaviour
         Robin.GetComponent<MovimentSimple>().Mov = false;
         primerDialeg = true;
         //Començar la conversa
-        Helena.ExecuteBlock("iniciConv");
+        fc.ExecuteBlock("iniciConv");
     }
 
     void animacioInicial1()
@@ -43,7 +42,6 @@ public class Cinematiques : MonoBehaviour
 
     void moureRobinAPosicio2()
     {
-        Debug.Log("QUE FORT");
         animRobin.Play("cineInicialRobin");
         //seguir.GetComponent<Animation>().PlayQueued("cine2Robin");
 
@@ -51,10 +49,23 @@ public class Cinematiques : MonoBehaviour
 
     void iniciarFugidaEmmascarat()
     {
-        Debug.Log("BUENAS");
         Animation emmascarada = GameObject.Find("Emmascarada").GetComponent<Animation>();
         emmascarada.Play("fugidaEmmascarat2");
-
     }
-    
+
+    /*****************************
+     * 
+     * FASE 3
+     * 
+     * **************************/
+
+    public static void setPrimerDialegFase3() { primerDialeg3 = true; }
+
+    void iniciFase3Carrer()
+    {
+        primerDialeg3 = false;
+        fc.ExecuteBlock("foguera");
+    }
+
+
 }

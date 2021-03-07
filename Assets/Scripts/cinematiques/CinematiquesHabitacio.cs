@@ -10,28 +10,30 @@ public class CinematiquesHabitacio : MonoBehaviour
     private Animation anim;
     public GameObject canviEscena;
     private static bool primerDialeg;
-    private static bool 
     void Start()
     {
         fc = Robin.GetComponent<Flowchart>();
         anim = Robin.GetComponent<Animation>();
-        canviEscena.GetComponent<BoxCollider2D>().isTrigger = false;
         Robin.GetComponent<MovimentSimple>().Mov = true;
         if (!primerDialeg) dialegIntroduccio();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    public void moure() { Robin.GetComponent<MovimentSimple>().Mov = true; }
+    public void noMoure() { Robin.GetComponent<MovimentSimple>().Mov = false; }
 
-    }
-
+    /*************************
+     * 
+     * FASE 1
+     * 
+     * **********************/
     //Primerdialeg de l'habitacio
     public void dialegIntroduccio()
     {
         primerDialeg = true;
-        Robin.GetComponent<MovimentSimple>().Mov = false;
+        canviEscena.GetComponent<BoxCollider2D>().enabled = false;
+        moure();
         fc.ExecuteBlock("iniciConv");
+        GameObject.Find("canviFase").GetComponent<BoxCollider2D>().enabled = false;
     }
 
     public void dialegIntroduccio2()
@@ -43,7 +45,7 @@ public class CinematiquesHabitacio : MonoBehaviour
     public void dialegIntroduccio3()
     {
         //S'activa el canvi d'escena
-        canviEscena.GetComponent<BoxCollider2D>().isTrigger = true;
+        canviEscena.GetComponent<BoxCollider2D>().enabled = true;
 
         // Execucio de l'animacio
         anim.PlayQueued("Dormir 1");
@@ -52,5 +54,45 @@ public class CinematiquesHabitacio : MonoBehaviour
     public void dialegIntroduccio4()
     {
         anim.PlayQueued("Dormir 2");
+    }
+
+    /**********************
+     * 
+     * FASE 2
+     * 
+     * *******************/
+
+    public void iniciFase2()
+    {
+        noMoure();
+        //animacio adormir-se i despertar-se
+        Debug.Log("BONES2");
+        moure();
+        //dialeg inicial
+        fc.ExecuteBlock("iniciFase2");
+
+        
+
+    }
+
+    /*********************
+     * 
+     * FASE 3
+     * 
+     * ******************/
+    public void iniciFase3()
+    {
+        noMoure();
+        Cinematiques.setPrimerDialegFase3();
+        //animacio adormir-se
+        Debug.Log("BONES3");
+
+
+        //dialeg inicial
+        fc.ExecuteBlock("iniciFase3");
+
+        //animacio aixecar-se
+        moure();
+
     }
 }

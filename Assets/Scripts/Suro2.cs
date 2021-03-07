@@ -28,7 +28,7 @@ public class Suro2: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        /*
 
         bool OliverHerop = (bool)flowchart.GetBooleanVariable("OliverHero");
 
@@ -46,6 +46,6 @@ public class Suro2: MonoBehaviour
                         MyText.text = "El nen vist per un no le va veure l'altre, sospitos";
                     }
                 }
-            }
+            }*/
     }
 }

@@ -29,7 +29,7 @@ public class Suro3 : MonoBehaviour
     void Update()
     {
 
-
+        /*
         bool OliverHerop = (bool)flowchart.GetBooleanVariable("OliverHero");
 
         bool OliverDrunkp = (bool)flowchart.GetBooleanVariable("OliverDrunk");
@@ -45,6 +45,6 @@ public class Suro3 : MonoBehaviour
                     MyText.text = "Si Bruce i Oliver estaven beguts qui ho veure";
                 }
             }
-        }
+        }*/
     }
 }

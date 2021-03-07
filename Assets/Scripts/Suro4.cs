@@ -29,7 +29,7 @@ public class Suro4 : MonoBehaviour
     void Update()
     {
 
-
+        /*
         bool OliverHerop = (bool)flowchart.GetBooleanVariable("OliverHero");
 
         bool OliverDrunkp = (bool)flowchart.GetBooleanVariable("OliverDrunk");
@@ -48,7 +48,7 @@ public class Suro4 : MonoBehaviour
             }
 
 
-        }
+        }*/
 
 
     }

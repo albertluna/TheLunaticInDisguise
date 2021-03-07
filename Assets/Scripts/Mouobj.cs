@@ -5,10 +5,14 @@ using UnityEngine.EventSystems;
 
 public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
+   // [SerializeField] private Sprite sprite;
     [SerializeField] private Canvas canvas;
     private CanvasGroup canvasGroup;
     private RectTransform rectTransform;
     private Vector2 startPosition;
+    public int idnota;
+    public bool entrat = false;
+
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -22,7 +26,9 @@ public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
 
     public void OnDrag(PointerEventData eventData)
     {
+        
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
+       // rectTransform.anchoredPosition += eventData.delta / sprite.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -33,6 +39,7 @@ public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
         {
             transform.position = startPosition;
             canvasGroup.blocksRaycasts = true;
+            
         }
     }
 }

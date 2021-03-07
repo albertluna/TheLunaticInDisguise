@@ -2,10 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Fungus;
 
 public class SceneChange : MonoBehaviour
 {
     public bool isStreet;
+    public static int fase = 1;
+
+    private void Start()
+    {
+        lastPhase();
+    }
 
     private void OnTriggerEnter2D()
     {
@@ -15,7 +22,52 @@ public class SceneChange : MonoBehaviour
             ScenesManager.Load(ScenesManager.Scene.escena_habitacio);
         } else
         {
-            ScenesManager.Load(ScenesManager.Scene.escena_carrer);
+            switch(fase)
+            {
+                case 1:
+                    ScenesManager.Load(ScenesManager.Scene.Fase_1);
+                    break;
+                case 2:
+                    ScenesManager.Load(ScenesManager.Scene.Fase_2);
+                    break;
+                case 3:
+                    ScenesManager.Load(ScenesManager.Scene.Fase_3);
+                    break;
+            }
+        }
+    }
+
+    public void changePhase()
+    {
+        fase++;
+        Debug.Log("Canvi de fase a: " + fase);
+        //Introduir animacio d'anar a dormir
+
+        lastPhase();
+        cinematicaInicialFase();
+    }
+
+    private void lastPhase()
+    {
+        if(fase>= 3)
+        {
+            Debug.Log("FASE 3");
+            GameObject.Find("canviFase").GetComponent<BoxCollider2D>().enabled = false;
+        }
+    }
+
+    private void cinematicaInicialFase()
+    {
+        Debug.Log("CINEMATICAINICIAL FASE" + fase);
+
+        switch (fase)
+        {
+            case 2:
+                GameObject.Find("GestorCinematiques").GetComponent<CinematiquesHabitacio>().iniciFase2();
+                break;
+            case 3:
+                GameObject.Find("GestorCinematiques").GetComponent<CinematiquesHabitacio>().iniciFase3();
+                break;
         }
     }
 }
