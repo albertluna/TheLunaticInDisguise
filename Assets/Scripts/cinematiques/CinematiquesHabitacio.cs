@@ -21,6 +21,16 @@ public class CinematiquesHabitacio : MonoBehaviour
     public void moure() { Robin.GetComponent<MovimentSimple>().Mov = true; }
     public void noMoure() { Robin.GetComponent<MovimentSimple>().Mov = false; }
 
+    public void anarADormir()
+    {
+        anim.PlayQueued("anarDormirFase2i3");
+    }
+
+    public void despertarse()
+    {
+        anim.PlayQueued("Despertar-se");
+    }
+
     /*************************
      * 
      * FASE 1
@@ -65,6 +75,7 @@ public class CinematiquesHabitacio : MonoBehaviour
     public void iniciFase2()
     {
         noMoure();
+        Cinematiques.setPrimerDialegFase2();
         //animacio adormir-se i despertar-se
         Debug.Log("BONES2");
         moure();

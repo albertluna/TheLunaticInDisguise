@@ -7,12 +7,14 @@ public class Cinematiques : MonoBehaviour
 {
     private Flowchart fc;
     private static bool primerDialeg;
-    public static bool primerDialeg3;
+    private static bool primerDialeg2;
+    private static bool primerDialeg3;
     public GameObject Robin;
     public GameObject Narrativa;
     private Animation animCamera;
     private Animation animRobin;
     private AnimationEvent moureRobin;
+    private static int sospitososInvestigats = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,7 @@ public class Cinematiques : MonoBehaviour
         animCamera = GameObject.Find("Main Camera").GetComponent<Animation>();
         animRobin = Robin.GetComponent<Animation>();
         if (!primerDialeg) DialegIntroduccio();
+        if (primerDialeg2) iniciFase2Carrer();
         if (primerDialeg3) iniciFase3Carrer();
     }
 
@@ -43,8 +46,11 @@ public class Cinematiques : MonoBehaviour
     void moureRobinAPosicio2()
     {
         animRobin.Play("cineInicialRobin");
-        //seguir.GetComponent<Animation>().PlayQueued("cine2Robin");
+    }
 
+    void moureRobinAPorta()
+    {
+        animRobin.Play("cineRobinAPorta");
     }
 
     void iniciarFugidaEmmascarat()
@@ -52,6 +58,30 @@ public class Cinematiques : MonoBehaviour
         Animation emmascarada = GameObject.Find("Emmascarada").GetComponent<Animation>();
         emmascarada.Play("fugidaEmmascarat2");
     }
+
+    void instruccioInicial()
+    {
+        if (sospitososInvestigats == 1 && SceneChange.fase==1)// &&fase1
+        {
+            fc.ExecuteBlock("instruccioInicial");
+        }
+    }
+
+    /*****************************
+     * 
+     * FASE 2
+     * 
+     * **************************/
+
+    public static void setPrimerDialegFase2() { primerDialeg2 = true; }
+
+    void iniciFase2Carrer()
+    {
+        primerDialeg3 = false;
+        sospitososInvestigats = 0;
+
+    }
+
 
     /*****************************
      * 
@@ -64,8 +94,30 @@ public class Cinematiques : MonoBehaviour
     void iniciFase3Carrer()
     {
         primerDialeg3 = false;
+        sospitososInvestigats = 0;
         fc.ExecuteBlock("foguera");
     }
 
+    void animacioPoli()
+    {
+        Narrativa.GetComponent<Animation>().PlayQueued("Poli");
+    }
+
+
+    /*****************************
+     * 
+     * GLOBAL
+     * 
+     * **************************/
+
+    void nouInvestigat()
+    {
+        sospitososInvestigats++;
+        instruccioInicial();
+        if (sospitososInvestigats == 5)
+        {
+            fc.ExecuteBlock("totsInvestigats");
+        }
+    }
 
 }

@@ -1046,7 +1046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1675270178}
+  selectedFlowchart: {fileID: 2075816239}
 --- !u!4 &963179315
 Transform:
   m_ObjectHideFlags: 1
@@ -1352,7 +1352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Mum
-  nameColor: {r: 1, g: 0, b: 0, a: 1}
+  nameColor: {r: 0.4312133, g: 0, b: 0.6415094, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -1592,8 +1592,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1675270193}
+  selectedCommands:
+  - {fileID: 1675270186}
   variables:
   - {fileID: 1675270194}
   description: 
@@ -1816,7 +1818,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: (Now choose one of the answers)
   description: 
-  character: {fileID: 1675270190}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2344,7 +2346,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: 
   startIndex: 0
-  callMode: 0
+  callMode: 1
 --- !u!111 &1675270198
 Animation:
   m_ObjectHideFlags: 0
@@ -2359,6 +2361,8 @@ Animation:
   - {fileID: 7400000, guid: cac9f14502648407aa1d49c61c8c338b, type: 2}
   - {fileID: 7400000, guid: 678f8ad60c8a34d09a9b19b809b363d0, type: 2}
   - {fileID: 7400000, guid: a6415e3fc6a46425eb18663df4b0934d, type: 2}
+  - {fileID: 7400000, guid: 20300d8edbade4268a1d5e7577ea41bf, type: 2}
+  - {fileID: 7400000, guid: 592b3510ed2784bacb8cd9408c5622bc, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -2390,6 +2394,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1675270203}
   - {fileID: 1675270204}
+  - {fileID: 1675270225}
   - {fileID: 1675270197}
   suppressAllAutoSelections: 0
 --- !u!114 &1675270200
@@ -3271,6 +3276,24 @@ MonoBehaviour:
   - {fileID: 1675270219}
   - {fileID: 1675270208}
   suppressAllAutoSelections: 0
+--- !u!114 &1675270225
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675270176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
 --- !u!1001 &1686464026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3281,12 +3304,12 @@ PrefabInstance:
     - target: {fileID: 96172226200868331, guid: d86a9475d0f57244abcedc3aa11784ed,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.28
+      value: 0.71
       objectReference: {fileID: 0}
     - target: {fileID: 96172226200868331, guid: d86a9475d0f57244abcedc3aa11784ed,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.77
+      value: -1.45
       objectReference: {fileID: 0}
     - target: {fileID: 96172226200868331, guid: d86a9475d0f57244abcedc3aa11784ed,
         type: 3}
@@ -3960,12 +3983,12 @@ PrefabInstance:
     - target: {fileID: 8775531813720586780, guid: ebef9db2157554c2385be0a4635a991f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.96
+      value: 1.298
       objectReference: {fileID: 0}
     - target: {fileID: 8775531813720586780, guid: ebef9db2157554c2385be0a4635a991f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.59
+      value: -1.408
       objectReference: {fileID: 0}
     - target: {fileID: 8775531813720586780, guid: ebef9db2157554c2385be0a4635a991f,
         type: 3}
@@ -4100,6 +4123,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2075816227}
+  - {fileID: 2075816242}
+  - {fileID: 2075816241}
   suppressAllAutoSelections: 0
 --- !u!114 &2075816230
 MonoBehaviour:
@@ -4352,7 +4377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -103.936325, y: -154.02768}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -4364,8 +4389,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 2075816238}
-  selectedCommands: []
+  - {fileID: 2075816229}
+  selectedCommands:
+  - {fileID: 2075816241}
   variables: []
   description: 
   stepPause: 0
@@ -4390,6 +4416,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStreet: 0
+--- !u!114 &2075816241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075816226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  targetObject: {fileID: 2055262162}
+  methodName: despertarse
+  delay: 0
+--- !u!114 &2075816242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075816226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  targetObject: {fileID: 2055262162}
+  methodName: anarADormir
+  delay: 0
 --- !u!1001 &3596133158385345996
 PrefabInstance:
   m_ObjectHideFlags: 0
