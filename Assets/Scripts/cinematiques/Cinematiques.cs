@@ -9,6 +9,7 @@ public class Cinematiques : MonoBehaviour
     private static bool primerDialeg;
     private static bool primerDialeg2;
     private static bool primerDialeg3;
+    private static bool poli;
     public GameObject Robin;
     public GameObject Narrativa;
     private Animation animCamera;
@@ -27,6 +28,7 @@ public class Cinematiques : MonoBehaviour
         if (!primerDialeg) DialegIntroduccio();
         if (primerDialeg2) iniciFase2Carrer();
         if (primerDialeg3) iniciFase3Carrer();
+        if (poli) animacioPoli();
     }
 
     void DialegIntroduccio()
@@ -100,6 +102,7 @@ public class Cinematiques : MonoBehaviour
 
     void animacioPoli()
     {
+        poli = true;
         Narrativa.GetComponent<Animation>().PlayQueued("Poli");
     }
 
@@ -113,6 +116,7 @@ public class Cinematiques : MonoBehaviour
     void nouInvestigat()
     {
         sospitososInvestigats++;
+        Robin.GetComponent<MovimentSimple>().Mov = true;
         instruccioInicial();
         if (sospitososInvestigats == 5)
         {
