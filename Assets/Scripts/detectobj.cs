@@ -20,6 +20,7 @@ public class detectobj : MonoBehaviour, IDropHandler
     public detectobj detobj;
     private bool var102 = false;
     private bool var107 = false;
+    public bool var108 = false;
     private bool var406 = false;
     private bool var104 = false;
     public bool var105 = false;
@@ -109,7 +110,6 @@ public class detectobj : MonoBehaviour, IDropHandler
 
     private void Start()
     {
-        Debug.Log(mouobj);
         detobj = deteobj.GetComponent<detectobj>();
         mouobj = movobj.GetComponentInChildren<Mouobj>();
         mouobj2 = movobj.GetComponentInChildren<Mouobj>();
@@ -146,7 +146,14 @@ public class detectobj : MonoBehaviour, IDropHandler
                 Debug.Log("NO he entrat al if");
             }
 
+            if (mouobj.idnota == 108)
+            {
 
+
+                var108 = true;
+
+
+            }
             if (mouobj.idnota == 408)
             {
               
@@ -313,7 +320,7 @@ public class detectobj : MonoBehaviour, IDropHandler
     {
         if(detobj.var105 == true)
         {
-            if(var408 == true)
+            if(var108 == true)
             {
                 contr1 = true;
             }
@@ -435,7 +442,7 @@ public class detectobj : MonoBehaviour, IDropHandler
 
         if (var105 == true)
         {
-            if (detobj.var408 == true)
+            if (detobj.var108 == true)
             {
                 contr1 = true;
             }
