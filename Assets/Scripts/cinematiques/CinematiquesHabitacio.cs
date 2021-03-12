@@ -15,7 +15,7 @@ public class CinematiquesHabitacio : MonoBehaviour
         fc = Robin.GetComponent<Flowchart>();
         anim = Robin.GetComponent<Animation>();
         Robin.GetComponent<MovimentSimple>().Mov = true;
-        if (!primerDialeg) dialegIntroduccio();
+        //if (!primerDialeg) dialegIntroduccio();
     }
 
     public void moure() { Robin.GetComponent<MovimentSimple>().Mov = true; }
@@ -23,12 +23,14 @@ public class CinematiquesHabitacio : MonoBehaviour
 
     public void anarADormir()
     {
+        noMoure();
         anim.PlayQueued("anarDormirFase2i3");
     }
 
     public void despertarse()
     {
         anim.PlayQueued("Despertar-se");
+        moure();
     }
 
     /*************************
@@ -78,12 +80,9 @@ public class CinematiquesHabitacio : MonoBehaviour
         Cinematiques.setPrimerDialegFase2();
         //animacio adormir-se i despertar-se
         Debug.Log("BONES2");
-        moure();
         //dialeg inicial
         fc.ExecuteBlock("iniciFase2");
-
-        
-
+        moure();
     }
 
     /*********************
@@ -105,5 +104,20 @@ public class CinematiquesHabitacio : MonoBehaviour
         //animacio aixecar-se
         moure();
 
+    }
+
+    public void cinematicaInicialFase()
+    {
+        Debug.Log("CINEMATICAINICIAL FASE" + SceneChange.fase);
+        switch (SceneChange.fase)
+        {
+            case 2:
+                iniciFase2();
+                Debug.Log("CLOWN");
+                break;
+            case 3:
+                iniciFase3();
+                break;
+        }
     }
 }

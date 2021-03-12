@@ -37,37 +37,21 @@ public class SceneChange : MonoBehaviour
         }
     }
 
+    //Funcio per canviar de fase
     public void changePhase()
     {
         fase++;
         Debug.Log("Canvi de fase a: " + fase);
-        //Introduir animacio d'anar a dormir
-
         lastPhase();
-        cinematicaInicialFase();
     }
 
+    //En l'ultima
     private void lastPhase()
     {
         if(fase>= 3)
         {
             Debug.Log("FASE 3");
             GameObject.Find("canviFase").GetComponent<BoxCollider2D>().enabled = false;
-        }
-    }
-
-    private void cinematicaInicialFase()
-    {
-        Debug.Log("CINEMATICAINICIAL FASE" + fase);
-
-        switch (fase)
-        {
-            case 2:
-                GameObject.Find("GestorCinematiques").GetComponent<CinematiquesHabitacio>().iniciFase2();
-                break;
-            case 3:
-                GameObject.Find("GestorCinematiques").GetComponent<CinematiquesHabitacio>().iniciFase3();
-                break;
         }
     }
 }

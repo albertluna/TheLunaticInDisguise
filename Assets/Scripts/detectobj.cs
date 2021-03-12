@@ -8,6 +8,14 @@ public class detectobj : MonoBehaviour, IDropHandler
 {
     public GameObject movobj;
     public Mouobj mouobj;
+    public GameObject movobj1;
+    public Mouobj mouobj1;
+    public GameObject movobj2;
+    public Mouobj mouobj2;
+    public GameObject movobj3;
+    public Mouobj mouobj3;
+    public GameObject movobj4;
+    public Mouobj mouobj4;
     public GameObject deteobj;
     public detectobj detobj;
     private bool var102 = false;
@@ -17,6 +25,7 @@ public class detectobj : MonoBehaviour, IDropHandler
     public bool var105 = false;
     private bool var122 = false;
     private bool var123 = false;
+    private bool var125 = false;
     private bool var121 = false;
     private bool var120 = false;
     private bool var124 = false;
@@ -60,9 +69,23 @@ public class detectobj : MonoBehaviour, IDropHandler
     private bool var501 = false;
     private bool var503 = false;
     private bool var504 = false;
-    private bool var502 = false; 
-  
-  
+    private bool var502 = false;
+    private bool var523 = false;
+    private bool var521 = false;
+    private bool var520 = false;
+    private bool var553 = false;
+    private bool var552 = false;
+    private bool var550 = false;
+    private bool var451 = false;
+    private bool var150 = false;
+    private bool var452 = false;
+    private bool var251 = false;
+    private bool var351 = false;
+    private bool var354 = false;
+    private bool var551 = false;
+
+
+
     public bool contr1 = false;
     public bool contr2 = false;
     public bool contr3 = false;
@@ -71,12 +94,30 @@ public class detectobj : MonoBehaviour, IDropHandler
     public bool contr6 = false;
     public bool contr7 = false;
     public bool contr8 = false;
+    public bool contr9 = false;
+    public bool contr10 = false;
+    public bool contr11 = false;
+    public bool contr12 = false;
+    public bool contr13 = false;
+    public bool contr14 = false;
+    public bool contr15 = false;
+    public bool contr16 = false;
+    public bool contr17 = false;
+    public bool contr18 = false;
+    public bool contr19 = false;
+    public bool contr20 = false;
+
     private void Start()
     {
         Debug.Log(mouobj);
         detobj = deteobj.GetComponent<detectobj>();
         mouobj = movobj.GetComponentInChildren<Mouobj>();
+        mouobj2 = movobj.GetComponentInChildren<Mouobj>();
+        mouobj3 = movobj.GetComponentInChildren<Mouobj>();
+        mouobj4 = movobj.GetComponentInChildren<Mouobj>();
+        mouobj1 = movobj.GetComponentInChildren<Mouobj>();
         Debug.Log(mouobj);
+        DontDestroyOnLoad(this);
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -85,6 +126,7 @@ public class detectobj : MonoBehaviour, IDropHandler
         {
             
             mouobj = eventData.pointerDrag.GetComponentInChildren<Mouobj>();
+         
             Debug.Log(mouobj);
             RectTransform cardRect = eventData.pointerDrag.GetComponent<RectTransform>();
            // cardRect.SetParent(transform, false);
@@ -156,6 +198,115 @@ public class detectobj : MonoBehaviour, IDropHandler
 
                 
             }
+
+            if (mouobj.idnota == 523)
+            {
+
+                var523 = true;
+
+
+            }
+
+            if (mouobj.idnota == 521)
+            {
+
+                var521 = true;
+
+
+            }
+
+            if (mouobj.idnota == 520)
+            {
+
+                var520 = true;
+
+
+            }
+
+            if (mouobj.idnota == 553)
+            {
+
+                var553 = true;
+
+
+            }
+
+            if (mouobj.idnota == 552)
+            {
+
+                var552 = true;
+
+
+            }
+
+            if (mouobj.idnota == 550)
+            {
+
+                var550 = true;
+
+
+            }
+
+            if (mouobj.idnota == 451)
+            {
+
+                var451 = true;
+
+
+            }
+
+            if (mouobj.idnota == 150)
+            {
+
+                var150 = true;
+
+
+            }
+
+            if (mouobj.idnota == 452)
+            {
+
+                var452 = true;
+
+
+            }
+
+            if (mouobj.idnota == 251)
+            {
+
+                var251 = true;
+
+
+            }
+            
+            if (mouobj.idnota == 351)
+            {
+
+                var351 = true;
+
+
+            }
+
+            if (mouobj.idnota == 354)
+            {
+
+                var354 = true;
+
+
+            }
+            if (mouobj.idnota == 551)
+            {
+
+                var551 = true;
+
+
+            }
+
+
+
+
+
+
         }
     }
     void Update()
@@ -188,62 +339,100 @@ public class detectobj : MonoBehaviour, IDropHandler
                 contr4 = true;
             }
         }
-        if (detobj.var105 == true)
+
+
+
+
+        if (detobj.var125 == true)
         {
-            if (var408 == true)
+            if (var424 == true)
             {
-                contr1 = true;
+                contr5 = true;
             }
         }
-        if (detobj.var208 == true)
+        if (detobj.var424 == true)
         {
-            if (var302 == true)
+            if (var420 == true)
             {
-                contr2 = true;
+                contr6 = true;
             }
         }
-        if (detobj.var303 == true)
+        if (detobj.var425 == true)
         {
-            if (var413 == true)
+            if (var521 == true)
             {
-                contr3 = true;
+                contr7 = true;
             }
         }
-        if (detobj.var501 == true)
+        if (detobj.var523 == true)
         {
-            if (var412 == true)
+            if (var520 == true)
             {
-                contr4 = true;
+                contr8 = true;
             }
         }
-        if (detobj.var105 == true)
+
+
+
+
+        if (detobj.var552 == true)
         {
-            if (var408 == true)
+            if (var553 == true)
             {
-                contr1 = true;
+                contr9 = true;
             }
         }
-        if (detobj.var208 == true)
+        if (detobj.var550 == true)
         {
-            if (var302 == true)
+            if (var451 == true)
             {
-                contr2 = true;
+                contr10 = true;
             }
         }
-        if (detobj.var303 == true)
+        if (detobj.var150 == true)
         {
-            if (var413 == true)
+            if (var551 == true)
             {
-                contr3 = true;
+                contr11 = true;
             }
         }
-        if (detobj.var501 == true)
+        if (detobj.var452 == true)
         {
-            if (var412 == true)
+            if (var251 == true)
             {
-                contr4 = true;
+                contr12 = true;
             }
         }
+
+
+        if (detobj.var351 == true)
+        {
+            if (var354 == true)
+            {
+                contr13 = true;
+            }
+        }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         if (var105 == true)
         {
             if (detobj.var408 == true)
@@ -270,6 +459,76 @@ public class detectobj : MonoBehaviour, IDropHandler
             if (detobj.var412 == true)
             {
                 contr4 = true;
+            }
+        }
+
+        if (var125 == true)
+        {
+            if (detobj.var424 == true)
+            {
+                contr5 = true;
+            }
+        }
+        if (var424 == true)
+        {
+            if (detobj.var420 == true)
+            {
+                contr6 = true;
+            }
+        }
+        if (detobj.var425 == true)
+        {
+            if (detobj.var521 == true)
+            {
+                contr7 = true;
+            }
+        }
+        if (var523 == true)
+        {
+            if (detobj.var520 == true)
+            {
+                contr8 = true;
+            }
+        }
+
+
+
+
+        if (var552 == true)
+        {
+            if (detobj.var553 == true)
+            {
+                contr9 = true;
+            }
+        }
+        if (var550 == true)
+        {
+            if (detobj.var451 == true)
+            {
+                contr10 = true;
+            }
+        }
+        if (var150 == true)
+        {
+            if (detobj.var551 == true)
+            {
+                contr11 = true;
+            }
+        }
+        if (var452 == true)
+        {
+            if (detobj.var251 == true)
+            {
+                contr12 = true;
+            }
+        }
+
+
+        if (var351 == true)
+        {
+            if (detobj.var354 == true)
+            {
+                contr13 = true;
             }
         }
     }

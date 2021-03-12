@@ -75,13 +75,6 @@ public class Notes : MonoBehaviour
             createInstance(GameObject.Find("Barry").GetComponent<Flowchart>().GetIntegerVariable("Barry"));
         }
 
-        if (GameObject.Find("Barry").GetComponent<Flowchart>().GetIntegerVariable("Barry2") != barry2)
-        {
-            barry2 = GameObject.Find("Barry").GetComponent<Flowchart>().GetIntegerVariable("Barry2");
-            createInstance(GameObject.Find("Barry").GetComponent<Flowchart>().GetIntegerVariable("Barry2"));
-            
-        }
-
         if (GameObject.Find("Carol").GetComponent<Flowchart>().GetIntegerVariable("Carol") != carol)
         {
             carol = GameObject.Find("Carol").GetComponent<Flowchart>().GetIntegerVariable("Carol");
@@ -98,12 +91,6 @@ public class Notes : MonoBehaviour
         {
             oliver = GameObject.Find("Oliver").GetComponent<Flowchart>().GetIntegerVariable("Oliver");
             createInstance(GameObject.Find("Oliver").GetComponent<Flowchart>().GetIntegerVariable("Oliver"));
-        }
-
-        if (GameObject.Find("Oliver").GetComponent<Flowchart>().GetIntegerVariable("Oliver2") != oliver2)
-        {
-            oliver2 = GameObject.Find("Oliver").GetComponent<Flowchart>().GetIntegerVariable("Oliver2");
-            createInstance(GameObject.Find("Oliver").GetComponent<Flowchart>().GetIntegerVariable("Oliver2"));
         }
 
         if (GameObject.Find("Bruce").GetComponent<Flowchart>().GetIntegerVariable("Bruce") != bruce)
