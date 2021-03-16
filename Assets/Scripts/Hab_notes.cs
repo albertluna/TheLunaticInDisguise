@@ -11,7 +11,6 @@ public class Hab_notes : MonoBehaviour
     public Canvas canvas3;
     public Canvas canvas4;
     public Canvas canvas5;
-    public Canvas blau1;
    
     // Start is called before the first frame update
     void Start()
@@ -35,7 +34,6 @@ public class Hab_notes : MonoBehaviour
                     canvas3.gameObject.SetActive(false);
                     canvas4.gameObject.SetActive(false);
                     canvas5.gameObject.SetActive(false);
-                    blau1.gameObject.SetActive(false);
 
 
                 }
@@ -53,7 +51,6 @@ public class Hab_notes : MonoBehaviour
                     canvas3.gameObject.SetActive(false);
                     canvas4.gameObject.SetActive(false);
                     canvas5.gameObject.SetActive(false);
-                    blau1.gameObject.SetActive(true);
 
                 }
             }

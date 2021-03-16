@@ -41,23 +41,26 @@ public class notesbarry : MonoBehaviour
             if (notes.ba102) {
                 MyText.text = "Eleanor’s brother";
                 }
+            if (notes.ba108)
+            {
+                    MyText6.text = "Barry has no friends";
+                }
             if (notes.ba107) {
-                Debug.Log("TIU");
                 MyText2.text = "Super rich";
                 }
             if (notes.ba101) {
                 MyText3.text = "People think he’s miserable";
                 }
             if (notes.ba105) {
-                Debug.Log("HOLAAAA");
                 MyText4.text = "Was out of town with friends";
                 }
             if (notes.ba122) {
                 MyText5.text = "Mum’s ex";
                 }
-            if (notes.ba104) {
+
+            /*if (notes.ba104) {
                 MyText6.text = "Hates Bruce";
-                }
+                }*/
             if (notes.ba123) {
                 MyText7.text = "got orphan too young";
                 }

@@ -42,7 +42,7 @@ public class NotesCarol : MonoBehaviour
         if (notes.car207)
         {
 
-            MyText.text = "Eleanor’s brother";
+            MyText.text = "Studied cinema to direct superherois films";
         }
 
         if (notes.car211)
@@ -54,30 +54,29 @@ public class NotesCarol : MonoBehaviour
         if (notes.car206)
         {
 
-            MyText3.text = "People think he’s miserable";
+            MyText3.text = "Superheroe's nerd";
         }
 
         if (notes.car201)
         {
 
-            MyText4.text = "Was out of town with friends";
+            MyText4.text = "Has a cat";
         }
 
         if (notes.car204)
         {
 
-            MyText6.text = "Mum’s ex";
+            MyText6.text = "Vegan";
         }
 
         if (notes.car205)
         {
-
-            MyText5.text = "Was out of town with friends";
+            MyText5.text = "Pamela's friend";
         }
         if (notes.car208)
         {
 
-            MyText7.text = "orphan too young";
+            MyText7.text = "Was alone last night";
         }
 
         /*if (notes.car999)
@@ -95,7 +94,7 @@ public class NotesCarol : MonoBehaviour
         if (notes.car220)
         {
 
-            MyText10.text = "In a relation with Oliver’s sister";
+            MyText10.text = "In a relationship with Oliver’s sister";
         }
 
         if (notes.car221)

@@ -56,7 +56,7 @@ public class NotesBruce : MonoBehaviour
         if (notes.br302)
         {
 
-            MyText4.text = "Heard people talking at Carol’s";
+            MyText5.text = "Heard people talking at Carol’s";
         }
 
         if (notes.br303)
@@ -68,7 +68,7 @@ public class NotesBruce : MonoBehaviour
         if (notes.br323)
         {
 
-            MyText5.text = "Lost custody because alcohol";
+            //MyText5.text = "Lost custody because alcohol";
         }
         if (notes.br321)
         {

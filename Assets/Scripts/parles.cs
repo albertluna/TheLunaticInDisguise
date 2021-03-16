@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class parles : MonoBehaviour
 {
-    public GameObject Barry;
+    /*public GameObject Barry;
     public GameObject Bruce;
     public GameObject Carol;
     public GameObject Oliver;
     public GameObject Pamela;
-
+    */
     private Flowchart BarryFc;
     private Flowchart BruceFc;
     private Flowchart CarolFc;
@@ -113,11 +113,11 @@ public class parles : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(this);
-        BarryFc = Barry.GetComponent<Flowchart>();
-        BruceFc = Bruce.GetComponent<Flowchart>();
-        CarolFc = Carol.GetComponent<Flowchart>();
-        OliverFc = Oliver.GetComponent<Flowchart>();
-        PamelaFc = Pamela.GetComponent<Flowchart>();
+        BarryFc = GameObject.Find("Barry").GetComponent<Flowchart>();
+        BruceFc = GameObject.Find("Bruce").GetComponent<Flowchart>();
+        CarolFc = GameObject.Find("Carol").GetComponent<Flowchart>();
+        OliverFc = GameObject.Find("Oliver").GetComponent<Flowchart>();
+        PamelaFc = GameObject.Find("Pamela").GetComponent<Flowchart>();
 
     }
 
@@ -136,6 +136,10 @@ public class parles : MonoBehaviour
         {
 
             ba107 = true;
+        }
+        if (notabarry1 == 108)
+        {
+            ba108 = true;
         }
 
         if (notabarry1 == 101)
@@ -255,7 +259,7 @@ public class parles : MonoBehaviour
 
         if (notabarry2 == 302)
         {
-
+            Debug.Log("CONTRADICCIO CAROL DE BRUCE");
             br302 = true;
         }
 
@@ -358,7 +362,7 @@ public class parles : MonoBehaviour
         }
         if (notabarry3 == 208)
         {
-
+            Debug.Log("CONTRADICCIO CAROL DE CAROL");
             car208 = true;
         }
 

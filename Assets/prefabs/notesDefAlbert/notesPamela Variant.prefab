@@ -44,8 +44,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 913296563087048169}
-  m_RootOrder: 7
+  m_Father: {fileID: 913296563032813444}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -2849,7 +2849,7 @@ PrefabInstance:
     - target: {fileID: 4552300499322741698, guid: 67f7d33f14807412a8f1e822a833cd3e,
         type: 3}
       propertyPath: m_Name
-      value: notesPamela
+      value: notesPamela Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4552300499322741698, guid: 67f7d33f14807412a8f1e822a833cd3e,
         type: 3}
@@ -2983,15 +2983,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67f7d33f14807412a8f1e822a833cd3e, type: 3}
---- !u!224 &913296563087048169 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4552300499322741703, guid: 67f7d33f14807412a8f1e822a833cd3e,
-    type: 3}
-  m_PrefabInstance: {fileID: 3711435919385189934}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &913296563032813451 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4552300499435762085, guid: 67f7d33f14807412a8f1e822a833cd3e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3711435919385189934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &913296563032813444 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4552300499435762090, guid: 67f7d33f14807412a8f1e822a833cd3e,
     type: 3}
   m_PrefabInstance: {fileID: 3711435919385189934}
   m_PrefabAsset: {fileID: 0}

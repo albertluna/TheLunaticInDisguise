@@ -32,8 +32,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 3767555245234530144}
-  m_RootOrder: 8
+  m_Father: {fileID: 3767555244173145357}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -342,7 +342,7 @@ PrefabInstance:
     - target: {fileID: 7386318456189113212, guid: 13f42ca51a178497e9d4e83ff46e036d,
         type: 3}
       propertyPath: m_Name
-      value: notesOliver
+      value: notesOliver Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7386318456189113212, guid: 13f42ca51a178497e9d4e83ff46e036d,
         type: 3}
@@ -2876,15 +2876,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13f42ca51a178497e9d4e83ff46e036d, type: 3}
---- !u!224 &3767555245234530144 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7386318456189113209, guid: 13f42ca51a178497e9d4e83ff46e036d,
-    type: 3}
-  m_PrefabInstance: {fileID: 5965143088841978905}
-  m_PrefabAsset: {fileID: 0}
 --- !u!223 &3767555245234530145 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 7386318456189113208, guid: 13f42ca51a178497e9d4e83ff46e036d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5965143088841978905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &3767555244173145357 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7386318456076157204, guid: 13f42ca51a178497e9d4e83ff46e036d,
     type: 3}
   m_PrefabInstance: {fileID: 5965143088841978905}
   m_PrefabAsset: {fileID: 0}
