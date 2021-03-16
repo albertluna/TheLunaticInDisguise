@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class NotesBruce : MonoBehaviour
 {
-    public Flowchart flowchart;
+    public parles notes;
     public TMP_Text MyText;
     public TMP_Text MyText2;
     public TMP_Text MyText3;
@@ -34,86 +34,84 @@ public class NotesBruce : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int notabarry1 = flowchart.GetIntegerVariable("Bruce");
 
-
-        if (notabarry1 == 301)
+        if (notes.br301)
         {
 
             MyText.text = "Has 2 children";
         }
 
-        if (notabarry1 == 307)
+        if (notes.br307)
         {
 
             MyText2.text = "Began drinking to overcome wife’s death";
         }
 
-        if (notabarry1 == 300)
+        if (notes.br300)
         {
 
             MyText3.text = "Alcohol made him more negligent";
         }
 
-        if (notabarry1 == 302)
+        if (notes.br302)
         {
 
             MyText4.text = "Heard people talking at Carol’s";
         }
 
-        if (notabarry1 == 303)
+        if (notes.br303)
         {
 
             MyText6.text = "Was at bar drinking";
         }
 
-        if (notabarry1 == 323)
+        if (notes.br323)
         {
 
             MyText5.text = "Lost custody because alcohol";
         }
-        if (notabarry1 == 321)
+        if (notes.br321)
         {
 
             MyText7.text = "Wife died at a car crash";
         }
 
-        if (notabarry1 == 320)
+        if (notes.br320)
         {
 
             MyText8.text = "Town’s cleaner";
         }
 
-        if (notabarry1 == 322)
+        if (notes.br322)
         {
 
             MyText9.text = "ruined";
         }
 
-        if (notabarry1 == 354)
+        if (notes.br354)
         {
 
             MyText10.text = "He controls drink, but fools town";
         }
 
-        if (notabarry1 == 351)
+        if (notes.br351)
         {
 
             MyText11.text = "Can’t stop drinking";
         }
 
-        if (notabarry1 == 350)
+        if (notes.br350)
         {
 
             MyText12.text = "Believes is incompetent to rise his children";
         }
-            if (notabarry1 == 352)
+            if (notes.br352)
             {
 
                 MyText13.text = "Feels guilty for wife’s death";
             }
 
-            if (notabarry1 == 353)
+            if (notes.br353)
             {
 
                 MyText14.text = "tornen l’Helena i el Damian al poble ";

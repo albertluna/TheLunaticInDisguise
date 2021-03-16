@@ -8,82 +8,117 @@ public class detectobj : MonoBehaviour, IDropHandler
 {
     public GameObject movobj;
     public Mouobj mouobj;
-    public GameObject movobj1;
-    public Mouobj mouobj1;
-    public GameObject movobj2;
-    public Mouobj mouobj2;
-    public GameObject movobj3;
-    public Mouobj mouobj3;
-    public GameObject movobj4;
-    public Mouobj mouobj4;
+
     public GameObject deteobj;
     public detectobj detobj;
-    private bool var102 = false;
-    private bool var107 = false;
+    /*
+    public GameObject deteobj2;
+    public detectobj detobj;
+
+
+    public GameObject deteobj3;
+    public detectobj detobj;
+
+
+    public GameObject deteobj4;
+    public detectobj detobj;
+
+
+    public GameObject deteobj5;
+    public detectobj detobj;
+    */
+
+    public bool var102 = false;
+    public bool var107 = false;
     public bool var108 = false;
-    private bool var406 = false;
-    private bool var104 = false;
+
+    public bool var406 = false;
+    public bool var104 = false;
     public bool var105 = false;
-    private bool var122 = false;
-    private bool var123 = false;
-    private bool var125 = false;
-    private bool var121 = false;
-    private bool var120 = false;
-    private bool var124 = false;
-    private bool var207 = false;
-    private bool var411 = false;
-    private bool var206 = false;
-    private bool var201 = false;
-    private bool var204 = false;
-    private bool var205 = false;
-    private bool var208 = false;
-    private bool var220 = false;
-    private bool var221 = false;
-    private bool var222 = false;
-    private bool var223 = false;
-    private bool var301 = false;
-    private bool var407 = false;
-    private bool var101 = false;
-    private bool var302 = false;
-    private bool var303 = false;
-    private bool var320 = false;
-    private bool var416 = false;
-    private bool var401 = false;
-    private bool var402 = false;
-    private bool var415 = false;
-    private bool var409 = false;
-    private bool var405 = false;
-    private bool var414 = false;
-    private bool var413 = false;
-    private bool var412 = false;
-    private bool var403 = false;
-    private bool var404 = false;
-    private bool var408 = false;
-    private bool var410 = false;
-    private bool var422 = false;
-    private bool var423 = false;
-    private bool var420 = false;
-    private bool var421 = false;
-    private bool var424 = false;
-    private bool var425 = false;
-    private bool var106 = false;
-    private bool var501 = false;
-    private bool var503 = false;
-    private bool var504 = false;
-    private bool var502 = false;
-    private bool var523 = false;
-    private bool var521 = false;
-    private bool var520 = false;
-    private bool var553 = false;
-    private bool var552 = false;
-    private bool var550 = false;
-    private bool var451 = false;
-    private bool var150 = false;
-    private bool var452 = false;
-    private bool var251 = false;
-    private bool var351 = false;
-    private bool var354 = false;
-    private bool var551 = false;
+    public bool var122 = false;
+    public bool var123 = false;
+    public bool var125 = false;
+    public bool var121 = false;
+    public bool var120 = false;
+    public bool var124 = false;
+
+    public bool var207 = false;
+    public bool var411 = false;
+    public bool var206 = false;
+    public bool var201 = false;
+    public bool var204 = false;
+    public bool var205 = false;
+    public bool var208 = false;
+    public bool var220 = false;
+    public bool var221 = false;
+    public bool var222 = false;
+    public bool var223 = false;
+    public bool var301 = false;
+    public bool var407 = false;
+    public bool var101 = false;
+    public bool var302 = false;
+    public bool var303 = false;
+    public bool var320 = false;
+    public bool var416 = false;
+    public bool var401 = false;
+    public bool var402 = false;
+    public bool var415 = false;
+    public bool var409 = false;
+    public bool var405 = false;
+    public bool var414 = false;
+    public bool var413 = false;
+    public bool var412 = false;
+    public bool var403 = false;
+    public bool var404 = false;
+    public bool var408 = false;
+    public bool var410 = false;
+    public bool var422 = false;
+    public bool var423 = false;
+    public bool var420 = false;
+    public bool var421 = false;
+    public bool var424 = false;
+    public bool var425 = false;
+    public bool var106 = false;
+    public bool var501 = false;
+    public bool var503 = false;
+    public bool var504 = false;
+    public bool var502 = false;
+    public bool var523 = false;
+    public bool var521 = false;
+    public bool var520 = false;
+    public bool var553 = false;
+    public bool var552 = false;
+    public bool var550 = false;
+    public bool var451 = false;
+    public bool var150 = false;
+    public bool var452 = false;
+    public bool var251 = false;
+    public bool var351 = false;
+    public bool var354 = false;
+    public bool var551 = false;
+    public bool var156 = false;
+    public bool var155 = false;
+    public bool var153 = false;
+    public bool var151 = false;
+    public bool var154 = false;
+    public bool var209 = false;
+    public bool var254 = false;
+    public bool var250 = false;
+    public bool var253 = false;
+    public bool var304 = false;
+    public bool var300 = false;
+    public bool var323 = false;
+    public bool var321 = false;
+    public bool var322 = false;
+    public bool var352 = false;
+    public bool var353 = false;
+    public bool var450 = false;
+    public bool var453 = false;
+    public bool var505 = false;
+    public bool var507 = false;
+    public bool var524 = false;
+    public bool var522 = false;
+
 
 
 
@@ -112,10 +147,10 @@ public class detectobj : MonoBehaviour, IDropHandler
     {
         detobj = deteobj.GetComponent<detectobj>();
         mouobj = movobj.GetComponentInChildren<Mouobj>();
-        mouobj2 = movobj.GetComponentInChildren<Mouobj>();
-        mouobj3 = movobj.GetComponentInChildren<Mouobj>();
-        mouobj4 = movobj.GetComponentInChildren<Mouobj>();
-        mouobj1 = movobj.GetComponentInChildren<Mouobj>();
+        /* detobj = deteobj2.GetComponent<detectobj>();
+         detobj = deteobj3.GetComponent<detectobj>();
+         detobj = deteobj4.GetComponent<detectobj>();
+         detobj = deteobj5.GetComponent<detectobj>();*/
         Debug.Log(mouobj);
         DontDestroyOnLoad(this);
     }
@@ -124,22 +159,22 @@ public class detectobj : MonoBehaviour, IDropHandler
     {
         if (eventData.pointerDrag != null)
         {
-            
+
             mouobj = eventData.pointerDrag.GetComponentInChildren<Mouobj>();
-         
+
             Debug.Log(mouobj);
             RectTransform cardRect = eventData.pointerDrag.GetComponent<RectTransform>();
-           // cardRect.SetParent(transform, false);
+            // cardRect.SetParent(transform, false);
             cardRect.transform.position = transform.position;
-            Debug.Log("vaig a fer l'if.idnota: "+ mouobj.idnota);
+            Debug.Log("vaig a fer l'if.idnota: " + mouobj.idnota);
             if (mouobj.idnota == 105)
             {
-                Debug.Log("SI he entrat al if. mouobj.entrat = "+mouobj.entrat);
-               
-                   // Debug.Log("mouobj.entrat");
-                    var105 = true;
+                Debug.Log("SI he entrat al if. mouobj.entrat = " + mouobj.entrat);
 
-                
+                Debug.Log("mouobj.entrat");
+                var105 = true;
+
+
             }
             else
             {
@@ -156,54 +191,57 @@ public class detectobj : MonoBehaviour, IDropHandler
             }
             if (mouobj.idnota == 408)
             {
-              
-                
-                    var408 = true;
 
-                
+
+                var408 = true;
+
+
             }
             if (mouobj.idnota == 302)
             {
-          
-                
-                    var302 = true;
 
-                
+
+                var302 = true;
+
+
             }
             if (mouobj.idnota == 208)
             {
-                
-                    var208 = true;
 
-                
+                var208 = true;
+
+
             }
             if (mouobj.idnota == 413)
             {
-                
-                    var413 = true;
 
-                
+                var413 = true;
+
+
             }
+
+
+
             if (mouobj.idnota == 303)
             {
-                
-                    var303 = true;
 
-                
+                var303 = true;
+
+
             }
             if (mouobj.idnota == 501)
             {
-                
-                    var501 = true;
 
-                
+                var501 = true;
+
+
             }
             if (mouobj.idnota == 412)
             {
-                
-                    var412 = true;
 
-                
+                var412 = true;
+
+
             }
 
             if (mouobj.idnota == 523)
@@ -285,7 +323,7 @@ public class detectobj : MonoBehaviour, IDropHandler
 
 
             }
-            
+
             if (mouobj.idnota == 351)
             {
 
@@ -309,16 +347,705 @@ public class detectobj : MonoBehaviour, IDropHandler
 
             }
 
+            if (mouobj.idnota == 125)
+            {
+
+                var125 = true;
 
 
+            }
+            if (mouobj.idnota == 221)
+            {
+
+                var221 = true;
 
 
+            }
+            if (mouobj.idnota == 424)
+            {
 
+                var424 = true;
+
+
+            }
+            if (mouobj.idnota == 420)
+            {
+
+                var420 = true;
+
+
+            }
+            if (mouobj.idnota == 425)
+            {
+
+                var425 = true;
+
+
+            }
+            if (mouobj.idnota == 521)
+            {
+
+                var521 = true;
+
+
+            }
+            if (mouobj.idnota == 523)
+            {
+
+                var523 = true;
+
+
+            }
+            if (mouobj.idnota == 451)
+            {
+
+                var451 = true;
+
+
+            }
+            if (mouobj.idnota == 125)
+            {
+
+                var125 = true;
+
+
+            }
+            if (mouobj.idnota == 150)
+            {
+
+                var150 = true;
+
+
+            }
+            if (mouobj.idnota == 251)
+            {
+
+                var251 = true;
+
+
+            }
         }
     }
     void Update()
     {
-        if(detobj.var105 == true)
+
+
+
+        if (detobj.var105 == true)
+        {
+            var105 = true;
+
+        }
+
+        if (detobj.var108 == true)
+        {
+            var108 = true;
+
+        }
+        if (detobj.var208 == true)
+        {
+            var208 = true;
+
+        }
+        if (detobj.var302 == true)
+        {
+            var302 = true;
+
+        }
+        if (detobj.var208 == true)
+        {
+            var208 = true;
+
+        }
+        if (detobj.var302 == true)
+        {
+            var302 = true;
+
+        }
+        if (detobj.var303 == true)
+        {
+            var303 = true;
+
+        }
+        if (detobj.var413 == true)
+        {
+            var413 = true;
+
+        }
+        if (detobj.var501 == true)
+        {
+            var501 = true;
+
+        }
+        if (detobj.var412 == true)
+        {
+            var412 = true;
+
+        }
+        if (detobj.var523 == true)
+        {
+            var523 = true;
+
+        }
+        if (detobj.var521 == true)
+        {
+            var521 = true;
+
+        }
+        if (detobj.var520 == true)
+        {
+            var520 = true;
+
+        }
+        if (detobj.var552 == true)
+        {
+            var552 = true;
+
+        }
+        if (detobj.var553 == true)
+        {
+            var553 = true;
+
+        }
+        if (detobj.var550 == true)
+        {
+            var550 = true;
+
+        }
+        if (detobj.var451 == true)
+        {
+            var451 = true;
+
+        }
+        if (detobj.var150 == true)
+        {
+            var150 = true;
+
+        }
+        if (detobj.var551 == true)
+        {
+            var551 = true;
+
+        }
+        if (detobj.var452 == true)
+        {
+            var452 = true;
+
+        }
+        if (detobj.var251 == true)
+        {
+            var251 = true;
+
+        }
+        if (detobj.var351 == true)
+        {
+            var351 = true;
+
+        }
+        if (detobj.var354 == true)
+        {
+            var354 = true;
+
+        }
+
+
+        
+
+
+        if (detobj.var105 == true)
+        {
+            var105 = true;
+
+        }
+
+        if (detobj.var108 == true)
+        {
+            var108 = true;
+
+        }
+        if (detobj.var208 == true)
+        {
+            var208 = true;
+
+        }
+        if (detobj.var302 == true)
+        {
+            var302 = true;
+
+        }
+        if (detobj.var208 == true)
+        {
+            var208 = true;
+
+        }
+        if (detobj.var302 == true)
+        {
+            var302 = true;
+
+        }
+        if (detobj.var303 == true)
+        {
+            var303 = true;
+
+        }
+        if (detobj.var413 == true)
+        {
+            var413 = true;
+
+        }
+        if (detobj.var501 == true)
+        {
+            var501 = true;
+
+        }
+        if (detobj.var412 == true)
+        {
+            var412 = true;
+
+        }
+        if (detobj.var523 == true)
+        {
+            var523 = true;
+
+        }
+        if (detobj.var521 == true)
+        {
+            var521 = true;
+
+        }
+        if (detobj.var520 == true)
+        {
+            var520 = true;
+
+        }
+        if (detobj.var552 == true)
+        {
+            var552 = true;
+
+        }
+        if (detobj.var553 == true)
+        {
+            var553 = true;
+
+        }
+        if (detobj.var550 == true)
+        {
+            var550 = true;
+
+        }
+        if (detobj.var451 == true)
+        {
+            var451 = true;
+
+        }
+        if (detobj.var150 == true)
+        {
+            var150 = true;
+
+        }
+        if (detobj.var551 == true)
+        {
+            var551 = true;
+
+        }
+        if (detobj.var452 == true)
+        {
+            var452 = true;
+
+        }
+        if (detobj.var251 == true)
+        {
+            var251 = true;
+
+        }
+        if (detobj.var351 == true)
+        {
+            var351 = true;
+
+        }
+        if (detobj.var354 == true)
+        {
+            var354 = true;
+
+        }
+
+
+
+
+
+        if (detobj.var105 == true)
+        {
+            var105 = true;
+
+        }
+
+        if (detobj.var108 == true)
+        {
+            var108 = true;
+
+        }
+        if (detobj.var208 == true)
+        {
+            var208 = true;
+
+        }
+        if (detobj.var302 == true)
+        {
+            var302 = true;
+
+        }
+        if (detobj.var208 == true)
+        {
+            var208 = true;
+
+        }
+        if (detobj.var302 == true)
+        {
+            var302 = true;
+
+        }
+        if (detobj.var303 == true)
+        {
+            var303 = true;
+
+        }
+        if (detobj.var413 == true)
+        {
+            var413 = true;
+
+        }
+        if (detobj.var501 == true)
+        {
+            var501 = true;
+
+        }
+        if (detobj.var412 == true)
+        {
+            var412 = true;
+
+        }
+        if (detobj.var523 == true)
+        {
+            var523 = true;
+
+        }
+        if (detobj.var521 == true)
+        {
+            var521 = true;
+
+        }
+        if (detobj.var520 == true)
+        {
+            var520 = true;
+
+        }
+        if (detobj.var552 == true)
+        {
+            var552 = true;
+
+        }
+        if (detobj.var553 == true)
+        {
+            var553 = true;
+
+        }
+        if (detobj.var550 == true)
+        {
+            var550 = true;
+
+        }
+        if (detobj.var451 == true)
+        {
+            var451 = true;
+
+        }
+        if (detobj.var150 == true)
+        {
+            var150 = true;
+
+        }
+        if (detobj.var551 == true)
+        {
+            var551 = true;
+
+        }
+        if (detobj.var452 == true)
+        {
+            var452 = true;
+
+        }
+        if (detobj.var251 == true)
+        {
+            var251 = true;
+
+        }
+        if (detobj.var351 == true)
+        {
+            var351 = true;
+
+        }
+        if (detobj.var354 == true)
+        {
+            var354 = true;
+
+        }
+
+
+
+
+
+
+        if (detobj.var105 == true)
+        {
+            var105 = true;
+
+        }
+
+        if (detobj.var108 == true)
+        {
+            var108 = true;
+
+        }
+        if (detobj.var208 == true)
+        {
+            var208 = true;
+
+        }
+        if (detobj.var302 == true)
+        {
+            var302 = true;
+
+        }
+        if (detobj.var208 == true)
+        {
+            var208 = true;
+
+        }
+        if (detobj.var302 == true)
+        {
+            var302 = true;
+
+        }
+        if (detobj.var303 == true)
+        {
+            var303 = true;
+
+        }
+        if (detobj.var413 == true)
+        {
+            var413 = true;
+
+        }
+        if (detobj.var501 == true)
+        {
+            var501 = true;
+
+        }
+        if (detobj.var412 == true)
+        {
+            var412 = true;
+
+        }
+        if (detobj.var523 == true)
+        {
+            var523 = true;
+
+        }
+        if (detobj.var521 == true)
+        {
+            var521 = true;
+
+        }
+        if (detobj.var520 == true)
+        {
+            var520 = true;
+
+        }
+        if (detobj.var552 == true)
+        {
+            var552 = true;
+
+        }
+        if (detobj.var553 == true)
+        {
+            var553 = true;
+
+        }
+        if (detobj.var550 == true)
+        {
+            var550 = true;
+
+        }
+        if (detobj.var451 == true)
+        {
+            var451 = true;
+
+        }
+        if (detobj.var150 == true)
+        {
+            var150 = true;
+
+        }
+        if (detobj.var551 == true)
+        {
+            var551 = true;
+
+        }
+        if (detobj.var452 == true)
+        {
+            var452 = true;
+
+        }
+        if (detobj.var251 == true)
+        {
+            var251 = true;
+
+        }
+        if (detobj.var351 == true)
+        {
+            var351 = true;
+
+        }
+        if (detobj.var354 == true)
+        {
+            var354 = true;
+
+        }
+
+
+
+
+
+
+
+        if (detobj.var105 == true)
+        {
+            var105 = true;
+
+        }
+
+        if (detobj.var108 == true)
+        {
+            var108 = true;
+
+        }
+        if (detobj.var208 == true)
+        {
+            var208 = true;
+
+        }
+        if (detobj.var302 == true)
+        {
+            var302 = true;
+
+        }
+        if (detobj.var208 == true)
+        {
+            var208 = true;
+
+        }
+        if (detobj.var302 == true)
+        {
+            var302 = true;
+
+        }
+        if (detobj.var303 == true)
+        {
+            var303 = true;
+
+        }
+        if (detobj.var413 == true)
+        {
+            var413 = true;
+
+        }
+        if (detobj.var501 == true)
+        {
+            var501 = true;
+
+        }
+        if (detobj.var412 == true)
+        {
+            var412 = true;
+
+        }
+        if (detobj.var523 == true)
+        {
+            var523 = true;
+
+        }
+        if (detobj.var521 == true)
+        {
+            var521 = true;
+
+        }
+        if (detobj.var520 == true)
+        {
+            var520 = true;
+
+        }
+        if (detobj.var552 == true)
+        {
+            var552 = true;
+
+        }
+        if (detobj.var553 == true)
+        {
+            var553 = true;
+
+        }
+        if (detobj.var550 == true)
+        {
+            var550 = true;
+
+        }
+        if (detobj.var451 == true)
+        {
+            var451 = true;
+
+        }
+        if (detobj.var150 == true)
+        {
+            var150 = true;
+
+        }
+        if (detobj.var551 == true)
+        {
+            var551 = true;
+
+        }
+        if (detobj.var452 == true)
+        {
+            var452 = true;
+
+        }
+        if (detobj.var251 == true)
+        {
+            var251 = true;
+
+        }
+        if (detobj.var351 == true)
+        {
+            var351 = true;
+
+        }
+        if (detobj.var354 == true)
+        {
+            var354 = true;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+        if (detobj.var105 == true)
         {
             if(var108 == true)
             {
@@ -435,11 +1162,6 @@ public class detectobj : MonoBehaviour, IDropHandler
 
 
 
-
-
-
-
-
         if (var105 == true)
         {
             if (detobj.var108 == true)
@@ -538,6 +1260,17 @@ public class detectobj : MonoBehaviour, IDropHandler
                 contr13 = true;
             }
         }
+
+   
+
+
+
+
+
+
+
+
+
     }
 }
 

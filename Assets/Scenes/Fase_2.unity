@@ -855,11 +855,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -30.13593, y: 271.4383}
+  scrollPos: {x: 37.25749, y: 382.75772}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.96899974
+  blockViewHeight: 422
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -867,7 +867,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 358401478}
+  - {fileID: 358401471}
   selectedCommands: []
   variables:
   - {fileID: 358401502}
@@ -894,8 +894,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moviment: {fileID: 0}
-  final: 1
 --- !u!114 &358401442
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1062,7 +1060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "No ho recordo gaire. No li agrada parlar de la seva vida a ning\xFA"
+  storyText: So I asked about it and she told me she once was going to have babies.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -1084,24 +1082,149 @@ MonoBehaviour:
   m_GameObject: {fileID: 358401439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 39
+  itemId: 142
   indentLevel: 0
-  storyText: Tot i que crec que em va dir que va estar embarassada de jove
-  description: 
-  character: {fileID: 358401501}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  anyVar:
+    variable: {fileID: 358401509}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 221
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &358401445
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1114,11 +1237,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 38
+  itemId: 141
   indentLevel: 0
-  storyText: "I clar, que jo s\xE0piga mai ha tingut fills"
+  storyText: Bye!
   description: 
-  character: {fileID: 358401501}
+  character: {fileID: 1240194396}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1295,8 +1418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: "Una vegada quan era petita, vaig anar una tarda a casa seva i vaig
-    trobar un vestidet de beb\xE8 a la seva habitaci\xF3"
+  storyText: When I was little, I once found baby clothes in her bedroom.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -1323,7 +1445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: A vegades hi ha coses de la seva vida que m'amaga
+  storyText: I know she's very private about her personal life.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -1350,7 +1472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: "Suposo, no s\xE9..."
+  storyText: I guess... I don't know
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -1377,7 +1499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  text: "I creus que el Barry s\xED?"
+  text: And you think Barry would?
   description: 
   targetBlock: {fileID: 358401481}
   hideIfVisited: 0
@@ -1402,9 +1524,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 451.4323
-    y: -65.5487
-    width: 96.43964
+    x: 447.4323
+    y: -67.5487
+    width: 95
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1415,11 +1537,12 @@ MonoBehaviour:
   commandList:
   - {fileID: 358401449}
   - {fileID: 358401448}
-  - {fileID: 358401447}
-  - {fileID: 358401445}
-  - {fileID: 358401444}
-  - {fileID: 358401443}
   - {fileID: 358401442}
+  - {fileID: 358401447}
+  - {fileID: 358401443}
+  - {fileID: 358401507}
+  - {fileID: 358401508}
+  - {fileID: 358401506}
   - {fileID: 358401452}
   - {fileID: 358401446}
   suppressAllAutoSelections: 0
@@ -1454,7 +1577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  text: "Segur que la coneixes tan b\xE9?"
+  text: Do you really know her that well?
   description: 
   targetBlock: {fileID: 358401451}
   hideIfVisited: 0
@@ -1631,7 +1754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: "Crec que la conec b\xE9 i mai faria una cosa aix\xED"
+  storyText: I know her well enough to know she'd never do something like this.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -1656,10 +1779,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 140
   indentLevel: 0
-  storyText: La Pamela m'ha cuidat des que soc petiteta, encara que no fos la meva
-    mare.
+  storyText: I have to go now.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -1838,7 +1960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: Si fos culpa de la Pamela estic segura que ho diria
+  storyText: If it was Pamela's fault I'm sure she'd tell me.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -1865,7 +1987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: No crec... no?
+  storyText: I don't think so...
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -2196,8 +2318,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: "Ja \xE9s hora que alg\xFA faci fora a l'hom\xF2fob amargat d'alcalde
-    que tenim i governi una alcaldessa"
+  storyText: It... It's time to kick this homophobic and bitter mayor out and let
+    the first woman mayor be in charge.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -2224,7 +2346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: "D-d-doncs mira no \xE9s mala idea"
+  storyText: Well... that's not a bad idea, actually.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -2263,149 +2385,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 358401439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 22
+  itemId: 139
   indentLevel: 0
-  anyVar:
-    variable: {fileID: 931908007}
-    data:
-      animatorData:
-        animatorRef: {fileID: 0}
-        animatorVal: {fileID: 0}
-      audioSourceData:
-        audioSourceRef: {fileID: 0}
-        audioSourceVal: {fileID: 0}
-      booleanData:
-        booleanRef: {fileID: 0}
-        booleanVal: 0
-      collectionData:
-        collectionRef: {fileID: 0}
-        collectionVal: {fileID: 0}
-      collider2DData:
-        collider2DRef: {fileID: 0}
-        collider2DVal: {fileID: 0}
-      colliderData:
-        colliderRef: {fileID: 0}
-        colliderVal: {fileID: 0}
-      colorData:
-        colorRef: {fileID: 0}
-        colorVal: {r: 0, g: 0, b: 0, a: 0}
-      floatData:
-        floatRef: {fileID: 0}
-        floatVal: 0
-      gameObjectData:
-        gameObjectRef: {fileID: 0}
-        gameObjectVal: {fileID: 0}
-      integerData:
-        integerRef: {fileID: 0}
-        integerVal: 124
-      materialData:
-        materialRef: {fileID: 0}
-        materialVal: {fileID: 0}
-      matrix4x4Data:
-        matrix4x4Ref: {fileID: 0}
-        matrix4x4Val:
-          e00: 0
-          e01: 0
-          e02: 0
-          e03: 0
-          e10: 0
-          e11: 0
-          e12: 0
-          e13: 0
-          e20: 0
-          e21: 0
-          e22: 0
-          e23: 0
-          e30: 0
-          e31: 0
-          e32: 0
-          e33: 0
-      objectData:
-        objectRef: {fileID: 0}
-        objectVal: {fileID: 0}
-      quaternionData:
-        quaternionRef: {fileID: 0}
-        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
-      rigidbody2DData:
-        rigidbody2DRef: {fileID: 0}
-        rigidbody2DVal: {fileID: 0}
-      rigidbodyData:
-        rigidbodyRef: {fileID: 0}
-        rigidbodyVal: {fileID: 0}
-      spriteData:
-        spriteRef: {fileID: 0}
-        spriteVal: {fileID: 0}
-      stringData:
-        stringRef: {fileID: 0}
-        stringVal: 
-      textureData:
-        textureRef: {fileID: 0}
-        textureVal: {fileID: 0}
-      transformData:
-        transformRef: {fileID: 0}
-        transformVal: {fileID: 0}
-      vector2Data:
-        vector2Ref: {fileID: 0}
-        vector2Val: {x: 0, y: 0}
-      vector3Data:
-        vector3Ref: {fileID: 0}
-        vector3Val: {x: 0, y: 0, z: 0}
-      vector4Data:
-        vector4Ref: {fileID: 0}
-        vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  setOperator: 0
-  variable: {fileID: 0}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
+  storyText: Sure!
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &358401466
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2418,10 +2415,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 21
+  itemId: 138
   indentLevel: 0
-  storyText: "No t'hi acostis ja que des que va perdre els pares i la germana \xE9s
-    una persona amargada i t\xF2xica"
+  storyText: Would you help me?
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -2448,7 +2444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Porto anys lluitant sola contra l'acci\xF3 del Barry"
+  storyText: I've been fighting against Barry's factory for years.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -2475,8 +2471,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: "\xC9s dif\xEDcil manifestar-te quan ets l'\xFAnica persona del poble
-    que pensa en el mediambient"
+  storyText: It's hard to begin a protest when you're one of the very few people
+    in this town whe cares about the enviroment.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -2503,9 +2499,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 465.97174
-    y: -252.45312
-    width: 101.5996
+    x: 450.97174
+    y: -251.45312
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2518,6 +2514,9 @@ MonoBehaviour:
   - {fileID: 358401467}
   - {fileID: 358401466}
   - {fileID: 358401465}
+  - {fileID: 358401444}
+  - {fileID: 358401456}
+  - {fileID: 358401445}
   - {fileID: 358401480}
   - {fileID: 358401473}
   suppressAllAutoSelections: 0
@@ -2535,7 +2534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  text: "Per\xF2 has fet alguna protesta o algo?"
+  text: But have you ever tried to start a protest?
   description: 
   targetBlock: {fileID: 358401469}
   hideIfVisited: 0
@@ -2560,9 +2559,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 468.89725
-    y: -166.46574
-    width: 162.48712
+    x: 448.89725
+    y: -162.46574
+    width: 159
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2571,10 +2570,14 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 358401461}
   - {fileID: 358401463}
   - {fileID: 358401462}
-  - {fileID: 358401461}
   - {fileID: 358401460}
+  - {fileID: 358401505}
+  - {fileID: 358401504}
+  - {fileID: 358401500}
+  - {fileID: 358401503}
   - {fileID: 358401464}
   - {fileID: 358401457}
   suppressAllAutoSelections: 0
@@ -2592,7 +2595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  text: Has pensat en ser alcaldessa?
+  text: Have you ever thought about becoming the mayor?
   description: 
   targetBlock: {fileID: 358401471}
   hideIfVisited: 0
@@ -2921,8 +2924,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: Porto anys queixant-me al Barry i a l'inepte de l'alcalde de l'Oliver
-    i ni cas
+  storyText: I've been complaining to Barry and to the incompetent mayor we have
+    for years. And they haven't done anything about it.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -2949,8 +2952,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "\xC9s un problema greu pel mediambient i estic segura que aquesta pudor
-    \xE9s conseq\xFC\xE8ncia directa de la f\xE0brica"
+  storyText: It's a huge enviromental problem. I'm sure this smell is a direct consequence
+    from the factoy.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -2977,7 +2980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: "Hi ha moltes coses que desconeixes de la f\xE0brica de roba"
+  storyText: There are many things you don't know about the clothes' factory.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -3004,9 +3007,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 314.3245
-    y: -66.42013
-    width: 86.11972
+    x: 277.3245
+    y: -67.42013
+    width: 85
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3017,7 +3020,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 358401459}
   - {fileID: 358401458}
-  - {fileID: 358401456}
   - {fileID: 358401455}
   - {fileID: 358401454}
   - {fileID: 358401453}
@@ -3038,7 +3040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: "Per\xF2 aquesta pudor pot ser de les vaques"
+  text: But this smell could be from the cows?
   description: 
   targetBlock: {fileID: 358401478}
   hideIfVisited: 0
@@ -3082,7 +3084,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274.8748
     y: -159.84996
-    width: 90.24769
+    width: 89
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3113,7 +3115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  text: "Qu\xE8 et passa amb la f\xE0brica?"
+  text: What's wrong with the factory?
   description: 
   targetBlock: {fileID: 358401481}
   hideIfVisited: 0
@@ -3138,7 +3140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
-  text: Fes-te alcaldessa i arregla aquest poble
+  text: You should become mayor and fix things around here.
   description: 
   targetBlock: {fileID: 358401471}
   hideIfVisited: 0
@@ -3315,7 +3317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: "Uffff.... segur que \xE9s la f\xE0brica del Barrrry"
+  storyText: Ugh.... I'm sure it's from Barry's factory
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -3342,7 +3344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "Crec que l'origen \xE9s la granja o la f\xE0brica"
+  storyText: I think it comes from the factory or the farm.
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -3369,7 +3371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Exactament no
+  storyText: Not exactly...
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -3396,7 +3398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "Saps qu\xE8 ha passat? Amb aquesta pudor dic...."
+  storyText: Do you know what's happening? With this smell, I mean....
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -3423,7 +3425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: B-b-bon dia Robin!
+  storyText: G...G... Good morining Robin!
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -3450,9 +3452,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 82.53638
-    y: -166.1214
-    width: 104.69557
+    x: 87.53638
+    y: -158.1214
+    width: 103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3485,7 +3487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 128
   indentLevel: 0
-  text: jo crec que desconeixes molt problemes de la granja
+  text: I think you don't know about many of the farm issues...
   description: 
   targetBlock: {fileID: 358401478}
   hideIfVisited: 0
@@ -3510,7 +3512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 127
   indentLevel: 0
-  text: Te'n fies massa de la Pamela...
+  text: I think you trust Pamela too much...
   description: 
   targetBlock: {fileID: 358401451}
   hideIfVisited: 0
@@ -3535,7 +3537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  text: Tens alguna prova?
+  text: Do you have any evidence?
   description: 
   targetBlock: {fileID: 358401481}
   hideIfVisited: 0
@@ -3560,7 +3562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  text: "Per qu\xE8 no cremes la seva f\xE0brica?"
+  text: Why don't you burn down the factory?
   description: 
   targetBlock: {fileID: 358401469}
   hideIfVisited: 0
@@ -3585,7 +3587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 0
-  storyText: "S\xE9 recon\xE9ixer una mala persona i ell n'\xE9s una"
+  storyText: I can recognize an bad person when I see one.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -3612,7 +3614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 123
   indentLevel: 0
-  storyText: "\xC9s culpa del Barry segur..."
+  storyText: I'm sure it's Barry's fault.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -3639,7 +3641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  storyText: "Qu\xE8 dius?"
+  storyText: What?! Hahahaha
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -3666,9 +3668,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 236.53638
-    y: -252.1214
-    width: 67.54387
+    x: 287.53638
+    y: -251.1214
+    width: 67
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3678,6 +3680,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 358401497}
+  - {fileID: 358401510}
   - {fileID: 358401496}
   - {fileID: 358401495}
   - {fileID: 358401494}
@@ -3698,7 +3701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 120
   indentLevel: 0
-  text: "Tamb\xE9 pot venir del teu cul..."
+  text: How long has it been since you last showered?
   description: 
   targetBlock: {fileID: 358401498}
   hideIfVisited: 0
@@ -3709,6 +3712,33 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &358401500
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 137
+  indentLevel: 0
+  storyText: I have to go now.
+  description: 
+  character: {fileID: 358401501}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &358401501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3743,6 +3773,170 @@ MonoBehaviour:
   scope: 1
   key: finish
   value: 0
+--- !u!114 &358401503
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 136
+  indentLevel: 0
+  storyText: Bye!
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &358401504
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 135
+  indentLevel: 0
+  storyText: Sure!
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &358401505
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  indentLevel: 0
+  storyText: Would you help me?
+  description: 
+  character: {fileID: 358401501}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &358401506
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  indentLevel: 0
+  storyText: I think I said too much... See you around!
+  description: 
+  character: {fileID: 358401501}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &358401507
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 132
+  indentLevel: 0
+  storyText: 'She has never mentioned it again, and I never brought it up again.
+
+'
+  description: 
+  character: {fileID: 358401501}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &358401508
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 131
+  indentLevel: 0
+  storyText: I shouldn't be telling you about this...
+  description: 
+  character: {fileID: 358401501}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &358401509
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3758,6 +3952,33 @@ MonoBehaviour:
   scope: 1
   key: Carol
   value: 0
+--- !u!114 &358401510
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  indentLevel: 0
+  storyText: Very funny, Robin.
+  description: 
+  character: {fileID: 358401501}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &392088779
 GameObject:
   m_ObjectHideFlags: 0
@@ -4630,10 +4851,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -359.6531, y: 110.99511}
+  scrollPos: {x: -320.2462, y: 81.88373}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 463
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -4641,7 +4862,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 672038980}
   selectedCommands: []
   variables:
   - {fileID: 672038978}
@@ -4706,7 +4928,6 @@ MonoBehaviour:
   - {fileID: 672039002}
   - {fileID: 672039000}
   - {fileID: 672039001}
-  - {fileID: 672038999}
   - {fileID: 672038998}
   - {fileID: 672038997}
   - {fileID: 672039050}
@@ -4725,8 +4946,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 662.822
-    y: -66.74382
+    x: 742.822
+    y: -28.74382
     width: 131
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4738,6 +4959,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 672039045}
   - {fileID: 672039059}
+  - {fileID: 672038999}
   - {fileID: 672039036}
   - {fileID: 672039035}
   - {fileID: 672039034}
@@ -4757,7 +4979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 593.5308
+    x: 556.5308
     y: 93.24646
     width: 146
     height: 40
@@ -4944,8 +5166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: "No s\xE9 qui haur\xE0 estat perqu\xE8 la tieta Pamela guarda la merda
-    de vaca a plena vista i qualsevol la pot haver agafat"
+  storyText: "I don't know who could be the culprit, because Pamela keeps cow's feces
+    in full view and anyone could have done it.\x03 "
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5124,7 +5346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: Doncs netejant la merda de vaca de les clavagueres
+  storyText: Cleaning the sewers.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5607,7 +5829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: Aiii...... no et facis gran noi, no val la pena....
+  storyText: Ugh... never grow up, kiddo. It's not worth it...
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5634,7 +5856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: I ara estic mantenint a dues dones i dos nens
+  storyText: And now I have to provide for two women and two kids....
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5661,7 +5883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: Total que m'ho vaig acabar empassant jo solet
+  storyText: So I had to take over.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5688,7 +5910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: "I \xE9s clar, com pots veure ho t\xE9 dif\xEDcil per entrar-hi"
+  storyText: As you can see, she can't get into the bar.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5715,8 +5937,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "Per\xF2, bueno com ja saps la Thea va tenir un accident fa uns pocs
-    anyets i es va quedar en cadira de rodes"
+  storyText: But then.... You know... Thea had an accident few years ago and she
+    ended up in a wheelchair.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5743,8 +5965,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: "Per altra banda, originalment el bar era de mons pares i ens ho hav\xEDem
-    de compartir ma germana Thea i jo un cop es van jubilar"
+  storyText: On the other hand, Thea and I were supposed to split the bar once my
+    parents got retired.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5771,8 +5993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: "A veure el bar va molt b\xE9 econ\xF2micament aix\xED que tothom del
-    poble suposo, menys el Barry"
+  storyText: Well.... the Verdant is thriving, so it could be anybody, but Barry.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5811,15 +6032,16 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 672038995}
+  - {fileID: 672038988}
   - {fileID: 672038994}
   - {fileID: 672038993}
+  - {fileID: 672038986}
   - {fileID: 672038992}
   - {fileID: 672038991}
+  - {fileID: 672038987}
   - {fileID: 672038990}
   - {fileID: 672038989}
-  - {fileID: 672038988}
-  - {fileID: 672038986}
-  - {fileID: 672038987}
+  - {fileID: 672039062}
   - {fileID: 672039024}
   - {fileID: 672039026}
   - {fileID: 672039025}
@@ -5838,7 +6060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  text: Qui podria estar interessat en tenir el teu bar?
+  text: Who'd want to vandalize your bar?
   description: 
   targetBlock: {fileID: 672038996}
   hideIfVisited: 0
@@ -5863,7 +6085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  text: "On \xE9s el Bruce?"
+  text: Where's Bruce?
   description: 
   targetBlock: {fileID: 672038981}
   hideIfVisited: 0
@@ -5876,7 +6098,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &672038999
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5886,9 +6108,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 11
+  itemId: 165
   indentLevel: 0
-  storyText: "Qu\xE8 em vols preguntar?"
+  storyText: Sorry, I'm a bit busy. See you, kiddo!
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5942,7 +6164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: "B\xE9, si vols estic aqu\xED per ajudar-te en la teva investigaci\xF3"
+  storyText: Well, if you need any help, just ask me.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5969,8 +6191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: "Va, home! Si aix\xF2 de l'emmascarat \xE9s un mite per espantar a les
-    nenes!"
+  storyText: C'mon, this lunatic thing is a myth to scare little girls.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -5997,7 +6218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: Que bona chaval!
+  storyText: That's a good one, kiddo.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6024,7 +6245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: L'emmascarat?? HAHAHAHAHAHAHA
+  storyText: The Hooded Lunatic?! HAHAHAHAHAHAHA
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6051,7 +6272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: "Estic segur que est\xE0 darrere d'aquesta pudor"
+  storyText: I'm sure they're the one behind this smell.
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -6078,7 +6299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "B\xE9, \xE9s que porto un temps investigant a l'emmascarat"
+  storyText: Well, I've been investigating the hooded lunatic....
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -6105,7 +6326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "Aix\xED m'agrada, tens fusta d'alcalde"
+  storyText: I like that, you'll make a good mayor.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6132,7 +6353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "Veig que \xFAltimament est\xE0s molt charlatan amb la gent del poble"
+  storyText: I see that lately you've been chatty with the town's people.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6159,7 +6380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Ei com va noi?!
+  storyText: Hey, kiddo!
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6186,7 +6407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: "Sort tenim del Bruce, que quan deixa la beguda fa coses \xFAtils"
+  storyText: We're lucky to have Bruce, when he's sober, he can be useful.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6365,7 +6586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: "Est\xE0 en la ru\xEFna i l'intento ajudar com a bon alcalde"
+  storyText: He's broke and I'm trying to help him as a good mayor.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6392,7 +6613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: "B\xE9, ara mateix s\xED pobre home"
+  storyText: Well, now he does.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6571,7 +6792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "Diguem que no porta b\xE9 la mort d'ella i aix\xED est\xE0"
+  storyText: And since she died...
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6598,8 +6819,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: Era la dona del Bruce i la mare de la... de la... Helena i el Damian,
-    crec...?
+  storyText: She was Bruce's wife and.... Helena and Damian's.... mother, is that
+    their names?
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6626,7 +6847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: Recordes l'Eleanor, no?
+  storyText: Do you remember Eleanor?
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6653,7 +6874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: "Ostres, aix\xF2 \xE9s bastant personal"
+  storyText: Oh, wow! That's quite personal, kiddo.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -6693,9 +6914,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 672039018}
   - {fileID: 672039017}
+  - {fileID: 672039014}
   - {fileID: 672039016}
   - {fileID: 672039015}
-  - {fileID: 672039014}
+  - {fileID: 672039061}
   - {fileID: 672039032}
   - {fileID: 672039028}
   - {fileID: 672039031}
@@ -6714,7 +6936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  text: Des de quan li dona a la beguda?
+  text: Since when does he drink?
   description: 
   targetBlock: {fileID: 672039019}
   hideIfVisited: 0
@@ -6739,8 +6961,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 813.5308
-    y: 30.24646
+    x: 809.5308
+    y: 92.24646
     width: 78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6753,6 +6975,7 @@ MonoBehaviour:
   - {fileID: 672039013}
   - {fileID: 672039012}
   - {fileID: 672039011}
+  - {fileID: 672039060}
   - {fileID: 672039030}
   - {fileID: 672039027}
   - {fileID: 672039029}
@@ -6771,7 +6994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  text: "Aix\xED que el Bruce es guanya la vida de netejador del poble?"
+  text: So Bruce makes his living by cleaning the town?
   description: 
   targetBlock: {fileID: 672039021}
   hideIfVisited: 0
@@ -6796,7 +7019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: "\xC9s el netejador del poble des de fa ben poc"
+  storyText: He's been the street cleaner for a while now.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -7774,7 +7997,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  storyText: "I on \xE9s ara?"
+  storyText: Where is he now?
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -7801,7 +8024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 0
-  storyText: El Bruce!
+  storyText: Bruce!
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -7828,7 +8051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  storyText: Qui?
+  storyText: Who?
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -7855,7 +8078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 152
   indentLevel: 0
-  storyText: "Per sort tinc una persona que s'encarrega d'aix\xF2"
+  storyText: Luckily I have somebody taking care of that.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -7882,7 +8105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 151
   indentLevel: 0
-  storyText: "L'\xFAnic que puc fer \xE9s netejar-ho tot"
+  storyText: All I can do now is cleaning everything.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -7897,7 +8120,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &672039045
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7907,10 +8130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 129
+  itemId: 164
   indentLevel: 0
-  storyText: "A veure, el bar va molt b\xE9 econ\xF2micament aix\xED que tothom ho
-    pot haver fet"
+  storyText: Well.... the Verdant is thriving, so it could be anybody, but Barry.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -7937,7 +8159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 127
   indentLevel: 0
-  text: "La gent no ataca als bars perqu\xE8 si, qui va ser?"
+  text: People don't just attack bars for no reason, who could have done it?
   description: 
   targetBlock: {fileID: 672038980}
   hideIfVisited: 0
@@ -7962,7 +8184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  storyText: I don't believe you
+  storyText: I don't believe you.
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -7989,7 +8211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: I know exactly the same as you
+  storyText: I know as much as you do.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -8047,7 +8269,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 123
   indentLevel: 0
-  text: "Com a alcalde tens informaci\xF3 privilegiada sobre les pintades i la pudor?"
+  text: As a mayor, do you have any extra information about the paintings or this
+    smell?
   description: 
   targetBlock: {fileID: 672039049}
   hideIfVisited: 0
@@ -8256,7 +8479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  text: "Llavors est\xE0s fent alguna cosa al respecte?"
+  text: Are you doing something about it?
   description: 
   targetBlock: {fileID: 672039051}
   hideIfVisited: 0
@@ -8281,7 +8504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 147
   indentLevel: 0
-  text: Un bon alcalde ja hauria trobat el culpable
+  text: A good mayor would have found the culprit already!
   description: 
   targetBlock: {fileID: 672039057}
   hideIfVisited: 0
@@ -8304,9 +8527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 146
+  itemId: 163
   indentLevel: 0
-  storyText: "Ves a jugar per all\xE0..."
+  storyText: Go play or something....
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -8333,7 +8556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 0
-  storyText: Mira noi... deixa'm
+  storyText: Look kiddo.... Leave me alone!
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -8360,8 +8583,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 822.5308
-    y: 94.24647
+    x: 748.5308
+    y: 31.246468
     width: 115
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8391,7 +8614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 0
-  text: Un bon alcalde ja ho hauria solucionat
+  text: A good mayor would have solved this by now.
   description: 
   targetBlock: {fileID: 672039057}
   hideIfVisited: 0
@@ -8416,7 +8639,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 142
   indentLevel: 0
-  storyText: "La gent \xE9s molt envejosa"
+  storyText: People are bitter about it...
+  description: 
+  character: {fileID: 672039076}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &672039060
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672038976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 162
+  indentLevel: 0
+  storyText: Sorry, I'm a bit busy. See you, kiddo!
+  description: 
+  character: {fileID: 672039076}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &672039061
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672038976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 161
+  indentLevel: 0
+  storyText: Sorry, this got too heavy. See you, kiddo!
+  description: 
+  character: {fileID: 672039076}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &672039062
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672038976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 160
+  indentLevel: 0
+  storyText: Sorry, I have to go do adult stuff. See you, kiddo!
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -8460,8 +8764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moviment: {fileID: 0}
-  final: 0
 --- !u!114 &672039085
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8978,8 +9280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: "Porta un temps tenint una relaci\xF3 sentimental amb la Thea i ho porten
-    d'amagades"
+  storyText: She's been dating Thea for a while, but they are hidding it.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9025,7 +9326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: "Si sabessis amb qui m\xE9s ha estat..."
+  storyText: If only you knew who else she's been with...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9221,7 +9522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: La Carol....
+  storyText: Carol
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9248,8 +9549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: "La Carol sembla una noia timideta i tal per\xF2 \xE9s m\xE9s del que
-    sembla"
+  storyText: Carol looks like a shy little girl, but she's more than she seems.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9278,7 +9578,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 625.85834
     y: -86.15704
-    width: 127.76072
+    width: 117.68855
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9307,7 +9607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  text: Oliver
+  text: What about Oliver?
   description: 
   targetBlock: {fileID: 931907939}
   hideIfVisited: 0
@@ -9486,7 +9786,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 597.43427
     y: -146.89314
-    width: 124.65029
+    width: 115.13427
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9517,7 +9817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  text: Carol
+  text: What about Carol?
   description: 
   targetBlock: {fileID: 931907942}
   hideIfVisited: 0
@@ -9540,9 +9840,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 44
+  itemId: 149
   indentLevel: 0
-  storyText: "Vols saber salseig dels teus ve\xEFns eh... De qui?"
+  storyText: Like Carol and Oliver...
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -9569,7 +9869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: "Qu\xE8 els hi passa a la gent del poble?"
+  storyText: What do you mean?
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -9596,7 +9896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: i no necessito amargar la vida de tothom com fan molts d'aquest poble
+  storyText: And I don't go crying about it like some people of this town.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -9775,8 +10075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: Mira, jo vaig perdre els meus pares amb uns 27 anys i la meva germana
-    fa ben poc
+  storyText: I lost my parents at 27 and my sister not long ago.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -9803,8 +10102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "Mira noi, la vida \xE9s dura i si no l'agafes amb for\xE7a, est\xE0s
-    perdut"
+  storyText: Look kid, life is hard, you can't be a wimp.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -9831,7 +10129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: Agressiu jo? Que va!
+  storyText: Me? agressive? No way!
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10010,7 +10308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 115
   indentLevel: 0
-  text: Stop pretending, it was you!
+  text: Stop pretending, I know it's your fault!
   description: 
   targetBlock: {fileID: 931907998}
   hideIfVisited: 0
@@ -10324,7 +10622,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 481.81662
     y: -84.812775
-    width: 102.87729
+    width: 94.69999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10339,6 +10637,7 @@ MonoBehaviour:
   - {fileID: 931907936}
   - {fileID: 931907946}
   - {fileID: 931907945}
+  - {fileID: 931908008}
   - {fileID: 931907944}
   - {fileID: 931907943}
   - {fileID: 931907940}
@@ -10527,7 +10826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  text: "Sempre m'he preguntat per qu\xE8 ets tan agressiu"
+  text: I've always wondered why you're so agressive.
   description: 
   targetBlock: {fileID: 931907959}
   hideIfVisited: 0
@@ -10554,7 +10853,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 622.0341
     y: 26.499985
-    width: 121.53986
+    width: 115.13427
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10588,7 +10887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  text: "Tinc la sensaci\xF3 de que t'interesses molt per la meva mare..."
+  text: Why do you always ask about my mom?
   description: 
   targetBlock: {fileID: 931907963}
   hideIfVisited: 0
@@ -10613,7 +10912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: "Qu\xE8 tal per casa?"
+  storyText: How's the family? And your mom?
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10640,7 +10939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: Bueno, deixa'm estar noi.
+  storyText: Whatever.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10667,7 +10966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: Cada dia aguanto menys la pudor de merda de vaca
+  storyText: I feel like each day, this cow shit smells worse.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10711,7 +11010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: "I aquesta pudor constant \xE9s insuportable"
+  storyText: and this smell is unsufferable
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10738,7 +11037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: "Res... Problemes a la f\xE0brica"
+  storyText: Sorry, kid... The factory is driving me insane
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10917,7 +11216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: "Ara nom\xE9s fan que odiar-me"
+  storyText: And now they hate me.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10944,7 +11243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Abans que guany\xE9s la loteria, la gent m'ignorava."
+  storyText: Before I won the lottery, no one ever payed attention to me.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10971,7 +11270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: "La gent t\xE9 enveja dels meus diners"
+  storyText: People are just jealous of my money.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10998,9 +11297,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 515.77637
+    x: 520.77637
     y: 146.22978
-    width: 93.546005
+    width: 85.759995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11010,11 +11309,13 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 931908015}
+  - {fileID: 931908014}
   - {fileID: 931907974}
   - {fileID: 931907973}
-  - {fileID: 931907972}
-  - {fileID: 931908014}
   - {fileID: 931907971}
+  - {fileID: 931907972}
+  - {fileID: 931908024}
+  - {fileID: 931908023}
   - {fileID: 931907961}
   - {fileID: 931907941}
   suppressAllAutoSelections: 0
@@ -11032,7 +11333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  text: No seria la primera vegada que l'acusen de contaminar el riu...
+  text: It wouldn't be the first time you were accused of polluting the river.
   description: 
   targetBlock: {fileID: 931907975}
   hideIfVisited: 0
@@ -11209,7 +11510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  text: "Per\xF2 saps qu\xE8 ha passat exactament?"
+  text: But, do you know what is happening, exactly?
   description: 
   targetBlock: {fileID: 931907983}
   hideIfVisited: 0
@@ -11234,8 +11535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "Que no t'enganyin nen, la meva ind\xFAstria mai faria aquest mal al
-    poble"
+  storyText: 'Don''t let them fool you, kid. My factory would never hurt the town. '
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -11414,7 +11714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: "Si ho dius per la meva f\xE0brica de roba..."
+  storyText: If you mean my clothes factory...
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -11441,7 +11741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: "Estic segur que \xE9s culpa de la granja"
+  storyText: I'm sure it comes from the farm.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -11468,9 +11768,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 359.79547
-    y: -3.0524597
-    width: 93.546005
+    x: 355.18182
+    y: 3.867968
+    width: 85.759995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11504,7 +11804,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 353.99356
     y: 145.41829
-    width: 96.65643
+    width: 88.31428
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11534,7 +11834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  text: "Segur que no \xE9s per culpa teva?"
+  text: Is it not your fault?
   description: 
   targetBlock: {fileID: 931907984}
   hideIfVisited: 0
@@ -11576,7 +11876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  text: "Qu\xE8 et passa?"
+  text: What's wrong? It's not that bad.
   description: 
   targetBlock: {fileID: 931907983}
   hideIfVisited: 0
@@ -11601,7 +11901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: Bon dia? Ewwh...
+  storyText: Good morning? Eww...
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -11628,7 +11928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Bon dia Barry
+  storyText: Good morning Barry!
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -11655,7 +11955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "No s\xE9 qui ho ha fet pero me cago en sus muertos"
+  storyText: I don't know who did it, but fuck them! Eww....
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -11682,7 +11982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Quina peste macho
+  storyText: Ugh... it stinks!
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -11711,7 +12011,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.19159
     y: 62.556225
-    width: 107.54294
+    width: 98.53142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11724,6 +12024,7 @@ MonoBehaviour:
   - {fileID: 931907989}
   - {fileID: 931907988}
   - {fileID: 931907990}
+  - {fileID: 931908025}
   - {fileID: 931907987}
   - {fileID: 931907985}
   - {fileID: 931907952}
@@ -11742,7 +12043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: Si sabessis la de coses que fa per mantenir-lo a flote....
+  storyText: If only you knew what they did to keep it afloat............?
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -11769,7 +12070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: "El Verdant's va m\xE9s malament del que penses"
+  storyText: "The Verdant is barely va m\xE9s malament del que penses"
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -11794,8 +12095,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moviment: {fileID: 0}
-  final: 0
 --- !u!114 &931907996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11828,11 +12127,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -20.913034, y: 173.4822}
+  scrollPos: {x: 4.122608, y: 189.5444}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.64299816
+  blockViewHeight: 387
+  zoom: 0.78299797
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -11840,9 +12139,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 931907975}
-  selectedCommands:
-  - {fileID: 931908014}
+  - {fileID: 931907992}
+  selectedCommands: []
   variables:
   - {fileID: 931907930}
   - {fileID: 931908007}
@@ -11870,9 +12168,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 505.63956
-    y: 58.604164
-    width: 105.98772
+    x: 491.6452
+    y: 79.59842
+    width: 97.25427
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11883,7 +12181,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 931908013}
   - {fileID: 931908012}
-  - {fileID: 931908008}
   - {fileID: 931908006}
   - {fileID: 931907999}
   suppressAllAutoSelections: 0
@@ -11901,7 +12198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 121
   indentLevel: 0
-  text: Why are you so agressive??? AGRASSIVE??
+  text: Why are you so agressive?
   description: 
   targetBlock: {fileID: 931907959}
   hideIfVisited: 0
@@ -11926,7 +12223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  text: Dels dos
+  text: I don't think you should go around talking about other people's life...
   description: 
   targetBlock: {fileID: 931908001}
   hideIfVisited: 0
@@ -11953,7 +12250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 595.8626
     y: -22.41181
-    width: 99.76686
+    width: 90.86856
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12150,7 +12447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: Problemes d'adults!
+  storyText: Then I have nothing to tell you.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -12177,7 +12474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 0
-  storyText: Ho sento, no tinc tant temps
+  storyText: You think you're so good... huh?
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -12204,9 +12501,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 120
   indentLevel: 0
-  text: Shut up you ricachon de merda
+  text: Shut up you stupid rich idiot
   description: 
-  targetBlock: {fileID: 931907975}
+  targetBlock: {fileID: 931908022}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -12239,22 +12536,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 931907929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 119
+  itemId: 148
   indentLevel: 0
-  text: Then what happens?
+  storyText: If only you knew... HA!
   description: 
-  targetBlock: {fileID: 931907983}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 931907996}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &931908009
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12269,7 +12568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 128
   indentLevel: 0
-  text: "No haver-te construit la f\xE0brica al costat del poble..."
+  text: It was your choice building your factory so close
   description: 
   targetBlock: {fileID: 931907975}
   hideIfVisited: 0
@@ -12348,7 +12647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: You don't even know what I'm talking about
+  storyText: You don't even know what you're talking about
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -12375,7 +12674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 0
-  storyText: SHUT UP
+  storyText: SHUT UP!
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -12390,7 +12689,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &931908014
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12554,7 +12853,397 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 131
   indentLevel: 0
-  storyText: "Ning\xFA sh'a queixat mai de la meva f\xE0brica"
+  storyText: There has never been any real complains about my factory.
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &931908016
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 147
+  indentLevel: 0
+  storyText: Have a nice day!
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &931908017
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 146
+  indentLevel: 0
+  storyText: And so does your mom.
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &931908018
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 145
+  indentLevel: 0
+  storyText: Sorry, I mean... you can come here anytime.
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &931908019
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 931907930}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &931908020
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 143
+  indentLevel: 0
+  targetObject: {fileID: 20519437}
+  methodName: nouInvestigat
+  delay: 0
+--- !u!114 &931908021
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 137
+  indentLevel: 0
+  storyText: I know you're just jealous of my money.
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &931908022
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 636.97424
+    y: 121.14398
+    width: 79.37428
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 136
+  blockName: borde
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 931908021}
+  - {fileID: 931908018}
+  - {fileID: 931908017}
+  - {fileID: 931908016}
+  - {fileID: 931908020}
+  - {fileID: 931908019}
+  suppressAllAutoSelections: 0
+--- !u!114 &931908023
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 135
+  indentLevel: 0
+  storyText: Ok, bye!
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &931908024
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  indentLevel: 0
+  storyText: Sorry, I have to make some calls.
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &931908025
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  indentLevel: 0
+  storyText: That was the last straw.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -12894,7 +13583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 931907997}
+  selectedFlowchart: {fileID: 1854123305}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -15322,7 +16011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: "Me l'estimo des del dia que vaig n\xE9ixer."
+  storyText: I've loved it since I was born.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -15349,7 +16038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: Que va!
+  storyText: No way!
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -15376,9 +16065,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 646.8108
-    y: 105.35129
-    width: 83.11285
+    x: 607.8108
+    y: 133.35129
+    width: 85.107635
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15391,8 +16080,11 @@ MonoBehaviour:
   - {fileID: 1854123295}
   - {fileID: 1854123378}
   - {fileID: 1854123379}
-  - {fileID: 1854123356}
+  - {fileID: 1854123393}
+  - {fileID: 1854123392}
+  - {fileID: 1854123391}
   - {fileID: 1854123357}
+  - {fileID: 1854123356}
   suppressAllAutoSelections: 0
 --- !u!114 &1854123298
 MonoBehaviour:
@@ -15408,7 +16100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  text: No et canses de la granja?
+  text: Don't get tired of your farm?
   description: 
   targetBlock: {fileID: 1854123297}
   hideIfVisited: 0
@@ -15433,8 +16125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: "Ll\xE0stima que no cregui m\xE9s en ella mateixa i compleixi els seus
-    somnis"
+  storyText: I wish she believed more in herself.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -15461,7 +16152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: Del poble algun cop ha vingut la Carol a ajudar-me
+  storyText: Sometimes Carol comes to help me.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -15488,7 +16179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: "\xC9s un tros de pa"
+  storyText: She's an sweetheart.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -15515,7 +16206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  storyText: No necessito ajuda realment
+  storyText: I don't really need help anyways.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -15542,7 +16233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: "De la meva germana fins que es va casar i poc m\xE9s"
+  storyText: My sister helped me for a while until she got married.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -15720,19 +16411,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 31.90547, y: -40.906574}
+  scrollPos: {x: -136.542, y: 58.35183}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.6039952
+  blockViewHeight: 432
+  zoom: 0.88299894
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1854123345}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1854123316}
@@ -15913,9 +16603,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: "Van fer b\xE9 de treure-li la cust\xF2dia dels seus fills"
+  storyText: I'm glad they took his kids.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1854123309}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -15940,10 +16630,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "I el netejador del poble est\xE0 massa begut com per investigar la
-    proced\xE8ncia de la contaminaci\xF3"
+  storyText: And the street cleaner is too drunk to investigate where it's coming
+    from.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1854123309}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -15987,9 +16677,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 666.1841
-    y: 161.71675
-    width: 78.14592
+    x: 609.1841
+    y: 178.71675
+    width: 80.577614
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16003,8 +16693,11 @@ MonoBehaviour:
   - {fileID: 1854123300}
   - {fileID: 1854123301}
   - {fileID: 1854123299}
-  - {fileID: 1854123355}
+  - {fileID: 1854123390}
+  - {fileID: 1854123389}
+  - {fileID: 1854123384}
   - {fileID: 1854123354}
+  - {fileID: 1854123355}
   suppressAllAutoSelections: 0
 --- !u!114 &1854123311
 MonoBehaviour:
@@ -16020,7 +16713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  text: Mai has tingut ajuda?
+  text: You never got any help?
   description: 
   targetBlock: {fileID: 1854123310}
   hideIfVisited: 0
@@ -16349,7 +17042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: Mai m'he pogut permetre descansar
+  storyText: I could never allow myself to have a break.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -16376,8 +17069,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: Ja que des que van morir mons pares, m'he hagut d'encarregar-me d'aquesta
-    granja jo soleta, sense l'ajuda de cap home.
+  storyText: Ever since my parents died, I had to take care of this farm all by myself,
+    without any man's help.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -16419,7 +17112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: Qui et diu que jo m'hagi casat?
+  storyText: Who says I ever married?! I'm not interested in such things.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -16446,8 +17139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: Mai has marxat de vacances, o t'has posat malalta? Ni simplement el
-    dia del teu casament?
+  storyText: Did you never go on vacation or get sick? What about your wedding day?
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -16474,7 +17166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: WOW
+  storyText: Wow!
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -16501,8 +17193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: "Pr\xE0cticament cada dia des que tinc consci\xE8ncia he estat treballant
-    en la granja"
+  storyText: Everyday since I have memory.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -16527,11 +17218,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 165
   indentLevel: 0
-  storyText: Tota la vida
+  storyText: Bye
   description: 
-  character: {fileID: 1854123309}
+  character: {fileID: 1240194396}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16556,9 +17247,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 507.46942
-    y: 160.74489
-    width: 73.17899
+    x: 481.46942
+    y: 216.74489
+    width: 73.782585
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16567,14 +17258,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1854123321}
   - {fileID: 1854123320}
   - {fileID: 1854123319}
+  - {fileID: 1854123313}
   - {fileID: 1854123318}
   - {fileID: 1854123317}
   - {fileID: 1854123314}
   - {fileID: 1854123315}
-  - {fileID: 1854123313}
   - {fileID: 1854123312}
   - {fileID: 1854123311}
   - {fileID: 1854123298}
@@ -16594,7 +17284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  text: Quan fa que treballes a la granja?
+  text: How long have you been working at the farm?
   description: 
   targetBlock: {fileID: 1854123322}
   hideIfVisited: 0
@@ -16619,7 +17309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  text: "Llavors \xE9s culpa de la f\xE0brica?"
+  text: Then how do you know it's the factory's fault?
   description: 
   targetBlock: {fileID: 1854123332}
   hideIfVisited: 0
@@ -16644,7 +17334,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: "Perqu\xE8 no paro de veure l'aigua contaminada des que la van contruir"
+  storyText: Because the water has been polluted ever since they built that damn
+    factory.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16671,7 +17362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: "Bueno alg\xFA haur\xE0 de netejar-ho"
+  storyText: Somebody will have to do something about it.
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -16698,7 +17389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: Com si l'alcalde fes algo al respecte...
+  storyText: As if the mayor would do something about it....
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -16725,7 +17416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: Sure
+  storyText: Ha!
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -16771,7 +17462,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 512.86523
     y: 349.49518
-    width: 111.258766
+    width: 114.55274
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16783,8 +17474,11 @@ MonoBehaviour:
   - {fileID: 1854123328}
   - {fileID: 1854123327}
   - {fileID: 1854123326}
-  - {fileID: 1854123329}
+  - {fileID: 1854123401}
+  - {fileID: 1854123400}
+  - {fileID: 1854123399}
   - {fileID: 1854123306}
+  - {fileID: 1854123329}
   suppressAllAutoSelections: 0
 --- !u!114 &1854123331
 MonoBehaviour:
@@ -16800,7 +17494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  text: Mai t'has queixat a l'ajuntament?
+  text: Have you ever complained to the Town Council?
   description: 
   targetBlock: {fileID: 1854123330}
   hideIfVisited: 0
@@ -16827,7 +17521,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 562.86523
     y: 280.49518
-    width: 96.35799
+    width: 99.830185
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16840,6 +17534,12 @@ MonoBehaviour:
   - {fileID: 1854123308}
   - {fileID: 1854123307}
   - {fileID: 1854123304}
+  - {fileID: 1854123404}
+  - {fileID: 1854123403}
+  - {fileID: 1854123407}
+  - {fileID: 1854123406}
+  - {fileID: 1854123405}
+  - {fileID: 1854123402}
   - {fileID: 1854123353}
   - {fileID: 1854123351}
   suppressAllAutoSelections: 0
@@ -16857,7 +17557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  text: "Com saps que \xE9s per culpa de la f\xE0brica?"
+  text: How do you know it's because of the factory?
   description: 
   targetBlock: {fileID: 1854123332}
   hideIfVisited: 0
@@ -17034,7 +17734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: "Haurien de tancar aquella f\xE0brica, no porta res m\xE9s que problemes."
+  storyText: They should shut down that factory. It only brings problems.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -17061,8 +17761,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "M\xE9s d'un cop no he pogut regar l'hort ni dona de beure a les vaques
-    per culpa de la toxicitat de l'aigua que agafo del riu"
+  storyText: I haven't been able to water my plants or my cows more than once because
+    of how dirty the river was.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -17089,7 +17789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: "No seria la primera vegada que aquella f\xE0brica contamina el riu"
+  storyText: It wouldn't be the first time that the factory pollutes the river.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -17116,7 +17816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "N'estic conven\xE7uda"
+  storyText: I'm sure of it.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -17295,8 +17995,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: "He gestionat els fems de les vaques com sempre i estic segura que aquesta
-    pudor no \xE9s d'elles"
+  storyText: I've always taken care of my cows' feces and it has never smelled like
+    this.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -17323,7 +18023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: 'Tinc tota la granja sota control '
+  storyText: I have my farm under control.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -17379,7 +18079,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.09988
     y: 307.78568
-    width: 86.42413
+    width: 89.63765
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17411,7 +18111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  text: "Creus que \xE9s de la f\xE0brica de roba?"
+  text: Do you think it comes from the factory?
   description: 
   targetBlock: {fileID: 1854123343}
   hideIfVisited: 0
@@ -17436,9 +18136,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 347.46942
-    y: 216.74487
-    width: 89.73541
+    x: 345.46942
+    y: 242.74487
+    width: 89.63765
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17469,7 +18169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  text: "\xC9s de les teves vaques?"
+  text: is it from your cows?
   description: 
   targetBlock: {fileID: 1854123345}
   hideIfVisited: 0
@@ -17494,8 +18194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "De fet venia per preguntar-te per aquesta pudor que est\xE0 per tot
-    el poble"
+  storyText: In fact, I came here to ask you about this smell.
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -17522,7 +18221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "Prou b\xE9 Pamela"
+  storyText: Quite well, thanks!
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -17549,7 +18248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "Bon dia nen. Qu\xE8 tal?"
+  storyText: Good morning, boy! How's it going?
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -17578,7 +18277,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203.49002
     y: 246.12018
-    width: 101.324905
+    width: 103.22769
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17758,8 +18457,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moviment: {fileID: 0}
-  final: 1
 --- !u!114 &1854123353
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18298,7 +18995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 149
   indentLevel: 0
-  storyText: "Per\xF2 qui cuidaria les vaques?"
+  storyText: But who'd take care of the cows?
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -18325,7 +19022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  storyText: Millor que no
+  storyText: It's better I don't.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -18352,7 +19049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 147
   indentLevel: 0
-  storyText: "Tant de bo pogu\xE9s"
+  storyText: I wish I could
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -18381,7 +19078,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 606.4694
     y: 221.74489
-    width: 102.98055
+    width: 103.22769
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18393,6 +19090,9 @@ MonoBehaviour:
   - {fileID: 1854123362}
   - {fileID: 1854123360}
   - {fileID: 1854123361}
+  - {fileID: 1854123396}
+  - {fileID: 1854123395}
+  - {fileID: 1854123394}
   - {fileID: 1854123359}
   - {fileID: 1854123358}
   suppressAllAutoSelections: 0
@@ -18410,7 +19110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 0
-  text: Doncs pren-te unes vacances
+  text: You should take a break.
   description: 
   targetBlock: {fileID: 1854123363}
   hideIfVisited: 0
@@ -18435,7 +19135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 0
-  text: "Cremaries la f\xE0brica?"
+  text: Would you burn down the factory?
   description: 
   targetBlock: {fileID: 1854123371}
   hideIfVisited: 0
@@ -18629,7 +19329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 141
   indentLevel: 0
-  storyText: "A vegades demanar perd\xF3 no \xE9s suficient"
+  storyText: Sometimes asking nicely is not enough.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -18671,7 +19371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 140
   indentLevel: 0
-  storyText: "No \xE9s mala idea sincerament"
+  storyText: That's not a bad idea actually.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -18700,7 +19400,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 408.86526
     y: 409.49518
-    width: 66.55643
+    width: 68.12007
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18711,6 +19411,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1854123370}
   - {fileID: 1854123368}
+  - {fileID: 1854123398}
   - {fileID: 1854123367}
   - {fileID: 1854123366}
   suppressAllAutoSelections: 0
@@ -18728,7 +19429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 138
   indentLevel: 0
-  text: Crema-la
+  text: Burn it down!
   description: 
   targetBlock: {fileID: 1854123371}
   hideIfVisited: 0
@@ -18922,7 +19623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 135
   indentLevel: 0
-  storyText: Jo soleta he tirat endavant aquesta granja
+  storyText: I've been able to take care of my farm all by myself.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -18949,7 +19650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 134
   indentLevel: 0
-  storyText: Doncs mai n'he tingu
+  storyText: That's because I've never had one.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -18976,21 +19677,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 440.49002
-    y: 91.12017
-    width: 66.55643
+    x: 459.49
+    y: 114.12018
+    width: 70.38507
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 133
-  blockName: ela
+  blockName: ella
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1854123376}
   - {fileID: 1854123375}
-  - {fileID: 1854123374}
+  - {fileID: 1854123381}
+  - {fileID: 1854123380}
+  - {fileID: 1854123321}
   - {fileID: 1854123373}
+  - {fileID: 1854123374}
   suppressAllAutoSelections: 0
 --- !u!114 &1854123378
 MonoBehaviour:
@@ -19006,7 +19710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 132
   indentLevel: 0
-  storyText: L'he cuidat cada dia des de sempre
+  storyText: I've always been taking care of it.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -19183,11 +19887,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 130
+  itemId: 164
   indentLevel: 0
-  storyText: "Nom\xE9s per saber"
+  storyText: Good bye, boy!
   description: 
-  character: {fileID: 1240194396}
+  character: {fileID: 1854123309}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -19207,22 +19911,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1854123294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 129
+  itemId: 163
   indentLevel: 0
-  text: "Creus que l'ajuntament ho resoldr\xE0?"
+  storyText: I should go back to my cows.
   description: 
-  targetBlock: {fileID: 1854123330}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1854123382
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19237,7 +19943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 128
   indentLevel: 0
-  text: "Nom\xE9s volia saber com era el teu marit..."
+  text: I don't think I've ever seen your husband.
   description: 
   targetBlock: {fileID: 1854123377}
   hideIfVisited: 0
@@ -19262,9 +19968,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 127
   indentLevel: 0
-  text: No et canses de treballar a la granja?
+  text: Nevermind, what do you think the mayor is going to do about the smell?
   description: 
-  targetBlock: {fileID: 1854123297}
+  targetBlock: {fileID: 1854123330}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -19285,11 +19991,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 126
+  itemId: 162
   indentLevel: 0
-  storyText: "Qu\xE8 t\xE9 a veure aix\xF2 amb la pudor noi?"
+  storyText: Bye
   description: 
-  character: {fileID: 1854123309}
+  character: {fileID: 1240194396}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -19314,7 +20020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: Mai!
+  storyText: No. Why do you ask?
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}
@@ -19493,9 +20199,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 348.49002
-    y: 140.12018
-    width: 79.80156
+    x: 350.49002
+    y: 166.12018
+    width: 80.577614
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19505,11 +20211,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1854123385}
-  - {fileID: 1854123384}
-  - {fileID: 1854123380}
   - {fileID: 1854123383}
-  - {fileID: 1854123381}
   - {fileID: 1854123382}
+  - {fileID: 1854123397}
   - {fileID: 1854123386}
   suppressAllAutoSelections: 0
 --- !u!114 &1854123388
@@ -19526,7 +20230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  text: Quants cops t'has casat?
+  text: Don't you get lonely at the farm all by yourself?
   description: 
   targetBlock: {fileID: 1854123387}
   hideIfVisited: 0
@@ -19537,6 +20241,517 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1854123389
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 161
+  indentLevel: 0
+  storyText: Good bye, boy!
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123390
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 160
+  indentLevel: 0
+  storyText: I should go back to my cows.
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123391
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 159
+  indentLevel: 0
+  storyText: Bye
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123392
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 158
+  indentLevel: 0
+  storyText: Good bye, boy!
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123393
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 157
+  indentLevel: 0
+  storyText: I should go back to my cows.
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123394
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 156
+  indentLevel: 0
+  storyText: Bye
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123395
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 155
+  indentLevel: 0
+  storyText: Good bye, boy!
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123396
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 154
+  indentLevel: 0
+  storyText: I should go back to my cows.
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123397
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 153
+  indentLevel: 0
+  text: Isn't it harder, working alone?
+  description: 
+  targetBlock: {fileID: 1854123297}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1854123398
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 152
+  indentLevel: 0
+  storyText: ...
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123399
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 171
+  indentLevel: 0
+  storyText: Bye
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123400
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 170
+  indentLevel: 0
+  storyText: Good bye, boy!
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123401
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 169
+  indentLevel: 0
+  storyText: I should go back to my cows.
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123402
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 175
+  indentLevel: 0
+  storyText: Bye
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123403
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 167
+  indentLevel: 0
+  storyText: It serves him right, although I miss Helena and Damian.
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123404
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 166
+  indentLevel: 0
+  storyText: Aren't you being too harsh?
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123405
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 174
+  indentLevel: 0
+  storyText: Good bye, boy!
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123406
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 173
+  indentLevel: 0
+  storyText: I should go back to my cows.
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1854123407
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 172
+  indentLevel: 0
+  storyText: I'm sorry for them, poor kids.
+  description: 
+  character: {fileID: 1854123309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1910835676
 GameObject:
   m_ObjectHideFlags: 0

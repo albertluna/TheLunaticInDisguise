@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class NotesOliver : MonoBehaviour
 {
-    public Flowchart flowchart;
+    public parles notes;
     public TMP_Text MyText;
     public TMP_Text MyText2;
     public TMP_Text MyText3;
@@ -42,145 +42,143 @@ public class NotesOliver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int notabarry1 = flowchart.GetIntegerVariable("Oliver");
 
-
-        if (notabarry1 == 416)
+        if (notes.ol416)
         {
 
             MyText.text = "Lidia’s son";
         }
 
-        if (notabarry1 == 401)
+        if (notes.ol401)
         {
 
             MyText2.text = "Verdant’s Barman";
         }
 
-        if (notabarry1 == 402)
+        if (notes.ol402)
         {
 
             MyText3.text = "Mayor";
         }
 
-        if (notabarry1 == 415)
+        if (notes.ol415)
         {
 
             MyText4.text = "Married to Felicity";
         }
 
-        if (notabarry1 == 409)
+        if (notes.ol409)
         {
 
             MyText6.text = "Two children(Connor and Mia)";
         }
 
-        if (notabarry1 == 405)
+        if (notes.ol405)
         {
 
             MyText5.text = "Sexist";
         }
-        if (notabarry1 == 414)
+        if (notes.ol414)
         {
 
             MyText7.text = "Sister’s wasn’t at home";
         }
 
-        if (notabarry1 == 413)
+        if (notes.ol413)
         {
 
             MyText8.text = "Closed Verdant’s earlier";
         }
 
-        if (notabarry1 == 412)
+        if (notes.ol412)
         {
 
             MyText9.text = "Her aunt never visits his mother Lidia";
         }
 
-        if (notabarry1 == 403)
+        if (notes.ol403)
         {
 
             MyText10.text = "Thea’s in weelchair";
         }
 
-        if (notabarry1 == 404)
+        if (notes.ol404)
         {
 
             MyText11.text = "Somebody wreck the Verdant’s";
         }
 
-        if (notabarry1 == 408)
+        if (notes.ol408)
         {
 
             MyText12.text = "Barry has no friends";
         }
-            if (notabarry1 == 410)
+            if (notes.ol410)
             {
 
                 MyText13.text = "Bruce’s friend";
             }
 
-            if (notabarry1 == 422)
+            if (notes.ol422)
             {
 
                 MyText14.text = "Thea became paralytic few ago";
             }
 
-            if (notabarry1 == 423)
+            if (notes.ol423)
             {
 
                 MyText15.text = "Both siblings wanted the Verdant’s";
             }
 
-            if (notabarry1 == 420)
+            if (notes.ol420)
             {
 
                 MyText16.text = "Verdant’s close to bankruptcy";
             }
 
-            if (notabarry1 == 421)
+            if (notes.ol421)
             {
 
                 MyText17.text = "Homophobic";
 
             }
-            if (notabarry1 == 424)
+            if (notes.ol424)
             {
 
                 MyText18.text = "Verdant’s doing well economically";
             }
-            if (notabarry1 == 425)
+            if (notes.ol425)
             {
 
                 MyText19.text = "Barry found cow’s excrement at the sewer";
             }
-            if (notabarry1 == 450)
+            if (notes.ol450)
             {
 
                 MyText20.text = "Doesn’t love Felicity";
             }
-            if (notabarry1 == 453)
+            if (notes.ol453)
             {
 
                 MyText21.text = "Diverted públic funds to keep Verdant’s afloat";
             }
-            if (notabarry1 == 451)
+            if (notes.ol451)
             {
 
                 MyText22.text = "Pamela hates he doesn’t use her cow’s milk";
             }
-            if (notabarry1 == 452)
+            if (notes.ol452)
             {
 
                 MyText23.text = "Saw Carol pilled up";
             }
-            if (notabarry1 == 999)
+            /*if (notes.ol999)
             {
 
                 MyText24.text = "Carol nova alcaldessa reina legend la amo";
             }
-
+            */
 
         
     }

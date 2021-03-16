@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class NotesPamela : MonoBehaviour
 {
-    public Flowchart flowchart;
+    public parles notes;
     public TMP_Text MyText;
     public TMP_Text MyText2;
     public TMP_Text MyText3;
@@ -36,104 +36,100 @@ public class NotesPamela : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int notabarry1 = flowchart.GetIntegerVariable("Pamela");
 
-
-        if (notabarry1 == 999)
+        /*if ( == 999)
         {
 
             MyText.text = "Runs the farm";
         }
+        */
 
-        if (notabarry1 == 505)
+        if (notes.pam505)
         {
 
             MyText2.text = "Hates to be bothered by villagers";
         }
 
-        if (notabarry1 == 506)
+        if (notes.pam506)
         {
 
             MyText3.text = "Prefers loneliness";
         }
 
-        if (notabarry1 == 501)
+        if (notes.pam501)
         {
 
             MyText4.text = "Was taking care of her sister Lidia";
         }
 
-        if (notabarry1 == 503)
+        if (notes.pam503)
         {
 
             MyText6.text = "Loves kids";
         }
 
-        if (notabarry1 == 504)
+        if (notes.pam504)
         {
 
             MyText5.text = "Turtle ate her vegetable garden";
         }
-        if (notabarry1 == 502)
+        if (notes.pam502)
         {
 
             MyText7.text = "Goes to sleep at 9pm and wakes at 5am";
         }
 
-        if (notabarry1 == 523)
+        if (notes.pam523)
         {
 
             MyText8.text = "Never been in a relation";
         }
 
-        if (notabarry1 == 524)
+        if (notes.pam524)
         {
 
             MyText9.text = "Work at the farm everyday";
         }
 
-        if (notabarry1 == 520)
+        if (notes.pam520)
         {
 
             MyText10.text = "Confessed she was pregnant once";
         }
 
-        if (notabarry1 == 521)
+        if (notes.pam521)
         {
 
             MyText11.text = "Has not seen any excrement robbery";
         }
 
-        if (notabarry1 == 522)
+        if (notes.pam522)
         {
 
             MyText12.text = "Has found water polluted because Barry’s factory";
         }
-            if (notabarry1 == 552)
-            {
+        if (notes.pam552)
+        {
 
-                MyText13.text = "Heard Oliver screaming from Carol’s house";
-            }
+            MyText13.text = "Heard Oliver screaming from Carol’s house";
+        }
 
-            if (notabarry1 == 553)
-            {
+        if (notes.pam553)
+        {
 
-                MyText14.text = "Been sleeping ‘till fire";
-            }
+            MyText14.text = "Been sleeping ‘till fire";
+        }
 
-            if (notabarry1 == 550)
-            {
+        if (notes.pam550)
+        {
 
-                MyText15.text = "Went to sleep to milk her cows and feed town";
-            }
+            MyText15.text = "Went to sleep to milk her cows and feed town";
+        }
 
-            if (notabarry1 == 551)
-            {
+        if (notes.pam551)
+        {
 
-                MyText16.text = "Think Barry is the masked”";
-            }
-
-
-        
+            MyText16.text = "Thinks Barry is the masked";
+        }
     }
 }

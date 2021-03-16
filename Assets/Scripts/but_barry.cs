@@ -10,14 +10,15 @@ public class but_barry : MonoBehaviour
     public Canvas canvas3;
     public Canvas canvas4;
     public Canvas canvas5;
-    public Button yourButton;
+    //public Button yourButton;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        Button btn = yourButton.GetComponent<Button>();
+        Button btn = this.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
+        Debug.Log("BOTO");
     }
 
     // Update is called once per frame
