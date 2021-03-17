@@ -10,6 +10,7 @@ public class MovimentSimple : MonoBehaviour
     //public tes dialeg;
     // public float us = 0;
     private Rigidbody2D rb;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,8 @@ public class MovimentSimple : MonoBehaviour
         {
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
+
+            animator.SetFloat("Speed", Mathf.Abs(horizontalInput * verticalInput));
 
             rb.velocity = new Vector2(horizontalInput, verticalInput);
 

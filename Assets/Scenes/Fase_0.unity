@@ -146,7 +146,7 @@ PrefabInstance:
     - target: {fileID: 3582689365994091975, guid: c2048e8acc0304fe49fb2f9929b2158e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3925394998527947266, guid: c2048e8acc0304fe49fb2f9929b2158e,
         type: 3}
@@ -513,7 +513,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &205444810
@@ -776,7 +776,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &346106303
@@ -1560,6 +1560,7 @@ GameObject:
   - component: {fileID: 904462372}
   - component: {fileID: 904462371}
   - component: {fileID: 904462370}
+  - component: {fileID: 904462373}
   m_Layer: 0
   m_Name: Barry
   m_TagString: Untagged
@@ -1634,6 +1635,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &904462373
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904462369}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 234a8aefeaadf4742a10ca6e0abcbd51, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1027835962 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3582689365994091975, guid: c2048e8acc0304fe49fb2f9929b2158e,
@@ -2119,8 +2139,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e36774c1da7a93b4cb045bf6eaa17343, type: 3}
-  m_Color: {r: 0.08018869, g: 1, b: 0.49393475, a: 1}
+  m_Sprite: {fileID: -3836821332594368503, guid: fbea4e99fe6ecb846bee7d3d72f04918,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2144,6 +2165,9 @@ Animation:
   - {fileID: 7400000, guid: 368182593ab9b43b28b8ebc6aae6116f, type: 2}
   - {fileID: 7400000, guid: 8399e05050bde4a4c9e6ce76b0b66321, type: 2}
   - {fileID: 7400000, guid: 1299b95e3aee44a2696124360390a4f7, type: 2}
+  - {fileID: 7400000, guid: cccf2cac904458f4d852e52ff581d756, type: 2}
+  - {fileID: 7400000, guid: 1299b95e3aee44a2696124360390a4f7, type: 2}
+  - {fileID: 7400000, guid: 6f8bc96b85b3ade4081e474b6a175145, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -5101,7 +5125,7 @@ PrefabInstance:
     - target: {fileID: 96172226200868331, guid: d86a9475d0f57244abcedc3aa11784ed,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1520907829712990567, guid: d86a9475d0f57244abcedc3aa11784ed,
         type: 3}
