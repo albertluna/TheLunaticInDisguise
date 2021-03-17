@@ -13583,7 +13583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1854123305}
+  selectedFlowchart: {fileID: 1650776605}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -15320,7 +15320,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1650776610}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1650776606}
   variables: []
   description: 
   stepPause: 0
@@ -15346,7 +15347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: "Vaig a descansar a veure si dem\xE0 ho tinc m\xE9s clar...."
+  storyText: I should get some rest to clear my mind.
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -15373,7 +15374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: "Tot \xE9s meaningless"
+  storyText: Everything is a mess.
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -15388,7 +15389,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1650776608
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15398,9 +15399,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 8
+  itemId: 12
   indentLevel: 0
-  storyText: "Aix\xF2 \xE9s impossible."
+  storyText: I think I spoke with everyone.
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -15427,7 +15428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: Tothom en aquest poble menteix
+  storyText: Everybody is a liar.
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -15454,8 +15455,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -240.9997
-    y: 810
+    x: -242.9997
+    y: 867
     width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}

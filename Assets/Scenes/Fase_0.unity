@@ -3342,11 +3342,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1577.9998, y: 489.00006}
+  scrollPos: {x: 236.99985, y: -152.99992}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.25
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -3699,7 +3699,6 @@ GameObject:
   - component: {fileID: 1910835706}
   - component: {fileID: 1910835705}
   - component: {fileID: 1910835704}
-  - component: {fileID: 1910835703}
   - component: {fileID: 1910835711}
   - component: {fileID: 1910835712}
   - component: {fileID: 1910835713}
@@ -3713,6 +3712,8 @@ GameObject:
   - component: {fileID: 1910835723}
   - component: {fileID: 1910835722}
   - component: {fileID: 1910835721}
+  - component: {fileID: 1910835724}
+  - component: {fileID: 1910835703}
   m_Layer: 0
   m_Name: Helena
   m_TagString: Untagged
@@ -3903,7 +3904,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: Lina? She's gone since dinner. You know her... she's so impredictable,
+  storyText: Lina? She's been gone since dinner. You know her... she's so impredictable,
     but I'm sure she's fine.
   description: Press space to continue with this conversation
   character: {fileID: 1240194396}
@@ -3931,7 +3932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Well... How's Lina going?
+  storyText: Well... How's Lina doing?
   description: Press space to continue with this conversation
   character: {fileID: 1910835693}
   portrait: {fileID: 0}
@@ -3958,7 +3959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: My aunt is so nice but it doesn't feel like home.
+  storyText: My aunt is so nice but this doesn't feel like home.
   description: Press space to continue with this conversation
   character: {fileID: 1910835693}
   portrait: {fileID: 0}
@@ -3985,7 +3986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Pfff... I hope it'll be soon
+  storyText: Pfff... I hope soon
   description: Press space to continue with this conversation
   character: {fileID: 1910835693}
   portrait: {fileID: 0}
@@ -4012,7 +4013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: How you doing? Will you ever come back?
+  storyText: How are you doing? Will you ever come back?
   description: Press space to continue with this conversation
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -4039,8 +4040,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Yeah, this summer felt like endless, too. Ever since you left this town
-    I've been quite lonely...
+  storyText: Yeah, this summer felt endless, too. Ever since you left the town I've
+    been quite lonely...
   description: Press space to continue with this conversation
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -4124,6 +4125,7 @@ MonoBehaviour:
   - {fileID: 1910835721}
   - {fileID: 1910835701}
   - {fileID: 1910835697}
+  - {fileID: 1910835724}
   - {fileID: 1910835700}
   - {fileID: 1910835699}
   - {fileID: 1910835702}
@@ -4142,7 +4144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 35.74719, y: 2.7092571}
+  scrollPos: {x: -3.3163514, y: 25.64233}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 511
@@ -4153,10 +4155,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1910835691}
-  selectedCommands:
-  - {fileID: 1910835721}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: parla inicial
   stepPause: 0
@@ -4340,7 +4340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: What the hell has he done to village?!
+  storyText: What the hell happened to the town?!
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -4401,12 +4401,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 32
+  itemId: 47
   indentLevel: 0
-  storyText: And drag the information you think is contradictory to the blanks, to
-    sum up who lies the most
+  storyText: and then get some rest.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1240194396}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4458,10 +4457,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: There are 2 blank spaces to find contradictions among their speech.
-    *CANVIAR*
+  storyText: Drag the notes to the blank spaces to find contradictions.
   description: 
-  character: {fileID: 1240194396}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4486,7 +4484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: Okey, I've written down in my notes all important information I've discovered
+  storyText: Okay, I wrote down all of the important information I discovered.
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -4526,9 +4524,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 1910835711}
   - {fileID: 1910835706}
-  - {fileID: 1910835705}
   - {fileID: 1910835704}
-  - {fileID: 1910835703}
+  - {fileID: 1910835705}
   suppressAllAutoSelections: 0
 --- !u!114 &1910835708
 MonoBehaviour:
@@ -4544,7 +4541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: I should look to my notes and find out who lied
+  storyText: I should look into my notes to find out who lied
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -4612,6 +4609,7 @@ MonoBehaviour:
   - {fileID: 1910835712}
   - {fileID: 1910835709}
   - {fileID: 1910835708}
+  - {fileID: 1910835703}
   suppressAllAutoSelections: 0
 --- !u!114 &1910835711
 MonoBehaviour:
@@ -4836,6 +4834,33 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: 02a73ba3d1a124dfdb3d1ed200943157, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &1910835724
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910835676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  storyText: Is it the... HOODED LUNATIC?!
+  description: 
+  character: {fileID: 1240194396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!224 &1913291334 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1266927164622534791, guid: 7e700699b04783c42ac35e8eb09de260,
@@ -4956,6 +4981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   n: 0
+  canvas1: {fileID: 0}
 --- !u!111 &2076438863
 Animation:
   m_ObjectHideFlags: 0
@@ -4985,6 +5011,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   n: 0
+  canvas1: {fileID: 0}
+  canvas2: {fileID: 0}
+  canvas3: {fileID: 0}
+  canvas4: {fileID: 0}
+  canvas5: {fileID: 0}
 --- !u!1001 &5242375498320883362
 PrefabInstance:
   m_ObjectHideFlags: 0
