@@ -1203,7 +1203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 4896799948845689603}
+  selectedFlowchart: {fileID: 1910835692}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -2443,6 +2443,8 @@ GameObject:
   - component: {fileID: 1910835703}
   - component: {fileID: 1910835711}
   - component: {fileID: 1910835712}
+  - component: {fileID: 1910835678}
+  - component: {fileID: 1910835677}
   m_Layer: 0
   m_Name: Helena
   m_TagString: Untagged
@@ -2450,6 +2452,60 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1910835677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910835676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  storyText: Once you find out a lie, it will be write down there.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1910835678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910835676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  indentLevel: 0
+  storyText: Also you can click "E" to open the contradictions
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1910835692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2463,11 +2519,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 193.06273, y: 120.59857}
+  scrollPos: {x: 36.881134, y: 18.355995}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 511
-  zoom: 0.7129973
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -2475,8 +2531,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 1910835710}
-  selectedCommands: []
+  - {fileID: 1910835707}
+  selectedCommands:
+  - {fileID: 1910835677}
   variables: []
   description: parla inicial
   stepPause: 0
@@ -2563,7 +2620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: Click "N" to open your notes
+  storyText: Click "X" to open your notes
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2591,7 +2648,6 @@ MonoBehaviour:
   itemId: 30
   indentLevel: 0
   storyText: There are 2 blank spaces to find contradictions among their speech.
-    *CANVIAR*
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -2647,7 +2703,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 281.2528
     y: 159.29074
-    width: 136.95685
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2661,6 +2717,8 @@ MonoBehaviour:
   - {fileID: 1910835705}
   - {fileID: 1910835704}
   - {fileID: 1910835703}
+  - {fileID: 1910835678}
+  - {fileID: 1910835677}
   suppressAllAutoSelections: 0
 --- !u!114 &1910835708
 MonoBehaviour:
@@ -2732,7 +2790,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.2528
     y: 236.29074
-    width: 131.34674
+    width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2918,7 +2976,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seguir: {fileID: 1240194389}
   posicioRelativa: {x: 0, y: 0, z: -10}
-  hud: {fileID: 0}
 --- !u!114 &2076438862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3463,18 +3520,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95f21fa87b7624f0191c7f1d50d06ae3, type: 3}
---- !u!114 &4896799948845689603 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4896799948174502723, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
-    type: 3}
-  m_PrefabInstance: {fileID: 4896799948845689602}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &8177186512763047981
 PrefabInstance:
   m_ObjectHideFlags: 0

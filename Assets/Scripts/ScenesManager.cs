@@ -10,7 +10,9 @@ public static class ScenesManager {
         Fase_1,
         escena_habitacio,
         Fase_2,
-        Fase_3
+        Fase_3,
+        Fase_0,
+        menu
     }
 
     public static void Load(Scene scene)

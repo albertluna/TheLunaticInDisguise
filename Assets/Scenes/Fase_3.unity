@@ -13596,7 +13596,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1086846672
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13735,8 +13735,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 357.87006
-    y: 560.425
+    x: 226.87006
+    y: 613.425
     width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -13805,7 +13805,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 1086846689}
+  - {fileID: 1086846674}
   selectedCommands: []
   variables:
   - {fileID: 1086846682}
@@ -14160,7 +14160,7 @@ MonoBehaviour:
   indentLevel: 0
   text: No
   description: 
-  targetBlock: {fileID: 1086846666}
+  targetBlock: {fileID: 1086846684}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -14342,8 +14342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 4896799948174502723, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
-    type: 3}
+  selectedFlowchart: {fileID: 1086846680}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -15507,6 +15506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStreet: 1
+  HUD: {fileID: 0}
 --- !u!1 &1800151835
 GameObject:
   m_ObjectHideFlags: 0
