@@ -8,15 +8,18 @@ public class SceneChange : MonoBehaviour
 {
     public bool isStreet;
     public static int fase = 1;
+    public GameObject HUD;
 
     private void Start()
     {
+        HUD = GameObject.Find("HUD");
         lastPhase();
+        HUD.GetComponent<HUD_manager>().newScene();
     }
 
     private void OnTriggerEnter2D()
     {
-        Debug.Log("CANVI ESCENA");
+        HUD.SetActive(true);
         if (isStreet)
         {
             ScenesManager.Load(ScenesManager.Scene.escena_habitacio);
@@ -34,6 +37,14 @@ public class SceneChange : MonoBehaviour
                     ScenesManager.Load(ScenesManager.Scene.Fase_3);
                     break;
             }
+        }
+    }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            HUD.SetActive(true);
         }
     }
 

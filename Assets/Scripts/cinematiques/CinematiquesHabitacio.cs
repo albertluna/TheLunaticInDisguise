@@ -113,7 +113,6 @@ public class CinematiquesHabitacio : MonoBehaviour
         {
             case 2:
                 iniciFase2();
-                Debug.Log("CLOWN");
                 break;
             case 3:
                 iniciFase3();

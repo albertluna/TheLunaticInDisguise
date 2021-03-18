@@ -9,11 +9,13 @@ public class seguimentcamera : MonoBehaviour
     public GameObject seguir;
     public Vector3 posicioRelativa;
     private Animation cinematiques;
+    public GameObject hud;
 
     // Start is called before the first frame update
     void Start()
     {
         cinematiques = GetComponent<Animation>();
+        hud = GameObject.Find("HUD");
     }
 
     // Update is called once per frame
@@ -23,7 +25,12 @@ public class seguimentcamera : MonoBehaviour
         {
             transform.position = new Vector3(seguir.transform.position.x + posicioRelativa.x, transform.position.y, transform.position.z);
         }
+        if(Input.GetKeyDown(KeyCode.X))
+        {
+            hud.SetActive(true);
+        }
     }
+
 }
 
 

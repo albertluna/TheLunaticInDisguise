@@ -5,17 +5,17 @@ using UnityEngine;
 
 public class parles : MonoBehaviour
 {
-    /*public GameObject Barry;
+    public GameObject Barry;
     public GameObject Bruce;
     public GameObject Carol;
     public GameObject Oliver;
     public GameObject Pamela;
-    */
-    private Flowchart BarryFc;
-    private Flowchart BruceFc;
-    private Flowchart CarolFc;
-    private Flowchart OliverFc;
-    private Flowchart PamelaFc;
+    
+    public Flowchart BarryFc;
+    public Flowchart BruceFc;
+    public Flowchart CarolFc;
+    public Flowchart OliverFc;
+    public Flowchart PamelaFc;
 
 
     public bool ba102 = false;
@@ -112,19 +112,45 @@ public class parles : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this);
-        BarryFc = GameObject.Find("Barry").GetComponent<Flowchart>();
-        BruceFc = GameObject.Find("Bruce").GetComponent<Flowchart>();
-        CarolFc = GameObject.Find("Carol").GetComponent<Flowchart>();
-        OliverFc = GameObject.Find("Oliver").GetComponent<Flowchart>();
-        PamelaFc = GameObject.Find("Pamela").GetComponent<Flowchart>();
+        Barry = GameObject.Find("Barry");
+        BarryFc = Barry.GetComponent<Flowchart>();
 
+        Bruce = GameObject.Find("Bruce");
+        BruceFc = Bruce.GetComponent<Flowchart>();
+
+        Carol = GameObject.Find("Carol");
+        CarolFc = Carol.GetComponent<Flowchart>();
+
+        Oliver = GameObject.Find("Oliver");
+        OliverFc = Oliver.GetComponent<Flowchart>();
+
+        Pamela = GameObject.Find("Pamela");
+        PamelaFc = Pamela.GetComponent<Flowchart>();
+    }
+
+    public void newScene()
+    {
+        Barry = GameObject.Find("Barry");
+        BarryFc = Barry.GetComponent<Flowchart>();
+
+        Bruce = GameObject.Find("Bruce");
+        BruceFc = Bruce.GetComponent<Flowchart>();
+
+        Carol = GameObject.Find("Carol");
+        CarolFc = Carol.GetComponent<Flowchart>();
+
+        Oliver = GameObject.Find("Oliver");
+        OliverFc = Oliver.GetComponent<Flowchart>();
+
+        Pamela = GameObject.Find("Pamela");
+        PamelaFc = Pamela.GetComponent<Flowchart>();
     }
 
     // Update is called once per frame
     void Update()
     {
         int notabarry1 = BarryFc.GetIntegerVariable("Barry");
+        Debug.Log("LA variable del Barry es " + notabarry1);
 
         if (notabarry1 == 102)
         {
