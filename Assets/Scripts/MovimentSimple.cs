@@ -28,7 +28,7 @@ public class MovimentSimple : MonoBehaviour
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
-            animator.SetFloat("Speed", Mathf.Abs(horizontalInput * verticalInput));
+            animator.SetFloat("Speed", Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
 
             rb.velocity = new Vector2(horizontalInput, verticalInput);
 
