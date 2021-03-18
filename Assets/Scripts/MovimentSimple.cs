@@ -28,6 +28,17 @@ public class MovimentSimple : MonoBehaviour
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
+            Vector3 characterScale = transform.localScale;
+            if (horizontalInput < 0)
+            {
+                characterScale.x = 1;
+            }
+            if (horizontalInput > 0)
+            {
+                characterScale.x = -1;
+            }
+            transform.localScale = characterScale;
+
             animator.SetFloat("Speed", Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
 
             rb.velocity = new Vector2(horizontalInput, verticalInput);
