@@ -12,17 +12,12 @@ public class Play : MonoBehaviour
     {
         Button btn = yourButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
-        Debug.Log("TENIM BOTO");
-
     }
 
     // Update is called once per frame
     void TaskOnClick()
     {
-        Debug.Log("carga menu1");
-
         ScenesManager.Load(ScenesManager.Scene.Fase_0);
-        Debug.Log("carga menu2");
     }
   
 

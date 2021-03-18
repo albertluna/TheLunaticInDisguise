@@ -70,7 +70,7 @@ public class NotesOliver : MonoBehaviour
         if (notes.ol409)
         {
 
-            MyText6.text = "Two children(Connor and Mia)";
+            MyText6.text = "Has two children (Connor and Mia)";
         }
 
         if (notes.ol405)
@@ -93,25 +93,19 @@ public class NotesOliver : MonoBehaviour
         if (notes.ol412)
         {
 
-            MyText9.text = "Her aunt never visits his mother Lidia";
+            MyText9.text = "Her aunt never visits his mother";
         }
 
         if (notes.ol403)
         {
 
-            MyText10.text = "Thea’s in weelchair";
+            MyText10.text = "Thea’s in a wheelchair";
         }
 
         if (notes.ol404)
         {
 
-            MyText11.text = "Somebody wreck the Verdant’s";
-        }
-
-        if (notes.ol408)
-        {
-
-            MyText12.text = "Barry has no friends";
+            MyText11.text = "Somebody wrecked the Verdant’s";
         }
             if (notes.ol410)
             {
@@ -151,7 +145,7 @@ public class NotesOliver : MonoBehaviour
             if (notes.ol425)
             {
 
-                MyText19.text = "Barry found cow’s excrement at the sewer";
+                MyText19.text = "Barry found cow’s feces in the sewers";
             }
             if (notes.ol450)
             {
@@ -161,17 +155,17 @@ public class NotesOliver : MonoBehaviour
             if (notes.ol453)
             {
 
-                MyText21.text = "Diverted públic funds to keep Verdant’s afloat";
+                MyText21.text = "Diverted public funds to keep Verdant’s afloat";
             }
             if (notes.ol451)
             {
 
-                MyText22.text = "Pamela hates he doesn’t use her cow’s milk";
+                MyText22.text = "Pamela hates he doesn’t use her milk";
             }
             if (notes.ol452)
             {
 
-                MyText23.text = "Saw Carol pilled up";
+                MyText23.text = "Saw Carol pilled-up";
             }
             /*if (notes.ol999)
             {

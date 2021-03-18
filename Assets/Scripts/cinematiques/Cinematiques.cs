@@ -124,4 +124,14 @@ public class Cinematiques : MonoBehaviour
         }
     }
 
+    public void final()
+    {
+        GameObject.Find("Main Camera").transform.position = new Vector3(0, 20, 0);
+    }
+
+    public void acabarJoc()
+    {
+        ScenesManager.Load(ScenesManager.Scene.menu);
+    }
+
 }

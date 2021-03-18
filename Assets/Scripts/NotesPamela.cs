@@ -30,7 +30,6 @@ public class NotesPamela : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this);
     }
 
     // Update is called once per frame
@@ -47,7 +46,7 @@ public class NotesPamela : MonoBehaviour
         if (notes.pam505)
         {
 
-            MyText2.text = "Hates to be bothered by villagers";
+            MyText2.text = "Hates to be bothered by people";
         }
 
         if (notes.pam506)
@@ -59,7 +58,7 @@ public class NotesPamela : MonoBehaviour
         if (notes.pam501)
         {
 
-            MyText4.text = "Was taking care of her sister Lidia";
+            MyText4.text = "Was taking care of her sister Lidia last night";
         }
 
         if (notes.pam503)
@@ -71,24 +70,24 @@ public class NotesPamela : MonoBehaviour
         if (notes.pam504)
         {
 
-            MyText5.text = "Turtle ate her vegetable garden";
+            MyText5.text = "Lina ate her vegetables";
         }
         if (notes.pam502)
         {
 
-            MyText7.text = "Goes to sleep at 9pm and wakes at 5am";
+            MyText7.text = "Goes to sleep at 9pm to wake at 5am";
         }
 
         if (notes.pam523)
         {
 
-            MyText8.text = "Never been in a relation";
+            MyText8.text = "Never been in a relationship";
         }
 
         if (notes.pam524)
         {
 
-            MyText9.text = "Work at the farm everyday";
+            MyText9.text = "Works at the farm everyday";
         }
 
         if (notes.pam520)
@@ -100,36 +99,36 @@ public class NotesPamela : MonoBehaviour
         if (notes.pam521)
         {
 
-            MyText11.text = "Has not seen any excrement robbery";
+            MyText11.text = "Hasn’t noticed any feces gone";
         }
 
         if (notes.pam522)
         {
 
-            MyText12.text = "Has found water polluted because Barry’s factory";
+            MyText12.text = "Water polluted because of Barry’s factory";
         }
         if (notes.pam552)
         {
 
-            MyText13.text = "Heard Oliver screaming from Carol’s house";
+            MyText13.text = "Heard Oliver screaming at Carol’s house";
         }
 
         if (notes.pam553)
         {
 
-            MyText14.text = "Been sleeping ‘till fire";
+            MyText14.text = "Was sleeping until now";
         }
 
         if (notes.pam550)
         {
 
-            MyText15.text = "Went to sleep to milk her cows and feed town";
+            MyText15.text = "Went to sleep early to milk her cows and feed the town";
         }
 
         if (notes.pam551)
         {
 
-            MyText16.text = "Thinks Barry is the masked";
+            MyText16.text = "Thinks Barry is the lunatic";
         }
     }
 }

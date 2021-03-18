@@ -28,7 +28,6 @@ public class NotesBruce : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this);
     }
 
     // Update is called once per frame
@@ -62,18 +61,16 @@ public class NotesBruce : MonoBehaviour
         if (notes.br303)
         {
 
-            MyText6.text = "Was at bar drinking";
+            MyText6.text = "Was at the bar drinking";
         }
 
         if (notes.br323)
         {
-
-            //MyText5.text = "Lost custody because alcohol";
+            MyText5.text = "Lost custody ‘cause of alcoholism";
         }
         if (notes.br321)
         {
-
-            MyText7.text = "Wife died at a car crash";
+            MyText7.text = "His wife died at a car crash";
         }
 
         if (notes.br320)
@@ -85,13 +82,13 @@ public class NotesBruce : MonoBehaviour
         if (notes.br322)
         {
 
-            MyText9.text = "ruined";
+            MyText9.text = "Broke";
         }
 
         if (notes.br354)
         {
 
-            MyText10.text = "He controls drink, but fools town";
+            MyText10.text = "He isn’t an alcoholic, but pretends to be";
         }
 
         if (notes.br351)
@@ -103,22 +100,16 @@ public class NotesBruce : MonoBehaviour
         if (notes.br350)
         {
 
-            MyText12.text = "Believes is incompetent to rise his children";
+            MyText12.text = "Believes isn’t capable of rising his children";
         }
-            if (notes.br352)
-            {
+        if (notes.br352) { 
+            MyText13.text = "Feels guilty for his wife’s death";
+        }
 
-                MyText13.text = "Feels guilty for wife’s death";
-            }
+        if (notes.br353)
+        {
 
-            if (notes.br353)
-            {
-
-                MyText14.text = "tornen l’Helena i el Damian al poble ";
-            }
-
-           
-
-        
+                //MyText14.text = "tornen l’Helena i el Damian al poble ";
+        }        
     }
 }

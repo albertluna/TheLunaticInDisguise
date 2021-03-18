@@ -42,19 +42,19 @@ public class NotesCarol : MonoBehaviour
         if (notes.car207)
         {
 
-            MyText.text = "Studied cinema to direct superherois films";
+            MyText.text = "Studied cinema to direct superhero films";
         }
 
-        if (notes.car211)
+        if (notes.car209)
         {
 
-            MyText2.text = "Super rich";
+            MyText2.text = "Failed in her career";
         }
 
         if (notes.car206)
         {
 
-            MyText3.text = "Superheroe's nerd";
+            MyText3.text = "Geek of superheroes";
         }
 
         if (notes.car201)
@@ -76,7 +76,7 @@ public class NotesCarol : MonoBehaviour
         if (notes.car208)
         {
 
-            MyText7.text = "Was alone last night";
+            MyText7.text = "Alone last night";
         }
 
         /*if (notes.car999)
@@ -94,19 +94,19 @@ public class NotesCarol : MonoBehaviour
         if (notes.car220)
         {
 
-            MyText10.text = "In a relationship with Oliver’s sister";
+            MyText10.text = "In a relationship with Thea";
         }
 
         if (notes.car221)
         {
 
-            MyText11.text = "Complains about Barry’s factory";
+            MyText11.text = "Has complained about Barry’s factory";
         }
 
         if (notes.car222)
         {
 
-            MyText12.text = "Pamela has looked after her since always";
+            MyText12.text = "Pamela has always looked after her";
         }
             if (notes.car223)
             {
@@ -117,13 +117,13 @@ public class NotesCarol : MonoBehaviour
             if (notes.car254)
             {
 
-                MyText14.text = "Had it off with Oliver";
+                MyText14.text = "Had a thing with Oliver";
             }
 
             if (notes.car250)
             {
 
-                MyText15.text = "Oliver has discovered their relation";
+                MyText15.text = "Oliver has discovered their relationship";
             }
             /*
             if (notes.car997)
@@ -135,13 +135,13 @@ public class NotesCarol : MonoBehaviour
             if (notes.car251)
             {
 
-                MyText17.text = "Been at home all night";
+                MyText17.text = "Been home all night";
 
             }
             if (notes.car253)
             {
 
-                MyText18.text = " acabar juntes públicament";
+                MyText18.text = "acabar juntes públicament";
             }
 
         
