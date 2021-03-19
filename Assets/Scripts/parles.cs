@@ -150,7 +150,6 @@ public class parles : MonoBehaviour
     void Update()
     {
         int notabarry1 = BarryFc.GetIntegerVariable("Barry");
-        Debug.Log("LA variable del Barry es " + notabarry1);
 
         if (notabarry1 == 102)
         {

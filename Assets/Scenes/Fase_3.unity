@@ -12868,6 +12868,7 @@ GameObject:
   - component: {fileID: 1086846693}
   - component: {fileID: 1086846692}
   - component: {fileID: 1086846696}
+  - component: {fileID: 1086846697}
   m_Layer: 0
   m_Name: Narracio
   m_TagString: Untagged
@@ -13583,7 +13584,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1086846689}
   selectedCommands:
-  - {fileID: 1086846696}
+  - {fileID: 1086846697}
   variables:
   - {fileID: 1086846682}
   description: 
@@ -13922,6 +13923,7 @@ MonoBehaviour:
   - {fileID: 1086846687}
   - {fileID: 1086846695}
   - {fileID: 1086846694}
+  - {fileID: 1086846697}
   - {fileID: 1086846693}
   - {fileID: 1086846692}
   - {fileID: 1086846696}
@@ -14083,6 +14085,23 @@ MonoBehaviour:
   targetObject: {fileID: 20519437}
   methodName: acabarJoc
   delay: 0
+--- !u!114 &1086846697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086846653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 38074f2d1cf354fedbd13ee7b1f39d31, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &1116212240
 GameObject:
   m_ObjectHideFlags: 0

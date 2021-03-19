@@ -111,13 +111,8 @@ public class Notesba : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-
-
-
     {
         parl = parla.GetComponentInChildren<parles>();
-
-        DontDestroyOnLoad(this);
     }
 
     // Update is called once per frame

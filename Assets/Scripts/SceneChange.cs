@@ -13,9 +13,10 @@ public class SceneChange : MonoBehaviour
     private void Start()
     {
         HUD = GameObject.Find("HUD");
-        HUD.SetActive(false);
+        
         lastPhase();
         HUD.GetComponent<HUD_manager>().newScene();
+        HUD.SetActive(false);
     }
 
     private void OnTriggerEnter2D()
