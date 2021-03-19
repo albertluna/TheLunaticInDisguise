@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEditor.XR;
 
 public class CanviaSuro : MonoBehaviour
 {

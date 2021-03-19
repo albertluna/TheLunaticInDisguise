@@ -152,17 +152,17 @@ PrefabInstance:
     - target: {fileID: 1396375839086444564, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_Size.x
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1396375839086444564, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_Size.y
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1856056535824207178, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.04
+      value: -11.6
       objectReference: {fileID: 0}
     - target: {fileID: 1856056535824207178, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
@@ -323,17 +323,17 @@ PrefabInstance:
     - target: {fileID: 1396375839086444564, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_Size.x
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1396375839086444564, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_Size.y
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1856056535824207178, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.14
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1856056535824207178, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
@@ -4807,12 +4807,12 @@ PrefabInstance:
     - target: {fileID: 1396375839086444564, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_Size.x
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1396375839086444564, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_Size.y
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1856056535824207178, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
@@ -9576,7 +9576,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 625.85834
     y: -86.15704
-    width: 117.68855
+    width: 123.56341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9784,7 +9784,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 597.43427
     y: -146.89314
-    width: 115.13427
+    width: 120.49827
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10331,7 +10331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: Doncs no la veritat...
+  storyText: To be honest, no...
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -10510,7 +10510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: "B\xE9... Mai t'ha parlat de mi?"
+  storyText: Has she never told you about me?
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10537,7 +10537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: "La vaig con\xE9ixer m\xE9s o menys a la teva edat"
+  storyText: We met when we were about your age.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10564,7 +10564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: Hostia...!
+  storyText: Shit...!
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10591,7 +10591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: "Perd\xF3 nen, per\xF2 \xE9s que conec la teva mare des de ben petit"
+  storyText: Sorry, kid, but I've known your mom since we were little.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -10620,7 +10620,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 481.81662
     y: -84.812775
-    width: 94.69999
+    width: 99.04227
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10851,7 +10851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 622.0341
     y: 26.499985
-    width: 115.13427
+    width: 119.476555
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11297,7 +11297,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 520.77637
     y: 146.22978
-    width: 85.759995
+    width: 89.84685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11768,7 +11768,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 355.18182
     y: 3.867968
-    width: 85.759995
+    width: 89.84685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11801,8 +11801,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 353.99356
-    y: 145.41829
-    width: 88.31428
+    y: 146.69543
+    width: 92.91199
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12009,7 +12009,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.19159
     y: 62.556225
-    width: 98.53142
+    width: 104.15084
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12137,7 +12137,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 931907992}
+  - {fileID: 931907942}
   selectedCommands: []
   variables:
   - {fileID: 931907930}
@@ -12168,7 +12168,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 491.6452
     y: 79.59842
-    width: 97.25427
+    width: 102.107414
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12248,7 +12248,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 595.8626
     y: -22.41181
-    width: 90.86856
+    width: 95.97713
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12591,7 +12591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 130
   indentLevel: 0
-  storyText: Bueno, ho sento he de marxar....
+  storyText: Sorry, I have to go...
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -12618,7 +12618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
-  storyText: COM QUE NO?!
+  storyText: WHAT?!
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -13157,7 +13157,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 636.97424
     y: 121.14398
-    width: 79.37428
+    width: 82.69485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13669,8 +13669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 8336846166627602265, guid: 4fba54751c58b4f5ebdf350410537f52,
-    type: 3}
+  selectedFlowchart: {fileID: 931907997}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -15505,12 +15504,12 @@ PrefabInstance:
     - target: {fileID: 1396375839086444564, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_Size.x
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1396375839086444564, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_Size.y
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1856056535824207178, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
@@ -15596,6 +15595,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: canvi escena
       objectReference: {fileID: 0}
+    - target: {fileID: 7315418224250663702, guid: ebef9db2157554c2385be0a4635a991f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8775531813720586780, guid: ebef9db2157554c2385be0a4635a991f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15604,7 +15608,7 @@ PrefabInstance:
     - target: {fileID: 8775531813720586780, guid: ebef9db2157554c2385be0a4635a991f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.86
+      value: -3.7
       objectReference: {fileID: 0}
     - target: {fileID: 8775531813720586780, guid: ebef9db2157554c2385be0a4635a991f,
         type: 3}
@@ -20552,6 +20556,7 @@ GameObject:
   - component: {fileID: 2076438861}
   - component: {fileID: 2076438863}
   - component: {fileID: 2076438862}
+  - component: {fileID: 2076438864}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -20667,6 +20672,102 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!82 &2076438864
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076438857}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b7c76e2c58b54c64b986bdfcf01148fe, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.05
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &5242375498320883362
 PrefabInstance:
   m_ObjectHideFlags: 0
