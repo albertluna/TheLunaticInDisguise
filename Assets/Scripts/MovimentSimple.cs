@@ -11,6 +11,7 @@ public class MovimentSimple : MonoBehaviour
     // public float us = 0;
     private Rigidbody2D rb;
     public Animator animator;
+    public float velocity;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +29,7 @@ public class MovimentSimple : MonoBehaviour
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
-            Vector3 characterScale = transform.localScale;
+            Vector3 characterScale = transform.localScale; //SpriteRenderer FlipX
             if (horizontalInput < 0)
             {
                 characterScale.x = 1;
@@ -41,9 +42,9 @@ public class MovimentSimple : MonoBehaviour
 
             animator.SetFloat("Speed", Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
 
-            rb.velocity = new Vector2(horizontalInput, verticalInput);
-
-            if ((Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
+            rb.velocity = new Vector2(horizontalInput*velocity, verticalInput*velocity); //mirar pujar diagonal
+            
+            /*if ((Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
             {
                 Vector3 position = this.transform.position;
                 position.y -= 0.1f;
@@ -73,7 +74,7 @@ public class MovimentSimple : MonoBehaviour
                 position.y += 0.1f;
                 position.x -= 0.05f;
                 this.transform.position = position;
-            }
+            }*/
         } else
         {
             if (Input.GetKey(KeyCode.F)) Mov = true;
