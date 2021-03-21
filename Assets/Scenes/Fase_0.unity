@@ -11322,7 +11322,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274
     y: 152
-    width: 104.4
+    width: 103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11391,10 +11391,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1910835691}
-  selectedCommands:
-  - {fileID: 1910835725}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: parla inicial
   stepPause: 0
@@ -11751,7 +11749,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 411.2528
     y: 168.29074
-    width: 141.2
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11835,7 +11833,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.2528
     y: 236.29074
-    width: 134.8
+    width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

@@ -11,7 +11,7 @@ public class MovimentSimple : MonoBehaviour
     // public float us = 0;
     private Rigidbody2D rb;
     public Animator animator;
-    public float velocity;
+    public float velocity = 10;
 
     // Start is called before the first frame update
     void Start()
@@ -29,54 +29,31 @@ public class MovimentSimple : MonoBehaviour
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
-            Vector3 characterScale = transform.localScale; //SpriteRenderer FlipX
+            SpriteRenderer spriteRobin = GetComponent<SpriteRenderer>(); //SpriteRenderer FlipX
+            if (verticalInput > 0)
+            {
+                horizontalInput = verticalInput / 2;
+            }
+            if (verticalInput < 0)
+            {
+                horizontalInput = verticalInput / 2;
+            }
             if (horizontalInput < 0)
             {
-                characterScale.x = 1;
+                spriteRobin.flipX = false;
             }
+
             if (horizontalInput > 0)
             {
-                characterScale.x = -1;
+                spriteRobin.flipX = true;
             }
-            transform.localScale = characterScale;
+            
 
             animator.SetFloat("Speed", Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
 
-            rb.velocity = new Vector2(horizontalInput*velocity, verticalInput*velocity); //mirar pujar diagonal
-            
-            /*if ((Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
-            {
-                Vector3 position = this.transform.position;
-                position.y -= 0.1f;
-                position.x += 0.05f;
-                this.transform.position = position;
+            rb.velocity = new Vector2(horizontalInput*velocity, verticalInput*velocity/2); //mirar pujar diagonal
 
-            }
-
-            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-            {
-                Vector3 position = this.transform.position;
-                position.x += 0.1f;
-                this.transform.position = position;
-
-            }
-
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-            {
-                Vector3 position = this.transform.position;
-                position.x -= 0.1f;
-                this.transform.position = position;
-            }
-
-            if ((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)))
-            {
-                Vector3 position = this.transform.position;
-                position.y += 0.1f;
-                position.x -= 0.05f;
-                this.transform.position = position;
-            }*/
-        } else
-        {
+        } else {
             if (Input.GetKey(KeyCode.F)) Mov = true;
         }
     }
