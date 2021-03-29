@@ -10,6 +10,8 @@ public class CinematiquesHabitacio : MonoBehaviour
     private Animation anim;
     public GameObject canviEscena;
     private static bool primerDialeg;
+    public Animator transicio;
+
     void Start()
     {
         fc = Robin.GetComponent<Flowchart>();
@@ -24,12 +26,15 @@ public class CinematiquesHabitacio : MonoBehaviour
     public void anarADormir()
     {
         noMoure();
+        transicio.SetTrigger("starts");
         anim.PlayQueued("anarDormirFase2i3");
     }
 
     public void despertarse()
     {
+        
         anim.PlayQueued("Despertar-se");
+        transicio.SetTrigger("ends");
         moure();
     }
 
@@ -38,34 +43,41 @@ public class CinematiquesHabitacio : MonoBehaviour
      * FASE 1
      * 
      * **********************/
-    //Primerdialeg de l'habitacio
+    //Primerdialeg de l'habitacio. PART 1
     public void dialegIntroduccio()
     {
+        Robin.transform.position = new Vector3(-10.7f, -1.97f, 101.73f);
         primerDialeg = true;
         canviEscena.GetComponent<BoxCollider2D>().enabled = false;
-        moure();
+        noMoure();
         fc.ExecuteBlock("iniciConv");
         GameObject.Find("canviFase").GetComponent<BoxCollider2D>().enabled = false;
     }
 
+    //Part 2
     public void dialegIntroduccio2()
     {
         // Execucio de l'animacio
         anim.Play("Dormir0");
     }
 
+    //Part 3
     public void dialegIntroduccio3()
     {
         //S'activa el canvi d'escena
         canviEscena.GetComponent<BoxCollider2D>().enabled = true;
 
-        // Execucio de l'animacio
+        // Execucio de l'animacio d'estirar-se al llit
         anim.PlayQueued("Dormir 1");
-
     }
+
+    //Part 4
     public void dialegIntroduccio4()
     {
+        //animacio d'aixecar-se del llit i anar a la porta
         anim.PlayQueued("Dormir 2");
+        transicio.SetTrigger("ends");
+
     }
 
     /**********************

@@ -7,6 +7,7 @@ public class Cinematiques : MonoBehaviour
 {
     private Flowchart fc;
     private static bool primerDialeg;
+    private static bool primerDialeg1;
     private static bool primerDialeg2;
     private static bool primerDialeg3;
     private static bool poli;
@@ -26,6 +27,7 @@ public class Cinematiques : MonoBehaviour
         animCamera = GameObject.Find("Main Camera").GetComponent<Animation>();
         animRobin = Robin.GetComponent<Animation>();
         if (!primerDialeg) DialegIntroduccio();
+        if (primerDialeg1) iniciFase1Carrer();
         if (primerDialeg2) iniciFase2Carrer();
         if (primerDialeg3) iniciFase3Carrer();
         if (poli) animacioPoli();
@@ -38,6 +40,7 @@ public class Cinematiques : MonoBehaviour
         primerDialeg = true;
         //Començar la conversa
         fc.ExecuteBlock("iniciConv");
+        primerDialeg1 = true;
     }
 
     void animacioInicial1()
@@ -69,6 +72,13 @@ public class Cinematiques : MonoBehaviour
         }
     }
 
+    public static void setPrimerDialegFase1() { primerDialeg1 = true; }
+
+    void iniciFase1Carrer()
+    {
+        fc.ExecuteBlock("iniciFase1");
+    }
+
     /*****************************
      * 
      * FASE 2
@@ -79,7 +89,7 @@ public class Cinematiques : MonoBehaviour
 
     void iniciFase2Carrer()
     {
-        primerDialeg3 = false;
+        primerDialeg2 = false;
         sospitososInvestigats = 0;
 
     }
