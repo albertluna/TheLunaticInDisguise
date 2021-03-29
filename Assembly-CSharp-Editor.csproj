@@ -655,6 +655,10 @@
       <Project>{2C5B0EB7-45CF-40EC-893E-7940E461DD20}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{9FC264C4-42A7-C82B-3F6E-F1FCF2876C25}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
       <Project>{569F117E-DFB1-20A9-0C83-FFF5F3619CB8}</Project>
       <Name>Fungus.FungusLuaEditor</Name>
