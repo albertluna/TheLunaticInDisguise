@@ -23,7 +23,7 @@ public class tes : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)) && !flowchart.HasExecutingBlocks() && !started)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)) && !flowchart.HasExecutingBlocks())
         {
             moviment.Mov = false;
             flowchart.ExecuteBlock("iniciConv");
@@ -31,4 +31,5 @@ public class tes : MonoBehaviour
         }
         //Es repren el moviment Mov a Cinematiques.nouInvestigat();
     }
+
 }

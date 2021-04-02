@@ -33,6 +33,9 @@ public class Cinematiques : MonoBehaviour
         if (poli) animacioPoli();
     }
 
+    public void moure() { Robin.GetComponent<MovimentSimple>().Mov = true; }
+    public void noMoure() { Robin.GetComponent<MovimentSimple>().Mov = false; }
+
     void DialegIntroduccio()
     {
         //Prohibir moure el personatge

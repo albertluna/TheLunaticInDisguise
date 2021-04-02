@@ -20,7 +20,7 @@ public class SceneChange : MonoBehaviour
         HUD.SetActive(false);
     }
 
-    private void OnTriggerEnter2D()
+    public void canviEscena()
     {
         StartCoroutine(LoadLevel());
     }

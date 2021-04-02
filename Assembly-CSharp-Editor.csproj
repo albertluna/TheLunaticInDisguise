@@ -649,6 +649,9 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/albert/Documents/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>/Users/albert/Documents/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
