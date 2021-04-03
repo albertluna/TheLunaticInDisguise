@@ -53,7 +53,11 @@ public class MovimentSimple : MonoBehaviour
             rb.velocity = new Vector2(horizontalInput*velocity, verticalInput*velocity/2); //mirar pujar diagonal
 
         } else {
-            if (Input.GetKey(KeyCode.F)) Mov = true;
+            if (Input.GetKey(KeyCode.F))
+            {
+                Mov = true;
+                notesObertes = false;
+            }
             rb.velocity = new Vector2(0, 0);
             animator.SetFloat("Speed", 0);
         }
