@@ -1,9 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Fungus;
-using System.Reflection;
-using System;
 
 public class tes : MonoBehaviour
 {
@@ -23,7 +19,7 @@ public class tes : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)) && !flowchart.HasExecutingBlocks())
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)) && !flowchart.HasExecutingBlocks() && !moviment.notesObertes)
         {
             moviment.Mov = false;
             flowchart.ExecuteBlock("iniciConv");

@@ -553,6 +553,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3925394998527947270, guid: c2048e8acc0304fe49fb2f9929b2158e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3958947871394106239, guid: c2048e8acc0304fe49fb2f9929b2158e,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -7193,6 +7198,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737391824739322706, guid: c2048e8acc0304fe49fb2f9929b2158e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6737391824739322709, guid: c2048e8acc0304fe49fb2f9929b2158e,
         type: 3}
@@ -16431,12 +16441,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2048e8acc0304fe49fb2f9929b2158e, type: 3}
---- !u!223 &5470841 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 7903478155325439729, guid: c2048e8acc0304fe49fb2f9929b2158e,
-    type: 3}
-  m_PrefabInstance: {fileID: 3663888}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &20519437
 GameObject:
   m_ObjectHideFlags: 0
@@ -16855,7 +16859,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 216765001}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 216765000}
   variables: []
   description: 
   stepPause: 0
@@ -16909,7 +16914,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 216765002}
   commandList:
-  - {fileID: 216765003}
   - {fileID: 216765000}
   suppressAllAutoSelections: 0
 --- !u!114 &216765002
@@ -16929,35 +16933,6 @@ MonoBehaviour:
   tagFilter: []
   FireOn: 1
   collisionVar: {fileID: 0}
---- !u!114 &216765003
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 216764993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  storyText: 'Slut
-
-'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!1 &263885520
 GameObject:
   m_ObjectHideFlags: 0
@@ -17980,6 +17955,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prinotes: {fileID: 884390242}
   prinparla: {fileID: 1229241797}
+  n: 0
+  canvas1: {fileID: 1467781310}
+  canvas2: {fileID: 762783078}
+  canvas3: {fileID: 2094307583}
+  canvas4: {fileID: 981211503}
+  canvas5: {fileID: 1062581145}
 --- !u!114 &1027835964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17992,8 +17973,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fee27c6d0fef4549a76d0a771d20348, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  n: 0
-  canvas1: {fileID: 5470841}
 --- !u!114 &1027835965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18006,108 +17985,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f55f5fc20c2b84e928a4e38b6f2675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  n: 0
-  canvas1: {fileID: 1467781310}
-  canvas2: {fileID: 762783078}
-  canvas3: {fileID: 2094307583}
-  canvas4: {fileID: 981211503}
-  canvas5: {fileID: 1062581145}
---- !u!82 &1027835967
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1027835962}
-  m_Enabled: 0
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b7c76e2c58b54c64b986bdfcf01148fe, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.291
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!223 &1062581145 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 6329652424495680968, guid: c2048e8acc0304fe49fb2f9929b2158e,
@@ -21286,49 +21163,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 769254786}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1946609732 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2291840437202951843, guid: c2048e8acc0304fe49fb2f9929b2158e,
-    type: 3}
-  m_PrefabInstance: {fileID: 3663888}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1946609734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1946609732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0c7e65fb87e228546a8a6e9a5b2ab3c1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1946609735
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1946609732}
-  m_CullTransparentMesh: 0
 --- !u!1 &2076438857
 GameObject:
   m_ObjectHideFlags: 0
@@ -21444,8 +21278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fee27c6d0fef4549a76d0a771d20348, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  n: 0
-  canvas1: {fileID: 0}
 --- !u!111 &2076438863
 Animation:
   m_ObjectHideFlags: 0
@@ -21474,12 +21306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f55f5fc20c2b84e928a4e38b6f2675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  n: 0
-  canvas1: {fileID: 0}
-  canvas2: {fileID: 0}
-  canvas3: {fileID: 0}
-  canvas4: {fileID: 0}
-  canvas5: {fileID: 0}
 --- !u!82 &2076438865
 AudioSource:
   m_ObjectHideFlags: 0

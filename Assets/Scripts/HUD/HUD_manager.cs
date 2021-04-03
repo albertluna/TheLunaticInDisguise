@@ -8,6 +8,16 @@ public class HUD_manager : MonoBehaviour
     public GameObject prinparla;
     private parles parles;
 
+    public bool n = false;
+    private bool canvi = false;
+
+    public Canvas canvas1;
+    public Canvas canvas2;
+    public Canvas canvas3;
+    public Canvas canvas4;
+    public Canvas canvas5;
+    private MovimentSimple Robin;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,17 +26,34 @@ public class HUD_manager : MonoBehaviour
         prinotes.SetActive(true);
         prinotes.SetActive(true);
         parles = prinparla.GetComponent<parles>();
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        newScene();
+        //setNotes(false);
         
     }
 
     public void newScene()
     {
         parles.newScene();
+        Robin = GameObject.Find("Robin").GetComponent<MovimentSimple>();
+    }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            setNotes(canvi);
+            Robin.notesObertes = canvi;
+            canvi = !canvi;
+        }
+    }
+
+    //Funcio que activa o desactiva les notes del Barry
+    public void setNotes(bool estat)
+    {
+        canvas1.gameObject.SetActive(estat);
+        canvas2.gameObject.SetActive(false);
+        canvas3.gameObject.SetActive(false);
+        canvas4.gameObject.SetActive(false);
+        canvas5.gameObject.SetActive(false);
     }
 }

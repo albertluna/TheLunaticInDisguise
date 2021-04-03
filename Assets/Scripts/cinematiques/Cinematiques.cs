@@ -69,7 +69,7 @@ public class Cinematiques : MonoBehaviour
 
     void instruccioInicial()
     {
-        if (sospitososInvestigats == 1 && SceneChange.fase==1)// &&fase1
+        if (sospitososInvestigats == 1 && SceneChange.fase==1)
         {
             fc.ExecuteBlock("instruccioInicial");
         }
@@ -134,6 +134,7 @@ public class Cinematiques : MonoBehaviour
         if (sospitososInvestigats == 5)
         {
             fc.ExecuteBlock("totsInvestigats");
+            CinematiquesHabitacio.parlatAmbTothom = true;
         }
     }
 
@@ -146,5 +147,4 @@ public class Cinematiques : MonoBehaviour
     {
         ScenesManager.Load(ScenesManager.Scene.menu);
     }
-
 }

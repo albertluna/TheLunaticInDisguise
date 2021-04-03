@@ -11,6 +11,7 @@ public class CinematiquesHabitacio : MonoBehaviour
     public GameObject canviEscena;
     private static bool primerDialeg;
     public Animator transicio;
+    public static bool parlatAmbTothom;
 
     void Start()
     {
@@ -18,6 +19,7 @@ public class CinematiquesHabitacio : MonoBehaviour
         anim = Robin.GetComponent<Animation>();
         Robin.GetComponent<MovimentSimple>().Mov = true;
         if (!primerDialeg) dialegIntroduccio();
+        if (parlatAmbTothom) setDialegCanviFase();
     }
 
     public void moure() { Robin.GetComponent<MovimentSimple>().Mov = true; }
@@ -28,6 +30,9 @@ public class CinematiquesHabitacio : MonoBehaviour
         noMoure();
         transicio.SetTrigger("starts");
         anim.PlayQueued("anarDormirFase2i3");
+        parlatAmbTothom = false;
+        GameObject.Find("canviFase").GetComponent<Flowchart>().SetBooleanVariable("parlatAmbTothom", false);
+
     }
 
     public void despertarse()
@@ -36,6 +41,12 @@ public class CinematiquesHabitacio : MonoBehaviour
         anim.PlayQueued("Despertar-se");
         transicio.SetTrigger("ends");
         moure();
+    }
+
+    //Un cop a parlat amb els 5 sospitosos s'activa la variable per canviar el dialeg de canvi de fase
+    public void setDialegCanviFase()
+    {
+        GameObject.Find("canviFase").GetComponent<Flowchart>().SetBooleanVariable("parlatAmbTothom", parlatAmbTothom);
     }
 
     /*************************

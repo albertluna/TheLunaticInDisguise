@@ -18,7 +18,6 @@ public class but_barry : MonoBehaviour
     {
         Button btn = this.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
-        Debug.Log("BOTO");
     }
 
     // Update is called once per frame

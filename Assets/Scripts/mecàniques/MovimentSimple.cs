@@ -7,8 +7,7 @@ public class MovimentSimple : MonoBehaviour
 {
     int collision; //1 -> NPC, 2 -> Object, 0 -> Nothing
     public bool Mov;
-    //public tes dialeg;
-    // public float us = 0;
+    public bool notesObertes;
     private Rigidbody2D rb;
     public Animator animator;
     public float velocity = 10;
@@ -24,7 +23,7 @@ public class MovimentSimple : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Mov == true)
+        if (Mov && !notesObertes)
         {
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");

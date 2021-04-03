@@ -172,14 +172,14 @@ public class scriptact : MonoBehaviour
 
         detobj = deteobj.GetComponent<detectobj>();
         detobj2 = deteobj2.GetComponent<detectobj>();
-        /*detobj3 = deteobj3.GetComponent<detectobj>();
+        detobj3 = deteobj3.GetComponent<detectobj>();
         detobj4 = deteobj4.GetComponent<detectobj>();
         detobj5 = deteobj5.GetComponent<detectobj>();
         detobj6 = deteobj6.GetComponent<detectobj>();
         detobj7 = deteobj7.GetComponent<detectobj>();
         detobj8 = deteobj8.GetComponent<detectobj>();
         detobj9 = deteobj9.GetComponent<detectobj>();
-        detobj10 = deteobj10.GetComponent<detectobj>();*/
+        detobj10 = deteobj10.GetComponent<detectobj>();
 
     }
 

@@ -940,7 +940,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 358401490}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 358401513}
   variables:
   - {fileID: 358401502}
   - {fileID: 358401509}
@@ -4105,7 +4106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 1
-  storyText: FUCK YOU
+  storyText: I hate this smell...
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 0}
@@ -5233,7 +5234,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 672038979}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 672039065}
   variables:
   - {fileID: 672038978}
   - {fileID: 672039085}
@@ -9156,7 +9158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 168
   indentLevel: 1
-  storyText: FUCK YOU
+  storyText: Have a nice day!
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 0}
@@ -10196,7 +10198,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 625.85834
     y: -86.15704
-    width: 117.68855
+    width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10404,7 +10406,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 597.43427
     y: -146.89314
-    width: 115.13427
+    width: 119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11240,7 +11242,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 481.81662
     y: -84.812775
-    width: 94.69999
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11471,7 +11473,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 622.0341
     y: 26.499985
-    width: 115.13427
+    width: 118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11917,7 +11919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 520.77637
     y: 146.22978
-    width: 85.759995
+    width: 89
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12388,7 +12390,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 355.18182
     y: 3.867968
-    width: 85.759995
+    width: 89
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12422,7 +12424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 353.99356
     y: 146.69543
-    width: 88.31428
+    width: 92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12629,7 +12631,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.19159
     y: 62.556225
-    width: 98.53142
+    width: 103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12649,6 +12651,7 @@ MonoBehaviour:
   - {fileID: 931907952}
   - {fileID: 931908028}
   - {fileID: 931908027}
+  - {fileID: 931908030}
   - {fileID: 931908026}
   suppressAllAutoSelections: 0
 --- !u!114 &931907993
@@ -12749,11 +12752,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 4.122608, y: 189.5444}
+  scrollPos: {x: -83.40296, y: 212.17752}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 387
-  zoom: 0.78299797
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -12762,7 +12765,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 931907992}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 931908030}
   variables:
   - {fileID: 931907930}
   - {fileID: 931908007}
@@ -12792,7 +12796,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 491.6452
     y: 79.59842
-    width: 97.25427
+    width: 101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12872,7 +12876,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 595.8626
     y: -22.41181
-    width: 90.86856
+    width: 95
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13781,7 +13785,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 636.97424
     y: 121.14398
-    width: 79.37428
+    width: 82
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13909,7 +13913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 152
   indentLevel: 1
-  storyText: FUCK YOU
+  storyText: '*whispering* I''m on a phone call.'
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 0}
@@ -14179,6 +14183,33 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &931908030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 154
+  indentLevel: 1
+  storyText: See you later, kid.
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &943743251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14594,7 +14625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1263380795}
+  selectedFlowchart: {fileID: 1854123305}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -17241,7 +17272,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1854123350}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1854123409}
   variables:
   - {fileID: 1854123316}
   - {fileID: 1854123369}
@@ -18895,8 +18927,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 350.09988
-    y: 307.78568
+    x: 355.76242
+    y: 315.7133
     width: 89.63765
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -21605,7 +21637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 178
   indentLevel: 1
-  storyText: FUCK YOU
+  storyText: Remember, you can come whenerver you want.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 0}

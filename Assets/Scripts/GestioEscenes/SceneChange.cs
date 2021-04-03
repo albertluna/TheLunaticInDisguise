@@ -8,16 +8,16 @@ public class SceneChange : MonoBehaviour
 {
     public bool isStreet;
     public static int fase = 1;
-    public GameObject HUD;
+    public HUD_manager HUD;
     public Animator transition;
 
     private void Start()
     {
 
-        HUD = GameObject.Find("HUD");
+        HUD = GameObject.Find("HUD").GetComponent<HUD_manager>();
         lastPhase();
-        HUD.GetComponent<HUD_manager>().newScene();
-        HUD.SetActive(false);
+        HUD.newScene();
+        HUD.setNotes(false);
     }
 
     public void canviEscena()
@@ -27,10 +27,10 @@ public class SceneChange : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        /*if (Input.GetKeyDown(KeyCode.X))
         {
-            HUD.SetActive(true);
-        }
+            HUD.setNotes(false);
+        }*/
         
     }
      
@@ -38,7 +38,6 @@ public class SceneChange : MonoBehaviour
     {
         transition.SetTrigger("starts");
         yield return new WaitForSeconds(1);
-        HUD.SetActive(true);
         if (isStreet)
         {
             ScenesManager.Load(ScenesManager.Scene.escena_habitacio);
