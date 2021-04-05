@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UIElements;
+using TMPro;
 
 public class detectobj : MonoBehaviour, IDropHandler
 {
@@ -11,6 +11,8 @@ public class detectobj : MonoBehaviour, IDropHandler
 
     public GameObject deteobj;
     public detectobj detobj;
+
+    public TextMeshProUGUI text;
     /*
     public GameObject deteobj2;
     public detectobj detobj2;
@@ -153,6 +155,7 @@ public class detectobj : MonoBehaviour, IDropHandler
         detobj5 = deteobj5.GetComponent<detectobj>();*/
         Debug.Log(mouobj);
         DontDestroyOnLoad(this);
+        text = this.GetComponent<TextMeshProUGUI>();
     }
 
     public void OnDrop(PointerEventData eventData)

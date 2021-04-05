@@ -1161,9 +1161,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 722457919}
+  - {fileID: 722457924}
   selectedCommands:
-  - {fileID: 722457920}
+  - {fileID: 722457921}
   variables: []
   description: 
   stepPause: 0
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   indentLevel: 0
   text: No
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 722457924}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -1298,6 +1298,23 @@ MonoBehaviour:
   targetObject: {fileID: 722457914}
   methodName: canviEscena
   delay: 0
+--- !u!114 &722457921
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722457914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  targetObject: {fileID: 2055262162}
+  methodName: moure
+  delay: 0
 --- !u!114 &722457922
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1342,6 +1359,33 @@ MonoBehaviour:
   tagFilter: []
   FireOn: 1
   collisionVar: {fileID: 0}
+--- !u!114 &722457924
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722457914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 386
+    y: 295
+    width: 66
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 7
+  blockName: No
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 722457921}
+  suppressAllAutoSelections: 0
 --- !u!1 &753392337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,7 +1716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2075816239}
+  selectedFlowchart: {fileID: 722457915}
 --- !u!4 &963179315
 Transform:
   m_ObjectHideFlags: 1
@@ -1785,12 +1829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f55f5fc20c2b84e928a4e38b6f2675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  n: 0
-  canvas1: {fileID: 0}
-  canvas2: {fileID: 0}
-  canvas3: {fileID: 0}
-  canvas4: {fileID: 0}
-  canvas5: {fileID: 0}
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2073,6 +2111,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177186513691381105, guid: 6fa0289c04b1e45a0969d72094b4b908,
+        type: 3}
+      propertyPath: soundEffect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177186513691381105, guid: 6fa0289c04b1e45a0969d72094b4b908,
+        type: 3}
+      propertyPath: description
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8177186513691381108, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
@@ -2661,10 +2709,10 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 0
+  fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &1041239058
 MonoBehaviour:
@@ -2682,12 +2730,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 376.75
     y: 193
-    width: 156
+    width: 115
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 15
-  blockName: Explicacio0 (Copy)
+  blockName: Explicacio0
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2695,7 +2743,6 @@ MonoBehaviour:
   - {fileID: 1041239056}
   - {fileID: 1041239055}
   - {fileID: 1041239083}
-  - {fileID: 1041239085}
   - {fileID: 1041239052}
   - {fileID: 1041239051}
   - {fileID: 1041239034}
@@ -3017,12 +3064,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 250.25
     y: 230
-    width: 112
+    width: 71
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 9
-  blockName: bad (Copy)
+  blockName: bad
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -3131,12 +3178,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 237.25
     y: 131
-    width: 152
+    width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 7
-  blockName: Good night (Copy)
+  blockName: Good night
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -3169,7 +3216,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1041239041}
   selectedCommands: []
   variables: []
   description: 
@@ -3204,29 +3252,11 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 0
+  fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
---- !u!114 &1041239085
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041239033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 68
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
 --- !u!1 &1116065849
 GameObject:
   m_ObjectHideFlags: 0
@@ -4797,7 +4827,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &2075816245
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4811,7 +4841,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &2075816246
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4839,7 +4869,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2075816247
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4853,7 +4883,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &2075816248
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
