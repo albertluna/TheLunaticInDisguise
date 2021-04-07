@@ -5,8 +5,7 @@ using UnityEngine;
 public class HUD_manager : MonoBehaviour
 {
     public GameObject prinotes;
-    public GameObject prinparla;
-    private parles parles;
+    public parles prinparla;
 
     public bool n = false;
     private bool canvi = false;
@@ -17,6 +16,7 @@ public class HUD_manager : MonoBehaviour
     public Canvas canvas4;
     public Canvas canvas5;
     private MovimentSimple Robin;
+    public Canvas blaus;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,6 @@ public class HUD_manager : MonoBehaviour
         //this.gameObject.SetActive(false);
         prinotes.SetActive(true);
         prinotes.SetActive(true);
-        parles = prinparla.GetComponent<parles>();
         newScene();
         //setNotes(false);
         
@@ -33,7 +32,7 @@ public class HUD_manager : MonoBehaviour
 
     public void newScene()
     {
-        parles.newScene();
+        prinparla.newScene();
         Robin = GameObject.Find("Robin").GetComponent<MovimentSimple>();
     }
 
@@ -50,6 +49,7 @@ public class HUD_manager : MonoBehaviour
     //Funcio que activa o desactiva les notes del Barry
     public void setNotes(bool estat)
     {
+        blaus.gameObject.SetActive(estat);
         canvas1.gameObject.SetActive(estat);
         canvas2.gameObject.SetActive(false);
         canvas3.gameObject.SetActive(false);

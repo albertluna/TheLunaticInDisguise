@@ -9,8 +9,7 @@ public class Notesba : MonoBehaviour
 {
 
 
-    public GameObject parla;
-    public parles parl;
+    public parles parla;
 
 
     public TMP_Text MyText;
@@ -112,7 +111,6 @@ public class Notesba : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        parl = parla.GetComponentInChildren<parles>();
     }
 
     // Update is called once per frame
@@ -125,7 +123,7 @@ public class Notesba : MonoBehaviour
         {
             setText(notabarry1);
             notaAntiga = notabarry1;
-        }*/
+        }
 
         if (parl.ba102 == true)
         {
@@ -231,7 +229,7 @@ public class Notesba : MonoBehaviour
         {
 
             MyText18.text = "Blames Bruce Eleanor’s dead";
-        }*/
+        }
 
         if (parl.br301 == true)
         {
@@ -366,7 +364,7 @@ public class Notesba : MonoBehaviour
         {
 
             cMyText9.text = "Unable to reach her dreams";
-        }*/
+        }
 
         if (parl.car220 == true)
         {
@@ -407,7 +405,7 @@ public class Notesba : MonoBehaviour
         {
 
             cMyText16.text = "Left the city because the lack of apportunities";
-        }*/
+        }
 
         if (parl.car251 == true)
         {
@@ -564,7 +562,7 @@ public class Notesba : MonoBehaviour
         {
 
             pMyText.text = "Runs the farm";
-        }*/
+        }
 
         if (parl.pam505 == true)
         {
@@ -652,7 +650,7 @@ public class Notesba : MonoBehaviour
         {
 
             pMyText16.text = "Think Barry is the masked”";
-        }
+        }*/
 
 
     }

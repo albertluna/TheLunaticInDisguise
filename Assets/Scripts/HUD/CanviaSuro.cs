@@ -6,7 +6,7 @@ using TMPro;
 public class CanviaSuro : MonoBehaviour
 {
     // Start is called before the first frame update
-    public scriptact contradiccions;
+    public detectorContradiccions contradiccions;
     public TMP_Text MyText;
     public TMP_Text MyText2;
     public TMP_Text MyText3;
@@ -42,7 +42,7 @@ public class CanviaSuro : MonoBehaviour
 
     void Start()
     {
-        contradiccions = GameObject.Find("canvi escena").GetComponent<SceneChange>().HUD.GetComponent<HUD_manager>().prinotes.GetComponent<scriptact>();
+        contradiccions = GameObject.Find("canvi escena").GetComponent<SceneChange>().HUD.GetComponent<HUD_manager>().prinotes.GetComponent<detectorContradiccions>();
     }
 
     // Update is called once per frame
