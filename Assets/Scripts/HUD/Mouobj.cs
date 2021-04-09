@@ -43,7 +43,7 @@ public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
         // slot = GetComponentInParent<detectobj>();
         canvasGroup.blocksRaycasts = true;
         //Operacio per retornar a la posicio inicial
-        //transform.position = startPosition;
+        transform.position = startPosition;
 
         /*if (!slot)
         {

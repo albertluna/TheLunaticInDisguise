@@ -12,6 +12,7 @@ public static class ScenesManager {
         Fase_2,
         Fase_3,
         Fase_0,
+        Settings_Menu,
         menu
     }
 
