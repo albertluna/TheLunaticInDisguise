@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class HUD_manager : MonoBehaviour
 {
-    public GameObject prinotes;
-    public parles prinparla;
-
-    public bool n = false;
     private bool canvi = false;
 
     public Canvas canvas1;
@@ -17,14 +13,13 @@ public class HUD_manager : MonoBehaviour
     public Canvas canvas5;
     private MovimentSimple Robin;
     public Canvas blaus;
+    public CanviaSuro suro;
 
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(this);
         //this.gameObject.SetActive(false);
-        prinotes.SetActive(true);
-        prinotes.SetActive(true);
         newScene();
         //setNotes(false);
         
@@ -32,7 +27,7 @@ public class HUD_manager : MonoBehaviour
 
     public void newScene()
     {
-        prinparla.newScene();
+        GetComponent<parles>().newScene();
         Robin = GameObject.Find("Robin").GetComponent<MovimentSimple>();
     }
 

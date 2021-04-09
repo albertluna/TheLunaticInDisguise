@@ -18,7 +18,7 @@ public class CinematiquesHabitacio : MonoBehaviour
         fc = Robin.GetComponent<Flowchart>();
         anim = Robin.GetComponent<Animation>();
         Robin.GetComponent<MovimentSimple>().Mov = true;
-        if (!primerDialeg) dialegIntroduccio();
+        //if (!primerDialeg) dialegIntroduccio();
         if (parlatAmbTothom) setDialegCanviFase();
     }
 

@@ -18,14 +18,8 @@ public class detectobj : MonoBehaviour, IDropHandler
 
     private void Start()
     {
-        //zdetobj = deteobj.GetComponent<detectobj>();
         mouobj = null;//movobj.GetComponentInChildren<Mouobj>();
-        contradiccions = GetComponentInParent<detectorContradiccions>();
-        /* detobj2 = deteobj2.GetComponent<detectobj>();
-         detobj3 = deteobj3.GetComponent<detectobj>();
-         detobj4 = deteobj4.GetComponent<detectobj>();
-         detobj5 = deteobj5.GetComponent<detectobj>();*/
-        //text = this.GetComponent<TextMeshProUGUI>();
+        contradiccions = GetComponentInParent<detectorContradiccions>();        
     }
 
 

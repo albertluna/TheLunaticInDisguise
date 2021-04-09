@@ -39,7 +39,7 @@ public class parles : MonoBehaviour
         notes.AddRange(llistaCarol.GetComponentsInChildren<Mouobj>());
         notes.AddRange(llistaPamela.GetComponentsInChildren<Mouobj>());
 
-        Barry = GameObject.Find("Barry");
+        /*Barry = GameObject.Find("Barry");
         BarryFc = Barry.GetComponent<Flowchart>();
 
         Bruce = GameObject.Find("Bruce");
@@ -52,7 +52,8 @@ public class parles : MonoBehaviour
         OliverFc = Oliver.GetComponent<Flowchart>();
 
         Pamela = GameObject.Find("Pamela");
-        PamelaFc = Pamela.GetComponent<Flowchart>();
+        PamelaFc = Pamela.GetComponent<Flowchart>();*/
+        newScene();
     }
 
     public void newScene()

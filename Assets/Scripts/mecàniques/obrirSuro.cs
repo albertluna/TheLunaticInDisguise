@@ -11,8 +11,9 @@ public class obrirSuro : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        suro = GameObject.Find("Suro");
         moviment = Robin.GetComponent<MovimentSimple>();
-        suro.SetActive(false);
+        //suro.SetActive(false);
 
         //carregar les contradiccions
     }
@@ -33,6 +34,5 @@ public class obrirSuro : MonoBehaviour
             moviment.Mov = false;
             suro.SetActive(true);
         }
-        //Es repren el moviment Mov a Cinematiques.nouInvestigat();
     }
 }

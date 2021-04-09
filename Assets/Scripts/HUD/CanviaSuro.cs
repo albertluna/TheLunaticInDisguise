@@ -6,47 +6,27 @@ using TMPro;
 public class CanviaSuro : MonoBehaviour
 {
     // Start is called before the first frame update
-    public detectorContradiccions contradiccions;
-    public TMP_Text MyText;
-    public TMP_Text MyText2;
-    public TMP_Text MyText3;
-    public TMP_Text MyText4;
-    public TMP_Text MyText5;
-    public TMP_Text MyText6;
-    public TMP_Text MyText7;
-    public TMP_Text MyText8;
-    public TMP_Text MyText9;
-    public TMP_Text MyText10;
-    public TMP_Text MyText11;
-    public TMP_Text MyText12;
-    public TMP_Text MyText13;
-
-    public bool entrat = false;
-    public bool entrat2 = false;
-    public bool entrat3 = false;
-    public bool entrat4 = false;
-    public bool cont1 = false;
-    public bool cont2 = false;
-    public bool cont3 = false;
-    public bool cont4 = false;
-    public bool cont5 = false;
-    public bool cont6 = false;
-    public bool cont7 = false;
-    public bool cont8 = false;
-    public bool cont9 = false;
-    public bool cont10 = false;
-    public bool cont11 = false;
-    public bool cont12 = false;
-    public bool cont13 = false;
+    public contradiccioSuro[] suros;
 
 
     void Start()
     {
-        contradiccions = GameObject.Find("canvi escena").GetComponent<SceneChange>().HUD.GetComponent<HUD_manager>().prinotes.GetComponent<detectorContradiccions>();
+        //novesContradiccions();
+        suros = GetComponentsInChildren<contradiccioSuro>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void novesContradiccions(int id)
+    {
+        foreach(contradiccioSuro contradiccions in suros)
+        {
+            if (id == contradiccions.idContradiccio)
+            {
+                contradiccions.activar();
+            }
+        }
+    } 
+    /*
+    private void novesContradiccions()
     {
         if (contradiccions.contr1 == true)
         {
@@ -75,7 +55,7 @@ public class CanviaSuro : MonoBehaviour
             cont4 = true;
             MyText4.text = "Pamela: on estava?";
         }
-        if(cont1 == true)
+        if (cont1 == true)
         {
             MyText.text = "Barry: Què va fer ahir a la nit?";
         }
@@ -162,8 +142,8 @@ public class CanviaSuro : MonoBehaviour
         if (contradiccions.cont13 == true)
         {
             MyText13.text = "En Bruce segueix bebent?";
-        }*/
+        }*/    
+    //}
 
-    }
 }
 
