@@ -11,13 +11,12 @@ public class pause : MonoBehaviour
     public int n = 0;
     public int b = 0;
     public bool pausat = false;
-    public GameObject Robin;
-    private MovimentSimple moviment; 
+ 
   
 
     void Start()
     {
-        moviment = Robin.GetComponent<MovimentSimple>();
+      
         canvas.gameObject.SetActive(false);
         canvas2.gameObject.SetActive(false);
     }
@@ -35,7 +34,8 @@ public class pause : MonoBehaviour
             {
                 if (activa == false)
                 {
-                canvas.gameObject.SetActive(true);
+                    Time.timeScale = 0;
+                    canvas.gameObject.SetActive(true);
                 activa = true;
                 n = 1; 
                 }
@@ -46,18 +46,19 @@ public class pause : MonoBehaviour
             {
                 if (activa == true)
                 {
-                canvas.gameObject.SetActive(false);
+                    Time.timeScale = 1;
+                    canvas.gameObject.SetActive(false);
                 activa = false;
                 n = 1;
                 }
                 
             }
             n = 0;
-            if (pausat == false)
+          /*  if (pausat == false)
             {
                 if (b == 0)
                 {
-                    moviment.Mov = false;
+                    Time.timeScale = 1;
                     pausat = true;
                     b = 1;
                 }
@@ -66,14 +67,14 @@ public class pause : MonoBehaviour
             {
                 if (b == 0)
                 {
-                    moviment.Mov = true;
+                    Time.timeScale = 0;
                     pausat = false;
                     b = 1;
 
                 }
             }
             b = 0;
-
+            */
         }
     }
 }
