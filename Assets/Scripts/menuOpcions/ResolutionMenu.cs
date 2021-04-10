@@ -21,6 +21,7 @@ public class ResolutionMenu : MonoBehaviour
 
         fullScreenToggle.onValueChanged.AddListener(SetFullscreen);
         resolutionDropdown.onValueChanged.AddListener(SetResolution);
+        DontDestroyOnLoad(this);
     }
 
     private void LoadSettings()
