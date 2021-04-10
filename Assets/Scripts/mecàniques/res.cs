@@ -8,12 +8,11 @@ public class res : MonoBehaviour
 {
     // Start is called before the first frame update
     public Button yourButton;
-    public GameObject Robin;
-    private MovimentSimple moviment;
+  
     public Canvas canvas;
     void Start()
     {
-        moviment = Robin.GetComponent<MovimentSimple>();
+      
         Button btn = yourButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
     }
@@ -21,7 +20,7 @@ public class res : MonoBehaviour
     // Update is called once per frame
     void TaskOnClick()
     {
-        moviment.Mov = true;
+        Time.timeScale = 1;
         canvas.gameObject.SetActive(false);
     }
 
