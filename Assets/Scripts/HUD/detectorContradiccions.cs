@@ -13,34 +13,12 @@ public class detectorContradiccions : MonoBehaviour
     public CanviaSuro cs;
 
 
-    public bool contr1 = false;
-    public bool contr2 = false;
-    public bool contr3 = false;
-    public bool contr4 = false;
-    public bool contr5 = false;
-    public bool contr6 = false;
-    public bool contr7 = false;
-    public bool contr8 = false;
-    public bool contr9 = false;
-    public bool contr10 = false;
-    public bool contr11 = false;
-    public bool contr12 = false;
-    public bool contr13 = false;
-    public bool contr14 = false;
-    public bool contr15 = false;
-    public bool contr16 = false;
-    public bool contr17 = false;
-    public bool contr18 = false;
-    public bool contr19 = false;
-    public bool contr20 = false;
-
-
     public void esContradiccio()
     {
         id1 = detector1.idNota;
         id2 = detector2.idNota;
 
-        if (idCoincidents(102, 107))
+        if (idCoincidents(105, 108))
         {
             setContradiccio(1);
         }

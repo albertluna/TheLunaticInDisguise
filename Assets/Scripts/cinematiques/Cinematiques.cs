@@ -17,6 +17,7 @@ public class Cinematiques : MonoBehaviour
     private Animation animRobin;
     private AnimationEvent moureRobin;
     private static int sospitososInvestigats = 0;
+    public seguimentcamera camera;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,9 @@ public class Cinematiques : MonoBehaviour
         //Helena = GameObject.Find("Helena").GetComponent<Flowchart>();
         fc = Narrativa.GetComponent<Flowchart>();
         Robin.GetComponent<MovimentSimple>().Mov = true;
-        animCamera = GameObject.Find("Main Camera").GetComponent<Animation>();
+        GameObject cameraObject = GameObject.Find("Main Camera");
+        animCamera = cameraObject.GetComponent<Animation>();
+        camera = cameraObject.GetComponent<seguimentcamera>();
         animRobin = Robin.GetComponent<Animation>();
         if (!primerDialeg) DialegIntroduccio();
         if (primerDialeg1) iniciFase1Carrer();
@@ -131,6 +134,7 @@ public class Cinematiques : MonoBehaviour
         sospitososInvestigats++;
         Robin.GetComponent<MovimentSimple>().Mov = true;
         instruccioInicial();
+        camera.allunyarse();
         if (sospitososInvestigats == 5)
         {
             fc.ExecuteBlock("totsInvestigats");

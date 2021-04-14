@@ -617,17 +617,11 @@
     <Reference Include="Boo.Lang">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/albert/Documents/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-=======
->>>>>>> 0ae74ebc322eb4659636841713c0ad45e942aa8c
     <Reference Include="UnityEngine.UI">
       <HintPath>/Users/albert/Documents/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>D:/salle 2021/Videojoc/sourcetree/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>/Users/albert/Documents/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>

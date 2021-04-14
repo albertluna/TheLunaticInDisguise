@@ -11,7 +11,7 @@ public class obrirSuro : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        suro = GameObject.Find("Suro");
+        suro = GameObject.Find("HUD").GetComponent<HUD_manager>().suro;
         moviment = Robin.GetComponent<MovimentSimple>();
         //suro.SetActive(false);
 
