@@ -267,6 +267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Robin: {fileID: 2127605302}
   Narrativa: {fileID: 1086846653}
+  camera: {fileID: 0}
 --- !u!4 &20519439
 Transform:
   m_ObjectHideFlags: 0
@@ -787,6 +788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
 --- !u!114 &358401442
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8493,6 +8495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
 --- !u!114 &672039085
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11239,6 +11242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
 --- !u!114 &931907986
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12211,6 +12215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
 --- !u!114 &931908001
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15910,6 +15915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
 --- !u!114 &1004564455
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18102,6 +18108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
 --- !u!111 &1086846679
 Animation:
   m_ObjectHideFlags: 0
@@ -22004,7 +22011,7 @@ MonoBehaviour:
   variables:
   - {fileID: 1854123316}
   - {fileID: 1854123369}
-  description: Fase 1 Flowchart
+  description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
@@ -23492,7 +23499,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1854123343
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -24154,7 +24161,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1854123351
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -24191,9 +24198,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
 --- !u!114 &1854123353
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -24220,7 +24228,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1854123354
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -24249,7 +24257,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1854123355
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

@@ -105,7 +105,6 @@ public class parles : MonoBehaviour
             notaPamela = notaPamelaNova;
             notaNova = notaPamela;
         }
-        Debug.Log(notaNova);
 
         //Si es sobreescriu una variable nova del fungus, s'escriu a la seva nota corresponent
         if (notaNova != notaAntiga)
@@ -113,7 +112,6 @@ public class parles : MonoBehaviour
             foreach(Mouobj nota in notes) {
                 if (nota.idnota == notaNova) {
                     nota.activar();
-                    Debug.Log("NOVA NOTA");
                 }
             }
             notaAntiga = notaNova;

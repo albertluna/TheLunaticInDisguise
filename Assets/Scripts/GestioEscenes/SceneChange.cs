@@ -11,12 +11,13 @@ public class SceneChange : MonoBehaviour
     public HUD_manager HUD;
     public Animator transition;
 
-    private void Start()
+    void Start()
     {
 
         HUD = GameObject.Find("HUD").GetComponent<HUD_manager>();
         lastPhase();
         HUD.newScene();
+        Debug.Log("new scene");
         HUD.setNotes(false);
     }
 
@@ -69,7 +70,7 @@ public class SceneChange : MonoBehaviour
     //En l'ultima
     private void lastPhase()
     {
-        if(fase>= 3)
+        if(fase>= 3 && !isStreet)
         {
             Debug.Log("FASE 3");
             GameObject.Find("canviFase").GetComponent<BoxCollider2D>().enabled = false;

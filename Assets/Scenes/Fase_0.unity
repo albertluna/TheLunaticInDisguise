@@ -1117,7 +1117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -146.04074, y: -15.727466}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1128,7 +1128,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 216765001}
   selectedCommands: []
   variables: []
   description: 
@@ -3722,7 +3723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 216764999}
+  selectedFlowchart: {fileID: 1910835692}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -6842,7 +6843,7 @@ GameObject:
   - component: {fileID: 1910835721}
   - component: {fileID: 1910835724}
   - component: {fileID: 1910835703}
-  - component: {fileID: 1910835725}
+  - component: {fileID: 1910835726}
   m_Layer: 0
   m_Name: Helena
   m_TagString: Untagged
@@ -7248,14 +7249,14 @@ MonoBehaviour:
   - {fileID: 1910835695}
   - {fileID: 1910835677}
   - {fileID: 1910835723}
+  - {fileID: 1910835701}
   - {fileID: 1910835690}
   - {fileID: 1910835722}
+  - {fileID: 1910835697}
   - {fileID: 1910835678}
   - {fileID: 1910835721}
-  - {fileID: 1910835725}
-  - {fileID: 1910835701}
-  - {fileID: 1910835697}
   - {fileID: 1910835724}
+  - {fileID: 1910835726}
   - {fileID: 1910835700}
   - {fileID: 1910835699}
   - {fileID: 1910835702}
@@ -7285,7 +7286,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1910835710}
   selectedCommands: []
   variables: []
   description: parla inicial
@@ -7499,7 +7501,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 5
+    floatVal: 1
   durationOLD: 0
 --- !u!114 &1910835702
 MonoBehaviour:
@@ -7641,8 +7643,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 411.2528
-    y: 168.29074
+    x: 265.2528
+    y: 63.29074
     width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7725,8 +7727,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 280.2528
-    y: 236.29074
+    x: 259.2528
+    y: 220.29074
     width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7991,23 +7993,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1910835725
+--- !u!114 &1910835726
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910835676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 48
+  itemId: 49
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 02a73ba3d1a124dfdb3d1ed200943157, type: 3}
-  volume: 0.25
-  waitUntilFinished: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
 --- !u!1 &1912050854
 GameObject:
   m_ObjectHideFlags: 0

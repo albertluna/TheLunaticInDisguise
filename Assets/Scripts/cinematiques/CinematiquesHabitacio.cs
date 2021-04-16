@@ -131,7 +131,7 @@ public class CinematiquesHabitacio : MonoBehaviour
 
     public void cinematicaInicialFase()
     {
-        Debug.Log("CINEMATICAINICIAL FASE" + SceneChange.fase);
+        Debug.Log("CINEMATICAINICIAL FASE " + SceneChange.fase);
         switch (SceneChange.fase)
         {
             case 2:
