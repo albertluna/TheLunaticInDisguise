@@ -86,7 +86,11 @@ public class detectorContradiccions : MonoBehaviour
 
     private bool idCoincidents(int varA, int varB)
     {
-        return (this.id1 == varA && id2 == varB || id1 == varB && id2 == varA);
+        bool coincidents = (this.id1 == varA && id2 == varB || id1 == varB && id2 == varA);
+        detector1.novaContradiccio(coincidents);
+        detector2.novaContradiccio(coincidents);
+
+        return coincidents;
     }
 
     private void setContradiccio(int id)

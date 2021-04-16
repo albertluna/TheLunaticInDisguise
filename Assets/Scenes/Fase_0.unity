@@ -3426,6 +3426,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966777255}
   m_CullTransparentMesh: 0
+--- !u!1 &985025278 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9117404977217194267, guid: cdc87c25e4092416fac98b48b9f3cd13,
+    type: 3}
+  m_PrefabInstance: {fileID: 1087825765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &985025280
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985025278}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &1087825765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3492,6 +3515,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9117404977217194280, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 124427327da3243ddbaee840d4c22cc6,
+        type: 3}
+    - target: {fileID: 9117404977217194280, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9117404977217194280, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9117404977217194280, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdc87c25e4092416fac98b48b9f3cd13, type: 3}

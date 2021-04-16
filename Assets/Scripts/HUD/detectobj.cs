@@ -14,6 +14,7 @@ public class detectobj : MonoBehaviour, IDropHandler
     public TextMeshProUGUI text;
     public int idNota;
     public detectorContradiccions contradiccions;
+    public Animator animator;
 
 
     private void Start()
@@ -50,5 +51,18 @@ public class detectobj : MonoBehaviour, IDropHandler
 
         }
 
+    }
+
+    public void novaContradiccio(bool estat)
+    {
+        if (estat)
+        {
+            //correcte
+            animator.Play("correcte", 0);
+        } else
+        {
+            //incorrecte
+            animator.Play("malament", 0);
+        }
     }
 }
