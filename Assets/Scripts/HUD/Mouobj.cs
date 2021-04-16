@@ -51,6 +51,7 @@ public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
         {
             //Operacio per retornar a la posicio inicial
             desactivar();
+            //desactivar();
             transform.position = startPosition;
             Debug.Log("OLEE");
         }
