@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
+using UnityEngine.UI;
 
 public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
@@ -15,8 +16,8 @@ public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
     public int idnota;
     public string text;
     public TextMeshProUGUI textMesh;
-    public detectobj slot;
-    public GameObject blaus;
+    private Image image;
+    public bool interactable;
 
     private void Awake()
     {
@@ -26,7 +27,7 @@ public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
         canvas = GetComponentInParent<Canvas>();
     }
     public void OnBeginDrag(PointerEventData eventData)
-    {
+    {        
         startPosition = transform.position;
         canvasGroup.blocksRaycasts = false;
     }
@@ -38,28 +39,38 @@ public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        // check if the card has been placed in a slot
-
-        // slot = GetComponentInParent<detectobj>();
         canvasGroup.blocksRaycasts = true;
-        //Operacio per retornar a la posicio inicial
-        transform.position = startPosition;
 
-        /*if (!slot)
+        //Si s'arrossega per la pantalla
+        if (!eventData.pointerEnter.name.Equals("text-detector"))
         {
-            transform.position = startPosition;
-            canvasGroup.blocksRaycasts = true;
             Debug.Log("FAIL");
-            
-        } else
+        }
+        //Si s'arrosega a un detector
+        else
         {
-            Debug.Log(slot.idNota);
+            //Operacio per retornar a la posicio inicial
+            desactivar();
+            transform.position = startPosition;
             Debug.Log("OLEE");
-        }*/
+        }
     }
 
     public void activar()
     {
-        textMesh.text = text;
+        canvasGroup.alpha = 1;
+        canvasGroup.interactable = true;
+        textMesh.SetText(text);
+        interactable = true;
+        this.gameObject.SetActive(true);
     }
+
+    public void desactivar()
+    {
+        canvasGroup.alpha = 0;
+        canvasGroup.interactable = false;
+        this.gameObject.SetActive(false);
+        interactable = false;
+    }
+    public bool isInterectable() { return interactable; }
 }

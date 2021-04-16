@@ -8,15 +8,20 @@ public class contradiccioSuro : MonoBehaviour
     public int idContradiccio;
     public string text;
     private TextMeshProUGUI textMesh;
+    private CanvasGroup canvasGroup;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        textMesh = GetComponent<TextMeshProUGUI>();
+        canvasGroup = GetComponent<CanvasGroup>();
+        textMesh = GetComponentInChildren<TextMeshProUGUI>();
+        canvasGroup.alpha = 0;
     }
 
     public void activar()
     {
+        canvasGroup.alpha = 1;
         textMesh.SetText(text);
     }
 }

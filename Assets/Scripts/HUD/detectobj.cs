@@ -13,13 +13,13 @@ public class detectobj : MonoBehaviour, IDropHandler
 
     public TextMeshProUGUI text;
     public int idNota;
-    private detectorContradiccions contradiccions;
+    public detectorContradiccions contradiccions;
 
 
     private void Start()
     {
         mouobj = null;//movobj.GetComponentInChildren<Mouobj>();
-        contradiccions = GetComponentInParent<detectorContradiccions>();        
+        contradiccions = GetComponentInParent<detectorContradiccions>();
     }
 
 
@@ -28,20 +28,25 @@ public class detectobj : MonoBehaviour, IDropHandler
     {
         if (eventData.pointerDrag != null)
         {
-            if(mouobj != null) mouobj.textMesh.SetText(text.text);
+            Mouobj nota = eventData.pointerDrag.GetComponentInChildren<Mouobj>();
+            Debug.Log("On drop " + nota);
 
-            mouobj = eventData.pointerDrag.GetComponentInChildren<Mouobj>();
+            if (nota.isInterectable())
+            {
+                if (mouobj != null) mouobj.activar();
+                mouobj = nota;
+                //mouobj = eventData.pointerDrag.GetComponentInChildren<Mouobj>();
 
-            Debug.Log(mouobj);
-            //RectTransform cardRect = eventData.pointerDrag.GetComponent<RectTransform>();
-            // cardRect.SetParent(transform, false);
-            //cardRect.transform.position = transform.position;
-            Debug.Log("vaig a fer l'if.idnota: " + mouobj.idnota);
-            text.SetText(mouobj.text);
-            mouobj.textMesh.SetText("");
+                //RectTransform cardRect = eventData.pointerDrag.GetComponent<RectTransform>();
+                //cardRect.SetParent(transform, false);
+                //cardRect.transform.position = transform.position;
+                Debug.Log("vaig a fer l'if.idnota: " + mouobj.idnota);
+                text.SetText(mouobj.text);
+                //mouobj.textMesh.SetText("");
 
-            idNota = mouobj.idnota;
-            contradiccions.esContradiccio();
+                idNota = mouobj.idnota;
+                contradiccions.esContradiccio();
+            }
 
         }
 

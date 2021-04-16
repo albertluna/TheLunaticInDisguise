@@ -26,7 +26,13 @@ public class parles : MonoBehaviour
 
     //Array amb totes les notes de tots els suspitosos
     public List<Mouobj> notes;
-    int notaBarryAntiga = 0;
+    public int notaAntiga;
+    public int notaNova;
+    public int notaBarry;
+    public int notaBruce;
+    public int notaCarol;
+    public int notaOliver;
+    public int notaPamela;
 
 
     // Start is called before the first frame update
@@ -39,20 +45,11 @@ public class parles : MonoBehaviour
         notes.AddRange(llistaCarol.GetComponentsInChildren<Mouobj>());
         notes.AddRange(llistaPamela.GetComponentsInChildren<Mouobj>());
 
-        /*Barry = GameObject.Find("Barry");
-        BarryFc = Barry.GetComponent<Flowchart>();
+        foreach (Mouobj nota in notes)
+        {
+            nota.desactivar();
+        }
 
-        Bruce = GameObject.Find("Bruce");
-        BruceFc = Bruce.GetComponent<Flowchart>();
-
-        Carol = GameObject.Find("Carol");
-        CarolFc = Carol.GetComponent<Flowchart>();
-
-        Oliver = GameObject.Find("Oliver");
-        OliverFc = Oliver.GetComponent<Flowchart>();
-
-        Pamela = GameObject.Find("Pamela");
-        PamelaFc = Pamela.GetComponent<Flowchart>();*/
         newScene();
     }
 
@@ -77,16 +74,49 @@ public class parles : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int notabarry1 = BarryFc.GetIntegerVariable("Barry");
-        Debug.Log("nota barry = " + notabarry1);
+        int notaBarryNova = BarryFc.GetIntegerVariable("Barry");
+        int notaBruceNova = BruceFc.GetIntegerVariable("Bruce");
+        int notaCarolNova = CarolFc.GetIntegerVariable("Carol");
+        int notaOliverNova = OliverFc.GetIntegerVariable("Oliver");
+        int notaPamelaNova = PamelaFc.GetIntegerVariable("Pamela");
+
+        if (notaBarry != notaBarryNova)
+        {
+            notaBarry = notaBarryNova;
+            notaNova = notaBarry;
+        }
+        if (notaBruce != notaBruceNova)
+        {
+            notaBruce = notaBruceNova;
+            notaNova = notaBruce;
+        }
+        if (notaCarol != notaCarolNova)
+        {
+            notaCarol = notaCarolNova;
+            notaNova = notaCarol;
+        }
+        if (notaOliver != notaOliverNova)
+        {
+            notaOliver = notaOliverNova;
+            notaNova = notaOliver;
+        }
+        if (notaPamela != notaPamelaNova)
+        {
+            notaPamela = notaPamelaNova;
+            notaNova = notaPamela;
+        }
+        Debug.Log(notaNova);
 
         //Si es sobreescriu una variable nova del fungus, s'escriu a la seva nota corresponent
-        if(notabarry1 != notaBarryAntiga)
+        if (notaNova != notaAntiga)
         {
             foreach(Mouobj nota in notes) {
-                if (nota.idnota == notabarry1) { nota.activar(); }
+                if (nota.idnota == notaNova) {
+                    nota.activar();
+                    Debug.Log("NOVA NOTA");
+                }
             }
-            notaBarryAntiga = notabarry1;
+            notaAntiga = notaNova;
         }
     }
 }
