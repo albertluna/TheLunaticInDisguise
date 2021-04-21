@@ -18,6 +18,7 @@ public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
     public TextMeshProUGUI textMesh;
     private Image image;
     public bool interactable;
+    public static int separacio;
 
     private void Awake()
     {
@@ -59,6 +60,8 @@ public class Mouobj : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHa
 
     public void activar()
     {
+        this.rectTransform.Translate(new Vector3(separacio, -separacio, 0));
+        separacio = separacio + 5;
         canvasGroup.alpha = 1;
         canvasGroup.interactable = true;
         textMesh.SetText(text);
