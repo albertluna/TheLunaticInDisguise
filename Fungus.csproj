@@ -1262,13 +1262,13 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.12f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/albert/Documents/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/albert/OneDrive - La Salle/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/albert/Documents/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/albert/OneDrive - La Salle/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/albert/Documents/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/albert/OneDrive - La Salle/Prod. vj/DetectiusDefinitiu/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
