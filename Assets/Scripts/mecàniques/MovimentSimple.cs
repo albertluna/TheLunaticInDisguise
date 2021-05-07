@@ -11,6 +11,12 @@ public class MovimentSimple : MonoBehaviour
     private Rigidbody2D rb;
     public Animator animator;
     public float velocity = 10;
+    public GameObject[] limit;
+    public AudioSource audio;
+
+    public int level1;
+    public int level2;
+    public int level3;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +29,7 @@ public class MovimentSimple : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        setOrderRender();
         if (Mov && !notesObertes)
         {
             float horizontalInput = Input.GetAxis("Horizontal");
@@ -49,7 +56,7 @@ public class MovimentSimple : MonoBehaviour
             
 
             animator.SetFloat("Speed", Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
-
+            
             rb.velocity = new Vector2(horizontalInput*velocity, verticalInput*velocity/2); //mirar pujar diagonal
 
         } else {
@@ -61,5 +68,29 @@ public class MovimentSimple : MonoBehaviour
             rb.velocity = new Vector2(0, 0);
             animator.SetFloat("Speed", 0);
         }
+    }
+
+    public void setOrderRender()
+    {
+       if (this.transform.position.y > limit[0].transform.position.y)
+        {
+            this.GetComponent<SpriteRenderer>().sortingOrder = level1;
+            
+        }
+       else if(this.transform.position.y > limit[1].transform.position.y)
+        {
+            this.GetComponent<SpriteRenderer>().sortingOrder = level2;
+        }
+        else if (this.transform.position.y > limit[2].transform.position.y)
+        {
+            this.GetComponent<SpriteRenderer>().sortingOrder = level3;
+        }
+        Debug.Log("Alcada thhis = " + this.transform.position.y);
+        Debug.Log("Ordre es= " + this.GetComponent<SpriteRenderer>().sortingOrder);
+    }
+
+    public void playEffect()
+    {
+        audio.Play();
     }
 }

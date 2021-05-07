@@ -104,6 +104,8 @@ GameObject:
   - component: {fileID: 8336846166627602176}
   - component: {fileID: 8336846166627602179}
   - component: {fileID: 8336846166627602178}
+  - component: {fileID: 5088571942618286734}
+  - component: {fileID: 7246341669619293818}
   m_Layer: 5
   m_Name: Carol
   m_TagString: NPC
@@ -273,6 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37256c34272d8d438fb0fb8d2d4ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  audio: {fileID: 5088571942618286734}
 --- !u!114 &8336846166627602267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2410,7 +2414,11 @@ MonoBehaviour:
   nameText: Carol
   nameColor: {r: 0.3915094, g: 0.5415495, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 61239a93b72cc4d8597061ddd45e9250, type: 3}
+  - {fileID: 21300000, guid: 6007f6c662a8f45e3a5486abd364b837, type: 3}
+  - {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
+  - {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -4156,3 +4164,116 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!82 &5088571942618286734
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266555207902215504}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 4961051703388955544, guid: 4ec9a5212880c2b489f217aded4678eb,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: ee65d1eba603f48b299219d7f363db8d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 2
+  MaxDistance: 20
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!70 &7246341669619293818
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266555207902215504}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.23}
+  m_Size: {x: 0.69, y: 0.27}
+  m_Direction: 1

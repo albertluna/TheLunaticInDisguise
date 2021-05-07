@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 7789607614796316896, guid: ff8fe030dda214de68bd925c619c17cb,
         type: 3}
       propertyPath: m_Name
-      value: notaPamela
+      value: notaPamela Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7789607614796316899, guid: ff8fe030dda214de68bd925c619c17cb,
         type: 3}
@@ -31,7 +31,7 @@ PrefabInstance:
     - target: {fileID: 7789607614796316899, guid: ff8fe030dda214de68bd925c619c17cb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -48
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7789607614796316899, guid: ff8fe030dda214de68bd925c619c17cb,
         type: 3}
@@ -122,6 +122,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7789607614796316900, guid: ff8fe030dda214de68bd925c619c17cb,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff8fe030dda214de68bd925c619c17cb, type: 3}

@@ -8,6 +8,7 @@ public class tes : MonoBehaviour
     private MovimentSimple moviment;
     private bool started;
     public seguimentcamera camera;
+    public AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
@@ -29,5 +30,9 @@ public class tes : MonoBehaviour
             camera.aproparse();
         }
         //Es repren el moviment Mov a Cinematiques.nouInvestigat();
+    }
+    public void playEffect()
+    {
+        audio.Play();
     }
 }

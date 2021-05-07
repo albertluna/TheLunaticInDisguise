@@ -61,6 +61,10 @@ public class creditsFinals : MonoBehaviour
         if(moure) {
             this.transform.Translate(new Vector3(0, 1, 0));
         }
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            moure = !moure;
+        }
     }
 
     IEnumerator waiter()

@@ -87,12 +87,15 @@ public class detectorContradiccions : MonoBehaviour
     private bool idCoincidents(int varA, int varB)
     {
         bool coincidents = (this.id1 == varA && id2 == varB || id1 == varB && id2 == varA);
+
+        //Es crida a la funcio que pinta vermell o verd segons el resultat
         detector1.novaContradiccio(coincidents);
         detector2.novaContradiccio(coincidents);
 
         return coincidents;
     }
 
+    //Funció que es crida quan s'ha trobat una contradicció
     private void setContradiccio(int id)
     {
         cs.novesContradiccions(id);
