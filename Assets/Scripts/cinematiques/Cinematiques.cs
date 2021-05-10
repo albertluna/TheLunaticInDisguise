@@ -83,6 +83,7 @@ public class Cinematiques : MonoBehaviour
     void iniciFase1Carrer()
     {
         fc.ExecuteBlock("iniciFase1");
+        primerDialeg1 = false;
     }
 
     /*****************************
@@ -144,7 +145,7 @@ public class Cinematiques : MonoBehaviour
 
     public void final()
     {
-        GameObject.Find("Main Camera").transform.position = new Vector3(0, 20, 0);
+        ScenesManager.Load(ScenesManager.Scene.creditsFinals);
     }
 
     public void acabarJoc()

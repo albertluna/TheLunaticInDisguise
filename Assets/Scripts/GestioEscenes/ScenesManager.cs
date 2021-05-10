@@ -13,7 +13,8 @@ public static class ScenesManager {
         Fase_3,
         Fase_0,
         Settings_Menu,
-        menu
+        menu,
+        creditsFinals
     }
 
     public static void Load(Scene scene)

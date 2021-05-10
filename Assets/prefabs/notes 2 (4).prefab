@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -190,7 +190,7 @@ MonoBehaviour:
   idnota: 105
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!1 &223299521658705954
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,7 +481,7 @@ MonoBehaviour:
   idnota: 408
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!1 &223299522012388928
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +639,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
   idnota: 521
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497645175731188
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -757,7 +757,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -805,7 +805,7 @@ MonoBehaviour:
   idnota: 505
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497645234856212
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -875,7 +875,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -923,7 +923,7 @@ MonoBehaviour:
   idnota: 504
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497645342017671
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2060,7 +2060,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2108,7 +2108,7 @@ MonoBehaviour:
   idnota: 501
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497645626591077
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2447,7 +2447,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2495,7 +2495,7 @@ MonoBehaviour:
   idnota: 105
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497645804732808
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2964,7 +2964,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3012,7 +3012,7 @@ MonoBehaviour:
   idnota: 522
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497645913443330
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3351,7 +3351,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3399,7 +3399,7 @@ MonoBehaviour:
   idnota: 523
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646103697288
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3469,7 +3469,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3517,7 +3517,7 @@ MonoBehaviour:
   idnota: 999
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646113126525
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3853,7 +3853,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3901,7 +3901,7 @@ MonoBehaviour:
   idnota: 999
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646177505730
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3971,7 +3971,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4019,7 +4019,7 @@ MonoBehaviour:
   idnota: 507
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646209255652
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4488,7 +4488,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4536,7 +4536,7 @@ MonoBehaviour:
   idnota: 551
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646477568279
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4739,7 +4739,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4787,7 +4787,7 @@ MonoBehaviour:
   idnota: 503
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646766025165
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4857,7 +4857,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4905,7 +4905,7 @@ MonoBehaviour:
   idnota: 552
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646842556126
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4975,7 +4975,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5023,7 +5023,7 @@ MonoBehaviour:
   idnota: 550
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646850967513
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5093,7 +5093,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5141,7 +5141,7 @@ MonoBehaviour:
   idnota: 553
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646880098950
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5211,7 +5211,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5259,7 +5259,7 @@ MonoBehaviour:
   idnota: 502
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646920949724
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5462,7 +5462,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5510,7 +5510,7 @@ MonoBehaviour:
   idnota: 999
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497646997473174
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5580,7 +5580,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5628,7 +5628,7 @@ MonoBehaviour:
   idnota: 520
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497647079091671
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5698,7 +5698,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5746,7 +5746,7 @@ MonoBehaviour:
   idnota: 524
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!225 &1653497647148136066
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -6402,7 +6402,7 @@ MonoBehaviour:
   idnota: 208
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!1 &4338185337444432518
 GameObject:
   m_ObjectHideFlags: 0
@@ -6507,7 +6507,7 @@ MonoBehaviour:
   idnota: 302
   text: 
   textMesh: {fileID: 0}
-  slot: {fileID: 0}
+  interactable: 0
 --- !u!1001 &223299520913997127
 PrefabInstance:
   m_ObjectHideFlags: 0

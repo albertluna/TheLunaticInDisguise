@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: 7789607614796316896, guid: ff8fe030dda214de68bd925c619c17cb,
         type: 3}
       propertyPath: m_Name
-      value: notaBarry
+      value: notaBarry Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7789607614796316898, guid: ff8fe030dda214de68bd925c619c17cb,
         type: 3}

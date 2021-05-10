@@ -102,7 +102,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 8754357823053971000}
   idnota: 408
-  entrat: 0
+  text: 
+  textMesh: {fileID: 0}
+  interactable: 0
 --- !u!1 &8754357822281273105
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,19 +583,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95fd4edcacf17e444bfe7148186b96f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movobj: {fileID: 8754357822588918548}
   mouobj: {fileID: 0}
-  deteobj: {fileID: 8754357823727777101}
+  movobj: {fileID: 8754357822588918548}
   detobj: {fileID: 0}
-  var105: 0
-  contr1: 0
-  contr2: 0
-  contr3: 0
-  contr4: 0
-  contr5: 0
-  contr6: 0
-  contr7: 0
-  contr8: 0
+  text: {fileID: 0}
+  idNota: 0
+  contradiccions: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!222 &8754357823053971002
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -745,19 +741,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95fd4edcacf17e444bfe7148186b96f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movobj: {fileID: 8754357822588918548}
   mouobj: {fileID: 0}
-  deteobj: {fileID: 8754357823053970997}
+  movobj: {fileID: 8754357822588918548}
   detobj: {fileID: 0}
-  var105: 0
-  contr1: 1
-  contr2: 0
-  contr3: 0
-  contr4: 0
-  contr5: 0
-  contr6: 0
-  contr7: 0
-  contr8: 0
+  text: {fileID: 0}
+  idNota: 0
+  contradiccions: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!222 &8754357823727777103
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -897,7 +887,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 8754357823053971000}
   idnota: 105
-  entrat: 0
+  text: 
+  textMesh: {fileID: 0}
+  interactable: 0
 --- !u!1 &8754357823744741185
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,7 +973,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &8754357823815226210
@@ -1067,7 +1059,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &8754357823881745335

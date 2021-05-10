@@ -17,6 +17,7 @@ public class tes : MonoBehaviour
         //moviment = FindObjectOfType<MovimentSimple>();
         flowchart = GetComponent<Flowchart>();
         camera = GameObject.Find("Main Camera").GetComponent<seguimentcamera>();
+        audio = GetComponent<AudioSource>();
     }
     
 
