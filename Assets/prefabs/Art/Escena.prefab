@@ -596,6 +596,12 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4048270915843868553, guid: 7c1ec5917b86f4053a798fa23fcf7b07,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75829be041a9d4d2a886a036ff95b1fe,
+        type: 3}
     - target: {fileID: 4048270915843868558, guid: 7c1ec5917b86f4053a798fa23fcf7b07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -676,6 +682,12 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4048270915843868553, guid: 7c1ec5917b86f4053a798fa23fcf7b07,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75829be041a9d4d2a886a036ff95b1fe,
+        type: 3}
     - target: {fileID: 4048270915843868558, guid: 7c1ec5917b86f4053a798fa23fcf7b07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -756,6 +768,12 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4048270915843868553, guid: 7c1ec5917b86f4053a798fa23fcf7b07,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75829be041a9d4d2a886a036ff95b1fe,
+        type: 3}
     - target: {fileID: 4048270915843868558, guid: 7c1ec5917b86f4053a798fa23fcf7b07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -836,6 +854,12 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4048270915843868553, guid: 7c1ec5917b86f4053a798fa23fcf7b07,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75829be041a9d4d2a886a036ff95b1fe,
+        type: 3}
     - target: {fileID: 4048270915843868558, guid: 7c1ec5917b86f4053a798fa23fcf7b07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -916,6 +940,12 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4048270915843868553, guid: 7c1ec5917b86f4053a798fa23fcf7b07,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75829be041a9d4d2a886a036ff95b1fe,
+        type: 3}
     - target: {fileID: 4048270915843868558, guid: 7c1ec5917b86f4053a798fa23fcf7b07,
         type: 3}
       propertyPath: m_LocalPosition.x
