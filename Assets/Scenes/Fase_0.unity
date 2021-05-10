@@ -1481,8 +1481,8 @@ MonoBehaviour:
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
-  m_PointLightInnerAngle: 351
-  m_PointLightOuterAngle: 351
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 6.89
   m_PointLightDistance: 3
@@ -4019,7 +4019,7 @@ MonoBehaviour:
   m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 351
-  m_PointLightOuterAngle: 351
+  m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 6.89
   m_PointLightDistance: 3
@@ -5933,7 +5933,7 @@ MonoBehaviour:
   m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 351
-  m_PointLightOuterAngle: 351
+  m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 6.89
   m_PointLightDistance: 3
@@ -7328,7 +7328,7 @@ PrefabInstance:
     - target: {fileID: 233870163810279553, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1396375839086444564, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
@@ -7733,7 +7733,7 @@ MonoBehaviour:
   m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 351
-  m_PointLightOuterAngle: 351
+  m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 6.89
   m_PointLightDistance: 3
@@ -7805,7 +7805,7 @@ MonoBehaviour:
   m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 351
-  m_PointLightOuterAngle: 351
+  m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 6.89
   m_PointLightDistance: 3
