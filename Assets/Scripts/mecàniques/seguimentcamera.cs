@@ -31,7 +31,7 @@ public class seguimentcamera : MonoBehaviour
     public void aproparse()
     {
         camera.orthographicSize = 3;
-        transform.position = new Vector3(seguir.transform.position.x, seguir.transform.position.y, transform.position.z);
+        transform.position = new Vector3(seguir.transform.position.x, -7.66f, transform.position.z);
 
     }
 
@@ -39,6 +39,7 @@ public class seguimentcamera : MonoBehaviour
     {
         camera.orthographicSize = 5.85f;
         transform.position = new Vector3(seguir.transform.position.x, posicioRelativa.y, transform.position.z);
+        tes.started = false;
     }
 
 }

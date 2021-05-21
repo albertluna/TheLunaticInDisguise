@@ -85,7 +85,6 @@ public class MovimentSimple : MonoBehaviour
         {
             this.GetComponent<SpriteRenderer>().sortingOrder = level3;
         }
-        Debug.Log("Alcada thhis = " + this.transform.position.y);
         Debug.Log("Ordre es= " + this.GetComponent<SpriteRenderer>().sortingOrder);
     }
 

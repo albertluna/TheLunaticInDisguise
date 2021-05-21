@@ -15,6 +15,7 @@ public class HUD_manager : MonoBehaviour
     public Canvas blaus;
     public GameObject suro;
     public GameObject botons;
+    public bool HUD_activable;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,12 @@ public class HUD_manager : MonoBehaviour
         Robin = GameObject.Find("Robin").GetComponent<MovimentSimple>();
     }
 
+    public void activarBotoHud()
+    {
+        botons.SetActive(true);
+        HUD_activable = true;
+    }
+
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.N))
@@ -43,9 +50,17 @@ public class HUD_manager : MonoBehaviour
 
     public void actualitzaNotes()
     {
-        setNotes(canvi);
-        Robin.notesObertes = canvi;
-        canvi = !canvi;
+        if (HUD_activable)
+        {
+            setNotes(canvi);
+            Robin.notesObertes = canvi;
+            canvi = !canvi;
+        }
+    }
+
+    public void activarSuro(bool estat)
+    {
+        if(HUD_activable) suro.SetActive(estat);
     }
 
     //Funcio que activa o desactiva les notes del Barry

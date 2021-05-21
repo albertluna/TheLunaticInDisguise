@@ -6,7 +6,7 @@ public class tes : MonoBehaviour
   
     Flowchart flowchart;
     private MovimentSimple moviment;
-    private bool started;
+    public static bool started;
     public seguimentcamera camera;
     public AudioSource audio;
 
@@ -22,8 +22,8 @@ public class tes : MonoBehaviour
     
 
     private void OnTriggerStay2D(Collider2D collision)
-    {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)) && !flowchart.HasExecutingBlocks() && !moviment.notesObertes)
+    {        
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)) && !started && !moviment.notesObertes)
         {
             moviment.Mov = false;
             flowchart.ExecuteBlock("iniciConv");

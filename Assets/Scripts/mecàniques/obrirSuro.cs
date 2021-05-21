@@ -4,35 +4,30 @@ using UnityEngine;
 
 public class obrirSuro : MonoBehaviour
 {
-    public GameObject suro;
+    public HUD_manager HUD;
     public MovimentSimple moviment;
+    public bool isActive;
 
     // Start is called before the first frame update
     void Start()
     {
-        suro = GameObject.Find("HUD").GetComponent<HUD_manager>().suro;
-    }
-
-    public void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            activarSuro(false);
-        }
+        HUD = GameObject.Find("HUD").GetComponent<HUD_manager>();
     }
 
     public void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)))
         {
-            activarSuro(true);
+            activarSuro(!isActive);
+            isActive = !isActive;
+
         }
     }
 
     //true per obrir i false per tancar el suro
     public void activarSuro(bool enable)
     {
-        suro.SetActive(enable);
+        HUD.activarSuro(enable);
         moviment.Mov = !enable;
     }
 }

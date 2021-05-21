@@ -902,11 +902,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -306.79886, y: 640.8996}
+  scrollPos: {x: -225.07643, y: 553.2743}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 455
-  zoom: 1
+  zoom: 0.9099991
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -914,12 +914,13 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 358401505}
+  - {fileID: 358401460}
   selectedCommands:
-  - {fileID: 358401541}
+  - {fileID: 358401442}
   variables:
   - {fileID: 358401502}
   - {fileID: 358401509}
+  - {fileID: 358401542}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -961,7 +962,7 @@ MonoBehaviour:
   storyText: I don't know how they're still together.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -988,7 +989,7 @@ MonoBehaviour:
   storyText: '*sniff*'
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1015,7 +1016,7 @@ MonoBehaviour:
   storyText: The worst part is that Felicity knows and she blames me for it.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1194,7 +1195,7 @@ MonoBehaviour:
   storyText: I'm gonna help her!
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1218,10 +1219,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: Ew!//avergonyida
+  storyText: Ew!
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6007f6c662a8f45e3a5486abd364b837, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1248,7 +1249,7 @@ MonoBehaviour:
   storyText: Even with me...
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1275,7 +1276,7 @@ MonoBehaviour:
   storyText: He's cheated her so many times.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1302,7 +1303,7 @@ MonoBehaviour:
   storyText: I don't know!
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1481,7 +1482,7 @@ MonoBehaviour:
   storyText: Thanks, Robin.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1589,7 +1590,7 @@ MonoBehaviour:
   storyText: But how?! I don't know what to do.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1616,7 +1617,7 @@ MonoBehaviour:
   storyText: He just hates his life and likes to take it out on others.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6007f6c662a8f45e3a5486abd364b837, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1642,7 +1643,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 640.90283
     y: -361.15155
-    width: 77
+    width: 77.47256
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1658,6 +1659,7 @@ MonoBehaviour:
   - {fileID: 358401452}
   - {fileID: 358401443}
   - {fileID: 358401446}
+  - {fileID: 358401543}
   - {fileID: 358401451}
   - {fileID: 358401507}
   - {fileID: 358401506}
@@ -1703,7 +1705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 636.90283
     y: -312.15155
-    width: 91
+    width: 90.65938
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1916,7 +1918,7 @@ MonoBehaviour:
   storyText: ...and he's a horrible mayor...
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6007f6c662a8f45e3a5486abd364b837, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1943,7 +1945,7 @@ MonoBehaviour:
   storyText: I don't know...
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1970,7 +1972,7 @@ MonoBehaviour:
   storyText: He can't stand his wife nor his children...
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6007f6c662a8f45e3a5486abd364b837, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2149,7 +2151,7 @@ MonoBehaviour:
   storyText: but it's certainly wrong. *sniff*
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2176,7 +2178,7 @@ MonoBehaviour:
   storyText: I don't know if it's illegal what he did,
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2203,7 +2205,7 @@ MonoBehaviour:
   storyText: I have worse things to worry about!
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2382,7 +2384,7 @@ MonoBehaviour:
   storyText: I've been at home all night long.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2409,7 +2411,7 @@ MonoBehaviour:
   storyText: Report Oliver?
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2452,7 +2454,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 508.90286
     y: -351.15155
-    width: 106
+    width: 103.84621
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2488,7 +2490,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 515.7534
     y: -274.23904
-    width: 88
+    width: 86.26378
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2568,10 +2570,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 133
   indentLevel: 0
-  storyText: '*sniff*//plorar'
+  storyText: '*sniff*'
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2598,7 +2600,7 @@ MonoBehaviour:
   storyText: I don't know what to do... *sniff*
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2624,7 +2626,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 501.68335
     y: -212.05641
-    width: 124
+    width: 122.52755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2806,7 +2808,7 @@ MonoBehaviour:
   storyText: '*sniff* *sniff*'
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2858,7 +2860,7 @@ MonoBehaviour:
   storyText: Who knows what else he... he... he might have done to her...
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2885,7 +2887,7 @@ MonoBehaviour:
   storyText: He locked her up in her room
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2912,7 +2914,7 @@ MonoBehaviour:
   storyText: p... p... poor Thea... *sniff*
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2936,10 +2938,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: Today he found out...//plorar
+  storyText: Today he found out...
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2966,7 +2968,7 @@ MonoBehaviour:
   storyText: w... w... well, you know Oliver...
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2993,7 +2995,7 @@ MonoBehaviour:
   storyText: And we've been hiding it because...
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3020,7 +3022,7 @@ MonoBehaviour:
   storyText: The... The... Thea and I have been together for a couple of months now.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3047,7 +3049,7 @@ MonoBehaviour:
   storyText: '*sniff* *sniff*'
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3071,10 +3073,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: I've been hiding this for too long.//avergonyida
+  storyText: I've been hiding this for too long.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3126,7 +3128,7 @@ MonoBehaviour:
   storyText: I'd rather not be alone right now.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3150,10 +3152,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: PLEASE, DON'T!//ploratr
+  storyText: PLEASE, DON'T!
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3179,7 +3181,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 391.68332
     y: -214.05641
-    width: 82
+    width: 80.769264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3210,7 +3212,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 387.53372
     y: -312.60416
-    width: 91
+    width: 89.56048
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3302,7 +3304,7 @@ MonoBehaviour:
   storyText: S... S... Sorry, you caught me in a bad moment.
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3327,7 +3329,11 @@ MonoBehaviour:
   nameText: Carol
   nameColor: {r: 0.3915094, g: 0.5415495, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 61239a93b72cc4d8597061ddd45e9250, type: 3}
+  - {fileID: 21300000, guid: 6007f6c662a8f45e3a5486abd364b837, type: 3}
+  - {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
+  - {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -3363,7 +3369,7 @@ MonoBehaviour:
   storyText: Hey, Robin...
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3387,10 +3393,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 1
-  storyText: '*sniff*...  *sniff*//plorar'
+  storyText: '*sniff*...  *sniff*'
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3416,7 +3422,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 252.67917
     y: -261.60837
-    width: 103
+    width: 101.64841
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4009,10 +4015,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 156
   indentLevel: 1
-  storyText: '*sniff* *sniff*//plorant'
+  storyText: '*sniff* *sniff*'
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4465,7 +4471,7 @@ MonoBehaviour:
   storyText: '*sniff* *sniff*'
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4492,7 +4498,7 @@ MonoBehaviour:
   storyText: I CAN'T
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4519,7 +4525,7 @@ MonoBehaviour:
   storyText: '*sniff* *sniff*'
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4543,10 +4549,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 175
   indentLevel: 0
-  storyText: AAaaaahhh!!//plorar
+  storyText: AAaaaahhh!!
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4572,7 +4578,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 641.90283
     y: -411.15155
-    width: 75
+    width: 74.17585
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4655,7 +4661,7 @@ MonoBehaviour:
   storyText: '*sniff*'
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4679,10 +4685,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 170
   indentLevel: 0
-  storyText: I just want her back//plorar
+  storyText: I just want her back
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4709,7 +4715,7 @@ MonoBehaviour:
   storyText: I hate violence
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4736,7 +4742,7 @@ MonoBehaviour:
   storyText: No thank you...
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4762,7 +4768,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 516.5337
     y: -414.60416
-    width: 101
+    width: 99.4506
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4893,7 +4899,7 @@ MonoBehaviour:
   storyText: It's horrible
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4920,7 +4926,7 @@ MonoBehaviour:
   storyText: '*sniff*'
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4947,7 +4953,7 @@ MonoBehaviour:
   storyText: Robin, you know nothing
   description: 
   character: {fileID: 358401501}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4973,7 +4979,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 372.67917
     y: -412.60837
-    width: 106
+    width: 104.945114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5031,6 +5037,173 @@ MonoBehaviour:
   targetObject: {fileID: 2076438857}
   methodName: allunyarse
   delay: 0
+--- !u!114 &358401542
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: finalCarol
+  value: 0
+--- !u!114 &358401543
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 190
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 358401542}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!1 &392088779
 GameObject:
   m_ObjectHideFlags: 0
@@ -5487,11 +5660,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -237.41206, y: 699.7574}
+  scrollPos: {x: -503.30438, y: 102.784355}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.41799903
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -5499,8 +5672,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 672039016}
-  selectedCommands: []
+  - {fileID: 672039036}
+  selectedCommands:
+  - {fileID: 672039039}
   variables:
   - {fileID: 672038978}
   - {fileID: 672039085}
@@ -5546,7 +5720,7 @@ MonoBehaviour:
   storyText: Yeah, sure... because Bruce is always drunk...
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5572,7 +5746,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 898.7649
     y: 79.731415
-    width: 126.5552
+    width: 127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5606,7 +5780,7 @@ MonoBehaviour:
   storyText: I'm fed up with him pretending all day.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5633,7 +5807,7 @@ MonoBehaviour:
   storyText: Believe me, or else he wouldn't be working for the Town Council.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5812,7 +5986,7 @@ MonoBehaviour:
   storyText: He's not the alcoholic he pretends to be.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5839,7 +6013,7 @@ MonoBehaviour:
   storyText: and I can't afford to hire someone.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5865,7 +6039,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 897.7649
     y: 127.731415
-    width: 90.66995
+    width: 91
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5921,7 +6095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  text: isn't Bruce always drunk on the streets? He must have seen something.
+  text: Isn't Bruce always drunk on the streets? He must have seen something.
   description: 
   targetBlock: {fileID: 672038980}
   hideIfVisited: 0
@@ -5949,7 +6123,7 @@ MonoBehaviour:
   storyText: As if it was that cheap...
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5973,10 +6147,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: Ha ha ha ha//content
+  storyText: Ha ha ha ha...
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: aeab02eb3766f4469b0560ca546c3127, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6050,7 +6224,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 773.7649
     y: 127.731415
-    width: 105.02405
+    width: 104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6256,7 +6430,7 @@ MonoBehaviour:
   storyText: Plus, I saw her before around the streets looking high as a kitte.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6283,7 +6457,7 @@ MonoBehaviour:
   storyText: Yes, today I found out she takes pills everyday.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c4d44d57de13462b86427c8d4bd8a6e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6307,10 +6481,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: Woman, communist, drug addict, dyke, vegan, comic's nerd...//enfadat
+  storyText: Woman, communist, drug addict, dyke, vegan, comic's nerd...
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c4d44d57de13462b86427c8d4bd8a6e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6337,7 +6511,7 @@ MonoBehaviour:
   storyText: She has all every chance to be the lunatic
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6516,7 +6690,7 @@ MonoBehaviour:
   storyText: I can't affort her milk...
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6544,7 +6718,7 @@ MonoBehaviour:
     at the bar or the cafeteria of the Town Hall.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e7b513d6c2ea84078b2828e0ea637005, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6571,7 +6745,7 @@ MonoBehaviour:
   storyText: She's been with her damn farm all her life
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e7b513d6c2ea84078b2828e0ea637005, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6595,10 +6769,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: but she's a but she's such a resentful woman...//suant
+  storyText: but she's a but she's such a resentful woman...
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e7b513d6c2ea84078b2828e0ea637005, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6625,7 +6799,7 @@ MonoBehaviour:
   storyText: I know she's old and all that
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6651,7 +6825,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 657.7649
     y: 96.731415
-    width: 90.66995
+    width: 92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6709,7 +6883,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 658.7649
     y: 154.73141
-    width: 81.100555
+    width: 80
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6767,7 +6941,7 @@ MonoBehaviour:
   storyText: What do you want to know?
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6821,7 +6995,7 @@ MonoBehaviour:
   storyText: I've called the police because this is too much.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6848,7 +7022,7 @@ MonoBehaviour:
   storyText: 'I''m sure it must be Pamela or Carol. '
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6874,7 +7048,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 657.7649
     y: 206.73141
-    width: 85.885254
+    width: 85
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6903,10 +7077,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 1
-  storyText: Hey, kiddo! Are you still investigating about that hooded lunatic?//content
+  storyText: Hey, kiddo! Are you still investigating about that hooded lunatic?
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: aeab02eb3766f4469b0560ca546c3127, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6932,7 +7106,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 521.7649
     y: 138.73141
-    width: 102.6317
+    width: 103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6977,7 +7151,7 @@ MonoBehaviour:
   storyText: I'm busy enough as it is
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7004,7 +7178,7 @@ MonoBehaviour:
   storyText: Yeah, sure... get lost, kiddo.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7030,7 +7204,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Because I think you have enough problems as it is.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2127605303}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7057,7 +7231,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: well, if I were you I'd just resign.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2127605303}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7465,7 +7639,7 @@ MonoBehaviour:
   storyText: The cops are coming, kiddo.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7768,7 +7942,7 @@ MonoBehaviour:
   storyText: It might help a lot.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7809,7 +7983,7 @@ MonoBehaviour:
   storyText: Tell the cops all you know about the lunatic.
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8092,12 +8266,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 897.7649
     y: 174.54099
-    width: 109.80875
+    width: 74
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 167
-  blockName: New Block
+  blockName: sure
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -8292,7 +8466,7 @@ MonoBehaviour:
   storyText: Keep investigating, please...
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8319,7 +8493,7 @@ MonoBehaviour:
   storyText: Sure...
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8540,7 +8714,7 @@ MonoBehaviour:
   storyText: Well I hope the cops will do it better
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8564,10 +8738,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 162
   indentLevel: 0
-  storyText: After all this time investigating... to end up saying this??//enfadat
+  storyText: After all this time investigating... to end up saying this?
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c4d44d57de13462b86427c8d4bd8a6e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8591,10 +8765,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 161
   indentLevel: 0
-  storyText: What?//suant
+  storyText: What?
   description: 
   character: {fileID: 672039076}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e7b513d6c2ea84078b2828e0ea637005, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8636,7 +8810,11 @@ MonoBehaviour:
   nameText: Oliver
   nameColor: {r: 0.09453185, g: 0.5566038, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: e7b513d6c2ea84078b2828e0ea637005, type: 3}
+  - {fileID: 21300000, guid: aeab02eb3766f4469b0560ca546c3127, type: 3}
+  - {fileID: 21300000, guid: 7c4d44d57de13462b86427c8d4bd8a6e, type: 3}
+  - {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -9606,7 +9784,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 765.03503
     y: 180.13937
-    width: 86.19914
+    width: 87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9639,7 +9817,7 @@ MonoBehaviour:
   storyText: so it could be anyone
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9685,7 +9863,7 @@ MonoBehaviour:
   storyText: Although I have to say that everyone here is a little crazy,
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9712,7 +9890,7 @@ MonoBehaviour:
   storyText: but I'm positive it was Pamela.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9736,10 +9914,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: "It's obvious!//of\xE8s"
+  storyText: It's obvious!
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9766,7 +9944,7 @@ MonoBehaviour:
   storyText: Please, leave me alone.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9790,10 +9968,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: "I'm sorry, kid.//melanc\xF2lic"
+  storyText: I'm sorry, kid.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9817,10 +9995,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: but I'll try...//content
+  storyText: but I'll try...
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: bbfdf83a560e246268cafa8eaad3adcc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9847,7 +10025,7 @@ MonoBehaviour:
   storyText: It's not that easy
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9891,7 +10069,7 @@ MonoBehaviour:
   storyText: I guess so...
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9918,7 +10096,7 @@ MonoBehaviour:
   storyText: I need some time alone to think... bye.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9999,7 +10177,7 @@ MonoBehaviour:
   storyText: Sure.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10040,7 +10218,7 @@ MonoBehaviour:
   storyText: Sorry for that, kid...
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10066,7 +10244,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 873.8949
     y: -75.639084
-    width: 78.28058
+    width: 79
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10095,7 +10273,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 870.92676
     y: -34.901543
-    width: 91.855255
+    width: 92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10110,6 +10288,7 @@ MonoBehaviour:
   - {fileID: 931907942}
   - {fileID: 931907940}
   - {fileID: 931907939}
+  - {fileID: 931908018}
   - {fileID: 931907994}
   - {fileID: 931907993}
   suppressAllAutoSelections: 0
@@ -10129,7 +10308,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 870.6327
     y: 9.360897
-    width: 94.1177
+    width: 95
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10630,7 +10809,7 @@ MonoBehaviour:
   storyText: I wish I had fought more for her.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10657,7 +10836,7 @@ MonoBehaviour:
   storyText: '*sigh*'
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10684,7 +10863,7 @@ MonoBehaviour:
   storyText: When your mom and I were together.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10880,7 +11059,7 @@ MonoBehaviour:
   storyText: Nights like this remind me of my youth days.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10907,7 +11086,7 @@ MonoBehaviour:
   storyText: No
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10934,7 +11113,7 @@ MonoBehaviour:
   storyText: But I'm telling the truth.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10961,7 +11140,7 @@ MonoBehaviour:
   storyText: I don't know, she hates all adults.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11137,10 +11316,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: She has hated me since the day I called Child Services on Bruce.//enfadat
+  storyText: She has hated me since the day I called Child Services on Bruce.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11167,7 +11346,7 @@ MonoBehaviour:
   storyText: Please, leave me alone.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11194,7 +11373,7 @@ MonoBehaviour:
   storyText: She's a bitter old woman.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11220,7 +11399,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 764.9038
     y: 130.1166
-    width: 98.64259
+    width: 99
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11457,7 +11636,7 @@ MonoBehaviour:
     city since she dirtied the sewers.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11481,10 +11660,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: Pamela//enfadat
+  storyText: Pamela
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11510,7 +11689,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 616.854
     y: 98.80435
-    width: 119.00461
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11567,7 +11746,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 617.854
     y: -20.195648
-    width: 117.87338
+    width: 118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11628,7 +11807,7 @@ MonoBehaviour:
   storyText: it could have been much worse...
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11655,7 +11834,7 @@ MonoBehaviour:
   storyText: This fire
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11709,7 +11888,7 @@ MonoBehaviour:
   storyText: How desperate would have to be someone to do something like this?
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11735,7 +11914,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 480.854
     y: 28.804352
-    width: 103.16748
+    width: 103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11788,7 +11967,7 @@ MonoBehaviour:
   storyText: You don't have to.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12641,7 +12820,11 @@ MonoBehaviour:
   nameText: Barry
   nameColor: {r: 1, g: 0.78431374, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: bbfdf83a560e246268cafa8eaad3adcc, type: 3}
+  - {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
+  - {fileID: 21300000, guid: 07626bb67a6264b03a1b9f242e312344, type: 3}
+  - {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -12658,11 +12841,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -491.27237, y: 245.5666}
+  scrollPos: {x: -407.17545, y: 176.89482}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 395
-  zoom: 0.88399893
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -12670,13 +12853,13 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 931907984}
+  - {fileID: 931907970}
   selectedCommands:
-  - {fileID: 931908017}
-  - {fileID: 931907941}
+  - {fileID: 931907967}
   variables:
   - {fileID: 931907930}
   - {fileID: 931908007}
+  - {fileID: 931908019}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -12720,7 +12903,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 875.90436
     y: 58.170677
-    width: 76.01813
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12840,7 +13023,7 @@ MonoBehaviour:
   storyText: Don't trust her.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12867,7 +13050,7 @@ MonoBehaviour:
   storyText: It's just that I know she is constantly lying.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12891,10 +13074,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 164
   indentLevel: 0
-  storyText: "It's not hate, kid.//of\xE8s"
+  storyText: It's not hate, kid.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12935,7 +13118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 759.3881
     y: 61.519165
-    width: 74.88691
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13162,7 +13345,7 @@ MonoBehaviour:
   storyText: Go away, I need time to think.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13189,7 +13372,7 @@ MonoBehaviour:
   storyText: I'm not Bruce, kid.
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13216,7 +13399,7 @@ MonoBehaviour:
   storyText: What?
   description: 
   character: {fileID: 931907996}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13242,7 +13425,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 618.86346
     y: 198.53307
-    width: 81.67425
+    width: 82
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13299,6 +13482,173 @@ MonoBehaviour:
   targetObject: {fileID: 2076438857}
   methodName: allunyarse
   delay: 0
+--- !u!114 &931908018
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 188
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 931908019}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &931908019
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: finalBarry
+  value: 0
 --- !u!1001 &1004564379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13469,11 +13819,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -423.7697, y: 185.62941}
+  scrollPos: {x: -316.8108, y: 49.91294}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.8359985
+  blockViewHeight: 453
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -13481,13 +13831,13 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 1004564422}
+  - {fileID: 1004564438}
   selectedCommands:
-  - {fileID: 1004564474}
-  - {fileID: 1004564426}
+  - {fileID: 1004564430}
   variables:
   - {fileID: 1004564382}
   - {fileID: 1004564464}
+  - {fileID: 1004564477}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -13681,7 +14031,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 690.04285
     y: 120.76104
-    width: 114.59342
+    width: 115
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13727,7 +14077,7 @@ MonoBehaviour:
   storyText: He's sick.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8f2511cf2e7284f4e933c9a6073d363d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13751,10 +14101,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: and he only stays here to "be with her".//roll
+  storyText: and he only stays here to "be with her".
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8f2511cf2e7284f4e933c9a6073d363d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13781,7 +14131,7 @@ MonoBehaviour:
   storyText: but he never got over it.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13808,7 +14158,7 @@ MonoBehaviour:
   storyText: 'It''s just that your mom and Barry were a couple when they were teens. '
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13835,7 +14185,7 @@ MonoBehaviour:
   storyText: Okay, okay...
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13943,7 +14293,7 @@ MonoBehaviour:
   storyText: Sorry, I don't think I should be the one telling you.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13997,7 +14347,7 @@ MonoBehaviour:
   storyText: Just... don't get too close to him.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14024,7 +14374,7 @@ MonoBehaviour:
   storyText: Nothing...
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14078,7 +14428,7 @@ MonoBehaviour:
   storyText: Oh! Right, she's your mom!
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8f2511cf2e7284f4e933c9a6073d363d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14105,7 +14455,7 @@ MonoBehaviour:
   storyText: Everyone knows.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14132,7 +14482,7 @@ MonoBehaviour:
   storyText: You don't know?
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14159,7 +14509,7 @@ MonoBehaviour:
   storyText: Scram!
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14211,7 +14561,7 @@ MonoBehaviour:
   storyText: He's the wealthiest and the most miserable person in this town.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14237,7 +14587,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 714.8107
     y: 78.39216
-    width: 75.11966
+    width: 74
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14441,10 +14791,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: He's always pretending to have friends over, when nobody likes him.//enfadat
+  storyText: He's always pretending to have friends over, when nobody likes him.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14471,7 +14821,7 @@ MonoBehaviour:
   storyText: He's all lies and pend up anger.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14498,7 +14848,7 @@ MonoBehaviour:
   storyText: Barry!
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14522,10 +14872,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: Scram kid. Go bother someone else.//enfadat
+  storyText: Scram kid. Go bother someone else.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14551,7 +14901,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 557.38885
     y: 236.27097
-    width: 134.92838
+    width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14612,7 +14962,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 551.26685
     y: 25.04674
-    width: 95.45463
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14666,7 +15016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 569.6345
     y: 83.209984
-    width: 108.61255
+    width: 108
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14726,7 +15076,7 @@ MonoBehaviour:
   storyText: Someone has it out for me.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14750,10 +15100,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 137
   indentLevel: 0
-  storyText: Scram kid. Go bother someone else.//roll
+  storyText: Scram kid. Go bother someone else.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8f2511cf2e7284f4e933c9a6073d363d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14780,7 +15130,7 @@ MonoBehaviour:
   storyText: I'm always the one who has to clean afterwards.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14823,10 +15173,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 1
-  storyText: I'm so fed up with this town.//enfadat
+  storyText: I'm so fed up with this town.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14852,7 +15202,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 429.83832
     y: 83.41406
-    width: 106.2202
+    width: 103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15194,7 +15544,7 @@ MonoBehaviour:
   storyText: I'd rather be alone and not hurt anyone.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15238,7 +15588,7 @@ MonoBehaviour:
   storyText: I don't want anybody else to get hurt because of me.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15265,7 +15615,7 @@ MonoBehaviour:
   storyText: Never.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15444,7 +15794,7 @@ MonoBehaviour:
   storyText: Scram.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15471,7 +15821,7 @@ MonoBehaviour:
   storyText: Alcohol is the only thing keeping me alive
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15498,7 +15848,7 @@ MonoBehaviour:
   storyText: No
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15579,7 +15929,7 @@ MonoBehaviour:
   storyText: There's nothing you can do.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15603,10 +15953,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 1
-  storyText: I hate this town...//enfadat
+  storyText: I hate this town...
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15633,7 +15983,7 @@ MonoBehaviour:
   storyText: It's okay. Not your fault.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15659,7 +16009,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 707.38885
     y: 288.27097
-    width: 93.06228
+    width: 91
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15676,6 +16026,7 @@ MonoBehaviour:
   - {fileID: 1004564432}
   - {fileID: 1004564431}
   - {fileID: 1004564430}
+  - {fileID: 1004564475}
   - {fileID: 1004564423}
   - {fileID: 1004564460}
   - {fileID: 1004564459}
@@ -15694,9 +16045,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 717.38885
-    y: 234.27097
-    width: 82.29671
+    x: 724.56586
+    y: 236.6633
+    width: 81
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15708,6 +16059,7 @@ MonoBehaviour:
   - {fileID: 1004564428}
   - {fileID: 1004564427}
   - {fileID: 1004564425}
+  - {fileID: 1004564476}
   - {fileID: 1004564424}
   - {fileID: 1004564462}
   - {fileID: 1004564461}
@@ -15742,7 +16094,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 705.1647
     y: 179.88348
-    width: 71.53114
+    width: 71
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15999,7 +16351,7 @@ MonoBehaviour:
   storyText: I can't do this alone
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16026,7 +16378,7 @@ MonoBehaviour:
   storyText: But I can't...
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16296,7 +16648,7 @@ MonoBehaviour:
   storyText: I'm sorry kid... really... I'm sorry
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16323,7 +16675,7 @@ MonoBehaviour:
   storyText: I wish Helena and Damian were here...
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16350,7 +16702,7 @@ MonoBehaviour:
   storyText: Without her... I'm... I'm nobody...
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16377,7 +16729,7 @@ MonoBehaviour:
   storyText: All I know is that since Eleanor died, everything has been worse.
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16402,7 +16754,11 @@ MonoBehaviour:
   nameText: Bruce
   nameColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 1451435f0d1e24692b8c705121daae6a, type: 3}
+  - {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
+  - {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
+  - {fileID: 21300000, guid: 8f2511cf2e7284f4e933c9a6073d363d, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -16606,7 +16962,7 @@ MonoBehaviour:
   storyText: I wish
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16633,7 +16989,7 @@ MonoBehaviour:
   storyText: Ha!
   description: 
   character: {fileID: 1004564453}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17688,7 +18044,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 692.84033
     y: 33.161938
-    width: 109.808716
+    width: 108
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17744,6 +18100,325 @@ MonoBehaviour:
   targetObject: {fileID: 20519437}
   methodName: moure
   delay: 0
+--- !u!114 &1004564475
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004564380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 190
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 1004564477}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1004564476
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004564380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 189
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 1004564477}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1004564477
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004564380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: finalBruce
+  value: 0
 --- !u!1 &1006881527
 GameObject:
   m_ObjectHideFlags: 0
@@ -18574,7 +19249,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: This must have been the hooded lunatic!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2127605303}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -18628,7 +19303,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Wow!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2127605303}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -18683,7 +19358,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 1
   durationOLD: 0
 --- !u!114 &1086846676
 MonoBehaviour:
@@ -18699,9 +19374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: THE COPS!
+  storyText: '{punch=10,0.5}THE COPS!'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2127605303}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -18798,10 +19473,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1086846689}
-  selectedCommands:
-  - {fileID: 1086846692}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1086846682}
   - {fileID: 1086846698}
@@ -19197,7 +19870,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1086846692
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -19211,7 +19884,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 1
   durationOLD: 0
 --- !u!114 &1086846695
 MonoBehaviour:
@@ -22096,7 +22769,7 @@ MonoBehaviour:
   storyText: Good night, boy!
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22312,7 +22985,7 @@ MonoBehaviour:
   storyText: Good night!
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22338,7 +23011,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Good night!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2127605303}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22366,7 +23039,7 @@ MonoBehaviour:
   storyText: I have to wake up early tomorrow.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22393,7 +23066,7 @@ MonoBehaviour:
   storyText: Well, boy. I should go back to sleep.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22503,8 +23176,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 1854123296}
-  selectedCommands: []
+  - {fileID: 1854123304}
+  selectedCommands:
+  - {fileID: 1854123298}
   variables:
   - {fileID: 1854123316}
   - {fileID: 1854123369}
@@ -22704,7 +23378,7 @@ MonoBehaviour:
   storyText: Not thanks to his countless clients...
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22729,7 +23403,10 @@ MonoBehaviour:
   nameText: Pamela
   nameColor: {r: 0.60784316, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
+  - {fileID: 21300000, guid: 7b036514da1604d1591220e3ef4dd39b, type: 3}
+  - {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -22750,7 +23427,7 @@ MonoBehaviour:
   storyText: How do you think the Verdant is still open?
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22777,7 +23454,7 @@ MonoBehaviour:
   storyText: You heard me right.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22803,7 +23480,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: What?!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 2127605303}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22831,7 +23508,7 @@ MonoBehaviour:
   storyText: Our mayor is corrupt through and through
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22858,7 +23535,7 @@ MonoBehaviour:
   storyText: It could
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22885,7 +23562,7 @@ MonoBehaviour:
   storyText: I'll talk to her tomorrow.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22927,7 +23604,7 @@ MonoBehaviour:
   storyText: I can see she's really hurt.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22951,10 +23628,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: No
+  storyText: No.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23248,7 +23925,7 @@ MonoBehaviour:
     he is.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23275,7 +23952,7 @@ MonoBehaviour:
   storyText: And she was crying.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23302,7 +23979,7 @@ MonoBehaviour:
   storyText: Actually, some time ago I heard Oliver yelling at Carol's house.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23329,7 +24006,7 @@ MonoBehaviour:
   storyText: ZZZ, ZZZ, ZZZ
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23356,7 +24033,7 @@ MonoBehaviour:
   storyText: I guess protesting anonymously is the best way here.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23397,7 +24074,7 @@ MonoBehaviour:
   storyText: We all know each other too well.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23424,7 +24101,7 @@ MonoBehaviour:
   storyText: I have no doubts.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23603,7 +24280,7 @@ MonoBehaviour:
   storyText: It must be that greedy bastard.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23627,10 +24304,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: But if I had to point fingers I'd say it was Barry.
+  storyText: But if I had to point fingers I'd say it was... Barry.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23870,7 +24547,7 @@ MonoBehaviour:
     whole town...
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23897,7 +24574,7 @@ MonoBehaviour:
   storyText: I was sleeping, until I heard this noise and started smelling the smoke.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23924,7 +24601,7 @@ MonoBehaviour:
   storyText: I didn't see anyting, if that's what you're wondering.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24011,7 +24688,7 @@ MonoBehaviour:
   storyText: It couldn't be me.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24038,7 +24715,7 @@ MonoBehaviour:
   storyText: Who'd say this could happen in this town?//somriure
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24646,7 +25323,7 @@ MonoBehaviour:
   storyText: I should go back to sleep.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24670,10 +25347,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 163
   indentLevel: 0
-  storyText: I just woke up
+  storyText: I just woke up.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24714,7 +25391,7 @@ MonoBehaviour:
   storyText: What? Don't say that, boy.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24752,6 +25429,8 @@ MonoBehaviour:
   - {fileID: 1854123353}
   - {fileID: 1854123351}
   - {fileID: 1854123343}
+  - {fileID: 1854123358}
+  - {fileID: 1854123357}
   suppressAllAutoSelections: 0
 --- !u!114 &1854123355
 MonoBehaviour:
@@ -24780,7 +25459,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1854123356
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -24794,6 +25473,175 @@ MonoBehaviour:
   indentLevel: 1
   targetObject: {fileID: 2076438857}
   methodName: allunyarse
+  delay: 0
+--- !u!114 &1854123357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 192
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 931907930}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1854123358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854123294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  targetObject: {fileID: 20519437}
+  methodName: nouInvestigat
   delay: 0
 --- !u!114 &1854123369
 MonoBehaviour:

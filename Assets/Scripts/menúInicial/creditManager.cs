@@ -16,16 +16,16 @@ public class creditManager : MonoBehaviour
     public Image falseFinalImage;
     public Image trueFinalImage;
 
-    public void setFinal(bool final)
+    public void setFinal(bool finalDesbloquejat)
     {
-        this.final = final;
+        final = finalDesbloquejat;
         if (final)
         {
-            text.text = trueFinalText;
+            text.text = trueFinalText.Replace("\\n", "\n");
             image = trueFinalImage;
         } else
         {
-            text.text = falseFinalText;
+            text.text = falseFinalText.Replace("\\n", "\n");
             image = falseFinalImage;
         }
     }

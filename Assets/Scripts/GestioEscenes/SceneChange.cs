@@ -76,4 +76,9 @@ public class SceneChange : MonoBehaviour
             GameObject.Find("canviFase").GetComponent<BoxCollider2D>().enabled = false;
         }
     }
+
+    public void activarBotoHud()
+    {
+        HUD.activarBotoHud();
+    }
 }

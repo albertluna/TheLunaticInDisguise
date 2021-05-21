@@ -9,6 +9,7 @@ public class creditsFinals : MonoBehaviour
     public bool finalOliver;
     public bool finalCarol;
     public bool lunaticDescobert;
+    public string acusat;
     public Flowchart getVariables;
 
     public creditManager lunatic;
@@ -23,24 +24,20 @@ public class creditsFinals : MonoBehaviour
 
     public creditManager[] revelacions;
     public int index;
+    public GameObject final;
 
-
-
-    // Start is called before the first frame update
     void Start()
     {
-        /*GameObject.Find("HUD").SetActive(false);
-        finalBarry = getVariables.GetBooleanVariable("finalBarry");
-        finalBruce = getVariables.GetBooleanVariable("finalBruce");
-        finalOliver = getVariables.GetBooleanVariable("finalOliver");
-        finalCarol = getVariables.GetBooleanVariable("finalCarol");
-        lunaticDescobert = getVariables.GetBooleanVariable("lunaticDescobert");*/
+        Flowchart getVariables = GameObject.Find("GlobalVariables").GetComponent<Flowchart>();
+
+        acusat = getVariables.GetStringVariable("Acusat");
+        lunaticDescobert = acusat.Equals("Pamela");
 
         lunatic.setFinal(lunaticDescobert);
-        Barry.setFinal(finalBarry);
-        Bruce.setFinal(finalBruce);
-        Carol.setFinal(finalCarol);
-        Oliver.setFinal(finalOliver);
+        Barry.setFinal(getVariables.GetBooleanVariable("finalBarry"));
+        Bruce.setFinal(getVariables.GetBooleanVariable("finalBruce"));
+        Carol.setFinal(getVariables.GetBooleanVariable("finalCarol"));
+        Oliver.setFinal(getVariables.GetBooleanVariable("finalOliver"));
         Pamela.setFinal(lunaticDescobert);
 
         moure = true;
@@ -49,14 +46,13 @@ public class creditsFinals : MonoBehaviour
         index = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //Debug.Log("referencia.y==" + referencia.position + ". lunatics.y== " + Barry.transform.position);
         if (Vector3.Distance(referencia.position, revelacions[index].transform.position) < 10 && moure) {
-            Debug.Log("WAIT");
+
             index++;
             StartCoroutine(waiter());
+            if (index == revelacions.Length) index = 0;
         }
         if(moure) {
             this.transform.Translate(new Vector3(0, 1, 0));
@@ -65,6 +61,10 @@ public class creditsFinals : MonoBehaviour
         {
             moure = !moure;
         }
+        if (Vector3.Distance(referencia.position, final.transform.position) < 20)
+        {
+            ScenesManager.Load(ScenesManager.Scene.menu);
+        }
     }
 
     IEnumerator waiter()
@@ -72,11 +72,6 @@ public class creditsFinals : MonoBehaviour
         moure = false;
         yield return new WaitForSeconds(5);
         moure = true;
-        if(index+1==revelacions.Length)
-        {
-            moure = false;
-            yield return new WaitForSeconds(2);
-            ScenesManager.Load(ScenesManager.Scene.menu);
-        }
+        
     }
 }
