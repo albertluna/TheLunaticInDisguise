@@ -66,6 +66,7 @@ namespace Fungus
 
         [Tooltip("The character UI object")]
         [SerializeField] protected Image characterImage;
+        [SerializeField] protected Image fonsImage;
         public virtual Image CharacterImage { get { return characterImage; } }
     
         [Tooltip("Adjust width of story text when Character Image is displayed (to avoid overlapping)")]
@@ -396,11 +397,13 @@ namespace Fungus
             {
                 characterImage.overrideSprite = image;
                 characterImage.gameObject.SetActive(true);
+                fonsImage.gameObject.SetActive(true);
                 currentCharacterImage = image;
             }
             else
             {
                 characterImage.gameObject.SetActive(false);
+                fonsImage.gameObject.SetActive(false);
 
                 if (startStoryTextWidth != 0)
                 {

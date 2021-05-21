@@ -16,7 +16,6 @@ public class obrirSuro : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log("TRIGGER");
         Debug.Log("Collision " + collision.gameObject.name);
         if (collision.gameObject.name.Equals("Robin"))
         {
