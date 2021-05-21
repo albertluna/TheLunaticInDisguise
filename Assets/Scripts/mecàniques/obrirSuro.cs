@@ -16,11 +16,16 @@ public class obrirSuro : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D collision)
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)))
+        Debug.Log("TRIGGER");
+        Debug.Log("Collision " + collision.gameObject.name);
+        if (collision.gameObject.name.Equals("Robin"))
         {
-            activarSuro(!isActive);
-            isActive = !isActive;
-
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                activarSuro(!isActive);
+                isActive = !isActive;
+                Debug.Log("DINS");
+            }
         }
     }
 

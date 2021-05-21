@@ -22,13 +22,16 @@ public class tes : MonoBehaviour
     
 
     private void OnTriggerStay2D(Collider2D collision)
-    {        
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)) && !started && !moviment.notesObertes)
+    {
+        if (collision.gameObject.name.Equals("Robin"))
         {
-            moviment.Mov = false;
-            flowchart.ExecuteBlock("iniciConv");
-            started = true;
-            camera.aproparse();
+            if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter)) && !started && !moviment.notesObertes)
+            {
+                moviment.Mov = false;
+                flowchart.ExecuteBlock("iniciConv");
+                started = true;
+                camera.aproparse();
+            }
         }
         //Es repren el moviment Mov a Cinematiques.nouInvestigat();
     }
