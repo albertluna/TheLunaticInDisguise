@@ -8,7 +8,6 @@ public class CanviaSuro : MonoBehaviour
     // Start is called before the first frame update
     public contradiccioSuro[] suros;
     public GameObject fons;
-    public bool isActive;
 
 
     void Start()
@@ -26,6 +25,6 @@ public class CanviaSuro : MonoBehaviour
                 contradiccions.activar();
             }
         }
-    } 
+    }
 }
 

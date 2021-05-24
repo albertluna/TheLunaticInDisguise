@@ -20,79 +20,100 @@ public class detectorContradiccions : MonoBehaviour
 
         if (idCoincidents(105, 108))
         {
+            animacioButxaques(true);
             setContradiccio(1);
         }
 
-        if (idCoincidents(208, 302))
+        else if (idCoincidents(208, 302))
         {
-            setContradiccio(2);
-        }
-
-        if (idCoincidents(303, 413))
-        {
-            setContradiccio(3);
-        }
-
-        if (idCoincidents(501, 412))
-        {
-            setContradiccio(4);
-        }
-
-        if (idCoincidents(125, 424))
-        {
-            setContradiccio(5);
-        }
-
-        if (idCoincidents(420, 424))
-        {
+            animacioButxaques(true);
             setContradiccio(6);
         }
 
-        if (idCoincidents(425, 521))
+        else if (idCoincidents(303, 413))
         {
-            setContradiccio(7);
-
-        }
-        if (idCoincidents(523, 520))
-        {
+            animacioButxaques(true);
+            setContradiccio(4);
             setContradiccio(8);
         }
 
-        if (idCoincidents(552, 553))
+        else if (idCoincidents(501, 412))
         {
-            setContradiccio(9);
-        }
-
-        if (idCoincidents(550, 451))
-        {
-            setContradiccio(10);
-        }
-
-        if (idCoincidents(150, 551))
-        {
+            animacioButxaques(true);
             setContradiccio(11);
         }
 
-        if (idCoincidents(251, 452))
+        else if (idCoincidents(125, 221))
         {
-            setContradiccio(12);
+            animacioButxaques(true);
+            setContradiccio(2);
         }
 
-        if (idCoincidents(351, 354))
+        else if (idCoincidents(420, 424))
         {
+            animacioButxaques(true);
+            setContradiccio(9);
+        }
+
+        else if (idCoincidents(425, 521))
+        {
+            animacioButxaques(true);
+            setContradiccio(12);
+
+        }
+        else if (idCoincidents(523, 520))
+        {
+            animacioButxaques(true);
             setContradiccio(13);
+        }
+
+        else if (idCoincidents(552, 553))
+        {
+            animacioButxaques(true);
+            setContradiccio(14);
+        }
+
+        else if (idCoincidents(550, 451))
+        {
+            animacioButxaques(true);
+            setContradiccio(15);
+        }
+
+        else if (idCoincidents(150, 551))
+        {
+            animacioButxaques(true);
+            setContradiccio(16);
+            setContradiccio(3);
+        }
+
+        else if (idCoincidents(251, 452))
+        {
+            animacioButxaques(true);
+            setContradiccio(7);
+            setContradiccio(10);
+        }
+
+        else if (idCoincidents(351, 354))
+        {
+            animacioButxaques(true);
+            setContradiccio(5);
+        } else
+        {
+            animacioButxaques(false);
         }
     }
 
     private bool idCoincidents(int varA, int varB)
     {
-        bool coincidents = (this.id1 == varA && id2 == varB || id1 == varB && id2 == varA);
+        return (this.id1 == varA && id2 == varB || id1 == varB && id2 == varA);
+    }
 
-        //Es crida a la funcio que pinta vermell o verd segons el resultat
-        detector1.novaContradiccio(coincidents);
-        detector2.novaContradiccio(coincidents);
-
-        return coincidents;
+    //Es crida a la funcio que pinta vermell o verd segons el resultat
+    void animacioButxaques(bool estat)
+    {
+        Debug.Log("la contradiccio shauria de posar tal que " + estat);
+        detector1.novaContradiccio(estat);
+        detector2.novaContradiccio(estat);
     }
 
     //Funció que es crida quan s'ha trobat una contradicció

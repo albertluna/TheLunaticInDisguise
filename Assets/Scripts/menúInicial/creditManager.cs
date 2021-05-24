@@ -31,12 +31,10 @@ public class creditManager : MonoBehaviour
         if (final)
         {
             be.gameObject.SetActive(true);
-            //text.text = trueFinalText.Replace("\\n", "\n");
             image = trueFinalImage;
         } else
         {
             mal.gameObject.SetActive(true);
-            //text.text = falseFinalText.Replace("\\n", "\n");
             image = falseFinalImage;
         }
     }

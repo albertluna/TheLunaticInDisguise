@@ -58,12 +58,12 @@ public class detectobj : MonoBehaviour, IDropHandler
         if (estat)
         {
             //correcte
-            Debug.Log("correcte");
+            Debug.Log("EScorrecte");
             animator.Play("correcte", -1, 0f);
         } else
         {
             //incorrecte
-            //Debug.Log("mal");
+            Debug.Log("mal");
             animator.Play("malament",-1, 0f);
         }
     }
