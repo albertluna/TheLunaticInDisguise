@@ -13,8 +13,8 @@ public class Cinematiques : MonoBehaviour
     private static bool poli;
     public GameObject Robin;
     public GameObject Narrativa;
-    private Animation animCamera;
-    private Animation animRobin;
+    private Animator animCamera;
+    private Animator animRobin;
     private AnimationEvent moureRobin;
     private static int sospitososInvestigats = 0;
     public seguimentcamera camera;
@@ -26,9 +26,9 @@ public class Cinematiques : MonoBehaviour
         fc = Narrativa.GetComponent<Flowchart>();
         Robin.GetComponent<MovimentSimple>().Mov = true;
         GameObject cameraObject = GameObject.Find("Main Camera");
-        animCamera = cameraObject.GetComponent<Animation>();
+        animCamera = cameraObject.GetComponent<Animator>();
         camera = cameraObject.GetComponent<seguimentcamera>();
-        animRobin = Robin.GetComponent<Animation>();
+        animRobin = Robin.GetComponent<Animator>();
         if (!primerDialeg) DialegIntroduccio();
         if (primerDialeg1) iniciFase1Carrer();
         if (primerDialeg2) iniciFase2Carrer();
@@ -66,8 +66,8 @@ public class Cinematiques : MonoBehaviour
 
     void iniciarFugidaEmmascarat()
     {
-        Animation emmascarada = GameObject.Find("Emmascarada").GetComponent<Animation>();
-        emmascarada.Play("fugidaEmmascarat2");
+        Animator emmascarada = GameObject.Find("Emmascarada").GetComponent<Animator>();
+        emmascarada.Play("Fugida");
     }
 
     void instruccioInicial()
@@ -122,6 +122,7 @@ public class Cinematiques : MonoBehaviour
         poli = true;
         Narrativa.GetComponent<Animation>().PlayQueued("Poli");
     }
+
 
 
     /*****************************

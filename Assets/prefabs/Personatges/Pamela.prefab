@@ -102,6 +102,8 @@ GameObject:
   - component: {fileID: 4524853461822560409}
   - component: {fileID: 4524853461822560406}
   - component: {fileID: 3803470330544873481}
+  - component: {fileID: 4591964593733983896}
+  - component: {fileID: 5156850426913356931}
   m_Layer: 5
   m_Name: Pamela
   m_TagString: NPC
@@ -3729,3 +3731,38 @@ CapsuleCollider2D:
   m_Offset: {x: 0.12, y: -1.35}
   m_Size: {x: 1.7, y: 0.27}
   m_Direction: 1
+--- !u!95 &4591964593733983896
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6695262840863223307}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0075849c39cb3463b9e8aaa8b9d974e7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &5156850426913356931
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6695262840863223307}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: ad1d9adfafdfe479c8d224c45e9f2b2d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

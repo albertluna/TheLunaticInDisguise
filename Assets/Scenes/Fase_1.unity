@@ -3634,7 +3634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 4896799948845689605}
+  selectedFlowchart: {fileID: 1252783756}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -4909,6 +4909,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1252783756 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3935161474284984843, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3935161473588056982}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252783659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1266449902
@@ -12153,6 +12165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4524853461822560467, guid: 8263bfc5c5c684b32a23c5779772e2c2, type: 3}
+    - {fileID: 5156850426913356931, guid: 8263bfc5c5c684b32a23c5779772e2c2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8263bfc5c5c684b32a23c5779772e2c2, type: 3}
 --- !u!114 &4524853460304328175 stripped
 MonoBehaviour:
@@ -13167,18 +13180,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4896799948845689602}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4896799948845689605 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4896799948174502723, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
-    type: 3}
-  m_PrefabInstance: {fileID: 4896799948845689602}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4896799948845689604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4896799948845689606
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13818,7 +13819,7 @@ PrefabInstance:
     - target: {fileID: 4102277143760595812, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.01
+      value: 34.22
       objectReference: {fileID: 0}
     - target: {fileID: 4102277143760595812, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
