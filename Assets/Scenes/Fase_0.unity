@@ -7473,7 +7473,7 @@ PrefabInstance:
     - target: {fileID: 233870163810279553, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 233870163810279553, guid: 34819134af3b1ed4aa02051b9521b6eb,
         type: 3}
@@ -8356,7 +8356,7 @@ MonoBehaviour:
   indentLevel: 0
   targetObject: {fileID: 20519437}
   methodName: moureRobinAPosicio2
-  delay: 4
+  delay: 7
 --- !u!114 &1910835679
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8758,8 +8758,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1910835691}
+  selectedCommands:
+  - {fileID: 1910835678}
   variables: []
   description: parla inicial
   stepPause: 0

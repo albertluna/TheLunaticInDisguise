@@ -132,7 +132,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: "Barry finally overcomes Robin\u2019s mum crush and moves to a new House.
-        He gets to live closer to his nephews, which makes him happier. \\nHe\u2019s
+        He gets to live closer to his nephews, which makes him happier.\nHe\u2019s
         not the best man in the town, but at least he\u2019s not a bitter rich man
         anymore."
       objectReference: {fileID: 0}
@@ -211,6 +211,17 @@ PrefabInstance:
         type: 3}
       propertyPath: falseFinalText
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_text
+      value: "Barry spends the rest of his life expanding his mansion, in order to
+        get his crush\u2019s attention in vain."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -398,8 +409,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: laia abad
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bc03580295ace440498b3840505e6897, type: 2}
+  m_sharedMaterial: {fileID: 6990844313120897654, guid: bc03580295ace440498b3840505e6897,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -423,13 +435,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 31.4
+  m_fontSizeBase: 31.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1091,6 +1103,18 @@ PrefabInstance:
       propertyPath: falseFinalText
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_text
+      value: "Pamela\u2019s farm isn\u2019t profitable and few then, she will have
+        to sell hew cows in order to survive. She will blame the mayor for the rest
+        of her life."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1284,7 +1308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 96.4, y: 11.7}
+  m_AnchoredPosition: {x: -0, y: 11.7}
   m_SizeDelta: {x: 960, y: 460}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1164027990
@@ -1308,8 +1332,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: The Lunatic in Disguise
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bc03580295ace440498b3840505e6897, type: 2}
+  m_sharedMaterial: {fileID: 6990844313120897654, guid: bc03580295ace440498b3840505e6897,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1369,7 +1394,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 192.47513, y: 202.7132, z: 386.6669, w: 177.70325}
+  m_margin: {x: 22.97052, y: 202.7132, z: 21.519684, w: 177.70325}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1441,8 +1466,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Created by
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bc03580295ace440498b3840505e6897, type: 2}
+  m_sharedMaterial: {fileID: 6990844313120897654, guid: bc03580295ace440498b3840505e6897,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1645,9 +1671,11 @@ PrefabInstance:
     - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: Bruce quits drink. He summons the courage to get back his children and
-        they will move to his house. \nHe will become the father he never thought
-        he would be.
+      value: 'Bruce quits drink. He summons the courage to get back his children
+        and they will move to his house.
+
+        He will become the father he never
+        thought he would be.'
       objectReference: {fileID: 0}
     - target: {fileID: 1986865886764562293, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -1714,6 +1742,19 @@ PrefabInstance:
         type: 3}
       propertyPath: falseFinalText
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_text
+      value: 'Bruce keeps being the drunk man of the town for the rest of his life.
+
+        His
+        children will never forgive him and will hate him until his death.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -1901,8 +1942,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: albert luna
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bc03580295ace440498b3840505e6897, type: 2}
+  m_sharedMaterial: {fileID: 6990844313120897654, guid: bc03580295ace440498b3840505e6897,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1926,13 +1968,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 31.4
+  m_fontSizeBase: 31.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2108,9 +2150,12 @@ PrefabInstance:
     - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: Oliver steps down from his post as the mayor and Carol becomes the new
-        mayor of the town. She will do a lot of changes and will help a lot of neighbours.
-        \nOliver will have more time to connect with his wife and will be happier.
+      value: 'Oliver steps down from his post as the mayor and Carol becomes the
+        new mayor of the town. She will do a lot of changes and will help a lot of
+        neighbours.
+
+        Oliver will have more time to connect with his wife
+        and will be happier.'
       objectReference: {fileID: 0}
     - target: {fileID: 1986865886764562293, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -2177,6 +2222,19 @@ PrefabInstance:
         type: 3}
       propertyPath: falseFinalText
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_text
+      value: "Oliver continues being the mayor for more years. Eventually, he and
+        Felicity will break up and his children won\u2019t be close to him.\nHe will
+        close the verdant\u2019s and will lead to a life full of parties, sex and
+        drugs.\nHe will die with overdose some years later."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -2614,8 +2672,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: david bassols
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bc03580295ace440498b3840505e6897, type: 2}
+  m_sharedMaterial: {fileID: 6990844313120897654, guid: bc03580295ace440498b3840505e6897,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2639,13 +2698,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 31.4
+  m_fontSizeBase: 31.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2993,6 +3052,21 @@ PrefabInstance:
       propertyPath: falseFinalText
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_text
+      value: 'Carol loses her beloved. Oliver sends Thea to live out of the country
+        and she will never talk to Carol again. Carol will hate his neighbour Oliver
+        for the rest of her life.
+
+        She will read the whole world collections
+        of superheroes comics and movies.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3169,11 +3243,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: "After some research, the cops found out the hooded lunatic\u2019s suit
-        at Pamela\u2019s house along with some red spray can paint.\\nPamela has
-        been struggling economically with her farm for the last years and the town
-        council has not helped her in any way. His nephew Oliver, the Mayor, has
-        not given the farm any kind of help, but he raised the taxes. \\nShe became
-        the hooded lunatic to fight against the injustices done by the Mayor. "
+        at Pamela\u2019s house along with some red spray can paint.\nPamela has been
+        struggling economically with her farm for the last years and the town council
+        has not helped her in any way. His nephew Oliver, the Mayor, has not given
+        the farm any kind of help, but he raised the taxes.\nShe became the hooded
+        lunatic to fight against the injustices done by the Mayor. "
       objectReference: {fileID: 0}
     - target: {fileID: 1986865886764562293, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -3249,6 +3323,17 @@ PrefabInstance:
         type: 3}
       propertyPath: trueFinalText
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_text
+      value: 'After some research, the cops did not find any evidences that could
+        accuse guess to be the hooded lunatic. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
