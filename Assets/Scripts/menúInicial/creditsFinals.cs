@@ -34,6 +34,7 @@ public class creditsFinals : MonoBehaviour
         lunaticDescobert = acusat.Equals("Pamela");
 
         lunatic.setFinal(lunaticDescobert);
+        lunatic.mal.text = lunatic.mal.text.Replace("guess", acusat);
         Barry.setFinal(getVariables.GetBooleanVariable("finalBarry"));
         Bruce.setFinal(getVariables.GetBooleanVariable("finalBruce"));
         Carol.setFinal(getVariables.GetBooleanVariable("finalCarol"));

@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class creditManager : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI be;
-    [SerializeField] private TextMeshProUGUI mal;
+    [SerializeField] public TextMeshProUGUI be;
+    [SerializeField] public TextMeshProUGUI mal;
     [SerializeField] private Image image;
 
     public bool final;
