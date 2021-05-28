@@ -4144,7 +4144,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 490.86267
     y: 238.61447
-    width: 68.14891
+    width: 67.36111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4252,7 +4252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 546.63043
     y: 2.7433472
-    width: 93.55738
+    width: 93.40277
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4583,7 +4583,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 566.6075
     y: 209.82257
-    width: 100.81694
+    width: 98.6111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10141,7 +10141,7 @@ PrefabInstance:
     - target: {fileID: 6586614251107462357, guid: 880077f7869104d6aa9c88ade6b80216,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7120521302181724913, guid: 880077f7869104d6aa9c88ade6b80216,
         type: 3}
