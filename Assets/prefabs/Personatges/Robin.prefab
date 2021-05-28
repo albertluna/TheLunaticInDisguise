@@ -138,7 +138,6 @@ GameObject:
   - component: {fileID: 4102277143760595812}
   - component: {fileID: 8177186513691381108}
   - component: {fileID: 8177186513691381105}
-  - component: {fileID: 2018024874010436177}
   - component: {fileID: 5835991659363316077}
   - component: {fileID: 305696695592006703}
   - component: {fileID: 2018097649881875939}
@@ -147,6 +146,7 @@ GameObject:
   - component: {fileID: 1945370693913137790}
   - component: {fileID: 4209470217427402567}
   - component: {fileID: 2000295625899112695}
+  - component: {fileID: 9089234661696935081}
   m_Layer: 5
   m_Name: Robin
   m_TagString: Player
@@ -212,27 +212,6 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
---- !u!111 &2018024874010436177
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8177186513691381112}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: 368182593ab9b43b28b8ebc6aae6116f, type: 2}
-  - {fileID: 7400000, guid: 8399e05050bde4a4c9e6ce76b0b66321, type: 2}
-  - {fileID: 7400000, guid: 1299b95e3aee44a2696124360390a4f7, type: 2}
-  - {fileID: 7400000, guid: cac9f14502648407aa1d49c61c8c338b, type: 2}
-  - {fileID: 7400000, guid: 678f8ad60c8a34d09a9b19b809b363d0, type: 2}
-  - {fileID: 7400000, guid: a6415e3fc6a46425eb18663df4b0934d, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!50 &5835991659363316077
 Rigidbody2D:
   serializedVersion: 4
@@ -509,3 +488,24 @@ MonoBehaviour:
   m_ShapePathHash: -217708395
   m_Mesh: {fileID: 0}
   m_InstanceId: 116646
+--- !u!111 &9089234661696935081
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8177186513691381112}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 368182593ab9b43b28b8ebc6aae6116f, type: 2}
+  - {fileID: 7400000, guid: 8399e05050bde4a4c9e6ce76b0b66321, type: 2}
+  - {fileID: 7400000, guid: cac9f14502648407aa1d49c61c8c338b, type: 2}
+  - {fileID: 7400000, guid: 678f8ad60c8a34d09a9b19b809b363d0, type: 2}
+  - {fileID: 7400000, guid: a6415e3fc6a46425eb18663df4b0934d, type: 2}
+  - {fileID: 7400000, guid: 1299b95e3aee44a2696124360390a4f7, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

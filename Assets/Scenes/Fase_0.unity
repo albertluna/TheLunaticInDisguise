@@ -1525,7 +1525,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338898636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.8, y: -5.56, z: 4.3}
+  m_LocalPosition: {x: 17.92, y: -5.56, z: 4.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3360,7 +3360,7 @@ PrefabInstance:
     - target: {fileID: 2018097649881875939, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3215784463176617960, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
@@ -3427,6 +3427,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6495197281668983841, guid: 6fa0289c04b1e45a0969d72094b4b908,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6495197281668983841, guid: 6fa0289c04b1e45a0969d72094b4b908,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 096781e21a02e46e098a27c779c2af87, type: 2}
     - target: {fileID: 8177186513691381108, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
       propertyPath: limit.Array.data[0]
@@ -3442,6 +3452,11 @@ PrefabInstance:
       propertyPath: limit.Array.data[2]
       value: 
       objectReference: {fileID: 1963973201}
+    - target: {fileID: 8177186513691381108, guid: 6fa0289c04b1e45a0969d72094b4b908,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8177186513691381112, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
       propertyPath: m_Name
@@ -3480,6 +3495,21 @@ PrefabInstance:
     - target: {fileID: 8943391391168049450, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
       propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089234661696935081, guid: 6fa0289c04b1e45a0969d72094b4b908,
+        type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: ae51c0dd8ca4d4e4cbf9a21eeb068aa0, type: 2}
+    - target: {fileID: 9089234661696935081, guid: 6fa0289c04b1e45a0969d72094b4b908,
+        type: 3}
+      propertyPath: m_PlayAutomatically
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089234661696935081, guid: 6fa0289c04b1e45a0969d72094b4b908,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4067,7 +4097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968972918}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.91, y: -5.56, z: 4.3}
+  m_LocalPosition: {x: -20.04, y: -5.56, z: 4.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5903,6 +5933,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1359675968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359675966}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e1d73b0f08a49bbb6f5623c1b10b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1373188484
@@ -7925,7 +7967,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706660872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.56, y: -5.49, z: 4.3}
+  m_LocalPosition: {x: 4.64, y: -5.49, z: 4.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7997,7 +8039,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718759679}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.18, y: -5.56, z: 4.3}
+  m_LocalPosition: {x: -7.98, y: -5.56, z: 4.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8761,7 +8803,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1910835691}
   selectedCommands:
-  - {fileID: 1910835678}
+  - {fileID: 1910835696}
   variables: []
   description: parla inicial
   stepPause: 0

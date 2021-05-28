@@ -18,12 +18,9 @@ public class MovimentSimple : MonoBehaviour
     public int level2;
     public int level3;
 
-    // Start is called before the first frame update
     void Start()
     {
-        //dialeg = FindObjectOfType<tes>();
-        rb = this.GetComponent<Rigidbody2D>();
-
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -44,6 +41,10 @@ public class MovimentSimple : MonoBehaviour
             {
                 horizontalInput = verticalInput / 2;
             }
+
+            //if (verticalInput != 0) horizontalInput = verticalInput / 2;
+            //spriteRobin.flipX = (horizontalInput > 0);
+
             if (horizontalInput < 0)
             {
                 spriteRobin.flipX = false;
@@ -53,11 +54,11 @@ public class MovimentSimple : MonoBehaviour
             {
                 spriteRobin.flipX = true;
             }
-            
+
+            rb.velocity = new Vector2(horizontalInput * velocity, verticalInput * velocity / 2); //mirar pujar diagonal
 
             animator.SetFloat("Speed", Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
-            
-            rb.velocity = new Vector2(horizontalInput*velocity, verticalInput*velocity/2); //mirar pujar diagonal
+            //Debug.Log("horiztonal = " + horizontalInput + ". Vertical = " + verticalInput);
 
         } else {
             if (Input.GetKey(KeyCode.F))
@@ -85,7 +86,7 @@ public class MovimentSimple : MonoBehaviour
         {
             this.GetComponent<SpriteRenderer>().sortingOrder = level3;
         }
-        Debug.Log("Ordre es= " + this.GetComponent<SpriteRenderer>().sortingOrder);
+        //Debug.Log("Ordre es= " + this.GetComponent<SpriteRenderer>().sortingOrder);
     }
 
     public void playEffect()

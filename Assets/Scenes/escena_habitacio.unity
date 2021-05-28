@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -188.6634, y: -85.87259}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1101,7 +1101,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 722457924}
   selectedCommands:
-  - {fileID: 722457921}
+  - {fileID: 722457930}
   variables: []
   description: 
   stepPause: 0
@@ -1323,7 +1323,25 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 722457921}
+  - {fileID: 722457930}
   suppressAllAutoSelections: 0
+--- !u!114 &722457930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722457914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  targetObject: {fileID: 2055262162}
+  methodName: setAnimator
+  delay: 0
 --- !u!1 &722548761
 GameObject:
   m_ObjectHideFlags: 0
@@ -1765,7 +1783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1041239080}
+  selectedFlowchart: {fileID: 722457915}
 --- !u!4 &963179315
 Transform:
   m_ObjectHideFlags: 1
@@ -4423,6 +4441,8 @@ MonoBehaviour:
   Robin: {fileID: 1041239033}
   canviEscena: {fileID: 722457914}
   transicio: {fileID: 572165395}
+  cineAnim: {fileID: 9100000, guid: 096781e21a02e46e098a27c779c2af87, type: 2}
+  animRobin: {fileID: 9100000, guid: b228c588e39305c4f841cf938d37d8cd, type: 2}
 --- !u!4 &2055262164
 Transform:
   m_ObjectHideFlags: 0

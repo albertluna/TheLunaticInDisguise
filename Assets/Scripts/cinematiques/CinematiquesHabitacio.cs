@@ -1,22 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.Animations;
 using Fungus;
 
 public class CinematiquesHabitacio : MonoBehaviour
 {
     public GameObject Robin;
     private Flowchart fc;
-    private Animation anim;
+    private Animator anim;
     public GameObject canviEscena;
     private static bool primerDialeg;
     public Animator transicio;
     public static bool parlatAmbTothom;
+    public AnimatorController cineAnim;
+    public AnimatorController animRobin;
 
     void Start()
     {
         fc = Robin.GetComponent<Flowchart>();
-        anim = Robin.GetComponent<Animation>();
+        anim = Robin.GetComponent<Animator>();
         Robin.GetComponent<MovimentSimple>().Mov = true;
         if (!primerDialeg) dialegIntroduccio();
         if (parlatAmbTothom) setDialegCanviFase();
@@ -29,7 +32,6 @@ public class CinematiquesHabitacio : MonoBehaviour
     {
         noMoure();
         transicio.SetTrigger("starts");
-        anim.PlayQueued("anarDormirFase2i3");
         parlatAmbTothom = false;
         GameObject.Find("canviFase").GetComponent<Flowchart>().SetBooleanVariable("parlatAmbTothom", false);
 
@@ -37,8 +39,6 @@ public class CinematiquesHabitacio : MonoBehaviour
 
     public void despertarse()
     {
-        
-        anim.PlayQueued("Despertar-se");
         transicio.SetTrigger("ends");
         moure();
     }
@@ -57,7 +57,8 @@ public class CinematiquesHabitacio : MonoBehaviour
     //Primerdialeg de l'habitacio. PART 1
     public void dialegIntroduccio()
     {
-        Robin.transform.position = new Vector3(-10.7f, -1.97f, 101.73f);
+        anim.runtimeAnimatorController = cineAnim;
+        Robin.transform.position = new Vector3(-10.7f, -1.97f, 0f);
         primerDialeg = true;
         canviEscena.GetComponent<BoxCollider2D>().enabled = false;
         noMoure();
@@ -79,17 +80,18 @@ public class CinematiquesHabitacio : MonoBehaviour
         canviEscena.GetComponent<BoxCollider2D>().enabled = true;
 
         // Execucio de l'animacio d'estirar-se al llit
-        anim.PlayQueued("Dormir 1");
+        anim.Play("Dormir 1");
     }
 
     //Part 4
     public void dialegIntroduccio4()
     {
         //animacio d'aixecar-se del llit i anar a la porta
-        anim.PlayQueued("Dormir 2");
+        anim.Play("Dormir 2");
         transicio.SetTrigger("ends");
-
     }
+
+    public void setAnimator() { anim.runtimeAnimatorController = animRobin; }
 
     /**********************
      * 
@@ -101,8 +103,6 @@ public class CinematiquesHabitacio : MonoBehaviour
     {
         noMoure();
         Cinematiques.setPrimerDialegFase2();
-        //animacio adormir-se i despertar-se
-        Debug.Log("BONES2");
         //dialeg inicial
         fc.ExecuteBlock("iniciFase2");
         moure();
@@ -117,9 +117,6 @@ public class CinematiquesHabitacio : MonoBehaviour
     {
         noMoure();
         Cinematiques.setPrimerDialegFase3();
-        //animacio adormir-se
-        Debug.Log("BONES3");
-
 
         //dialeg inicial
         fc.ExecuteBlock("iniciFase3");
