@@ -951,8 +951,7 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 358401460}
-  selectedCommands:
-  - {fileID: 358401442}
+  selectedCommands: []
   variables:
   - {fileID: 358401502}
   - {fileID: 358401509}
@@ -1679,7 +1678,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 640.90283
     y: -361.15155
-    width: 77.47256
+    width: 76.37366
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1741,7 +1740,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 636.90283
     y: -312.15155
-    width: 90.65938
+    width: 90.439606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2490,7 +2489,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 508.90286
     y: -351.15155
-    width: 103.84621
+    width: 106.263794
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2526,7 +2525,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 515.7534
     y: -274.23904
-    width: 86.26378
+    width: 88.68136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2662,7 +2661,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 501.68335
     y: -212.05641
-    width: 122.52755
+    width: 124.72535
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2893,7 +2892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: Who knows what else he... he... he might have done to her...
+  storyText: Who knows what else he might have done to her...
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
@@ -2947,7 +2946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: p... p... poor Thea... *sniff*
+  storyText: poor Thea... *sniff*
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
@@ -3001,7 +3000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: w... w... well, you know Oliver...
+  storyText: well, you know Oliver...
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
@@ -3055,7 +3054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: The... The... Thea and I have been together for a couple of months now.
+  storyText: Thea and I have been together for a couple of months now.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
@@ -3217,7 +3216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 391.68332
     y: -214.05641
-    width: 80.769264
+    width: 82.527504
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3248,7 +3247,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 387.53372
     y: -312.60416
-    width: 89.56048
+    width: 91.318726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3337,7 +3336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 1
-  storyText: S... S... Sorry, you caught me in a bad moment.
+  storyText: Sorry, you caught me in a bad moment.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
@@ -3458,7 +3457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 252.67917
     y: -261.60837
-    width: 101.64841
+    width: 101.86818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4614,7 +4613,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 641.90283
     y: -411.15155
-    width: 74.17585
+    width: 75.49453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4627,6 +4626,8 @@ MonoBehaviour:
   - {fileID: 358401522}
   - {fileID: 358401521}
   - {fileID: 358401520}
+  - {fileID: 358401544}
+  - {fileID: 358401538}
   - {fileID: 358401519}
   - {fileID: 358401518}
   suppressAllAutoSelections: 0
@@ -4644,7 +4645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 173
   indentLevel: 0
-  text: Stop being such a pussy(canviar)
+  text: Stop being such a coward!
   description: 
   targetBlock: {fileID: 358401524}
   hideIfVisited: 0
@@ -4804,7 +4805,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 516.5337
     y: -414.60416
-    width: 99.4506
+    width: 100.10994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4832,7 +4833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
-  text: We can both kick his ass
+  text: We should kick his ass
   description: 
   targetBlock: {fileID: 358401531}
   hideIfVisited: 0
@@ -4857,7 +4858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 0
-  text: Sorry, I tired of drama
+  text: Sorry, I'm tired of all the drama.
   description: 
   targetBlock: {fileID: 358401496}
   hideIfVisited: 0
@@ -4882,7 +4883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 164
   indentLevel: 0
-  text: I just want to know who set the fire
+  text: I just want to know who started the fire.
   description: 
   targetBlock: {fileID: 358401475}
   hideIfVisited: 0
@@ -4907,7 +4908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 163
   indentLevel: 0
-  text: What happended girl?
+  text: What happended?
   description: 
   targetBlock: {fileID: 358401497}
   hideIfVisited: 0
@@ -4932,7 +4933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 162
   indentLevel: 0
-  storyText: It's horrible
+  storyText: It's horrible.
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
@@ -4974,7 +4975,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &358401538
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4984,9 +4985,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 160
+  itemId: 193
   indentLevel: 0
-  storyText: Robin, you know nothing
+  storyText: I need to think, Robin, can you leave?
   description: 
   character: {fileID: 358401501}
   portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
@@ -5015,7 +5016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 372.67917
     y: -412.60837
-    width: 104.945114
+    width: 106.263794
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5024,7 +5025,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 358401538}
+  - {fileID: 358401545}
   - {fileID: 358401537}
   - {fileID: 358401536}
   - {fileID: 358401535}
@@ -5240,6 +5241,60 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &358401544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 192
+  indentLevel: 0
+  storyText: I don't know what to do!
+  description: 
+  character: {fileID: 358401501}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &358401545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358401439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  storyText: How could you say that?! You don't know anything.
+  description: 
+  character: {fileID: 358401501}
+  portrait: {fileID: 21300000, guid: c388f347b037c4ce98c3bb26af9c5378, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &392088779
 GameObject:
   m_ObjectHideFlags: 0
@@ -5713,9 +5768,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 672039036}
+  - {fileID: 672038980}
   selectedCommands:
-  - {fileID: 672039039}
+  - {fileID: 672038982}
   variables:
   - {fileID: 672038978}
   - {fileID: 672039085}
@@ -5787,7 +5842,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 898.7649
     y: 79.731415
-    width: 127
+    width: 129.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6080,7 +6135,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 897.7649
     y: 127.731415
-    width: 91
+    width: 92.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6265,7 +6320,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 773.7649
     y: 127.731415
-    width: 104
+    width: 106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6468,7 +6523,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: Plus, I saw her before around the streets looking high as a kitte.
+  storyText: Thinking about it, I've probably seen her before around the streets
+    high as a kite.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
@@ -6866,7 +6922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 657.7649
     y: 96.731415
-    width: 92
+    width: 93.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6924,7 +6980,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 658.7649
     y: 154.73141
-    width: 80
+    width: 80.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6965,33 +7021,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &672039010
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672038976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 7
-  indentLevel: 1
-  storyText: What do you want to know?
-  description: 
-  character: {fileID: 672039076}
-  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &672039011
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7089,7 +7118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 657.7649
     y: 206.73141
-    width: 85
+    width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7147,7 +7176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 521.7649
     y: 138.73141
-    width: 103
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7161,7 +7190,6 @@ MonoBehaviour:
   - {fileID: 672039013}
   - {fileID: 672039012}
   - {fileID: 672039011}
-  - {fileID: 672039010}
   - {fileID: 672039009}
   - {fileID: 672039007}
   - {fileID: 672039025}
@@ -8307,7 +8335,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 897.7649
     y: 174.54099
-    width: 74
+    width: 74.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8504,7 +8532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: Keep investigating, please...
+  storyText: You should go keep playing detective, go away.
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
@@ -8558,7 +8586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
-  text: You're just lazybones
+  text: You're just lazy
   description: 
   targetBlock: {fileID: 672039036}
   hideIfVisited: 0
@@ -8779,7 +8807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 162
   indentLevel: 0
-  storyText: After all this time investigating... to end up saying this?
+  storyText: After all your little investigation... that's your conclusion?
   description: 
   character: {fileID: 672039076}
   portrait: {fileID: 21300000, guid: 7c4d44d57de13462b86427c8d4bd8a6e, type: 3}
@@ -9008,7 +9036,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 680188779}
+  - {fileID: 680188782}
   selectedCommands: []
   variables: []
   description: 
@@ -9037,7 +9065,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 193.75
     y: 251
-    width: 103
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9116,7 +9144,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340.75
     y: 252
-    width: 99
+    width: 100.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9761,7 +9789,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 765.03503
     y: 180.13937
-    width: 87
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10124,7 +10152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: I think it's time for you to move on.
+  storyText: I think it's time for you to move on. My parents are happy together.
   description: 
   character: {fileID: 2127605303}
   portrait: {fileID: 0}
@@ -10221,7 +10249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 873.8949
     y: -75.639084
-    width: 79
+    width: 79.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10250,7 +10278,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 870.92676
     y: -34.901543
-    width: 92
+    width: 93.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10265,6 +10293,7 @@ MonoBehaviour:
   - {fileID: 931907942}
   - {fileID: 931907940}
   - {fileID: 931907939}
+  - {fileID: 931908020}
   - {fileID: 931908018}
   - {fileID: 931907994}
   - {fileID: 931907993}
@@ -10285,7 +10314,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 870.6327
     y: 9.360897
-    width: 95
+    width: 96.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10338,7 +10367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  text: Do you want an advice?
+  text: Do you want some advice?
   description: 
   targetBlock: {fileID: 931907950}
   hideIfVisited: 0
@@ -10837,7 +10866,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: When your mom and I were together.
+  storyText: When your mom and I were together. Holding each other, close to the
+    campfire...
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
@@ -11033,7 +11063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: Nights like this remind me of my youth days.
+  storyText: This remind me of my youth days.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
@@ -11102,7 +11132,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &931907965
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11112,9 +11142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 19
+  itemId: 193
   indentLevel: 0
-  storyText: I don't know, she hates all adults.
+  storyText: I don't have anything else to say to you.
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
@@ -11376,7 +11406,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 764.9038
     y: 130.1166
-    width: 99
+    width: 100.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11388,7 +11418,8 @@ MonoBehaviour:
   - {fileID: 931907969}
   - {fileID: 931907967}
   - {fileID: 931907966}
-  - {fileID: 931907965}
+  - {fileID: 931908022}
+  - {fileID: 931908021}
   - {fileID: 931907968}
   - {fileID: 931907988}
   - {fileID: 931907987}
@@ -11666,7 +11697,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 616.854
     y: 98.80435
-    width: 120
+    width: 122.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11723,7 +11754,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 617.854
     y: -20.195648
-    width: 118
+    width: 120.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11781,7 +11812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 1
-  storyText: it could have been much worse...
+  storyText: It could have been much worse...
   description: 
   character: {fileID: 931907996}
   portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
@@ -11891,7 +11922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 480.854
     y: 28.804352
-    width: 103
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11905,6 +11936,7 @@ MonoBehaviour:
   - {fileID: 931907982}
   - {fileID: 931907981}
   - {fileID: 931907980}
+  - {fileID: 931908023}
   - {fileID: 931907979}
   - {fileID: 931907977}
   - {fileID: 931908016}
@@ -12830,9 +12862,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 931907970}
+  - {fileID: 931907999}
   selectedCommands:
-  - {fileID: 931907967}
+  - {fileID: 931907965}
   variables:
   - {fileID: 931907930}
   - {fileID: 931908007}
@@ -12880,7 +12912,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 875.90436
     y: 58.170677
-    width: 75
+    width: 75.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12891,6 +12923,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 931907986}
   - {fileID: 931907964}
+  - {fileID: 931907965}
   - {fileID: 931907961}
   - {fileID: 931907960}
   suppressAllAutoSelections: 0
@@ -12947,7 +12980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 168
   indentLevel: 0
-  text: She's kind
+  text: She's really nice.
   description: 
   targetBlock: {fileID: 931907970}
   hideIfVisited: 0
@@ -12972,7 +13005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  text: Stop hating!
+  text: That's really mean!
   description: 
   targetBlock: {fileID: 931907951}
   hideIfVisited: 0
@@ -13095,7 +13128,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 759.3881
     y: 61.519165
-    width: 75
+    width: 75.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13125,7 +13158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 162
   indentLevel: 0
-  text: Stop hating her!
+  text: Stop hating on her!
   description: 
   targetBlock: {fileID: 931908008}
   hideIfVisited: 0
@@ -13400,9 +13433,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 618.86346
-    y: 198.53307
-    width: 82
+    x: 617.86346
+    y: 199.53307
+    width: 82.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13626,6 +13659,114 @@ MonoBehaviour:
   scope: 2
   key: finalBarry
   value: 0
+--- !u!114 &931908020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 192
+  indentLevel: 0
+  storyText: Sorry, can you leave? I need time to think.
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &931908021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  storyText: I don't know, she hates all adults.
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &931908022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 190
+  indentLevel: 0
+  storyText: Or maybe even before that.
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &931908023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931907929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 189
+  indentLevel: 1
+  storyText: This brings back memories, though...
+  description: 
+  character: {fileID: 931907996}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &1004564379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13810,7 +13951,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1004564438}
   selectedCommands:
-  - {fileID: 1004564430}
+  - {fileID: 1004564431}
   variables:
   - {fileID: 1004564382}
   - {fileID: 1004564464}
@@ -14006,9 +14147,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 690.04285
+    x: 691.04285
     y: 120.76104
-    width: 115
+    width: 117.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14024,11 +14165,6 @@ MonoBehaviour:
   - {fileID: 1004564396}
   - {fileID: 1004564395}
   - {fileID: 1004564394}
-  - {fileID: 1004564393}
-  - {fileID: 1004564392}
-  - {fileID: 1004564391}
-  - {fileID: 1004564390}
-  - {fileID: 1004564389}
   - {fileID: 1004564388}
   - {fileID: 1004564387}
   - {fileID: 1004564386}
@@ -14078,7 +14214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: and he only stays here to "be with her".
+  storyText: so hestays here to "be with her".
   description: 
   character: {fileID: 1004564453}
   portrait: {fileID: 21300000, guid: 8f2511cf2e7284f4e933c9a6073d363d, type: 3}
@@ -14157,9 +14293,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 34
+  itemId: 193
   indentLevel: 0
-  storyText: Okay, okay...
+  storyText: You're just a kid, you don't even understand what this is like.
   description: 
   character: {fileID: 1004564453}
   portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
@@ -14184,12 +14320,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 33
+  itemId: 192
   indentLevel: 0
-  storyText: Can you tell me once and for all what's foing on?!
+  storyText: I'd rather be alone and not hurt anyone.
   description: 
-  character: {fileID: 2127605303}
-  portrait: {fileID: 0}
+  character: {fileID: 1004564453}
+  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14211,63 +14347,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 32
+  itemId: 191
   indentLevel: 0
-  storyText: I'm so fed up with all the adults' secrets and lies.
-  description: 
-  character: {fileID: 2127605303}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1004564392
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004564380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 31
-  indentLevel: 0
-  storyText: Well now you have to tell me.
-  description: 
-  character: {fileID: 2127605303}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1004564393
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004564380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 30
-  indentLevel: 0
-  storyText: Sorry, I don't think I should be the one telling you.
+  storyText: All I know is that since Eleanor died, everything has been worse.
   description: 
   character: {fileID: 1004564453}
   portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
@@ -14469,33 +14551,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1004564401
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004564380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 138
-  indentLevel: 0
-  storyText: Scram!
-  description: 
-  character: {fileID: 1004564453}
-  portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1004564402
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14564,7 +14619,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 714.8107
     y: 78.39216
-    width: 74
+    width: 74.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14768,7 +14823,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: He's always pretending to have friends over, when nobody likes him.
+  storyText: He's always pretending to have friends over, when nobody even likes
+    him.
   description: 
   character: {fileID: 1004564453}
   portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
@@ -14878,7 +14934,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 557.38885
     y: 236.27097
-    width: 132
+    width: 134.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14888,6 +14944,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1004564452}
+  - {fileID: 1004564391}
   - {fileID: 1004564451}
   - {fileID: 1004564449}
   - {fileID: 1004564450}
@@ -14939,7 +14996,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 551.26685
     y: 25.04674
-    width: 96
+    width: 97.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14991,9 +15048,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 569.6345
+    x: 566.6345
     y: 83.209984
-    width: 108
+    width: 109.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15179,7 +15236,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 429.83832
     y: 83.41406
-    width: 103
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15518,7 +15575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: I'd rather be alone and not hurt anyone.
+  storyText: You should leave me alone too.
   description: 
   character: {fileID: 1004564453}
   portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
@@ -15795,34 +15852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  storyText: Alcohol is the only thing keeping me alive
-  description: 
-  character: {fileID: 1004564453}
-  portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1004564432
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004564380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 60
-  indentLevel: 0
-  storyText: No
+  storyText: Life is not as easy as you think. You can't fix people like that.
   description: 
   character: {fileID: 1004564453}
   portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
@@ -15986,7 +16016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 707.38885
     y: 288.27097
-    width: 91
+    width: 92.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15999,8 +16029,8 @@ MonoBehaviour:
   - {fileID: 1004564429}
   - {fileID: 1004564435}
   - {fileID: 1004564434}
+  - {fileID: 1004564389}
   - {fileID: 1004564433}
-  - {fileID: 1004564432}
   - {fileID: 1004564431}
   - {fileID: 1004564430}
   - {fileID: 1004564475}
@@ -16024,7 +16054,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 724.56586
     y: 236.6633
-    width: 81
+    width: 82
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16035,6 +16065,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1004564428}
   - {fileID: 1004564427}
+  - {fileID: 1004564390}
   - {fileID: 1004564425}
   - {fileID: 1004564476}
   - {fileID: 1004564424}
@@ -16071,7 +16102,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 705.1647
     y: 179.88348
-    width: 71
+    width: 71.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16080,7 +16111,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1004564401}
   - {fileID: 1004564465}
   - {fileID: 1004564463}
   suppressAllAutoSelections: 0
@@ -16703,7 +16733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: All I know is that since Eleanor died, everything has been worse.
+  storyText: I don't know, maybe it's just me.
   description: 
   character: {fileID: 1004564453}
   portrait: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a, type: 3}
@@ -18021,7 +18051,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 692.84033
     y: 33.161938
-    width: 108
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18049,7 +18079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 157
   indentLevel: 0
-  text: Do you have any evidences?
+  text: Do you have any evidence?
   description: 
   targetBlock: {fileID: 1004564472}
   hideIfVisited: 0
@@ -18658,7 +18688,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 580
     y: 477
-    width: 88.798584
+    width: 87.04639
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18837,7 +18867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: I must decide now who the hooded lunatic is and tell them.
+  storyText: I have to tell them who the hooded lunatic is!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -19196,8 +19226,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 215
-    y: 478
-    width: 103.81739
+    y: 479.25156
+    width: 103.06645
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19224,7 +19254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: This must have been the hooded lunatic!
+  storyText: This must've been the hooded lunatic!
   description: 
   character: {fileID: 2127605303}
   portrait: {fileID: 0}
@@ -19305,9 +19335,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 219
-    y: 423
-    width: 95.05642
+    x: 217.74843
+    y: 424.25156
+    width: 93.05391
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19380,7 +19410,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 226.87006
     y: 613.425
-    width: 133.85501
+    width: 132.10281
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19450,8 +19480,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1086846689}
+  selectedCommands:
+  - {fileID: 1086846688}
   variables:
   - {fileID: 1086846682}
   - {fileID: 1086846698}
@@ -19663,7 +19695,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 232
     y: 546
-    width: 66.27037
+    width: 66.02006
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19752,7 +19784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: Okey, then.
+  storyText: Okay, then. Thank you for your help.
   description: 
   character: {fileID: 1086846668}
   portrait: {fileID: 0}
@@ -20818,7 +20850,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 446
     y: 585
-    width: 92.55328
+    width: 92.05266
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20846,7 +20878,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 449
     y: 545
-    width: 82.54075
+    width: 83.041374
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20902,7 +20934,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 449
     y: 454
-    width: 83.79231
+    width: 83.041374
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21122,7 +21154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1854123305}
+  selectedFlowchart: {fileID: 1086846680}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -22982,7 +23014,7 @@ MonoBehaviour:
   storyText: Good night, boy!
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23008,7 +23040,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 375.96613
     y: 223.18022
-    width: 103
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23024,7 +23056,6 @@ MonoBehaviour:
   - {fileID: 1854123355}
   - {fileID: 1854123336}
   - {fileID: 1854123329}
-  - {fileID: 1854123327}
   - {fileID: 1854123350}
   - {fileID: 1854123306}
   - {fileID: 1854123356}
@@ -23198,7 +23229,7 @@ MonoBehaviour:
   storyText: Good night!
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23347,7 +23378,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 748.25916
     y: 179.56232
-    width: 85
+    width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23591,7 +23622,7 @@ MonoBehaviour:
   storyText: Not thanks to his countless clients...
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
+  portrait: {fileID: 21300000, guid: 7b036514da1604d1591220e3ef4dd39b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23640,7 +23671,7 @@ MonoBehaviour:
   storyText: How do you think the Verdant is still open?
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
+  portrait: {fileID: 21300000, guid: 7b036514da1604d1591220e3ef4dd39b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23667,7 +23698,7 @@ MonoBehaviour:
   storyText: You heard me right.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
+  portrait: {fileID: 21300000, guid: 7b036514da1604d1591220e3ef4dd39b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23814,7 +23845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: I can see she's really hurt.
+  storyText: I can see she's really hurt. She probably wants to be alone right now.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
@@ -23841,7 +23872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: No.
+  storyText: Not yet.
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
@@ -23870,7 +23901,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 622.9661
     y: 208.18025
-    width: 78
+    width: 78.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23900,7 +23931,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 610.9661
     y: 139.18025
-    width: 103
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24202,33 +24233,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1854123327
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854123294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 157
-  indentLevel: 1
-  storyText: ZZZ, ZZZ, ZZZ
-  description: 
-  character: {fileID: 1854123309}
-  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1854123328
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24493,7 +24497,7 @@ MonoBehaviour:
   storyText: It must be that greedy bastard.
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
+  portrait: {fileID: 21300000, guid: 7b036514da1604d1591220e3ef4dd39b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24546,7 +24550,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 496.96613
     y: 175.18025
-    width: 102
+    width: 103.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24756,8 +24760,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: You know, I have to wake early to milk the cows so that I can feed tho
-    whole town...
+  storyText: I have to wake early to milk the cows so that I can feed the whole town,
+    you know?
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
@@ -24840,7 +24844,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 517.9661
     y: 223.18025
-    width: 67
+    width: 67.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24925,10 +24929,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 1
-  storyText: Who'd say this could happen in this town?//somriure
+  storyText: Who'd say this could happen in this town?
   description: 
   character: {fileID: 1854123309}
-  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -25533,7 +25537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 159
   indentLevel: 1
-  storyText: I should go back to sleep.
+  storyText: I should go back to sleep. *yawn*
   description: 
   character: {fileID: 1854123309}
   portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
@@ -25630,7 +25634,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 498.96613
     y: 270.18024
-    width: 78
+    width: 78.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

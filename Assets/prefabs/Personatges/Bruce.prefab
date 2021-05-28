@@ -30,7 +30,6 @@ GameObject:
   - component: {fileID: 8722576016972365002}
   - component: {fileID: 8722576016972365003}
   - component: {fileID: 8722576016972365000}
-  - component: {fileID: 8722576016972365001}
   - component: {fileID: 8722576016972365014}
   - component: {fileID: 8722576016972365015}
   - component: {fileID: 8722576016972365012}
@@ -238,7 +237,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks: []
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 0}
   variables:
   - {fileID: 8722576016972365048}
   - {fileID: 8722576016972364950}
@@ -1312,34 +1312,6 @@ MonoBehaviour:
   storyText: No
   description: 
   character: {fileID: 8722576016972364931}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &8722576016972365001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1958230789145334013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 97
-  indentLevel: 0
-  storyText: I was wondering if you knew anything about who painted all the city
-    lights.
-  description: 
-  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3241,7 +3213,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 8722576016972364988}
-  - {fileID: 8722576016972365001}
+  - {fileID: 0}
   - {fileID: 8722576016972365000}
   - {fileID: 8722576016972364991}
   - {fileID: 8722576016972364990}

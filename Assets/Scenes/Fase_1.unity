@@ -247,6 +247,33 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4524853460304328174}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &79657418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79657417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 185
+  indentLevel: 0
+  storyText: Have a good one, boy!
+  description: 
+  character: {fileID: 79657495}
+  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &79657419
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -724,7 +751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 159
   indentLevel: 0
-  storyText: But I'm sure she's ill because she ate all my vegetables
+  storyText: But I'm sure she's ill because she ate all my cabbages
   description: 
   character: {fileID: 79657495}
   portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
@@ -920,7 +947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  storyText: I'm not a veterinarian, boy.
+  storyText: I'm not a vet, boy.
   description: 
   character: {fileID: 79657495}
   portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
@@ -949,7 +976,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 387.23495
     y: 243.94116
-    width: 72.28052
+    width: 73.97009
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -961,6 +988,8 @@ MonoBehaviour:
   - {fileID: 79657427}
   - {fileID: 79657424}
   - {fileID: 79657422}
+  - {fileID: 79657439}
+  - {fileID: 79657438}
   - {fileID: 79657423}
   - {fileID: 79657426}
   - {fileID: 79657425}
@@ -1288,7 +1317,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &79657432
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1298,9 +1327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 150
+  itemId: 184
   indentLevel: 0
-  storyText: You can go visit her anytime!
+  storyText: I need to go take care of Mia and Connor.
   description: 
   character: {fileID: 79657495}
   portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
@@ -1355,8 +1384,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  storyText: Do you know Lidia, don't you? Well, my poor sister, she's now living
-    in the 'Taylor Retirement Residence'.
+  storyText: Do you know Lidia, don't you? Well, my poor sister's now living in the
+    'Taylor Retirement Residence'.
   description: 
   character: {fileID: 79657495}
   portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
@@ -1538,6 +1567,114 @@ MonoBehaviour:
   targetObject: {fileID: 20519437}
   methodName: moure
   delay: 0
+--- !u!114 &79657437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79657417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 183
+  indentLevel: 0
+  storyText: You can come with next time I go! I'm sure she'd love the company.
+  description: 
+  character: {fileID: 79657495}
+  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &79657438
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79657417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 182
+  indentLevel: 0
+  storyText: Have a good one, boy!
+  description: 
+  character: {fileID: 79657495}
+  portrait: {fileID: 21300000, guid: 12fa7dde8fc3d4cfda516cbe439ac242, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &79657439
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79657417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 181
+  indentLevel: 0
+  storyText: I need to go take care of Mia and Connor.
+  description: 
+  character: {fileID: 79657495}
+  portrait: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &79657440
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79657417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 180
+  indentLevel: 0
+  storyText: That is not okay. I think you should go.
+  description: 
+  character: {fileID: 79657495}
+  portrait: {fileID: 21300000, guid: 7b036514da1604d1591220e3ef4dd39b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &79657495 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4524853461822560451, guid: 8263bfc5c5c684b32a23c5779772e2c2,
@@ -2028,7 +2165,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 495.78745
     y: 258.2218
-    width: 71
+    width: 71.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2236,7 +2373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  storyText: Fuck you, boy
+  storyText: Fuck you
   description: 
   character: {fileID: 339035210}
   portrait: {fileID: 21300000, guid: 34507790977874a98afe4362301a578a, type: 3}
@@ -2309,31 +2446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &339035217
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339035201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 125
-  indentLevel: 0
-  text: Could you be more proactive, please?
-  description: 
-  targetBlock: {fileID: 8722576017108685674}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &339035218
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2348,7 +2460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 123
   indentLevel: 0
-  text: Stupid jerk
+  text: You're a jerk
   description: 
   targetBlock: {fileID: 339035207}
   hideIfVisited: 0
@@ -2359,33 +2471,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &339035219
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339035201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 130
-  indentLevel: 0
-  storyText: Buh...
-  description: 
-  character: {fileID: 339035210}
-  portrait: {fileID: 21300000, guid: 8f2511cf2e7284f4e933c9a6073d363d, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &339035220
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3138,7 +3223,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305
     y: 185
-    width: 103
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3217,7 +3302,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461
     y: 186
-    width: 102
+    width: 103.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3634,7 +3719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1252783756}
+  selectedFlowchart: {fileID: 8336846166842313475}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -4144,7 +4229,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 490.86267
     y: 238.61447
-    width: 68.14891
+    width: 68.60471
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4198,7 +4283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 110
   indentLevel: 0
-  storyText: '{punch=10,1}SHUT UP, KID! //enfadat'
+  storyText: '{punch=10,1}THE FUCK DID YOU JUST SAY TO ME, YOU LITTLE SHIT!'
   description: 
   character: {fileID: 1252783682}
   portrait: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
@@ -4225,7 +4310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 114
   indentLevel: 0
-  text: As if you were any  better.
+  text: As if you were any better.
   description: 
   targetBlock: {fileID: 1252783669}
   hideIfVisited: 0
@@ -4252,7 +4337,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 546.63043
     y: 2.7433472
-    width: 93.55738
+    width: 93.410995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4450,7 +4535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: Now go away and leave alone!
+  storyText: Leave alone!
   description: 
   character: {fileID: 1252783682}
   portrait: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
@@ -4477,7 +4562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 0
-  storyText: You know nothing of anybody in this town.
+  storyText: You know nothing of anyone in this town.
   description: 
   character: {fileID: 1252783682}
   portrait: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
@@ -4504,7 +4589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 116
   indentLevel: 0
-  storyText: Shut up, kid.
+  storyText: Shut up.
   description: 
   character: {fileID: 1252783682}
   portrait: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff, type: 3}
@@ -4531,7 +4616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  text: Fuck you
+  text: Fuck you.
   description: 
   targetBlock: {fileID: 1252783665}
   hideIfVisited: 0
@@ -4556,7 +4641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 108
   indentLevel: 0
-  text: You're being quite dramatic
+  text: You're being quite dramatic.
   description: 
   targetBlock: {fileID: 1252783677}
   hideIfVisited: 0
@@ -4583,7 +4668,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 566.6075
     y: 209.82257
-    width: 100.81694
+    width: 99.612564
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4592,7 +4677,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1252783691}
   - {fileID: 1252783684}
+  - {fileID: 1252783689}
   - {fileID: 1252783683}
   - {fileID: 1252783681}
   suppressAllAutoSelections: 0
@@ -4610,7 +4697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 0
-  text: I hope she'll get well.
+  text: I hope she gets better.
   description: 
   targetBlock: {fileID: 3935161473588056993}
   hideIfVisited: 0
@@ -4850,10 +4937,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 123
   indentLevel: 0
-  storyText: I wouldn't be the first time, would it?
+  storyText: You should really start keeping an eye on that thing
   description: 
   character: {fileID: 1252783682}
   portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1252783685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252783659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  indentLevel: 0
+  storyText: I'm kinda busy, could you leave, please?
+  description: 
+  character: {fileID: 1252783682}
+  portrait: {fileID: 21300000, guid: bbfdf83a560e246268cafa8eaad3adcc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4899,6 +5013,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1252783689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252783659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 0
+  storyText: It's not the first time it escapes
+  description: 
+  character: {fileID: 1252783682}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1252783690 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3935161474284984834, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
@@ -4911,18 +5052,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1252783756 stripped
+--- !u!114 &1252783691
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3935161474284984843, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
-    type: 3}
-  m_PrefabInstance: {fileID: 3935161473588056982}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252783659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  storyText: Am I really?
+  description: 
+  character: {fileID: 1252783682}
+  portrait: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1266449902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5510,6 +5666,33 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1321006851
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 124
+  indentLevel: 0
+  storyText: I don't know who did it... but I like the meaning of it.
+  description: 
+  character: {fileID: 1321006884}
+  portrait: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1321006878 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8336846166627602211, guid: 4fba54751c58b4f5ebdf350410537f52,
@@ -9377,7 +9560,6 @@ GameObject:
   - component: {fileID: 1910835711}
   - component: {fileID: 1910835712}
   - component: {fileID: 1910835678}
-  - component: {fileID: 1910835677}
   - component: {fileID: 1910835680}
   - component: {fileID: 1910835679}
   - component: {fileID: 1910835681}
@@ -9388,33 +9570,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1910835677
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1910835676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 36
-  indentLevel: 0
-  storyText: Once you find out a lie, it will be written down there.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1910835678
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9429,7 +9584,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: Then go to the corck in your bedroom to open the contradictions
+  storyText: If they are they'll appear on the cork in your bedroom. Which you can
+    check pressing space near it.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9485,7 +9641,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 336.11887
     y: 318.644
-    width: 106
+    width: 108.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9537,8 +9693,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1910835680}
+  selectedCommands:
+  - {fileID: 1910835679}
   variables: []
   description: parla inicial
   stepPause: 0
@@ -9597,8 +9755,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: And drag the information you think is contradictory to the blanks, to
-    sum up who lies the most
+  storyText: Drag the information you think is contradictory to the blank spaces,
+    you'll see if the statements are contradictory
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9652,9 +9810,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: There are 2 blank spaces to find contradictions among their speech.
+  storyText: You'll see 2 blank spaces to find contradictions on their statements.
   description: 
-  character: {fileID: 1240194396}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9679,7 +9837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: Okay, I've written down in my notes all important information I've discovered
+  storyText: Okay, I've written down all of the important information I've discovered
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -9708,7 +9866,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 281.2528
     y: 159.29074
-    width: 138
+    width: 141.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9719,12 +9877,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 1910835711}
   - {fileID: 1910835706}
-  - {fileID: 1910835705}
   - {fileID: 1910835704}
+  - {fileID: 1910835705}
   - {fileID: 1910835681}
   - {fileID: 1910835703}
   - {fileID: 1910835678}
-  - {fileID: 1910835677}
   suppressAllAutoSelections: 0
 --- !u!114 &1910835708
 MonoBehaviour:
@@ -9740,7 +9897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: I should look to my notes and find out who lied
+  storyText: I should look into my notes to find out who lied
   description: 
   character: {fileID: 1240194396}
   portrait: {fileID: 0}
@@ -9796,7 +9953,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.2528
     y: 236.29074
-    width: 132
+    width: 134.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10698,6 +10855,11 @@ PrefabInstance:
       propertyPath: anyVar.variable
       value: 
       objectReference: {fileID: 3935161473588056984}
+    - target: {fileID: 3935161474284984841, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: text
+      value: So, you don't know anything...
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284984842, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: portraits.Array.size
@@ -10876,7 +11038,7 @@ PrefabInstance:
     - target: {fileID: 3935161474284984848, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: storyText
-      value: He's never been a great man, but since he fell into alcoholism, he's
+      value: He's never been a great man, but since he became an alcoholic, he's
         really miserable.
       objectReference: {fileID: 0}
     - target: {fileID: 3935161474284984848, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
@@ -10888,7 +11050,7 @@ PrefabInstance:
     - target: {fileID: 3935161474284984849, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: storyText
-      value: I don't hate him, I just feel sorry for him.
+      value: I don't hate him, I feel sorry for him.
       objectReference: {fileID: 0}
     - target: {fileID: 3935161474284984849, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
@@ -10898,8 +11060,13 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3935161474284984850, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
+      propertyPath: commandList.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935161474284984850, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
       propertyPath: nodeRect.width
-      value: 81.82751
+      value: 82.24817
       objectReference: {fileID: 0}
     - target: {fileID: 3935161474284984850, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
@@ -10930,7 +11097,22 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
+      objectReference: {fileID: 1252783685}
+    - target: {fileID: 3935161474284984850, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: commandList.Array.data[8]
+      value: 
       objectReference: {fileID: 3935161473588056988}
+    - target: {fileID: 3935161474284984850, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: commandList.Array.data[9]
+      value: 
+      objectReference: {fileID: 3935161473588056983}
+    - target: {fileID: 3935161474284984851, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: text
+      value: Hasn't anyone ever tried to help him?
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284984852, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: nodeRect.width
@@ -10950,6 +11132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: blockName
       value: me?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935161474284984853, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: text
+      value: Why have you never tried to help him with his drinking problem?
       objectReference: {fileID: 0}
     - target: {fileID: 3935161474284984854, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
@@ -10972,6 +11159,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff,
         type: 3}
+    - target: {fileID: 3935161474284984856, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: storyText
+      value: I don't
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284984857, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: character
@@ -10983,6 +11175,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 07626bb67a6264b03a1b9f242e312344,
         type: 3}
+    - target: {fileID: 3935161474284984858, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: storyText
+      value: He probably knows something. He's usually drinking on the streets at
+        night.
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284984859, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: storyText
@@ -11081,6 +11279,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: bbfdf83a560e246268cafa8eaad3adcc,
         type: 3}
+    - target: {fileID: 3935161474284984892, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: storyText
+      value: The hooded lunatic?! HAHAHAHA
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284984893, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: nodeRect.width
@@ -11102,6 +11305,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98,
         type: 3}
+    - target: {fileID: 3935161474284984894, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: storyText
+      value: That's just an urban legend, kid.
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284984895, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: anyVar.variable
@@ -11144,12 +11352,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff,
         type: 3}
+    - target: {fileID: 3935161474284985058, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: storyText
+      value: I don't even think he deserves to be helped.
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284985059, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: portrait
       value: 
       objectReference: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff,
         type: 3}
+    - target: {fileID: 3935161474284985059, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: storyText
+      value: Why would I bother helping him? He's too far gone!
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284985061, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: character
@@ -11173,6 +11391,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98,
         type: 3}
+    - target: {fileID: 3935161474284985064, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: storyText
+      value: Since he became "family", you know?
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284985065, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: portrait
@@ -11191,6 +11414,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98,
         type: 3}
+    - target: {fileID: 3935161474284985068, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: text
+      value: Why don't your friends ever come to your house instead?
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284985069, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: portrait
@@ -11235,6 +11463,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: ac16796814c6f4bc0bfb1897cc7c8fff,
         type: 3}
+    - target: {fileID: 3935161474284985073, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: storyText
+      value: That old woman spends way too much time on her own. She even barely
+        speaks to any adults. She'd rather be alone... or with other people's kids...
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284985074, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: storyText
@@ -11260,7 +11494,7 @@ PrefabInstance:
     - target: {fileID: 3935161474284985077, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: storyText
-      value: Luckly, that little monster of yours didn't come to bother me.
+      value: Luckily, that little monster of yours didn't come to bother me.
       objectReference: {fileID: 0}
     - target: {fileID: 3935161474284985077, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
@@ -11316,6 +11550,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98,
         type: 3}
+    - target: {fileID: 3935161474284985084, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: storyText
+      value: If someone from town was the culprit, it'd be hard to tell who. They're
+        all bit crazy...
+      objectReference: {fileID: 0}
     - target: {fileID: 3935161474284985085, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: portrait
@@ -11334,6 +11574,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8a69fff6f825548d0a8d749bfd291e98,
         type: 3}
+    - target: {fileID: 3935161474284985087, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+        type: 3}
+      propertyPath: storyText
+      value: 'But if I had to choose, I''d say... mmm... '
+      objectReference: {fileID: 0}
     - target: {fileID: 6106134155206225535, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
         type: 3}
       propertyPath: m_Name
@@ -11342,6 +11587,18 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3935161474284984890, guid: 4ee7c080965e5439cb60c05fa9bbf2f9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4ee7c080965e5439cb60c05fa9bbf2f9, type: 3}
+--- !u!114 &3935161473588056983 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3935161474284984888, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3935161473588056982}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252783659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3935161473588056984 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3935161474284985036, guid: 4ee7c080965e5439cb60c05fa9bbf2f9,
@@ -11622,6 +11879,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8,
         type: 3}
+    - target: {fileID: 4524853461822560389, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: storyText
+      value: I need to go back inside to make sure they're okay.
+      objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560397, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: targetObject
@@ -11673,6 +11935,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4524853461822560412, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
+      propertyPath: commandList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524853461822560412, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
       propertyPath: nodeRect.x
       value: 260.73108
       objectReference: {fileID: 0}
@@ -11681,16 +11948,36 @@ PrefabInstance:
       propertyPath: nodeRect.y
       value: 241.8423
       objectReference: {fileID: 0}
+    - target: {fileID: 4524853461822560412, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 86.95389
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524853461822560412, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 79657440}
+    - target: {fileID: 4524853461822560412, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 4524853460304328179}
     - target: {fileID: 4524853461822560414, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: portrait
       value: 
-      objectReference: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8,
+      objectReference: {fileID: 21300000, guid: 7b036514da1604d1591220e3ef4dd39b,
         type: 3}
+    - target: {fileID: 4524853461822560414, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: storyText
+      value: How could you say that?!
+      objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560415, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: storyText
-      value: What?!//enfadada
+      value: What?!
       objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560415, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
@@ -11703,17 +11990,40 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1240194396}
+    - target: {fileID: 4524853461822560416, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: storyText
+      value: It's about Lina, my turtle...
+      objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560417, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: portrait
       value: 
       objectReference: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8,
         type: 3}
+    - target: {fileID: 4524853461822560417, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: storyText
+      value: 'Then, tell me!
+
+        What is wrong with you?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524853461822560418, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: text
+      value: Did you feed her anything?
+      objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560419, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1240194396}
+    - target: {fileID: 4524853461822560419, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: storyText
+      value: Last night she disappeared and when I woke up today she was back, but
+        had diarrhea and I'm really worried about her.
+      objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560420, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: targetBlock
@@ -11741,6 +12051,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8,
         type: 3}
+    - target: {fileID: 4524853461822560423, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: storyText
+      value: I wanted to speak with you about this, boy!
+      objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560424, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: portrait
@@ -11750,8 +12065,8 @@ PrefabInstance:
     - target: {fileID: 4524853461822560425, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: storyText
-      value: This morning, when I went to see my vegetables, I saw that animal had
-        eaten most of my cabbages...
+      value: This morning, when I went to see my vegetables, I saw that that animal
+        had eaten most of my cabbages...
       objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560425, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
@@ -11772,7 +12087,7 @@ PrefabInstance:
     - target: {fileID: 4524853461822560428, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560428, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
@@ -11787,7 +12102,7 @@ PrefabInstance:
     - target: {fileID: 4524853461822560428, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: nodeRect.width
-      value: 108.41138
+      value: 73.97009
       objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560428, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
@@ -11803,27 +12118,37 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 79657432}
+      objectReference: {fileID: 79657437}
     - target: {fileID: 4524853461822560428, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 79657431}
+      objectReference: {fileID: 79657432}
     - target: {fileID: 4524853461822560428, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 79657430}
+      objectReference: {fileID: 79657418}
     - target: {fileID: 4524853461822560428, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 79657429}
+      objectReference: {fileID: 79657431}
     - target: {fileID: 4524853461822560428, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: blockName
       value: final
       objectReference: {fileID: 0}
+    - target: {fileID: 4524853461822560428, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 79657430}
+    - target: {fileID: 4524853461822560428, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 79657429}
     - target: {fileID: 4524853461822560430, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: targetObject
@@ -11913,6 +12238,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8,
         type: 3}
+    - target: {fileID: 4524853461822560445, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: storyText
+      value: Want to join and we can talk about what's bothering you?
+      objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560448, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: character
@@ -11921,7 +12251,7 @@ PrefabInstance:
     - target: {fileID: 4524853461822560449, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: storyText
-      value: You can go visit her anytime!
+      value: You can come with next time I go! I'm sure she'd love the company.
       objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560449, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
@@ -12027,7 +12357,7 @@ PrefabInstance:
     - target: {fileID: 4524853461822560459, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: storyText
-      value: Good morning, boy! You are looking sad, are you alright?
+      value: Good morning, boy! You look sad, are you alright?
       objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560459, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
@@ -12075,12 +12405,27 @@ PrefabInstance:
       propertyPath: commandList.Array.data[6]
       value: 
       objectReference: {fileID: 4524853460304328176}
+    - target: {fileID: 4524853461822560462, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: indentLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524853461822560462, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: text
+      value: Why do you care?
+      objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560464, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: portrait
       value: 
       objectReference: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8,
         type: 3}
+    - target: {fileID: 4524853461822560464, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: storyText
+      value: Call me Pamela.
+      objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560465, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: storyText
@@ -12127,7 +12472,7 @@ PrefabInstance:
     - target: {fileID: 4524853461822560475, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: storyText
-      value: You come come here anytime!
+      value: You can come here anytime!
       objectReference: {fileID: 0}
     - target: {fileID: 4524853461822560475, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
@@ -12163,6 +12508,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a1e6eb6b49c4d44daae7f9b7a0ecdad8,
         type: 3}
+    - target: {fileID: 4524853461822560479, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: storyText
+      value: You know Lidia, don't you? Well, my poor sister's now living in the
+        'Taylor Retirement Residence'.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524853461822560497, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 159.53886
+      objectReference: {fileID: 0}
     - target: {fileID: 6695262840863223307, guid: 8263bfc5c5c684b32a23c5779772e2c2,
         type: 3}
       propertyPath: m_Name
@@ -12218,6 +12574,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4524853460304328179 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4524853461822560385, guid: 8263bfc5c5c684b32a23c5779772e2c2,
+    type: 3}
+  m_PrefabInstance: {fileID: 4524853460304328174}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79657417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &4896799948845689602
@@ -12380,6 +12748,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67,
         type: 3}
+    - target: {fileID: 4896799948174502742, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: storyText
+      value: I mean, we don't know each other that well. I don't even think that
+        we've ever even had a one on one conversation.
+      objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502743, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: portrait
@@ -12502,13 +12876,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67,
         type: 3}
+    - target: {fileID: 4896799948174502774, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 638.2178
+      objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502776, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: portrait
       value: 
       objectReference: {fileID: 21300000, guid: 7c4d44d57de13462b86427c8d4bd8a6e,
         type: 3}
+    - target: {fileID: 4896799948174502776, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: storyText
+      value: My aunt has also been nagging me about going to see my mother because
+        "she feels lonely"
+      objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502777, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67,
+        type: 3}
+    - target: {fileID: 4896799948174502777, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: storyText
+      value: But she's too old to do something like this. Pamela, I mean, my mother's
+        institucionaliced, and I think they would tell me if she escaped, haha.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896799948174502778, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: portrait
       value: 
@@ -12516,10 +12913,10 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4896799948174502778, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
-      propertyPath: portrait
-      value: 
-      objectReference: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67,
-        type: 3}
+      propertyPath: storyText
+      value: And people just enjoy vandalism. Wouldn't surprise me if this was the
+        same person who wrecked my bar. I mean, it could also be something personal.
+      objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502779, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: portrait
@@ -12538,6 +12935,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67,
         type: 3}
+    - target: {fileID: 4896799948174502781, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: storyText
+      value: "Between you and me, this job is very hard and hardly rewarding. People
+        love complaining without actually doing anything. \n"
+      objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502782, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: portrait
@@ -12561,6 +12964,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67,
         type: 3}
+    - target: {fileID: 4896799948174502784, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: storyText
+      value: I don't know and I don't care where Thea was...
+      objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502789, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: portrait
@@ -12612,6 +13020,26 @@ PrefabInstance:
       propertyPath: nodeRect.y
       value: 258.51947
       objectReference: {fileID: 0}
+    - target: {fileID: 4896799948174502800, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 95.36876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896799948174502800, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 4896799948845689615}
+    - target: {fileID: 4896799948174502800, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 4896799948845689616}
+    - target: {fileID: 4896799948174502800, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 4896799948845689605}
     - target: {fileID: 4896799948174502802, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: storyText
@@ -12665,6 +13093,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67,
         type: 3}
+    - target: {fileID: 4896799948174502807, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: storyText
+      value: Really the only person I can exclude is Thea, though if she could walk
+        this is something I wouldn't put past her. She can't stand me. Ha, get it?
+      objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502808, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: storyText
@@ -12700,6 +13134,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: aeab02eb3766f4469b0560ca546c3127,
         type: 3}
+    - target: {fileID: 4896799948174502813, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: storyText
+      value: Good choice of color, I think the red made the town look more interesting.
+        It's a pity we had to clean it.
+      objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502816, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: character
@@ -12713,28 +13153,28 @@ PrefabInstance:
     - target: {fileID: 4896799948174502817, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: nodeRect.width
-      value: 108.6013
+      value: 105.9548
       objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502817, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 4896799948845689631}
+      objectReference: {fileID: 4896799948845689684}
     - target: {fileID: 4896799948174502817, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 4896799948845689608}
+      objectReference: {fileID: 4896799948845689631}
     - target: {fileID: 4896799948174502817, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: commandList.Array.data[9]
       value: 
-      objectReference: {fileID: 4896799948845689606}
+      objectReference: {fileID: 4896799948845689608}
     - target: {fileID: 4896799948174502817, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: commandList.Array.data[10]
       value: 
-      objectReference: {fileID: 4896799948845689607}
+      objectReference: {fileID: 4896799948845689606}
     - target: {fileID: 4896799948174502817, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: commandList.Array.data[0]
@@ -12759,17 +13199,17 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 4896799948845689681}
+      objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502817, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 4896799948845689683}
+      objectReference: {fileID: 4896799948845689681}
     - target: {fileID: 4896799948174502817, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 4896799948845689684}
+      objectReference: {fileID: 4896799948845689683}
     - target: {fileID: 4896799948174502817, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: commandList.Array.data[11]
@@ -12799,8 +13239,7 @@ PrefabInstance:
     - target: {fileID: 4896799948174502819, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: storyText
-      value: Heey, Robin! How's it going? How's the family? Have you seen the new
-        lights?
+      value: Heey, Robin! How's it going? How's the family? Did you see the new lights?
       objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502819, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
@@ -12947,12 +13386,42 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1240194396}
+    - target: {fileID: 4896799948174502864, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: indentLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896799948174502864, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: text
+      value: Who's to say you didn't do it?
+      objectReference: {fileID: 0}
     - target: {fileID: 4896799948174502866, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: portrait
       value: 
       objectReference: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67,
         type: 3}
+    - target: {fileID: 4896799948174502867, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896799948174502867, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 101.41792
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896799948174502867, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 4896799948845689617}
+    - target: {fileID: 4896799948174502867, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+        type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 4896799948845689607}
     - target: {fileID: 4896799948174502868, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
         type: 3}
       propertyPath: portrait
@@ -13185,6 +13654,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4896799948845689602}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4896799948845689605 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4896799948174502889, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4896799948845689602}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4896799948845689604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &4896799948845689606
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13199,7 +13680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 177
   indentLevel: 1
-  storyText: sorry, I'm busy...
+  storyText: Sorry, I'm busy...
   description: 
   character: {fileID: 4896799948845689677}
   portrait: {fileID: 21300000, guid: e7b513d6c2ea84078b2828e0ea637005, type: 3}
@@ -13212,23 +13693,18 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &4896799948845689607
+--- !u!114 &4896799948845689607 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 4896799948174502860, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4896799948845689602}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4896799948845689604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 178
-  indentLevel: 1
-  targetObject: {fileID: 20519437}
-  methodName: moure
-  delay: 0
 --- !u!114 &4896799948845689608
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13686,6 +14162,57 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &4896799948845689615 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4896799948174502845, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4896799948845689602}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4896799948845689604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4896799948845689616 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4896799948174502828, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4896799948845689602}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4896799948845689604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4896799948845689617
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4896799948845689604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 180
+  indentLevel: 0
+  storyText: Wow, okay, kiddo. I think you should leave.
+  description: 
+  character: {fileID: 4896799948845689677}
+  portrait: {fileID: 21300000, guid: f6b175cb8d2154ef3b4e4b6fc9196a67, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &4896799948845689631 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4896799948174502864, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
@@ -14045,6 +14572,11 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1240194396}
+    - target: {fileID: 8336846166627602178, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: Oh okay
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602179, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: targetObject
@@ -14062,6 +14594,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 6007f6c662a8f45e3a5486abd364b837,
         type: 3}
+    - target: {fileID: 8336846166627602185, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: City people do not understand us.... You're not missing anything.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602189, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: text
+      value: Do you think she did the graffiti?
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602190, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: targetObject
@@ -14078,6 +14620,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
         type: 3}
+    - target: {fileID: 8336846166627602192, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: ' I read a new comic I bought a few days ago...'
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602193, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: storyText
@@ -14101,12 +14648,27 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
         type: 3}
+    - target: {fileID: 8336846166627602195, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: No...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602197, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: text
+      value: So... you were reading those yesterday night?
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602198, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: portrait
       value: 
       objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
         type: 3}
+    - target: {fileID: 8336846166627602198, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: That's why I studied cinema
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602200, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: anyVar.variable
@@ -14125,13 +14687,13 @@ PrefabInstance:
     - target: {fileID: 8336846166627602208, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: storyText
-      value: Hey, it... it's been a while! You've grown a lot.//avergonyida
+      value: Hey, it's been a while! You've grown a lot.
       objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602208, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: portrait
       value: 
-      objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
+      objectReference: {fileID: 21300000, guid: 61239a93b72cc4d8597061ddd45e9250,
         type: 3}
     - target: {fileID: 8336846166627602209, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
@@ -14278,10 +14840,55 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
         type: 3}
+    - target: {fileID: 8336846166627602218, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: Yes!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602221, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602221, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 144.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602221, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1321006851}
+    - target: {fileID: 8336846166627602221, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 8336846166842313474}
+    - target: {fileID: 8336846166627602221, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 8336846166842313473}
+    - target: {fileID: 8336846166627602221, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 8336846166842313472}
+    - target: {fileID: 8336846166627602222, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: indentLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602222, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: text
+      value: Did you see the graffiti?
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602224, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: storyText
-      value: I...I went to the city to study cinema and look!
+      value: I went to the city to study cinema and look!
       objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602224, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
@@ -14301,7 +14908,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 6007f6c662a8f45e3a5486abd364b837,
         type: 3}
+    - target: {fileID: 8336846166627602226, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: No way.
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602227, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
+        type: 3}
+    - target: {fileID: 8336846166627602227, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: Not as cool as you think. It's so stressful, I feel lucky now for growing
+        up in a small town.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602228, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: portrait
       value: 
@@ -14309,10 +14933,10 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 8336846166627602228, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
-      propertyPath: portrait
-      value: 
-      objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
-        type: 3}
+      propertyPath: storyText
+      value: Actually, I've to go clean my cat. He got some paint on him. What a
+        mess....
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602229, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: character
@@ -14334,10 +14958,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
         type: 3}
+    - target: {fileID: 8336846166627602231, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: Not really. Only that I had to clean my windows.
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602232, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: storyText
-      value: There are crazier people in this town, Robin.
+      value: There are crazier people in this town, Robin. Maybe you should ask them.
       objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602232, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
@@ -14367,11 +14996,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 61239a93b72cc4d8597061ddd45e9250,
         type: 3}
+    - target: {fileID: 8336846166627602235, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: Sorry, but I have stuff to do, it was nice talking to you!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602236, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 344
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602236, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602237, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: text
+      value: Did you get any help?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602237, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 8336846166842313471}
     - target: {fileID: 8336846166627602238, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: storyText
-      value: I've been so busy lately... Wi...With the new house and all, I don't
-        have a lot of free time.//avergonyida
+      value: I've been so busy lately with the new house and all, I don't have a
+        lot of free time.
       objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602238, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
@@ -14379,10 +15033,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
         type: 3}
+    - target: {fileID: 8336846166627602239, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 8336846166842313470}
     - target: {fileID: 8336846166627602240, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: storyText
-      value: Sorry Robin, I... I'm kind of busy at the moment...
+      value: Sorry Robin, I'm kind of busy at the moment...
       objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602240, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
@@ -14393,8 +15052,8 @@ PrefabInstance:
     - target: {fileID: 8336846166627602242, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: storyText
-      value: Well Pa... Pamela helped a lot, to be honest. Have you ever eaten her
-        famous homemade cookies? They're amazing!
+      value: Well Pamela helped a lot, to be honest. Have you ever eaten her famous
+        homemade cookies? They're amazing!
       objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602242, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
@@ -14408,6 +15067,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
         type: 3}
+    - target: {fileID: 8336846166627602243, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: I think her cookies are the only non-vegan food I eat.
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602244, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: nodeRect.x
@@ -14416,7 +15080,12 @@ PrefabInstance:
     - target: {fileID: 8336846166627602244, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: nodeRect.y
-      value: 176.01007
+      value: 177.01007
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602245, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: text
+      value: Not really, I wanna know about your time living in the city
       objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602246, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
@@ -14436,17 +15105,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
         type: 3}
+    - target: {fileID: 8336846166627602250, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: I know everybody says she's too cold and reserved, but she's such a
+        lovely person.
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602251, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: storyText
-      value: Usually, she hates being around people, but I don't know why she made
-        an exception with me...//contenta
+      value: She hates being around people, but she made an exception with me...
+        I'm not sure why...
       objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602251, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: portrait
       value: 
-      objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
+      objectReference: {fileID: 21300000, guid: 61239a93b72cc4d8597061ddd45e9250,
         type: 3}
     - target: {fileID: 8336846166627602252, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
@@ -14460,18 +15135,43 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
         type: 3}
+    - target: {fileID: 8336846166627602255, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 488
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602255, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 115.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602255, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: blockName
+      value: Cotilla Caa II
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602256, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: portrait
       value: 
       objectReference: {fileID: 21300000, guid: 0fa47b01ab6b7434fb208d404c6216ea,
         type: 3}
+    - target: {fileID: 8336846166627602256, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: Since I was a little kid, I've always wanted to write superhero films.
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602257, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: portrait
       value: 
       objectReference: {fileID: 21300000, guid: 61239a93b72cc4d8597061ddd45e9250,
         type: 3}
+    - target: {fileID: 8336846166627602257, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: Yes! A lot, actually!
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602259, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: nodeRect.x
@@ -14482,6 +15182,26 @@ PrefabInstance:
       propertyPath: nodeRect.y
       value: 214.8306
       objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602259, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 110.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8336846166627602259, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 8336846166842313469}
+    - target: {fileID: 8336846166627602259, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 8336846166842313468}
+    - target: {fileID: 8336846166627602259, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 8336846166842313467}
     - target: {fileID: 8336846166627602260, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: character
@@ -14493,12 +15213,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 61239a93b72cc4d8597061ddd45e9250,
         type: 3}
+    - target: {fileID: 8336846166627602262, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: Some time ago, I bought a whole collection of comics from the 30's to
+        the 90's!
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602263, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: portrait
       value: 
       objectReference: {fileID: 21300000, guid: 61239a93b72cc4d8597061ddd45e9250,
         type: 3}
+    - target: {fileID: 8336846166627602263, guid: 4fba54751c58b4f5ebdf350410537f52,
+        type: 3}
+      propertyPath: storyText
+      value: Can't stop reading it. I love it!
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602265, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: selectedBlocks.Array.size
@@ -14548,6 +15279,114 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8336846166842313467 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8336846166627602229, guid: 4fba54751c58b4f5ebdf350410537f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 8336846166842313465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8336846166842313468 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8336846166627602178, guid: 4fba54751c58b4f5ebdf350410537f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 8336846166842313465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8336846166842313469 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8336846166627602235, guid: 4fba54751c58b4f5ebdf350410537f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 8336846166842313465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8336846166842313470 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8336846166627602234, guid: 4fba54751c58b4f5ebdf350410537f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 8336846166842313465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8336846166842313471 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8336846166627602236, guid: 4fba54751c58b4f5ebdf350410537f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 8336846166842313465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8336846166842313472 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8336846166627602210, guid: 4fba54751c58b4f5ebdf350410537f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 8336846166842313465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8336846166842313473 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8336846166627602217, guid: 4fba54751c58b4f5ebdf350410537f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 8336846166842313465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8336846166842313474 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8336846166627602219, guid: 4fba54751c58b4f5ebdf350410537f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 8336846166842313465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8336846166842313475 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8336846166627602265, guid: 4fba54751c58b4f5ebdf350410537f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 8336846166842313465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &8722576017108685670
@@ -14759,6 +15598,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a,
         type: 3}
+    - target: {fileID: 8722576016972364960, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: storyText
+      value: Hard not to, since I had to get rid of it.
+      objectReference: {fileID: 0}
     - target: {fileID: 8722576016972364961, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: storyText
@@ -14812,6 +15656,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a,
         type: 3}
+    - target: {fileID: 8722576016972364973, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: text
+      value: Could you try being a little more helpful, please?
+      objectReference: {fileID: 0}
     - target: {fileID: 8722576016972364974, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: storyText
@@ -14839,6 +15688,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a,
         type: 3}
+    - target: {fileID: 8722576016972364978, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: storyText
+      value: I know my children are your friends, but there's nothing I can do about
+        them
+      objectReference: {fileID: 0}
     - target: {fileID: 8722576016972364979, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: portrait
@@ -14859,14 +15714,13 @@ PrefabInstance:
     - target: {fileID: 8722576016972364984, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: commandList.Array.size
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8722576016972364984, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 8722576016972365000, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
-        type: 3}
+      objectReference: {fileID: 339035218}
     - target: {fileID: 8722576016972364984, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: commandList.Array.data[5]
@@ -14881,13 +15735,13 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 339035219}
+      objectReference: {fileID: 8722576016972365000, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
     - target: {fileID: 8722576016972364984, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 8722576016972365001, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
-        type: 3}
+      objectReference: {fileID: 8722576017108685675}
     - target: {fileID: 8722576016972364984, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: commandList.Array.data[6]
@@ -14897,11 +15751,21 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 339035217}
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722576016972364984, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 78.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8722576016972364985, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: indentLevel
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722576016972364985, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: text
+      value: Have you seen the graffiti?
       objectReference: {fileID: 0}
     - target: {fileID: 8722576016972364986, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
@@ -14932,7 +15796,7 @@ PrefabInstance:
     - target: {fileID: 8722576016972364989, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: storyText
-      value: Mind your own business and leave me alone.
+      value: Mind your own business.
       objectReference: {fileID: 0}
     - target: {fileID: 8722576016972364989, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
@@ -14943,7 +15807,7 @@ PrefabInstance:
     - target: {fileID: 8722576016972364991, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: text
-      value: Anything new about your life?
+      value: Anything new going on?
       objectReference: {fileID: 0}
     - target: {fileID: 8722576016972364991, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
@@ -14956,6 +15820,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a,
         type: 3}
+    - target: {fileID: 8722576016972364994, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: storyText
+      value: All I remember is... uh...
+      objectReference: {fileID: 0}
     - target: {fileID: 8722576016972364995, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: nodeRect.x
@@ -14983,21 +15852,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a,
         type: 3}
-    - target: {fileID: 8722576016972365001, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+    - target: {fileID: 8722576016972364999, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
-      propertyPath: character
-      value: 
-      objectReference: {fileID: 1240194396}
+      propertyPath: storyText
+      value: I heard some people talking at Carol's house... I think?
+      objectReference: {fileID: 0}
     - target: {fileID: 8722576016972365003, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: portrait
       value: 
-      objectReference: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8722576016972365004, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: storyText
-      value: Now, scram and leave me alone.
+      value: Now, scram.
       objectReference: {fileID: 0}
     - target: {fileID: 8722576016972365004, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
@@ -15045,6 +15913,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a,
         type: 3}
+    - target: {fileID: 8722576016972365012, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: storyText
+      value: I don't know, I'm a bit tired, can you leave?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722576016972365014, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: text
+      value: Could you try being a little more helpful, please?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722576016972365015, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: text
+      value: Could you try being a little more helpful, please?
+      objectReference: {fileID: 0}
     - target: {fileID: 8722576016972365016, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: nodeRect.x
@@ -15054,6 +15937,11 @@ PrefabInstance:
         type: 3}
       propertyPath: nodeRect.y
       value: -40.333977
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722576016972365017, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: text
+      value: Sorry, I'm just asking everyone
       objectReference: {fileID: 0}
     - target: {fileID: 8722576016972365018, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
@@ -15088,10 +15976,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37b89cce96f3847c0828e783db86d52a,
         type: 3}
+    - target: {fileID: 8722576016972365022, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
+        type: 3}
+      propertyPath: storyText
+      value: I was at the bar, so I didn't see anything suspicious
+      objectReference: {fileID: 0}
     - target: {fileID: 8722576016972365023, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
       propertyPath: storyText
-      value: Are you satisfied? Leave me alone...
+      value: Happy now? Leave me alone.
       objectReference: {fileID: 0}
     - target: {fileID: 8722576016972365023, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
         type: 3}
@@ -15141,7 +16034,7 @@ PrefabInstance:
       objectReference: {fileID: 339035220}
     m_RemovedComponents:
     - {fileID: 8722576016972365000, guid: 9b8285aed181a46d0ba37e4c9e785f2e, type: 3}
-    - {fileID: 8722576016972365001, guid: 9b8285aed181a46d0ba37e4c9e785f2e, type: 3}
+    - {fileID: 0}
     - {fileID: 8722576016972364970, guid: 9b8285aed181a46d0ba37e4c9e785f2e, type: 3}
     - {fileID: 8722576016972364990, guid: 9b8285aed181a46d0ba37e4c9e785f2e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9b8285aed181a46d0ba37e4c9e785f2e, type: 3}
@@ -15172,18 +16065,6 @@ MonoBehaviour:
 --- !u!114 &8722576017108685673 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8722576016972364976, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
-    type: 3}
-  m_PrefabInstance: {fileID: 8722576017108685670}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339035201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8722576017108685674 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8722576016972365018, guid: 9b8285aed181a46d0ba37e4c9e785f2e,
     type: 3}
   m_PrefabInstance: {fileID: 8722576017108685670}
   m_PrefabAsset: {fileID: 0}

@@ -1099,9 +1099,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 722457924}
-  selectedCommands:
-  - {fileID: 722457930}
+  - {fileID: 722457919}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1129,7 +1128,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 366
     y: 231
-    width: 103
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1208,7 +1207,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 493
     y: 230
-    width: 127
+    width: 129.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1267,7 +1266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Do you want to go to the street?
+  storyText: Do you want to go outside?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1327,7 +1326,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &722457930
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1783,7 +1782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 722457915}
+  selectedFlowchart: {fileID: 1041239080}
 --- !u!4 &963179315
 Transform:
   m_ObjectHideFlags: 1
@@ -2226,7 +2225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: Ewww nasty!
+  storyText: Ew, that's nasty!
   description: 
   character: {fileID: 1041239042}
   portrait: {fileID: 0}
@@ -2336,7 +2335,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 215.25
     y: 291
-    width: 105.01622
+    width: 105.23198
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2449,7 +2448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: 'FIRE?!!
+  storyText: 'FIRE?!
 
     FIRE!!!!'
   description: 
@@ -2624,6 +2623,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6241fc59d09797649b384342ffd78290, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1041239054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041239033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  indentLevel: 0
+  storyText: 'I think I have 5 main suspects: Barry, Bruce, Pamela, Carol and Oliver.'
+  description: 
+  character: {fileID: 1041239042}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &1041239055
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2673,8 +2699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: 'Based on the height and figure of the hooded lunatic, I have 5 main
-    suspects: Barry, Bruce, Pamela, Carol and Oliver.'
+  storyText: Based on the height and figure of the hooded lunatic...
   description: 
   character: {fileID: 1041239042}
   portrait: {fileID: 0}
@@ -2703,7 +2728,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 376.75
     y: 193
-    width: 111.488716
+    width: 112.13597
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2713,6 +2738,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1041239057}
+  - {fileID: 1041239054}
   - {fileID: 1041239056}
   - {fileID: 1041239055}
   - {fileID: 1041239083}
@@ -2734,7 +2760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  text: You're so boring
+  text: You're so boring.
   description: 
   targetBlock: {fileID: 1041239073}
   hideIfVisited: 0
@@ -2759,7 +2785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  text: Good night mom
+  text: Okay... Good night, mom.
   description: 
   targetBlock: {fileID: 1041239079}
   hideIfVisited: 0
@@ -2770,33 +2796,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1041239062
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041239033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 19
-  indentLevel: 0
-  storyText: Aww... okaay
-  description: 
-  character: {fileID: 1041239042}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1041239063
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2811,7 +2810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: Woow, sure! Now go to sleep. It's too late.
+  storyText: Sure, Robin! Now go to sleep. It's too late.
   description: 
   character: {fileID: 1428013764}
   portrait: {fileID: 0}
@@ -2838,8 +2837,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: SOMEBODY PAINTED THE WHOLE CITY LIGHTS IN RED AND THEN LEFT THROUGH
-    THE ROOFS!
+  storyText: SOMEBODY PAINTED THE WHOLE CITY LIGHTS IN RED! I THINK IT WAS THE HOODED
+    LUNATIC!
   description: 
   character: {fileID: 1041239042}
   portrait: {fileID: 0}
@@ -2866,7 +2865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: MOOMM!! YOU WON'T BELIEVE WHAT I JUST SAW!!
+  storyText: MOM! YOU WON'T BELIEVE WHAT I JUST SAW!
   description: 
   character: {fileID: 1041239042}
   portrait: {fileID: 0}
@@ -2895,7 +2894,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 94.25
     y: 180
-    width: 100.70122
+    width: 100.91698
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2907,7 +2906,6 @@ MonoBehaviour:
   - {fileID: 1041239065}
   - {fileID: 1041239064}
   - {fileID: 1041239063}
-  - {fileID: 1041239062}
   - {fileID: 1041239060}
   - {fileID: 1041239059}
   suppressAllAutoSelections: 0
@@ -3008,7 +3006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  storyText: WHAT DID YOU SAY?!
+  storyText: What? Come again?
   description: 
   character: {fileID: 1428013764}
   portrait: {fileID: 0}
@@ -3037,7 +3035,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 250.25
     y: 230
-    width: 69.41749
+    width: 70.71199
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3151,7 +3149,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 237.25
     y: 131
-    width: 108.25247
+    width: 109.54697
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3190,8 +3188,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 1041239066}
-  selectedCommands: []
+  - {fileID: 1041239050}
+  selectedCommands:
+  - {fileID: 1041239044}
   variables: []
   description: 
   stepPause: 0
@@ -4632,7 +4631,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 490
     y: 289
-    width: 108
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4740,7 +4739,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 375
     y: 288
-    width: 87
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4769,7 +4768,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 384
     y: 357
-    width: 68
+    width: 68.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4872,7 +4871,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 227
     y: 288
-    width: 103
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
