@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.Animations;
 using Fungus;
 
 public class CinematiquesHabitacio : MonoBehaviour
@@ -13,8 +12,8 @@ public class CinematiquesHabitacio : MonoBehaviour
     private static bool primerDialeg;
     public Animator transicio;
     public static bool parlatAmbTothom;
-    public AnimatorController cineAnim;
-    public AnimatorController animRobin;
+    public RuntimeAnimatorController cineAnim;
+    public RuntimeAnimatorController animRobin;
 
     void Start()
     {
