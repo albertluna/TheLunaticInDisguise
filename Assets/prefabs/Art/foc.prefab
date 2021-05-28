@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2705183664545523665}
   - component: {fileID: 2355359686942866066}
   - component: {fileID: 2610095493745975199}
+  - component: {fileID: 486052964953823784}
+  - component: {fileID: 8209852430948746551}
   m_Layer: 0
   m_Name: foc
   m_TagString: Untagged
@@ -29,8 +31,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5.6150103, y: -9.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2252187372448702620}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -197,45 +198,32 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -1}
   m_Size: {x: 2.5, y: 1.5}
   m_Direction: 1
---- !u!1 &5054942515727504936
-GameObject:
+--- !u!95 &486052964953823784
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2252187372448702620}
-  - component: {fileID: 9124705734349318703}
-  - component: {fileID: 5217127463935896753}
-  m_Layer: 0
-  m_Name: Foc2D
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2252187372448702620
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5054942515727504936}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2705183664545523664}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9124705734349318703
+  m_GameObject: {fileID: 2705183664545523666}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ff44d7b2fed434b19bc88c20f58b15fb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8209852430948746551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5054942515727504936}
+  m_GameObject: {fileID: 2705183664545523666}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
@@ -271,29 +259,10 @@ MonoBehaviour:
   - {x: 0.30968904, y: -0.86335087, z: 0}
   - {x: 0.5328822, y: -0.7562189, z: 0}
   - {x: 0.32646036, y: -0.7179966, z: 0}
-  - {x: 0.3536601, y: -0.5170822, z: 0}
-  - {x: 0.07778692, y: -0.6463108, z: 0}
-  - {x: -0.1184845, y: -0.6167364, z: 0}
-  - {x: -0.3493929, y: -0.50076103, z: 0}
+  - {x: 0.2665515, y: -0.50074863, z: 0}
+  - {x: -0.009322166, y: -0.42853832, z: 0}
+  - {x: -0.27092457, y: -0.5459604, z: 0}
+  - {x: -0.5399437, y: -0.47353935, z: 0}
   - {x: -0.36115885, y: -0.7832556, z: 0}
   - {x: -0.6635599, y: -0.90835476, z: 0}
   - {x: -0.2776413, y: -1.0224266, z: 0}
---- !u!95 &5217127463935896753
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5054942515727504936}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ff44d7b2fed434b19bc88c20f58b15fb, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
