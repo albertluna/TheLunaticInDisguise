@@ -131,10 +131,15 @@ PrefabInstance:
     - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: "Barry finally overcomes Robin\u2019s mum crush and moves to a new House.
-        He gets to live closer to his nephews, which makes him happier.\nHe\u2019s
-        not the best man in the town, but at least he\u2019s not a bitter rich man
+      value: "Barry finally overcomes his crush on Robin\u2019s mum and moves to
+        a new house. He gets to live closer to his nephews, which makes him happier.\nHe
+        still isn\u2019t the nicest, but at least he\u2019s not a bitter rich man
         anymore."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1986865886764562293, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -1034,8 +1039,14 @@ PrefabInstance:
     - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: "Pamela doesn\u2019t go to jail, but she goes forced to therapy. Some
-        day she will overcome her trauma and will live happyly in her quiet farm."
+      value: "Pamela doesn\u2019t go to jail, but gets institutionalized to get help.
+        Some day she will overcome her trauma and will live happyly in her quiet
+        farm."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1986865886764562293, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -1106,14 +1117,19 @@ PrefabInstance:
     - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: "Pamela\u2019s farm isn\u2019t profitable and few then, she will have
-        to sell hew cows in order to survive. She will blame the mayor for the rest
+      value: "Pamela\u2019s farm isn\u2019t profitable enough, so she will have to
+        sell hew cows in order to survive. She will blame her nephew for the rest
         of her life."
       objectReference: {fileID: 0}
     - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -1671,11 +1687,14 @@ PrefabInstance:
     - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: 'Bruce quits drink. He summons the courage to get back his children
-        and they will move to his house.
-
-        He will become the father he never
-        thought he would be.'
+      value: "Bruce quits drinking. He summons the courage to get back his children
+        and they will move to his house.\nHe will become the father he never thought
+        he would be after his wife\u2019s death."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1986865886764562293, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -1746,7 +1765,7 @@ PrefabInstance:
     - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: 'Bruce keeps being the drunk man of the town for the rest of his life.
+      value: 'Bruce keeps being the town drunk for the rest of his life.
 
         His
         children will never forgive him and will hate him until his death.'
@@ -1755,6 +1774,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -2151,11 +2175,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: 'Oliver steps down from his post as the mayor and Carol becomes the
-        new mayor of the town. She will do a lot of changes and will help a lot of
-        neighbours.
+        new mayor of the town. She will do a lot of changes and that will benefit
+        the town.
 
-        Oliver will have more time to connect with his wife
-        and will be happier.'
+        Oliver will have more time to connect with his wife and
+        children and be happier.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1986865886764562293, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -2226,15 +2255,20 @@ PrefabInstance:
     - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: "Oliver continues being the mayor for more years. Eventually, he and
-        Felicity will break up and his children won\u2019t be close to him.\nHe will
-        close the verdant\u2019s and will lead to a life full of parties, sex and
-        drugs.\nHe will die with overdose some years later."
+      value: "Oliver continues being the mayor. Eventually, he and Felicity will
+        get a divorce and his children won\u2019t be close to him.\nHe will close
+        the verdant\u2019s and will lead to a life full of parties, sex and drugs.\nHe
+        will die of an overdose some years later."
       objectReference: {fileID: 0}
     - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -2982,9 +3016,14 @@ PrefabInstance:
     - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: "Carol faces to Oliver and he finally accepts Thea and Carol\u2019s
-        relationship. They will get married and eventually, she will stop imagining
-        living a superheroe\u2019s life to live her own adventure with her wife Thea."
+      value: "Carol faces to Oliver and he stops bothering Thea and Carol about their
+        relationship. They will get married and eventually, she will stop dreaming
+        of superhero\u2019s adventures to live her own adventure with her wife Thea."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1986865886764562293, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -3055,17 +3094,20 @@ PrefabInstance:
     - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: 'Carol loses her beloved. Oliver sends Thea to live out of the country
-        and she will never talk to Carol again. Carol will hate his neighbour Oliver
-        for the rest of her life.
-
-        She will read the whole world collections
-        of superheroes comics and movies.'
+      value: "Carol loses her beloved. Oliver sends Thea to live out of the country
+        and she will never see Carol again. Carol will hate his neighbour Oliver
+        for the rest of her life.\nHer superhero\u2019s collection will only get
+        bigger and she will refuse to go out of her house."
       objectReference: {fileID: 0}
     - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -3207,7 +3249,7 @@ PrefabInstance:
     - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_fontSize
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -3242,12 +3284,12 @@ PrefabInstance:
     - target: {fileID: 1986865886764562292, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: "After some research, the cops found out the hooded lunatic\u2019s suit
-        at Pamela\u2019s house along with some red spray can paint.\nPamela has been
-        struggling economically with her farm for the last years and the town council
-        has not helped her in any way. His nephew Oliver, the Mayor, has not given
-        the farm any kind of help, but he raised the taxes.\nShe became the hooded
-        lunatic to fight against the injustices done by the Mayor. "
+      value: "After some research, the cops found the hooded lunatic\u2019s suit
+        at Pamela\u2019s house along with some red spray cans.\nPamela has been struggling
+        economically with her farm for the last years and the town council has not
+        helped her in any way. His nephew Oliver, the Mayor, has helped the farm
+        in any way, but instead he raised the taxes.\nShe became the hooded lunatic
+        to fight against the injustices done by the Mayor."
       objectReference: {fileID: 0}
     - target: {fileID: 1986865886764562293, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
@@ -3327,13 +3369,18 @@ PrefabInstance:
     - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_text
-      value: 'After some research, the cops did not find any evidences that could
-        accuse guess to be the hooded lunatic. '
+      value: After investigating, the cops did not find any significant evidence
+        to accuse guess to be the hooded lunatic.
       objectReference: {fileID: 0}
     - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520638052403477079, guid: bedeea9369368486ca0ef164ff8be4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4398460034352277607, guid: bedeea9369368486ca0ef164ff8be4f1,
         type: 3}
