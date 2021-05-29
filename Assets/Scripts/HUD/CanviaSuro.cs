@@ -26,5 +26,14 @@ public class CanviaSuro : MonoBehaviour
             }
         }
     }
+
+    public void Activar(bool estat)
+    {
+        fons.SetActive(estat);
+        foreach(contradiccioSuro cs in suros)
+        {
+            cs.gameObject.SetActive(estat);
+        }
+    }
 }
 

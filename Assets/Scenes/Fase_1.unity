@@ -3736,7 +3736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 4896799948845689619}
+  selectedFlowchart: {fileID: 8336846166842313475}
 --- !u!4 &1154032234
 Transform:
   m_ObjectHideFlags: 1
@@ -5722,7 +5722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 187
+  itemId: 182
   indentLevel: 1
   targetObject: {fileID: 2076438857}
   methodName: allunyarse
@@ -14301,18 +14301,6 @@ MonoBehaviour:
   targetObject: {fileID: 20519437}
   methodName: nouInvestigat
   delay: 0
---- !u!114 &4896799948845689619 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4896799948174502723, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
-    type: 3}
-  m_PrefabInstance: {fileID: 4896799948845689602}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4896799948845689604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4896799948845689631 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4896799948174502864, guid: 95f21fa87b7624f0191c7f1d50d06ae3,
@@ -15051,12 +15039,12 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[10]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1321006852}
     - target: {fileID: 8336846166627602213, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: commandList.Array.data[11]
       value: 
-      objectReference: {fileID: 1321006852}
+      objectReference: {fileID: 0}
     - target: {fileID: 8336846166627602213, guid: 4fba54751c58b4f5ebdf350410537f52,
         type: 3}
       propertyPath: commandList.Array.data[12]
@@ -15628,6 +15616,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8336846166842313475 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8336846166627602265, guid: 4fba54751c58b4f5ebdf350410537f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 8336846166842313465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321006846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &8722576017108685670

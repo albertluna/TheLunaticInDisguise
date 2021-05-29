@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7328312078747105398}
   - component: {fileID: 7328312078747101064}
   - component: {fileID: 7328312078747101065}
-  - component: {fileID: 7328312078747101066}
   m_Layer: 0
   m_Name: Suro
   m_TagString: Untagged
@@ -99,21 +98,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
---- !u!114 &7328312078747101066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7328312078747105399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6483136ccf64c416db0595e78e0690d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detector1: {fileID: 0}
-  detector2: {fileID: 0}
-  cs: {fileID: 7328312078747105398}
 --- !u!1 &7328312079971184623
 GameObject:
   m_ObjectHideFlags: 0

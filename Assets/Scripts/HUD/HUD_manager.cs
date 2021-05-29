@@ -25,7 +25,7 @@ public class HUD_manager : MonoBehaviour
         DontDestroyOnLoad(this);
         newScene();
         actualitzaNotes();
-        suro.SetActive(false);
+        suro.GetComponent<CanviaSuro>().Activar(false);
         //no desactivar-lo, moure'l del centre
         botons.SetActive(false);
         pausa.SetActive(false);
@@ -69,7 +69,7 @@ public class HUD_manager : MonoBehaviour
 
     public void activarSuro(bool estat)
     {
-        if(HUD_activable) suro.SetActive(estat);
+        if(HUD_activable) suro.GetComponent<CanviaSuro>().Activar(estat);
     }
 
     //Funcio que activa o desactiva les notes del Barry
