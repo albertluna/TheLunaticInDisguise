@@ -29,7 +29,7 @@ public class creditsFinals : MonoBehaviour
     void Start()
     {
         Flowchart getVariables = GameObject.Find("GlobalVariables").GetComponent<Flowchart>();
-
+        Destroy(GameObject.Find("HUD"));
         acusat = getVariables.GetStringVariable("Acusat");
         lunaticDescobert = acusat.Equals("Pamela");
 
