@@ -23,6 +23,7 @@ public class CanviaSuro : MonoBehaviour
             {
                 Debug.Log("NOVA CONTRADICCIO");
                 contradiccions.activar();
+                contradiccions.gameObject.SetActive(false);
             }
         }
     }
