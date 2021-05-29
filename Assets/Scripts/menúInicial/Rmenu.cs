@@ -20,7 +20,6 @@ public class Rmenu : MonoBehaviour
     void TaskOnClick()
     {
         ScenesManager.Load(ScenesManager.Scene.menu);
-       
     }
 
 

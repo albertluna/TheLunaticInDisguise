@@ -974,7 +974,7 @@ PrefabInstance:
     - target: {fileID: 3476750597524953666, guid: b801cbe010e784076a89a5708bf124c3,
         type: 3}
       propertyPath: m_Offset.x
-      value: -12.09
+      value: -11.4
       objectReference: {fileID: 0}
     - target: {fileID: 3476750597524953666, guid: b801cbe010e784076a89a5708bf124c3,
         type: 3}
@@ -999,7 +999,7 @@ PrefabInstance:
     - target: {fileID: 3859429585267921250, guid: b801cbe010e784076a89a5708bf124c3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.44
       objectReference: {fileID: 0}
     - target: {fileID: 3859429585267921250, guid: b801cbe010e784076a89a5708bf124c3,
         type: 3}
@@ -1413,7 +1413,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3, y: 48.24}
+  m_Size: {x: 2, y: 48.24}
   m_EdgeRadius: 0
 --- !u!212 &753392339
 SpriteRenderer:
@@ -1994,7 +1994,7 @@ PrefabInstance:
     - target: {fileID: 4102277143760595812, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.95
+      value: -3.98
       objectReference: {fileID: 0}
     - target: {fileID: 4102277143760595812, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
@@ -2625,7 +2625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1041239054
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -4975,7 +4975,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &358401538
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5243,7 +5243,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &358401544
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5270,7 +5270,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &358401545
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5756,11 +5756,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -503.30438, y: 102.784355}
+  scrollPos: {x: -396.30148, y: 150.16054}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -5768,9 +5768,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 672038980}
-  selectedCommands:
-  - {fileID: 672038982}
+  - {fileID: 672039016}
+  selectedCommands: []
   variables:
   - {fileID: 672038978}
   - {fileID: 672039085}
@@ -5842,7 +5841,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 898.7649
     y: 79.731415
-    width: 129.2
+    width: 131.05261
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6135,7 +6134,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 897.7649
     y: 127.731415
-    width: 92.4
+    width: 93.15788
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6320,7 +6319,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 773.7649
     y: 127.731415
-    width: 106
+    width: 106.84209
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6922,7 +6921,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 657.7649
     y: 96.731415
-    width: 93.2
+    width: 94.21051
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6980,7 +6979,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 658.7649
     y: 154.73141
-    width: 80.4
+    width: 81.57893
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7118,7 +7117,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 657.7649
     y: 206.73141
-    width: 86
+    width: 86.842094
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7176,7 +7175,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 521.7649
     y: 138.73141
-    width: 104.4
+    width: 105.78946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8335,7 +8334,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 897.7649
     y: 174.54099
-    width: 74.8
+    width: 75.26315
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11132,7 +11131,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &931907965
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13661,7 +13660,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &931908020
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13688,7 +13687,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &931908021
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13715,7 +13714,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &931908022
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13742,7 +13741,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &931908023
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -18688,7 +18687,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 580
     y: 477
-    width: 87.04639
+    width: 85.31419
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19124,7 +19123,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 346
     y: 478
-    width: 75.03134
+    width: 74.44829
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19227,7 +19226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 215
     y: 479.25156
-    width: 103.06645
+    width: 101.613045
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19337,7 +19336,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 217.74843
     y: 424.25156
-    width: 93.05391
+    width: 92.10538
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19410,7 +19409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 226.87006
     y: 613.425
-    width: 132.10281
+    width: 128.7778
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19469,11 +19468,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -65.833885, y: -200.26215}
+  scrollPos: {x: 99.01835, y: -289.5462}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.79899824
+  zoom: 0.5889984
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -19481,9 +19480,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 1086846689}
+  - {fileID: 1086846677}
   selectedCommands:
-  - {fileID: 1086846688}
+  - {fileID: 1086846686}
   variables:
   - {fileID: 1086846682}
   - {fileID: 1086846698}
@@ -19695,7 +19694,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 232
     y: 546
-    width: 66.02006
+    width: 66.29886
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19741,7 +19740,7 @@ MonoBehaviour:
   itemId: 29
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 38074f2d1cf354fedbd13ee7b1f39d31, type: 3}
-  volume: 0.25
+  volume: 0.15
   waitUntilFinished: 1
 --- !u!114 &1086846687
 MonoBehaviour:
@@ -20850,7 +20849,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 446
     y: 585
-    width: 92.05266
+    width: 90.74715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20878,7 +20877,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 449
     y: 545
-    width: 83.041374
+    width: 82.59772
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20906,7 +20905,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 451
     y: 504
-    width: 80.03761
+    width: 79.88124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20934,7 +20933,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 449
     y: 454
-    width: 83.041374
+    width: 82.59772
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20962,7 +20961,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 450
     y: 413
-    width: 80.03761
+    width: 79.88124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26163,8 +26162,6 @@ GameObject:
   - component: {fileID: 2076438861}
   - component: {fileID: 2076438863}
   - component: {fileID: 2076438862}
-  - component: {fileID: 2076438864}
-  - component: {fileID: 2076438865}
   - component: {fileID: 2076438866}
   m_Layer: 0
   m_Name: Main Camera
@@ -26272,198 +26269,6 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!82 &2076438864
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076438857}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b7c76e2c58b54c64b986bdfcf01148fe, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.05
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!82 &2076438865
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076438857}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6d56d99727cc7488a8adac856cd55554, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.3
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 206
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &2076438866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26502,6 +26307,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1287510928603673383, guid: 6fa0289c04b1e45a0969d72094b4b908,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1287510928603673383, guid: 6fa0289c04b1e45a0969d72094b4b908,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -4326340683070365548, guid: 4ec9a5212880c2b489f217aded4678eb,
+        type: 2}
     - target: {fileID: 2000295625899112695, guid: 6fa0289c04b1e45a0969d72094b4b908,
         type: 3}
       propertyPath: m_Mesh

@@ -1267,11 +1267,11 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Uni/Desktop/Uni/ProdVJ/Nueva carpeta/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Uni/Desktop/Uni/ProdVJ/Nueva carpeta/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/Uni/Desktop/Uni/ProdVJ/Nueva carpeta/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/Uni/Desktop/Uni/ProdVJ/Nueva carpeta/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

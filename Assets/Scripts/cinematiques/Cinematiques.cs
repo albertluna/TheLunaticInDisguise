@@ -74,6 +74,7 @@ public class Cinematiques : MonoBehaviour
     {
         if (sospitososInvestigats == 1 && SceneChange.fase==1)
         {
+            noMoure();
             fc.ExecuteBlock("instruccioInicial");
         }
     }

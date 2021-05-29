@@ -33,14 +33,14 @@ public class MovimentSimple : MonoBehaviour
             float verticalInput = Input.GetAxis("Vertical");
 
             SpriteRenderer spriteRobin = GetComponent<SpriteRenderer>(); //SpriteRenderer FlipX
-            if (verticalInput > 0)
+            /*if (verticalInput > 0)
             {
                 horizontalInput = verticalInput / 2;
             }
             if (verticalInput < 0)
             {
                 horizontalInput = verticalInput / 2;
-            }
+            }*/
 
             //if (verticalInput != 0) horizontalInput = verticalInput / 2;
             //spriteRobin.flipX = (horizontalInput > 0);

@@ -9,10 +9,7 @@ public class pause : MonoBehaviour
     public Canvas canvas2;
     public bool activa = false;
     public int n = 0;
-    public int b = 0;
     public bool pausat = false;
- 
-  
 
     void Start()
     {
@@ -20,11 +17,6 @@ public class pause : MonoBehaviour
         canvas.gameObject.SetActive(false);
         canvas2.gameObject.SetActive(false);
     }
-
-    // Update is called once per frame
-
-
-   
 
     void Update()
     {
@@ -36,8 +28,8 @@ public class pause : MonoBehaviour
                 {
                     Time.timeScale = 0;
                     canvas.gameObject.SetActive(true);
-                activa = true;
-                n = 1; 
+                    activa = true;
+                    n = 1; 
                 }
               
             }
@@ -48,33 +40,12 @@ public class pause : MonoBehaviour
                 {
                     Time.timeScale = 1;
                     canvas.gameObject.SetActive(false);
-                activa = false;
-                n = 1;
+                    activa = false;
+                    n = 1;
                 }
                 
             }
             n = 0;
-          /*  if (pausat == false)
-            {
-                if (b == 0)
-                {
-                    Time.timeScale = 1;
-                    pausat = true;
-                    b = 1;
-                }
-            }
-            if (pausat == true)
-            {
-                if (b == 0)
-                {
-                    Time.timeScale = 0;
-                    pausat = false;
-                    b = 1;
-
-                }
-            }
-            b = 0;
-            */
         }
     }
 }
