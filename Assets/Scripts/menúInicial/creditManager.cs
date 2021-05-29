@@ -20,7 +20,7 @@ public class creditManager : MonoBehaviour
     private void Start()
     {
         be.gameObject.SetActive(false);
-        mal.gameObject.SetActive(false);
+        mal.gameObject.SetActive(true);
     }
 
     public void setFinal(bool finalDesbloquejat)
@@ -31,10 +31,12 @@ public class creditManager : MonoBehaviour
         if (final)
         {
             be.gameObject.SetActive(true);
+            mal.gameObject.SetActive(false);
             image = trueFinalImage;
         } else
         {
             mal.gameObject.SetActive(true);
+            be.gameObject.SetActive(false);
             image = falseFinalImage;
         }
     }

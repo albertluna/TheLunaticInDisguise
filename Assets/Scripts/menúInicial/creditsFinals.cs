@@ -4,10 +4,6 @@ using Fungus;
 
 public class creditsFinals : MonoBehaviour
 {
-    public bool finalBarry;
-    public bool finalBruce;
-    public bool finalOliver;
-    public bool finalCarol;
     public bool lunaticDescobert;
     public string acusat;
     public Flowchart getVariables;
@@ -30,7 +26,7 @@ public class creditsFinals : MonoBehaviour
     {
         Flowchart getVariables = GameObject.Find("GlobalVariables").GetComponent<Flowchart>();
         Destroy(GameObject.Find("HUD"));
-        acusat = getVariables.GetStringVariable("Acusat");
+        acusat = getVariables.GetStringVariable("Acusada");
         lunaticDescobert = acusat.Equals("Pamela");
 
         lunatic.setFinal(lunaticDescobert);
@@ -56,7 +52,7 @@ public class creditsFinals : MonoBehaviour
             if (index == revelacions.Length) index = 0;
         }
         if(moure) {
-            this.transform.Translate(new Vector3(0, 1, 0));
+            this.transform.Translate(new Vector3(0, 2, 0));
         }
         if(Input.GetKeyDown(KeyCode.Space))
         {

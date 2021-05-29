@@ -11,14 +11,20 @@ public class exits : MonoBehaviour
     {
         Button btn = yourButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
-
     }
 
     // Update is called once per frame
     void TaskOnClick()
     {
         Application.Quit();
+        
+
         Debug.Log("exit menu");
+    }
+
+    public void sortirJoc()
+    {
+        ScenesManager.Load(ScenesManager.Scene.menu);
     }
 
 }

@@ -16,6 +16,8 @@ public class HUD_manager : MonoBehaviour
     public GameObject suro;
     public GameObject botons;
     public bool HUD_activable;
+    public GameObject pausa;
+    public GameObject menu;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,8 @@ public class HUD_manager : MonoBehaviour
         suro.SetActive(false);
         //no desactivar-lo, moure'l del centre
         botons.SetActive(false);
+        pausa.SetActive(false);
+        menu.SetActive(false);
     }
 
     public void newScene()
@@ -45,6 +49,11 @@ public class HUD_manager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.N))
         {
             actualitzaNotes();
+        }
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Time.timeScale = 0;
+            pausa.SetActive(true);
         }
     }
 
@@ -72,5 +81,29 @@ public class HUD_manager : MonoBehaviour
         canvas3.gameObject.SetActive(false);
         canvas4.gameObject.SetActive(false);
         canvas5.gameObject.SetActive(false);
+    }
+
+    public void Resume()
+    {
+        Time.timeScale = 1;
+        pausa.SetActive(false);
+    }
+
+    public void Options()
+    {
+        pausa.SetActive(false);
+        menu.SetActive(true);
+    }
+
+    public void exit()
+    {
+        ScenesManager.Load(ScenesManager.Scene.menu);
+        Destroy(this.gameObject);
+    }
+
+    public void tornarAMenu()
+    {
+        pausa.SetActive(true);
+        menu.SetActive(false);
     }
 }
