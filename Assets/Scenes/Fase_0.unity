@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2015,10 +2015,20 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 840980825527961696, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: text
+      value: Was he at Verdant?
+      objectReference: {fileID: 0}
     - target: {fileID: 1383405348325964227, guid: cdc87c25e4092416fac98b48b9f3cd13,
         type: 3}
       propertyPath: text
       value: Blames Barry for the sewers
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564739282371057181, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: text
+      value: "Is she lying about her cow\u2019s feces?"
       objectReference: {fileID: 0}
     - target: {fileID: 1577419695773658297, guid: cdc87c25e4092416fac98b48b9f3cd13,
         type: 3}
@@ -2030,6 +2040,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2012574294883604062, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: text
+      value: Lied about closing Verdant earlier?
+      objectReference: {fileID: 0}
     - target: {fileID: 2620068194720348501, guid: cdc87c25e4092416fac98b48b9f3cd13,
         type: 3}
       propertyPath: pausa
@@ -2040,6 +2055,11 @@ PrefabInstance:
       propertyPath: menu
       value: 
       objectReference: {fileID: 1210188780}
+    - target: {fileID: 4218968058428074619, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: text
+      value: Lied about his friends
+      objectReference: {fileID: 0}
     - target: {fileID: 4444382232218027565, guid: cdc87c25e4092416fac98b48b9f3cd13,
         type: 3}
       propertyPath: text
@@ -2204,6 +2224,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202095168452439297, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: text
+      value: Did she lie about visiting Lidia?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5889069922652545646, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: text
+      value: Is he pretending his alcoholism?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5920893275513832133, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: text
+      value: Is the Verdant profitable?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288627406695992204, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: text
+      value: Who was she with on the first night?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552159606742710758, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: text
+      value: Accuses Carol of being the lunatic
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652242545006047197, guid: cdc87c25e4092416fac98b48b9f3cd13,
+        type: 3}
+      propertyPath: text
+      value: Does she take pills?
       objectReference: {fileID: 0}
     - target: {fileID: 9117404976507701305, guid: cdc87c25e4092416fac98b48b9f3cd13,
         type: 3}
